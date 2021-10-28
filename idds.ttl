@@ -10186,7 +10186,7 @@
 
 <http://idss.org/terms/ASI_accreditation_code> a ns2:ObjectProperty ;
     rdfs:comment "https://www.asi-assurance.org/s/find-a-cab" ;
-    ns2:domain <http://idss.org/terms/Certifying_body> ;
+    rdfs:domain <http://idss.org/terms/Certifying_body> ;
     ns2:range <http://idss.org/terms/VOCAB_ASI_accreditation_code> ;
     ns1:definition "Select from control list" ;
     ns1:prefLabel "ASI accreditation code" .
@@ -10200,8 +10200,8 @@
 
 <http://idss.org/terms/Bluenumber_ID> a ns2:DatatypeProperty ;
     rdfs:comment "https://bluenumber.org/" ;
-    ns2:domain <http://idss.org/terms/Organization> ;
-    ns2:range xsd:string ;
+    rdfs:domain <http://idss.org/terms/Organization> ;
+    rdfs:range xsd:string ;
     ns1:prefLabel "Bluenumber ID" .
 
 <http://idss.org/terms/Certified_sites> a ns2:Class ;
@@ -10214,13 +10214,13 @@
 
 <http://idss.org/terms/DOI> a ns2:DatatypeProperty ;
     rdfs:comment "https://www.doi.org/" ;
-    ns2:domain <http://idss.org/terms/Item_or_resource> ;
-    ns2:range xsd:string ;
+    rdfs:domain <http://idss.org/terms/Item_or_resource> ;
+    rdfs:range xsd:string ;
     ns1:definition "Digital object identifier - usually for articles and books/chapters" ;
     ns1:prefLabel "DOI" .
 
 <http://idss.org/terms/Delta_sustainability_indicators> a ns2:ObjectProperty ;
-    ns2:domain <http://idss.org/terms/Scope> ;
+    rdfs:domain <http://idss.org/terms/Scope> ;
     ns2:range <http://idss.org/terms/VOCAB_Delta_sustainability_indicators> ;
     ns1:definition "Farm - level, outcome/impact indicators across the social, economic and environmental dimensions of sustainability - select from control list" ;
     ns1:prefLabel "Delta sustainability indicators" .
@@ -10257,36 +10257,36 @@
 
 <http://idss.org/terms/GLN> a ns2:DatatypeProperty ;
     rdfs:comment "https://www.gs1.org/standards/id-keys/gln" ;
-    ns2:domain <http://idss.org/terms/Certificate_holder/owner/certified_organization> ;
-    ns2:range xsd:string ;
+    rdfs:domain <http://idss.org/terms/Certificate_holder/owner/certified_organization> ;
+    rdfs:range xsd:string ;
     ns1:definition "Global Location Number of companies to identify their locations" ;
     ns1:prefLabel "GLN" .
 
 <http://idss.org/terms/GRID_ID> a ns2:DatatypeProperty ;
     rdfs:comment "https://www.grid.ac/" ;
-    ns2:domain <http://idss.org/terms/Organization> ;
-    ns2:range xsd:string ;
+    rdfs:domain <http://idss.org/terms/Organization> ;
+    rdfs:range xsd:string ;
     ns1:definition "GRID ID for an organization" ;
     ns1:prefLabel "GRID ID" ;
     ns1:scopeNote "Assign for resources associated to organizations" .
 
 <http://idss.org/terms/ID_or_code> a ns2:DatatypeProperty ;
-    ns2:domain <http://idss.org/terms/Standard> ;
-    ns2:range xsd:string ;
+    rdfs:domain <http://idss.org/terms/Standard> ;
+    rdfs:range xsd:string ;
     ns1:definition "Any official code describing a standard" ;
     ns1:prefLabel "ID or code" ;
     ns1:scopeNote "For example \"FSC-DIR-40-004\"." .
 
 <http://idss.org/terms/ISBN> a ns2:DatatypeProperty ;
-    ns2:domain <http://idss.org/terms/Item_or_resource> ;
-    ns2:range xsd:string ;
+    rdfs:domain <http://idss.org/terms/Item_or_resource> ;
+    rdfs:range xsd:string ;
     ns1:definition "International standard book number" ;
     ns1:prefLabel "ISBN" .
 
 <http://idss.org/terms/ORCID_identifier> a ns2:DatatypeProperty ;
     rdfs:comment "https://orcid.org" ;
-    ns2:domain <http://idss.org/terms/Author> ;
-    ns2:range xsd:string ;
+    rdfs:domain <http://idss.org/terms/Author> ;
+    rdfs:range xsd:string ;
     ns1:definition "ORCID identifier of individuals" ;
     ns1:prefLabel "ORCID identifier" ;
     ns1:scopeNote "Assign for authors" .
@@ -10295,759 +10295,759 @@
     ns1:prefLabel "PESTICIDES" .
 
 <http://idss.org/terms/SDG_focus> a ns2:ObjectProperty ;
-    ns2:domain <http://idss.org/terms/Scope> ;
+    rdfs:domain <http://idss.org/terms/Scope> ;
     ns2:range <http://idss.org/terms/VOCAB_SDG_focus> ;
     ns1:definition "Association to sustainable development goal(s) - select from control list" ;
     ns1:prefLabel "SDG focus" .
 
 <http://idss.org/terms/SLIMF_type> a ns2:ObjectProperty ;
-    ns2:domain <http://idss.org/terms/FSC_scope> ;
+    rdfs:domain <http://idss.org/terms/FSC_scope> ;
     ns2:range <http://idss.org/terms/VOCAB_SLIMF_type> ;
     ns1:definition "Small or Low Intensity Managed Forests - select from control list" ;
     ns1:prefLabel "SLIMF type" .
 
 <http://idss.org/terms/URL> a ns2:DatatypeProperty ;
-    ns2:domain <http://idss.org/terms/Link> ;
-    ns2:range xsd:string ;
+    rdfs:domain <http://idss.org/terms/Link> ;
+    rdfs:range xsd:string ;
     ns1:definition "An internet link to any other associated item" ;
     ns1:prefLabel "URL" ;
     ns1:scopeNote "Try to always link to any standard and permament identifier (eg, not a PDF)" .
 
 <http://idss.org/terms/Uniform_Resource_Identifier> a ns2:DatatypeProperty ;
-    ns2:domain <http://idss.org/terms/Item_or_resource> ;
-    ns2:range xsd:string ;
+    rdfs:domain <http://idss.org/terms/Item_or_resource> ;
+    rdfs:range xsd:string ;
     ns1:definition "Usually assigned by a repository, eg a handle address in Dspace" ;
     ns1:prefLabel "Uniform Resource Identifier" .
 
 <http://idss.org/terms/abstract> a ns2:DatatypeProperty ;
-    ns2:domain <http://idss.org/terms/Item_or_resource> ;
-    ns2:range xsd:string ;
+    rdfs:domain <http://idss.org/terms/Item_or_resource> ;
+    rdfs:range xsd:string ;
     ns1:definition "A narrative summary of the resource." ;
     ns1:prefLabel "abstract" .
 
 <http://idss.org/terms/access_license> a ns2:ObjectProperty ;
-    ns2:domain <http://idss.org/terms/Item_or_resource> ;
+    rdfs:domain <http://idss.org/terms/Item_or_resource> ;
     ns2:range <http://idss.org/terms/VOCAB_access_license> ;
     ns1:definition "A legal document giving official permission to do something with the resource - select from control list" ;
     ns1:prefLabel "access license" ;
     ns1:scopeNote "Normally the type of license, ndicated by a short name/code" .
 
 <http://idss.org/terms/access_license_holder> a ns2:DatatypeProperty ;
-    ns2:domain <http://idss.org/terms/Item_or_resource> ;
-    ns2:range xsd:string ;
+    rdfs:domain <http://idss.org/terms/Item_or_resource> ;
+    rdfs:range xsd:string ;
     ns1:definition "A person or organization owning or managing rights over the resource." ;
     ns1:prefLabel "access license holder" ;
     ns1:scopeNote "License holder of the resource" .
 
 <http://idss.org/terms/access_rights> a ns2:ObjectProperty ;
-    ns2:domain <http://idss.org/terms/Item_or_resource> ;
+    rdfs:domain <http://idss.org/terms/Item_or_resource> ;
     ns2:range <http://idss.org/terms/VOCAB_access_rights> ;
     ns1:definition "Information about rights held in and over the resource." ;
     ns1:prefLabel "access rights" ;
     ns1:scopeNote "Indicate whether the resource is confidential (and limited access), restricted (and limited access) or public (limited access or open access)" .
 
 <http://idss.org/terms/accreditation_end_date> a ns2:DatatypeProperty ;
-    ns2:domain <http://idss.org/terms/Certifying_body> ;
-    ns2:range xsd:date ;
+    rdfs:domain <http://idss.org/terms/Certifying_body> ;
+    rdfs:range xsd:date ;
     ns1:prefLabel "accreditation end date" ;
     ns1:scopeNote "yyyy-mm-dd" .
 
 <http://idss.org/terms/accreditation_start_date> a ns2:DatatypeProperty ;
-    ns2:domain <http://idss.org/terms/Certifying_body> ;
-    ns2:range xsd:date ;
+    rdfs:domain <http://idss.org/terms/Certifying_body> ;
+    rdfs:range xsd:date ;
     ns1:prefLabel "accreditation start date" ;
     ns1:scopeNote "yyyy-mm-dd" .
 
 <http://idss.org/terms/accreditation_status> a ns2:ObjectProperty ;
-    ns2:domain <http://idss.org/terms/Certifying_body> ;
+    rdfs:domain <http://idss.org/terms/Certifying_body> ;
     ns2:range <http://idss.org/terms/VOCAB_accreditation_status> ;
     ns1:definition "Select from control list" ;
     ns1:prefLabel "accreditation status" .
 
 <http://idss.org/terms/accredited_geographic_scope> a ns2:ObjectProperty ;
-    ns2:domain <http://idss.org/terms/Certifying_body> ;
+    rdfs:domain <http://idss.org/terms/Certifying_body> ;
     ns2:range <http://idss.org/terms/VOCAB_accredited_geographic_scope> ;
     ns1:definition "Countries the body is certified to work in  - select from control list of countries" ;
     ns1:prefLabel "accredited geographic scope" .
 
 <http://idss.org/terms/accredited_technical_scope> a ns2:ObjectProperty ;
-    ns2:domain <http://idss.org/terms/Certifying_body> ;
+    rdfs:domain <http://idss.org/terms/Certifying_body> ;
     ns2:range <http://idss.org/terms/VOCAB_accredited_technical_scope> ;
     ns1:definition "Select from control list" ;
     ns1:prefLabel "accredited technical scope" .
 
 <http://idss.org/terms/accredited_technical_scope_type> a ns2:ObjectProperty ;
-    ns2:domain <http://idss.org/terms/Certifying_body> ;
+    rdfs:domain <http://idss.org/terms/Certifying_body> ;
     ns2:range <http://idss.org/terms/VOCAB_accredited_technical_scope_type> ;
     ns1:definition "Select from control list" ;
     ns1:prefLabel "accredited technical scope type" .
 
 <http://idss.org/terms/active_ingredient> a ns2:ObjectProperty ;
-    ns2:domain <http://idss.org/terms/Pesticides> ;
+    rdfs:domain <http://idss.org/terms/Pesticides> ;
     ns2:range <http://idss.org/terms/VOCAB_active_ingredient> ;
     ns1:definition "Pesticide active ingredient" ;
     ns1:prefLabel "active ingredient" .
 
 <http://idss.org/terms/admin_area_(Ha)> a ns2:DatatypeProperty ;
-    ns2:domain <http://idss.org/terms/Certified_site> ;
-    ns2:range xsd:string ;
+    rdfs:domain <http://idss.org/terms/Certified_site> ;
+    rdfs:range xsd:string ;
     ns1:prefLabel "admin area (Ha)" .
 
 <http://idss.org/terms/alternatives_challenge> a ns2:DatatypeProperty ;
-    ns2:domain <http://idss.org/terms/Pesticides> ;
-    ns2:range xsd:string ;
+    rdfs:domain <http://idss.org/terms/Pesticides> ;
+    rdfs:range xsd:string ;
     ns1:definition "The challenge the pesticide aims to control" ;
     ns1:prefLabel "alternatives challenge" .
 
 <http://idss.org/terms/alternatives_method> a ns2:ObjectProperty ;
-    ns2:domain <http://idss.org/terms/Pesticides> ;
+    rdfs:domain <http://idss.org/terms/Pesticides> ;
     ns2:range <http://idss.org/terms/VOCAB_alternatives_method> ;
     ns1:definition "The method used to control the pest - select from control list" ;
     ns1:prefLabel "alternatives method" ;
     ns1:scopeNote "Pesticide alternatives - methods (Reduction, Replacement, Removal)" .
 
 <http://idss.org/terms/alternatives_strategy> a ns2:DatatypeProperty ;
-    ns2:domain <http://idss.org/terms/Pesticides> ;
-    ns2:range xsd:string ;
+    rdfs:domain <http://idss.org/terms/Pesticides> ;
+    rdfs:range xsd:string ;
     ns1:definition "The strategy to tackle the pest" ;
     ns1:prefLabel "alternatives strategy" .
 
 <http://idss.org/terms/alternatives_trial_status> a ns2:ObjectProperty ;
-    ns2:domain <http://idss.org/terms/Pesticides> ;
+    rdfs:domain <http://idss.org/terms/Pesticides> ;
     ns2:range <http://idss.org/terms/VOCAB_alternatives_trial_status> ;
     ns1:definition "Yes' or 'No'" ;
     ns1:prefLabel "alternatives trial status" ;
     ns1:scopeNote "Pesticide alternatives - whether the alternative approach has been trialed Y/N" .
 
 <http://idss.org/terms/alternatives_type> a ns2:ObjectProperty ;
-    ns2:domain <http://idss.org/terms/Pesticides> ;
+    rdfs:domain <http://idss.org/terms/Pesticides> ;
     ns2:range <http://idss.org/terms/VOCAB_alternatives_type> ;
     ns1:definition "The type of alternatives strategy - select from control list" ;
     ns1:prefLabel "alternatives type" ;
     ns1:scopeNote "Pesticide alternatives - types of alternative" .
 
 <http://idss.org/terms/analysis_area_(Ha)> a ns2:DatatypeProperty ;
-    ns2:domain <http://idss.org/terms/Certified_site> ;
-    ns2:range xsd:string ;
+    rdfs:domain <http://idss.org/terms/Certified_site> ;
+    rdfs:range xsd:string ;
     ns1:prefLabel "analysis area (Ha)" .
 
 <http://idss.org/terms/area_(Ha)> a ns2:DatatypeProperty ;
-    ns2:domain <http://idss.org/terms/Certified_site> ;
-    ns2:range xsd:string ;
+    rdfs:domain <http://idss.org/terms/Certified_site> ;
+    rdfs:range xsd:string ;
     ns1:definition "Total area certified. For a group certificate, this would be the sum of the area of all certified farms in the certificate." ;
     ns1:prefLabel "area (Ha)" .
 
 <http://idss.org/terms/audience> a ns2:ObjectProperty ;
-    ns2:domain <http://idss.org/terms/Item_or_resource> ;
+    rdfs:domain <http://idss.org/terms/Item_or_resource> ;
     ns2:range <http://idss.org/terms/VOCAB_audience> ;
     ns1:definition "A class of entity for whom the resource is intended or useful  - select from control list" ;
     ns1:prefLabel "audience" .
 
 <http://idss.org/terms/author_directionality> a ns2:ObjectProperty ;
-    ns2:domain <http://idss.org/terms/Evaluation> ;
+    rdfs:domain <http://idss.org/terms/Evaluation> ;
     ns2:range <http://idss.org/terms/VOCAB_author_directionality> ;
     ns1:definition "select from control list" ;
     ns1:prefLabel "author directionality" .
 
 <http://idss.org/terms/authors> a ns2:DatatypeProperty ;
-    ns2:domain <http://idss.org/terms/Item_or_resource> ;
-    ns2:range xsd:string ;
+    rdfs:domain <http://idss.org/terms/Item_or_resource> ;
+    rdfs:range xsd:string ;
     ns1:definition "Persons or organizations intellectually responsible for the content of the resource." ;
     ns1:prefLabel "authors" ;
     ns1:scopeNote "consistent style recommended; use resources like ORCID or GRID" .
 
 <http://idss.org/terms/availability> a ns2:ObjectProperty ;
-    ns2:domain <http://idss.org/terms/Item_or_resource> ;
+    rdfs:domain <http://idss.org/terms/Item_or_resource> ;
     ns2:range <http://idss.org/terms/VOCAB_availability> ;
     ns1:definition "Indicate if the complete resource is available for use - select from control list" ;
     ns1:prefLabel "availability" .
 
 <http://idss.org/terms/biocontrol_agent> a ns2:DatatypeProperty ;
-    ns2:domain <http://idss.org/terms/Pesticides> ;
-    ns2:range xsd:string ;
+    rdfs:domain <http://idss.org/terms/Pesticides> ;
+    rdfs:range xsd:string ;
     ns1:definition "The alternative biocontrol agent to control the pest" ;
     ns1:prefLabel "biocontrol agent" .
 
 <http://idss.org/terms/citation> a ns2:DatatypeProperty ;
-    ns2:domain <http://idss.org/terms/Item_or_resource> ;
-    ns2:range xsd:string ;
+    rdfs:domain <http://idss.org/terms/Item_or_resource> ;
+    rdfs:range xsd:string ;
     ns1:definition "Include sufficient bibliographic detail to identify the resource as unambiguously as possible." ;
     ns1:prefLabel "citation" ;
     ns1:scopeNote "consistent style recommended" .
 
 <http://idss.org/terms/code,_number_or_ID> a ns2:DatatypeProperty ;
-    ns2:domain <http://idss.org/terms/Certificate> ;
-    ns2:range xsd:string ;
+    rdfs:domain <http://idss.org/terms/Certificate> ;
+    rdfs:range xsd:string ;
     ns1:definition "Certificate ID code" ;
     ns1:prefLabel "code, number or ID" .
 
 <http://idss.org/terms/code_clause_number> a ns2:ObjectProperty ;
-    ns2:domain <http://idss.org/terms/ISEAL> ;
+    rdfs:domain <http://idss.org/terms/ISEAL> ;
     ns2:range <http://idss.org/terms/VOCAB_code_clause_number> ;
     ns1:definition "Associated specific clause(s) from an ISEAL code of practice - select from control list" ;
     ns1:prefLabel "code clause number" .
 
 <http://idss.org/terms/code_name> a ns2:ObjectProperty ;
-    ns2:domain <http://idss.org/terms/ISEAL> ;
+    rdfs:domain <http://idss.org/terms/ISEAL> ;
     ns2:range <http://idss.org/terms/VOCAB_code_name> ;
     ns1:definition "Associated ISEAL code(s) of practice - select from control list" ;
     ns1:prefLabel "code name" .
 
 <http://idss.org/terms/common_name> a ns2:ObjectProperty ;
     rdfs:comment "http://www.alanwood.net/pesticides/index_cn_frame.html" ;
-    ns2:domain <http://idss.org/terms/Pesticides> ;
+    rdfs:domain <http://idss.org/terms/Pesticides> ;
     ns2:range <http://idss.org/terms/VOCAB_common_name> ;
     ns1:definition "The common name of the pesticide - select from control list" ;
     ns1:prefLabel "common name" ;
     ns1:scopeNote "Pesticide alternatives - Pesticide common name" .
 
 <http://idss.org/terms/comparison> a ns2:ObjectProperty ;
-    ns2:domain <http://idss.org/terms/Evaluation> ;
+    rdfs:domain <http://idss.org/terms/Evaluation> ;
     ns2:range <http://idss.org/terms/VOCAB_comparison> ;
     ns1:definition "select from control list" ;
     ns1:prefLabel "comparison" .
 
 <http://idss.org/terms/contact_email> a ns2:DatatypeProperty ;
-    ns2:domain <http://idss.org/terms/Item_or_resource> ;
-    ns2:range xsd:string ;
+    rdfs:domain <http://idss.org/terms/Item_or_resource> ;
+    rdfs:range xsd:string ;
     ns1:definition "Email address of an organization or person that can be contacted about the resource" ;
     ns1:prefLabel "contact email" ;
     ns1:scopeNote "Avoid addresses that are short-lived; check permission first" .
 
 <http://idss.org/terms/contact_name> a ns2:DatatypeProperty ;
-    ns2:domain <http://idss.org/terms/Item_or_resource> ;
-    ns2:range xsd:string ;
+    rdfs:domain <http://idss.org/terms/Item_or_resource> ;
+    rdfs:range xsd:string ;
     ns1:definition "Name of an organization or person that can be contacted about the resource" ;
     ns1:prefLabel "contact name" ;
     ns1:scopeNote "Avoid links that are short-lived; check permission first" .
 
 <http://idss.org/terms/controlled_wood_code> a ns2:ObjectProperty ;
-    ns2:domain <http://idss.org/terms/FSC_scope> ;
+    rdfs:domain <http://idss.org/terms/FSC_scope> ;
     ns2:range <http://idss.org/terms/VOCAB_controlled_wood_code> ;
     ns1:definition "select from control list" ;
     ns1:prefLabel "controlled wood code" .
 
 <http://idss.org/terms/counterfactuals> a ns2:ObjectProperty ;
-    ns2:domain <http://idss.org/terms/Evaluation> ;
+    rdfs:domain <http://idss.org/terms/Evaluation> ;
     ns2:range <http://idss.org/terms/VOCAB_counterfactuals> ;
     ns1:definition "yes, no, not applicable" ;
     ns1:prefLabel "counterfactuals" .
 
 <http://idss.org/terms/country_ISO_code> a ns2:ObjectProperty ;
     rdfs:comment "https://www.iso.org/obp/ui/#search/code/" ;
-    ns2:domain <http://idss.org/terms/Coverage> ;
+    rdfs:domain <http://idss.org/terms/Coverage> ;
     ns2:range <http://idss.org/terms/VOCAB_country_ISO_code> ;
     ns1:definition "Official 2 letter ISO country code - select from control list" ;
     ns1:prefLabel "country ISO code" .
 
 <http://idss.org/terms/coverage_type> a ns2:ObjectProperty ;
-    ns2:domain <http://idss.org/terms/Certificate> ;
+    rdfs:domain <http://idss.org/terms/Certificate> ;
     ns2:range <http://idss.org/terms/VOCAB_coverage_type> ;
     ns1:definition "Whether a certificate covers single or multiple locations - select from control list" ;
     ns1:prefLabel "coverage type" .
 
 <http://idss.org/terms/current_duration_(months)> a ns2:DatatypeProperty ;
-    ns2:domain <http://idss.org/terms/Certificate> ;
-    ns2:range xsd:string ;
+    rdfs:domain <http://idss.org/terms/Certificate> ;
+    rdfs:range xsd:string ;
     ns1:definition "The number of months a certificate is valid for" ;
     ns1:prefLabel "current duration (months)" .
 
 <http://idss.org/terms/current_end_date> a ns2:DatatypeProperty ;
-    ns2:domain <http://idss.org/terms/Certificate> ;
-    ns2:range xsd:date ;
+    rdfs:domain <http://idss.org/terms/Certificate> ;
+    rdfs:range xsd:date ;
     ns1:definition "End date for the current certificate" ;
     ns1:prefLabel "current end date" ;
     ns1:scopeNote "yyyy-mm-dd" .
 
 <http://idss.org/terms/current_start_date> a ns2:DatatypeProperty ;
-    ns2:domain <http://idss.org/terms/Certificate> ;
-    ns2:range xsd:date ;
+    rdfs:domain <http://idss.org/terms/Certificate> ;
+    rdfs:range xsd:date ;
     ns1:definition "Start date for the current certificate" ;
     ns1:prefLabel "current start date" ;
     ns1:scopeNote "yyyy-mm-dd" .
 
 <http://idss.org/terms/data/evidence_collection_method> a ns2:ObjectProperty ;
-    ns2:domain <http://idss.org/terms/Evaluation> ;
+    rdfs:domain <http://idss.org/terms/Evaluation> ;
     ns2:range <http://idss.org/terms/VOCAB_data/evidence_collection_method> ;
     ns1:definition "select from control list" ;
     ns1:prefLabel "data/evidence collection method" .
 
 <http://idss.org/terms/data_source> a ns2:ObjectProperty ;
-    ns2:domain <http://idss.org/terms/Evaluation> ;
+    rdfs:domain <http://idss.org/terms/Evaluation> ;
     ns2:range <http://idss.org/terms/VOCAB_data_source> ;
     ns1:definition "select from control list" ;
     ns1:prefLabel "data source" .
 
 <http://idss.org/terms/date_accessioned_by_system> a ns2:DatatypeProperty ;
-    ns2:domain <http://idss.org/terms/Item_or_resource> ;
-    ns2:range xsd:date ;
+    rdfs:domain <http://idss.org/terms/Item_or_resource> ;
+    rdfs:range xsd:date ;
     ns1:definition "Date a systeem takes possession of item." ;
     ns1:prefLabel "date accessioned by system" ;
     ns1:scopeNote "yyyy-mm-dd" .
 
 <http://idss.org/terms/date_available_through_a_system> a ns2:DatatypeProperty ;
-    ns2:domain <http://idss.org/terms/Item_or_resource> ;
-    ns2:range xsd:date ;
+    rdfs:domain <http://idss.org/terms/Item_or_resource> ;
+    rdfs:range xsd:date ;
     ns1:definition "Date or date range item became available to the public." ;
     ns1:prefLabel "date available through a system" ;
     ns1:scopeNote "yyyy-mm-dd" .
 
 <http://idss.org/terms/date_changed> a ns2:DatatypeProperty ;
-    ns2:domain <http://idss.org/terms/Item_or_resource> ;
-    ns2:range xsd:date ;
+    rdfs:domain <http://idss.org/terms/Item_or_resource> ;
+    rdfs:range xsd:date ;
     ns1:definition "Date when the resource was changed." ;
     ns1:prefLabel "date changed" ;
     ns1:scopeNote "yyyy-mm-dd" .
 
 <http://idss.org/terms/date_created> a ns2:DatatypeProperty ;
-    ns2:domain <http://idss.org/terms/Item_or_resource> ;
-    ns2:range xsd:date ;
+    rdfs:domain <http://idss.org/terms/Item_or_resource> ;
+    rdfs:range xsd:date ;
     ns1:definition "Date of creation of the resource." ;
     ns1:prefLabel "date created" ;
     ns1:scopeNote "yyyy-mm-dd" .
 
 <http://idss.org/terms/date_issued_or_published> a ns2:DatatypeProperty ;
-    ns2:domain <http://idss.org/terms/Item_or_resource> ;
-    ns2:range xsd:date ;
+    rdfs:domain <http://idss.org/terms/Item_or_resource> ;
+    rdfs:range xsd:date ;
     ns1:definition "Date of formal issuance (e.g., publication) of the resource." ;
     ns1:prefLabel "date issued or published" ;
     ns1:scopeNote "yyyy-mm-dd" .
 
 <http://idss.org/terms/date_of_version> a ns2:DatatypeProperty ;
-    ns2:domain <http://idss.org/terms/Item_or_resource> ;
-    ns2:range xsd:date ;
+    rdfs:domain <http://idss.org/terms/Item_or_resource> ;
+    rdfs:range xsd:date ;
     ns1:definition "Date as indicated on the resource" ;
     ns1:prefLabel "date of version" ;
     ns1:scopeNote "yyyy-mm-dd" .
 
 <http://idss.org/terms/date_of_version_1> a ns2:DatatypeProperty ;
-    ns2:domain <http://idss.org/terms/Standard> ;
-    ns2:range xsd:date ;
+    rdfs:domain <http://idss.org/terms/Standard> ;
+    rdfs:range xsd:date ;
     ns1:definition "The date when version 1 of a standard was first issued" ;
     ns1:prefLabel "date of version 1" ;
     ns1:scopeNote "yyyy-mm-dd" .
 
 <http://idss.org/terms/date_reviewed> a ns2:DatatypeProperty ;
-    ns2:domain <http://idss.org/terms/Item_or_resource> ;
-    ns2:range xsd:date ;
+    rdfs:domain <http://idss.org/terms/Item_or_resource> ;
+    rdfs:range xsd:date ;
     ns1:definition "Date the resource was, is, will be reviewed" ;
     ns1:prefLabel "date reviewed" ;
     ns1:scopeNote "yyyy-mm-dd" .
 
 <http://idss.org/terms/date_revised> a ns2:DatatypeProperty ;
-    ns2:domain <http://idss.org/terms/Item_or_resource> ;
-    ns2:range xsd:date ;
+    rdfs:domain <http://idss.org/terms/Item_or_resource> ;
+    rdfs:range xsd:date ;
     ns1:definition "Date the resource was, is, will be revised" ;
     ns1:prefLabel "date revised" ;
     ns1:scopeNote "yyyy-mm-dd" .
 
 <http://idss.org/terms/date_submitted> a ns2:DatatypeProperty ;
-    ns2:domain <http://idss.org/terms/Item_or_resource> ;
-    ns2:range xsd:date ;
+    rdfs:domain <http://idss.org/terms/Item_or_resource> ;
+    rdfs:range xsd:date ;
     ns1:definition "Date when the resource is submitted to a repository or database" ;
     ns1:prefLabel "date submitted" ;
     ns1:scopeNote "yyyy-mm-dd" .
 
 <http://idss.org/terms/document_type> a ns2:ObjectProperty ;
-    ns2:domain <http://idss.org/terms/FSC_item_or_resource> ;
+    rdfs:domain <http://idss.org/terms/FSC_item_or_resource> ;
     ns2:range <http://idss.org/terms/VOCAB_document_type> ;
     ns1:definition "select from control list" ;
     ns1:prefLabel "document type" .
 
 <http://idss.org/terms/documentation_categories> a ns2:ObjectProperty ;
-    ns2:domain <http://idss.org/terms/FSC_audit> ;
+    rdfs:domain <http://idss.org/terms/FSC_audit> ;
     ns2:range <http://idss.org/terms/VOCAB_documentation_categories> ;
     ns1:definition "select from control list" ;
     ns1:prefLabel "documentation categories" .
 
 <http://idss.org/terms/economic_issues> a ns2:DatatypeProperty ;
-    ns2:domain <http://idss.org/terms/FSC_scope> ;
-    ns2:range xsd:string ;
+    rdfs:domain <http://idss.org/terms/FSC_scope> ;
+    rdfs:range xsd:string ;
     ns1:definition "select from control list" ;
     ns1:prefLabel "economic issues" ;
     ns1:scopeNote "Indicate the outcome(s) the resource mainly supports or contributes to" .
 
 <http://idss.org/terms/economic_topics> a ns2:DatatypeProperty ;
-    ns2:domain <http://idss.org/terms/FSC_scope> ;
-    ns2:range xsd:string ;
+    rdfs:domain <http://idss.org/terms/FSC_scope> ;
+    rdfs:range xsd:string ;
     ns1:definition "select from control list" ;
     ns1:prefLabel "economic topics" .
 
 <http://idss.org/terms/edition> a ns2:DatatypeProperty ;
-    ns2:domain <http://idss.org/terms/Item_or_resource> ;
-    ns2:range xsd:string ;
+    rdfs:domain <http://idss.org/terms/Item_or_resource> ;
+    rdfs:range xsd:string ;
     ns1:prefLabel "edition" .
 
 <http://idss.org/terms/effective_date> a ns2:DatatypeProperty ;
-    ns2:domain <http://idss.org/terms/Standard> ;
-    ns2:range xsd:date ;
+    rdfs:domain <http://idss.org/terms/Standard> ;
+    rdfs:range xsd:date ;
     ns1:definition "Effective date of a code/standard or other resource." ;
     ns1:prefLabel "effective date" ;
     ns1:scopeNote "yyyy-mm-dd" .
 
 <http://idss.org/terms/environmental_issues> a ns2:DatatypeProperty ;
-    ns2:domain <http://idss.org/terms/FSC_scope> ;
-    ns2:range xsd:string ;
+    rdfs:domain <http://idss.org/terms/FSC_scope> ;
+    rdfs:range xsd:string ;
     ns1:definition "select from control list" ;
     ns1:prefLabel "environmental issues" ;
     ns1:scopeNote "Indicate the outcome(s) the resource mainly supports or contributes to" .
 
 <http://idss.org/terms/environmental_topics> a ns2:DatatypeProperty ;
-    ns2:domain <http://idss.org/terms/FSC_scope> ;
-    ns2:range xsd:string ;
+    rdfs:domain <http://idss.org/terms/FSC_scope> ;
+    rdfs:range xsd:string ;
     ns1:definition "select from control list" ;
     ns1:prefLabel "environmental topics" .
 
 <http://idss.org/terms/extent> a ns2:DatatypeProperty ;
-    ns2:domain <http://idss.org/terms/Item_or_resource> ;
-    ns2:range xsd:string ;
+    rdfs:domain <http://idss.org/terms/Item_or_resource> ;
+    rdfs:range xsd:string ;
     ns1:definition "The size or duration of the resource; Usually the total pages or other dimensions" ;
     ns1:prefLabel "extent" .
 
 <http://idss.org/terms/findings> a ns2:DatatypeProperty ;
-    ns2:domain <http://idss.org/terms/Evaluation> ;
-    ns2:range xsd:string ;
+    rdfs:domain <http://idss.org/terms/Evaluation> ;
+    rdfs:range xsd:string ;
     ns1:definition "Summary of the key finding of an evaluative study" ;
     ns1:prefLabel "findings" .
 
 <http://idss.org/terms/first_issue_date> a ns2:DatatypeProperty ;
-    ns2:domain <http://idss.org/terms/Certificate> ;
-    ns2:range xsd:date ;
+    rdfs:domain <http://idss.org/terms/Certificate> ;
+    rdfs:range xsd:date ;
     ns1:definition "First issue date for the certificate" ;
     ns1:prefLabel "first issue date" ;
     ns1:scopeNote "yyyy-mm-dd" .
 
 <http://idss.org/terms/forest_and_tree_species> a ns2:ObjectProperty ;
-    ns2:domain <http://idss.org/terms/FSC_scope> ;
+    rdfs:domain <http://idss.org/terms/FSC_scope> ;
     ns2:range <http://idss.org/terms/VOCAB_forest_and_tree_species> ;
     ns1:definition "select from control list" ;
     ns1:prefLabel "forest and tree species" ;
     ns1:scopeNote "Indicate the species included in the coverage of the resource" .
 
 <http://idss.org/terms/forest_biome_/_zone> a ns2:ObjectProperty ;
-    ns2:domain <http://idss.org/terms/FSC_scope> ;
+    rdfs:domain <http://idss.org/terms/FSC_scope> ;
     ns2:range <http://idss.org/terms/VOCAB_forest_biome_/_zone> ;
     ns1:definition "Select from control list" ;
     ns1:prefLabel "forest biome / zone" ;
     ns1:scopeNote "Indicate the zone(s) included in the coverage of the resource" .
 
 <http://idss.org/terms/forest_harvesting_techniques> a ns2:ObjectProperty ;
-    ns2:domain <http://idss.org/terms/FSC_scope> ;
+    rdfs:domain <http://idss.org/terms/FSC_scope> ;
     ns2:range <http://idss.org/terms/VOCAB_forest_harvesting_techniques> ;
     ns1:definition "select from control list" ;
     ns1:prefLabel "forest harvesting techniques" .
 
 <http://idss.org/terms/forest_management_principle> a ns2:ObjectProperty ;
-    ns2:domain <http://idss.org/terms/FSC_scope> ;
+    rdfs:domain <http://idss.org/terms/FSC_scope> ;
     ns2:range <http://idss.org/terms/VOCAB_forest_management_principle> ;
     ns1:definition "select from control list" ;
     ns1:prefLabel "forest management principle" ;
     ns1:scopeNote "Indicate the FM principle(s) the resource supports or contributes to" .
 
 <http://idss.org/terms/forest_management_type_of_control> a ns2:ObjectProperty ;
-    ns2:domain <http://idss.org/terms/FSC_scope> ;
+    rdfs:domain <http://idss.org/terms/FSC_scope> ;
     ns2:range <http://idss.org/terms/VOCAB_forest_management_type_of_control> ;
     ns1:definition "select from control list" ;
     ns1:prefLabel "forest management type of control" ;
     ns1:scopeNote "Indicate the FM control type(s) included in the coverage of the resource" .
 
 <http://idss.org/terms/forest_monitoring_methods> a ns2:ObjectProperty ;
-    ns2:domain <http://idss.org/terms/FSC_scope> ;
+    rdfs:domain <http://idss.org/terms/FSC_scope> ;
     ns2:range <http://idss.org/terms/VOCAB_forest_monitoring_methods> ;
     ns1:definition "select from control list" ;
     ns1:prefLabel "forest monitoring methods" .
 
 <http://idss.org/terms/forest_products> a ns2:ObjectProperty ;
-    ns2:domain <http://idss.org/terms/FSC_scope> ;
+    rdfs:domain <http://idss.org/terms/FSC_scope> ;
     ns2:range <http://idss.org/terms/VOCAB_forest_products> ;
     ns1:definition "Select from control list" ;
     ns1:prefLabel "forest products" ;
     ns1:scopeNote "Indicate the products included in the coverage of the resource" .
 
 <http://idss.org/terms/forest_products_identification_system> a ns2:ObjectProperty ;
-    ns2:domain <http://idss.org/terms/FSC_scope> ;
+    rdfs:domain <http://idss.org/terms/FSC_scope> ;
     ns2:range <http://idss.org/terms/VOCAB_forest_products_identification_system> ;
     ns1:definition "select from control list" ;
     ns1:prefLabel "forest products identification system" .
 
 <http://idss.org/terms/forest_type> a ns2:ObjectProperty ;
-    ns2:domain <http://idss.org/terms/FSC_scope> ;
+    rdfs:domain <http://idss.org/terms/FSC_scope> ;
     ns2:range <http://idss.org/terms/VOCAB_forest_type> ;
     ns1:definition "select from control list" ;
     ns1:prefLabel "forest type" ;
     ns1:scopeNote "Indicate the type(s) included in the coverage of the resource" .
 
 <http://idss.org/terms/forestry_environmental_safeguards> a ns2:ObjectProperty ;
-    ns2:domain <http://idss.org/terms/FSC_scope> ;
+    rdfs:domain <http://idss.org/terms/FSC_scope> ;
     ns2:range <http://idss.org/terms/VOCAB_forestry_environmental_safeguards> ;
     ns1:definition "select from control list" ;
     ns1:prefLabel "forestry environmental safeguards" .
 
 <http://idss.org/terms/funding_source> a ns2:DatatypeProperty ;
     rdfs:comment "https://www.grid.ac/" ;
-    ns2:domain <http://idss.org/terms/Item_or_resource> ;
-    ns2:range xsd:string ;
+    rdfs:domain <http://idss.org/terms/Item_or_resource> ;
+    rdfs:range xsd:string ;
     ns1:definition "Full name(s) of funders/investors that sponsored the resource" ;
     ns1:prefLabel "funding source" ;
     ns1:scopeNote "Usually the full name of an organization; use resources like GRID" .
 
 <http://idss.org/terms/funding_source_type> a ns2:ObjectProperty ;
-    ns2:domain <http://idss.org/terms/Item_or_resource> ;
+    rdfs:domain <http://idss.org/terms/Item_or_resource> ;
     ns2:range <http://idss.org/terms/VOCAB_funding_source_type> ;
     ns1:definition "An agreed typology of funder types - select from control list" ;
     ns1:prefLabel "funding source type" .
 
 <http://idss.org/terms/geographic_level> a ns2:ObjectProperty ;
-    ns2:domain <http://idss.org/terms/Coverage> ;
+    rdfs:domain <http://idss.org/terms/Coverage> ;
     ns2:range <http://idss.org/terms/VOCAB_geographic_level> ;
     ns1:definition "Level of geographic focus or coverage - select from control list" ;
     ns1:prefLabel "geographic level" .
 
 <http://idss.org/terms/high_conservation_values> a ns2:ObjectProperty ;
-    ns2:domain <http://idss.org/terms/FSC_scope> ;
+    rdfs:domain <http://idss.org/terms/FSC_scope> ;
     ns2:range <http://idss.org/terms/VOCAB_high_conservation_values> ;
     ns1:definition "select from control list" ;
     ns1:prefLabel "high conservation values" .
 
 <http://idss.org/terms/image_or_photo> a ns2:DatatypeProperty ;
-    ns2:domain <http://idss.org/terms/Link> ;
-    ns2:range xsd:string ;
+    rdfs:domain <http://idss.org/terms/Link> ;
+    rdfs:range xsd:string ;
     ns1:definition "An internet link to an associated image" ;
     ns1:prefLabel "image or photo" .
 
 <http://idss.org/terms/is_replaced_by_another_item_or_resource> a ns2:DatatypeProperty ;
-    ns2:domain <http://idss.org/terms/Item_or_resource> ;
-    ns2:range xsd:string ;
+    rdfs:domain <http://idss.org/terms/Item_or_resource> ;
+    rdfs:range xsd:string ;
     ns1:definition "A related resource that supplants, displaces, or supersedes the described resource." ;
     ns1:prefLabel "is replaced by another item or resource" .
 
 <http://idss.org/terms/journal_name> a ns2:DatatypeProperty ;
-    ns2:domain <http://idss.org/terms/Item_or_resource> ;
-    ns2:range xsd:string ;
+    rdfs:domain <http://idss.org/terms/Item_or_resource> ;
+    rdfs:range xsd:string ;
     ns1:definition "Journal full name in its original language" ;
     ns1:prefLabel "journal name" .
 
 <http://idss.org/terms/language_ISO_code> a ns2:ObjectProperty ;
     rdfs:comment "https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes" ;
-    ns2:domain <http://idss.org/terms/Item_or_resource> ;
+    rdfs:domain <http://idss.org/terms/Item_or_resource> ;
     ns2:range <http://idss.org/terms/VOCAB_language_ISO_code> ;
     ns1:definition "Official 2 letter ISO language code of the resource - select from control list" ;
     ns1:prefLabel "language ISO code" .
 
 <http://idss.org/terms/language_name> a ns2:ObjectProperty ;
-    ns2:domain <http://idss.org/terms/Item_or_resource> ;
+    rdfs:domain <http://idss.org/terms/Item_or_resource> ;
     ns2:range <http://idss.org/terms/VOCAB_language_name> ;
     ns1:definition "Popular name for the language of the resource - select from control list" ;
     ns1:prefLabel "language name" .
 
 <http://idss.org/terms/latitude_and_longitude_location_coordinates_detail> a ns2:ObjectProperty ;
-    ns2:domain <http://idss.org/terms/Certified_site> ;
+    rdfs:domain <http://idss.org/terms/Certified_site> ;
     ns2:range <http://idss.org/terms/VOCAB_latitude_and_longitude_location_coordinates_detail> ;
     ns1:definition "Specific details on the coordinates" ;
     ns1:prefLabel "latitude and longitude location coordinates detail" .
 
 <http://idss.org/terms/latitude_and_longitude_location_coordinates_for_the_resource_or_its_focus> a ns2:DatatypeProperty ;
-    ns2:domain <http://idss.org/terms/Coverage> ;
-    ns2:range xsd:string ;
+    rdfs:domain <http://idss.org/terms/Coverage> ;
+    rdfs:range xsd:string ;
     ns1:definition "Use for polygons, shapes, study sites etc. Longitude location coordinates should be recorded in decimal degrees (DD). Recording 4 digits to the right of the decimal provides an accuracy of 10m." ;
     ns1:prefLabel "latitude and longitude location coordinates for the resource or its focus" ;
     ns1:scopeNote "Example of a latitude/longitude in Bolivia: -16.9013, -62.0244" .
 
 <http://idss.org/terms/latitude_location_coordinate_for_the_resource_or_its_focus> a ns2:DatatypeProperty ;
-    ns2:domain <http://idss.org/terms/Coverage> ;
-    ns2:range xsd:string ;
+    rdfs:domain <http://idss.org/terms/Coverage> ;
+    rdfs:range xsd:string ;
     ns1:definition "Use for polygons, shapes, study sites etc. Latitude location coordinates should be recorded in decimal degrees (DD). Recording 4 digits to the right of the decimal provides an accuracy of 10m." ;
     ns1:prefLabel "latitude location coordinate for the resource or its focus" ;
     ns1:scopeNote "Example of a latitude in Bolivia: -16.9013" .
 
 <http://idss.org/terms/license_code> a ns2:DatatypeProperty ;
-    ns2:domain <http://idss.org/terms/Certificate> ;
-    ns2:range xsd:string ;
+    rdfs:domain <http://idss.org/terms/Certificate> ;
+    rdfs:range xsd:string ;
     ns1:prefLabel "license code" .
 
 <http://idss.org/terms/license_status> a ns2:ObjectProperty ;
-    ns2:domain <http://idss.org/terms/Certificate> ;
+    rdfs:domain <http://idss.org/terms/Certificate> ;
     ns2:range <http://idss.org/terms/VOCAB_license_status> ;
     ns1:definition "select from control list" ;
     ns1:prefLabel "license status" .
 
 <http://idss.org/terms/location_name> a ns2:DatatypeProperty ;
-    ns2:domain <http://idss.org/terms/Certified_site> ;
-    ns2:range xsd:string ;
+    rdfs:domain <http://idss.org/terms/Certified_site> ;
+    rdfs:range xsd:string ;
     ns1:definition "The normal name used to describe the location" ;
     ns1:prefLabel "location name" .
 
 <http://idss.org/terms/longitude_location_coordinate_for_the_resource_or_its_focus> a ns2:DatatypeProperty ;
-    ns2:domain <http://idss.org/terms/Coverage> ;
-    ns2:range xsd:string ;
+    rdfs:domain <http://idss.org/terms/Coverage> ;
+    rdfs:range xsd:string ;
     ns1:definition "Use for polygons, shapes, study sites etc. Longitude location coordinates should be recorded in decimal degrees (DD). Recording 4 digits to the right of the decimal provides an accuracy of 10m." ;
     ns1:prefLabel "longitude location coordinate for the resource or its focus" ;
     ns1:scopeNote "Example of a longitude in Bolivia: -62.0244" .
 
 <http://idss.org/terms/member_contributor> a ns2:ObjectProperty ;
-    ns2:domain <http://idss.org/terms/ISEAL> ;
+    rdfs:domain <http://idss.org/terms/ISEAL> ;
     ns2:range <http://idss.org/terms/VOCAB_member_contributor> ;
     ns1:definition "Association with an ISEAL member organization or scheme - select from control list" ;
     ns1:prefLabel "member contributor" .
 
 <http://idss.org/terms/natural_ecosystem_set-aside_(Ha)> a ns2:DatatypeProperty ;
-    ns2:domain <http://idss.org/terms/Certified_site> ;
-    ns2:range xsd:string ;
+    rdfs:domain <http://idss.org/terms/Certified_site> ;
+    rdfs:range xsd:string ;
     ns1:prefLabel "natural ecosystem set-aside (Ha)" .
 
 <http://idss.org/terms/no_difference_directionality> a ns2:ObjectProperty ;
-    ns2:domain <http://idss.org/terms/Evaluation> ;
+    rdfs:domain <http://idss.org/terms/Evaluation> ;
     ns2:range <http://idss.org/terms/VOCAB_no_difference_directionality> ;
     ns1:definition "select from control list" ;
     ns1:prefLabel "no difference directionality" .
 
 <http://idss.org/terms/non-forestry_activities> a ns2:ObjectProperty ;
-    ns2:domain <http://idss.org/terms/FSC_scope> ;
+    rdfs:domain <http://idss.org/terms/FSC_scope> ;
     ns2:range <http://idss.org/terms/VOCAB_non-forestry_activities> ;
     ns1:definition "select from control list" ;
     ns1:prefLabel "non-forestry activities" .
 
 <http://idss.org/terms/non-forestry_services_for_local_communities> a ns2:ObjectProperty ;
-    ns2:domain <http://idss.org/terms/FSC_scope> ;
+    rdfs:domain <http://idss.org/terms/FSC_scope> ;
     ns2:range <http://idss.org/terms/VOCAB_non-forestry_services_for_local_communities> ;
     ns1:definition "select from control list" ;
     ns1:prefLabel "non-forestry services for local communities" .
 
 <http://idss.org/terms/number> a ns2:DatatypeProperty ;
-    ns2:domain <http://idss.org/terms/Item_or_resource> ;
-    ns2:range xsd:string ;
+    rdfs:domain <http://idss.org/terms/Item_or_resource> ;
+    rdfs:range xsd:string ;
     ns1:definition "Journal article issue number, series number, or any other identifying number" ;
     ns1:prefLabel "number" .
 
 <http://idss.org/terms/number_covered_by_the_certificate> a ns2:DatatypeProperty ;
-    ns2:domain <http://idss.org/terms/Certified_sites> ;
-    ns2:range xsd:string ;
+    rdfs:domain <http://idss.org/terms/Certified_sites> ;
+    rdfs:range xsd:string ;
     ns1:definition "The number of individual sites covered by a certificate" ;
     ns1:prefLabel "number covered by the certificate" .
 
 <http://idss.org/terms/other_titles> a ns2:DatatypeProperty ;
-    ns2:domain <http://idss.org/terms/Item_or_resource> ;
-    ns2:range xsd:string ;
+    rdfs:domain <http://idss.org/terms/Item_or_resource> ;
+    rdfs:range xsd:string ;
     ns1:definition "An alternative name for the resource." ;
     ns1:prefLabel "other titles" ;
     ns1:scopeNote "eg, the title another language; Only if explicitly mentioned on the resource" .
 
 <http://idss.org/terms/outcome_identified?> a ns2:ObjectProperty ;
-    ns2:domain <http://idss.org/terms/Evaluation> ;
+    rdfs:domain <http://idss.org/terms/Evaluation> ;
     ns2:range <http://idss.org/terms/VOCAB_outcome_identified?> ;
     ns1:definition "yes, no, not applicable" ;
     ns1:prefLabel "outcome identified?" .
 
 <http://idss.org/terms/outcomes_and_benefits> a ns2:ObjectProperty ;
-    ns2:domain <http://idss.org/terms/FSC_scope> ;
+    rdfs:domain <http://idss.org/terms/FSC_scope> ;
     ns2:range <http://idss.org/terms/VOCAB_outcomes_and_benefits> ;
     ns1:definition "select from control list" ;
     ns1:prefLabel "outcomes and benefits" ;
     ns1:scopeNote "Indicate the outcome(s) the resource mainly supports or contributes to" .
 
 <http://idss.org/terms/ownership_type> a ns2:ObjectProperty ;
-    ns2:domain <http://idss.org/terms/Certificate> ;
+    rdfs:domain <http://idss.org/terms/Certificate> ;
     ns2:range <http://idss.org/terms/VOCAB_ownership_type> ;
     ns1:definition "Whether a certificate covers indivdual or group owners - select from control list" ;
     ns1:prefLabel "ownership type" .
 
 <http://idss.org/terms/pagination> a ns2:DatatypeProperty ;
-    ns2:domain <http://idss.org/terms/Item_or_resource> ;
-    ns2:range xsd:string ;
+    rdfs:domain <http://idss.org/terms/Item_or_resource> ;
+    rdfs:range xsd:string ;
     ns1:definition "Start/end pagination of a journal article or chapter" ;
     ns1:prefLabel "pagination" .
 
 <http://idss.org/terms/peer_review_status> a ns2:ObjectProperty ;
-    ns2:domain <http://idss.org/terms/Item_or_resource> ;
+    rdfs:domain <http://idss.org/terms/Item_or_resource> ;
     ns2:range <http://idss.org/terms/VOCAB_peer_review_status> ;
     ns1:definition "Whether the resource has been peer reviewed - select from control list" ;
     ns1:prefLabel "peer review status" .
 
 <http://idss.org/terms/pest_common_name> a ns2:DatatypeProperty ;
-    ns2:domain <http://idss.org/terms/Pesticides> ;
-    ns2:range xsd:string ;
+    rdfs:domain <http://idss.org/terms/Pesticides> ;
+    rdfs:range xsd:string ;
     ns1:definition "The common name of the pest" ;
     ns1:prefLabel "pest common name" ;
     ns1:scopeNote "Pesticide alternatives - common name for the pest" .
 
 <http://idss.org/terms/pest_species_name> a ns2:DatatypeProperty ;
-    ns2:domain <http://idss.org/terms/Pesticides> ;
-    ns2:range xsd:string ;
+    rdfs:domain <http://idss.org/terms/Pesticides> ;
+    rdfs:range xsd:string ;
     ns1:definition "The species name of the pest" ;
     ns1:prefLabel "pest species name" ;
     ns1:scopeNote "Pesticide alternatives - species name for the pest" .
 
 <http://idss.org/terms/pest_type> a ns2:ObjectProperty ;
-    ns2:domain <http://idss.org/terms/Pesticides> ;
+    rdfs:domain <http://idss.org/terms/Pesticides> ;
     ns2:range <http://idss.org/terms/VOCAB_pest_type> ;
     ns1:definition "The type of pest - select from control list" ;
     ns1:prefLabel "pest type" ;
     ns1:scopeNote "Pesticide alternatives - category of pest" .
 
 <http://idss.org/terms/place_name> a ns2:DatatypeProperty ;
-    ns2:domain <http://idss.org/terms/Coverage> ;
-    ns2:range xsd:string ;
+    rdfs:domain <http://idss.org/terms/Coverage> ;
+    rdfs:range xsd:string ;
     ns1:definition "Name(s) of specific places, sites, towns, cities, districts, etc. that the resource is about" ;
     ns1:prefLabel "place name" .
 
 <http://idss.org/terms/political,_systemic_or_legal_issues> a ns2:DatatypeProperty ;
-    ns2:domain <http://idss.org/terms/FSC_scope> ;
-    ns2:range xsd:string ;
+    rdfs:domain <http://idss.org/terms/FSC_scope> ;
+    rdfs:range xsd:string ;
     ns1:definition "select from control list" ;
     ns1:prefLabel "political, systemic or legal issues" ;
     ns1:scopeNote "Indicate the outcome(s) the resource mainly supports or contributes to" .
 
 <http://idss.org/terms/political,_systemic_or_legal_topics> a ns2:DatatypeProperty ;
-    ns2:domain <http://idss.org/terms/FSC_scope> ;
-    ns2:range xsd:string ;
+    rdfs:domain <http://idss.org/terms/FSC_scope> ;
+    rdfs:range xsd:string ;
     ns1:definition "select from control list" ;
     ns1:prefLabel "political, systemic or legal topics" .
 
 <http://idss.org/terms/product> a ns2:ObjectProperty ;
-    ns2:domain <http://idss.org/terms/Scope> ;
+    rdfs:domain <http://idss.org/terms/Scope> ;
     ns2:range <http://idss.org/terms/VOCAB_product> ;
     ns1:definition "A certified commodity or product - select from control list" ;
     ns1:prefLabel "product" .
 
 <http://idss.org/terms/production_area_(Ha)> a ns2:DatatypeProperty ;
-    ns2:domain <http://idss.org/terms/Certified_site> ;
-    ns2:range xsd:string ;
+    rdfs:domain <http://idss.org/terms/Certified_site> ;
+    rdfs:range xsd:string ;
     ns1:prefLabel "production area (Ha)" .
 
 <http://idss.org/terms/program_or_scheme_accredited_for> a ns2:ObjectProperty ;
-    ns2:domain <http://idss.org/terms/Certifying_body> ;
+    rdfs:domain <http://idss.org/terms/Certifying_body> ;
     ns2:range <http://idss.org/terms/VOCAB_program_or_scheme_accredited_for> ;
     ns1:definition "Scheme names the body is certified for - select from control list" ;
     ns1:prefLabel "program or scheme accredited for" .
 
 <http://idss.org/terms/publication_place> a ns2:DatatypeProperty ;
-    ns2:domain <http://idss.org/terms/Item_or_resource> ;
-    ns2:range xsd:string ;
+    rdfs:domain <http://idss.org/terms/Item_or_resource> ;
+    rdfs:range xsd:string ;
     ns1:definition "City, country" ;
     ns1:prefLabel "publication place" .
 
 <http://idss.org/terms/publisher> a ns2:DatatypeProperty ;
     rdfs:comment "https://www.grid.ac/" ;
-    ns2:domain <http://idss.org/terms/Item_or_resource> ;
-    ns2:range xsd:string ;
+    rdfs:domain <http://idss.org/terms/Item_or_resource> ;
+    rdfs:range xsd:string ;
     ns1:definition "An entity responsible for making the resource available." ;
     ns1:prefLabel "publisher" ;
     ns1:scopeNote "Usually the name of an organization" .
 
 <http://idss.org/terms/quotes_on_impact> a ns2:DatatypeProperty ;
-    ns2:domain <http://idss.org/terms/Evaluation> ;
-    ns2:range xsd:string ;
+    rdfs:domain <http://idss.org/terms/Evaluation> ;
+    rdfs:range xsd:string ;
     ns1:definition "Quotes from an evaluative study" ;
     ns1:prefLabel "quotes on impact" .
 
 <http://idss.org/terms/recommendations> a ns2:DatatypeProperty ;
-    ns2:domain <http://idss.org/terms/Evaluation> ;
-    ns2:range xsd:string ;
+    rdfs:domain <http://idss.org/terms/Evaluation> ;
+    rdfs:range xsd:string ;
     ns1:definition "Recommendations from an evaluative study" ;
     ns1:prefLabel "recommendations" .
 
 <http://idss.org/terms/region> a ns2:ObjectProperty ;
-    ns2:domain <http://idss.org/terms/FSC_coverage> ;
+    rdfs:domain <http://idss.org/terms/FSC_coverage> ;
     ns2:range <http://idss.org/terms/VOCAB_region> ;
     ns1:definition "select from control list" ;
     ns1:prefLabel "region" ;
@@ -11055,204 +11055,204 @@
 
 <http://idss.org/terms/regions> a ns2:ObjectProperty ;
     rdfs:comment "https://unstats.un.org/unsd/methodology/m49/" ;
-    ns2:domain <http://idss.org/terms/Coverage> ;
+    rdfs:domain <http://idss.org/terms/Coverage> ;
     ns2:range <http://idss.org/terms/VOCAB_regions> ;
     ns1:definition "Popular names for regions - select from control list" ;
     ns1:prefLabel "regions" .
 
 <http://idss.org/terms/resource_subtype> a ns2:ObjectProperty ;
-    ns2:domain <http://idss.org/terms/Evidence> ;
+    rdfs:domain <http://idss.org/terms/Evidence> ;
     ns2:range <http://idss.org/terms/VOCAB_resource_subtype> ;
     ns1:definition "select from control list" ;
     ns1:prefLabel "resource subtype" .
 
 <http://idss.org/terms/resource_type> a ns2:ObjectProperty ;
-    ns2:domain <http://idss.org/terms/Evidence> ;
+    rdfs:domain <http://idss.org/terms/Evidence> ;
     ns2:range <http://idss.org/terms/VOCAB_resource_type> ;
     ns1:definition "select from control list" ;
     ns1:prefLabel "resource type" .
 
 <http://idss.org/terms/restoration_set-aside_(Ha)> a ns2:DatatypeProperty ;
-    ns2:domain <http://idss.org/terms/Certified_site> ;
-    ns2:range xsd:string ;
+    rdfs:domain <http://idss.org/terms/Certified_site> ;
+    rdfs:range xsd:string ;
     ns1:prefLabel "restoration set-aside (Ha)" .
 
 <http://idss.org/terms/role> a ns2:ObjectProperty ;
-    ns2:domain <http://idss.org/terms/Certificate_holder/owner/certified_organization> ;
+    rdfs:domain <http://idss.org/terms/Certificate_holder/owner/certified_organization> ;
     ns2:range <http://idss.org/terms/VOCAB_role> ;
     ns1:definition "The role(s) the organzation plats in the spply chain - select from control list" ;
     ns1:prefLabel "role" ;
     ns1:scopeNote "ITC database" .
 
 <http://idss.org/terms/sampling_system> a ns2:ObjectProperty ;
-    ns2:domain <http://idss.org/terms/FSC_audit> ;
+    rdfs:domain <http://idss.org/terms/FSC_audit> ;
     ns2:range <http://idss.org/terms/VOCAB_sampling_system> ;
     ns1:definition "select from control list" ;
     ns1:prefLabel "sampling system" .
 
 <http://idss.org/terms/scope> a ns2:DatatypeProperty ;
-    ns2:domain <http://idss.org/terms/Certificate> ;
-    ns2:range xsd:string ;
+    rdfs:domain <http://idss.org/terms/Certificate> ;
+    rdfs:range xsd:string ;
     ns1:prefLabel "scope" .
 
 <http://idss.org/terms/sector> a ns2:ObjectProperty ;
     rdfs:comment "https://www.oecd.org/dac/financing-sustainable-development/development-finance-standards/dacandcrscodelists.htm" ;
-    ns2:domain <http://idss.org/terms/Scope> ;
+    rdfs:domain <http://idss.org/terms/Scope> ;
     ns2:range <http://idss.org/terms/VOCAB_sector> ;
     ns1:definition "select from control list" ;
     ns1:prefLabel "sector" .
 
 <http://idss.org/terms/series_name> a ns2:DatatypeProperty ;
-    ns2:domain <http://idss.org/terms/Item_or_resource> ;
-    ns2:range xsd:string ;
+    rdfs:domain <http://idss.org/terms/Item_or_resource> ;
+    rdfs:range xsd:string ;
     ns1:definition "A related resource or series of resources in which the described resource is physically or logically included." ;
     ns1:prefLabel "series name" ;
     ns1:scopeNote "Only if explicitly mentioned on the resource" .
 
 <http://idss.org/terms/site_types> a ns2:ObjectProperty ;
-    ns2:domain <http://idss.org/terms/FSC_audit> ;
+    rdfs:domain <http://idss.org/terms/FSC_audit> ;
     ns2:range <http://idss.org/terms/VOCAB_site_types> ;
     ns1:definition "select from control list" ;
     ns1:prefLabel "site types" .
 
 <http://idss.org/terms/social_issues> a ns2:DatatypeProperty ;
-    ns2:domain <http://idss.org/terms/FSC_scope> ;
-    ns2:range xsd:string ;
+    rdfs:domain <http://idss.org/terms/FSC_scope> ;
+    rdfs:range xsd:string ;
     ns1:definition "select from control list" ;
     ns1:prefLabel "social issues" ;
     ns1:scopeNote "Indicate the outcome(s) the resource mainly supports or contributes to" .
 
 <http://idss.org/terms/social_topics> a ns2:DatatypeProperty ;
-    ns2:domain <http://idss.org/terms/FSC_scope> ;
-    ns2:range xsd:string ;
+    rdfs:domain <http://idss.org/terms/FSC_scope> ;
+    rdfs:range xsd:string ;
     ns1:definition "select from control list" ;
     ns1:prefLabel "social topics" .
 
 <http://idss.org/terms/stakeholder_engagement_types> a ns2:ObjectProperty ;
-    ns2:domain <http://idss.org/terms/FSC_audit> ;
+    rdfs:domain <http://idss.org/terms/FSC_audit> ;
     ns2:range <http://idss.org/terms/VOCAB_stakeholder_engagement_types> ;
     ns1:definition "select from control list" ;
     ns1:prefLabel "stakeholder engagement types" .
 
 <http://idss.org/terms/stakeholder_types> a ns2:ObjectProperty ;
-    ns2:domain <http://idss.org/terms/FSC_audit> ;
+    rdfs:domain <http://idss.org/terms/FSC_audit> ;
     ns2:range <http://idss.org/terms/VOCAB_stakeholder_types> ;
     ns1:definition "select from control list" ;
     ns1:prefLabel "stakeholder types" .
 
 <http://idss.org/terms/standards_accredited_for> a ns2:DatatypeProperty ;
-    ns2:domain <http://idss.org/terms/Certifying_body> ;
-    ns2:range xsd:string ;
+    rdfs:domain <http://idss.org/terms/Certifying_body> ;
+    rdfs:range xsd:string ;
     ns1:definition "standards the body is accredited for - identify the official standard IDs" ;
     ns1:prefLabel "standards accredited for" .
 
 <http://idss.org/terms/standards_certified_for> a ns2:DatatypeProperty ;
-    ns2:domain <http://idss.org/terms/Certifying_body> ;
-    ns2:range xsd:string ;
+    rdfs:domain <http://idss.org/terms/Certifying_body> ;
+    rdfs:range xsd:string ;
     ns1:definition "standards the body can certify for - identify the official standard IDs" ;
     ns1:prefLabel "standards certified for" .
 
 <http://idss.org/terms/statistical_significance> a ns2:ObjectProperty ;
-    ns2:domain <http://idss.org/terms/Evaluation> ;
+    rdfs:domain <http://idss.org/terms/Evaluation> ;
     ns2:range <http://idss.org/terms/VOCAB_statistical_significance> ;
     ns1:definition "select from control list" ;
     ns1:prefLabel "statistical significance" .
 
 <http://idss.org/terms/statistical_test> a ns2:DatatypeProperty ;
-    ns2:domain <http://idss.org/terms/Evaluation> ;
-    ns2:range xsd:string ;
+    rdfs:domain <http://idss.org/terms/Evaluation> ;
+    rdfs:range xsd:string ;
     ns1:prefLabel "statistical test" .
 
 <http://idss.org/terms/strategic_pillar> a ns2:ObjectProperty ;
-    ns2:domain <http://idss.org/terms/ISEAL> ;
+    rdfs:domain <http://idss.org/terms/ISEAL> ;
     ns2:range <http://idss.org/terms/VOCAB_strategic_pillar> ;
     ns1:definition "select from control list" ;
     ns1:prefLabel "strategic pillar" .
 
 <http://idss.org/terms/study_scope> a ns2:DatatypeProperty ;
-    ns2:domain <http://idss.org/terms/Evaluation> ;
-    ns2:range xsd:string ;
+    rdfs:domain <http://idss.org/terms/Evaluation> ;
+    rdfs:range xsd:string ;
     ns1:prefLabel "study scope" .
 
 <http://idss.org/terms/subject_keyword> a ns2:DatatypeProperty ;
-    ns2:domain <http://idss.org/terms/Scope> ;
-    ns2:range xsd:string ;
+    rdfs:domain <http://idss.org/terms/Scope> ;
+    rdfs:range xsd:string ;
     ns1:definition "Keywords that help to describe the resource content or coverage. The topic of the resource. Normally select from control list" ;
     ns1:prefLabel "subject keyword" .
 
 <http://idss.org/terms/subject_keywords> a ns2:DatatypeProperty ;
-    ns2:domain <http://idss.org/terms/FSC_scope> ;
-    ns2:range xsd:string ;
+    rdfs:domain <http://idss.org/terms/FSC_scope> ;
+    rdfs:range xsd:string ;
     ns1:definition "select from control list" ;
     ns1:prefLabel "subject keywords" ;
     ns1:scopeNote "Enter any keywords that help to describe the resource content or coverage" .
 
 <http://idss.org/terms/summary> a ns2:DatatypeProperty ;
-    ns2:domain <http://idss.org/terms/Evidence> ;
-    ns2:range xsd:string ;
+    rdfs:domain <http://idss.org/terms/Evidence> ;
+    rdfs:range xsd:string ;
     ns1:definition "A narrative summary of the evidence presented in the resource." ;
     ns1:prefLabel "summary" .
 
 <http://idss.org/terms/sustainability_cross-cutting_lens> a ns2:ObjectProperty ;
-    ns2:domain <http://idss.org/terms/Scope> ;
+    rdfs:domain <http://idss.org/terms/Scope> ;
     ns2:range <http://idss.org/terms/VOCAB_sustainability_cross-cutting_lens> ;
     ns1:definition "select from control list" ;
     ns1:prefLabel "sustainability cross-cutting lens" .
 
 <http://idss.org/terms/sustainability_issue> a ns2:ObjectProperty ;
-    ns2:domain <http://idss.org/terms/Scope> ;
+    rdfs:domain <http://idss.org/terms/Scope> ;
     ns2:range <http://idss.org/terms/VOCAB_sustainability_issue> ;
     ns1:definition "The specific sustainability issue(s) covered in the resource - select from control list" ;
     ns1:prefLabel "sustainability issue" .
 
 <http://idss.org/terms/sustainability_outcome> a ns2:ObjectProperty ;
-    ns2:domain <http://idss.org/terms/Scope> ;
+    rdfs:domain <http://idss.org/terms/Scope> ;
     ns2:range <http://idss.org/terms/VOCAB_sustainability_outcome> ;
     ns1:definition "select from control list" ;
     ns1:prefLabel "sustainability outcome" .
 
 <http://idss.org/terms/system_element> a ns2:ObjectProperty ;
-    ns2:domain <http://idss.org/terms/ISEAL> ;
+    rdfs:domain <http://idss.org/terms/ISEAL> ;
     ns2:range <http://idss.org/terms/VOCAB_system_element> ;
     ns1:definition "select from control list" ;
     ns1:prefLabel "system element" .
 
 <http://idss.org/terms/tenure_management> a ns2:ObjectProperty ;
-    ns2:domain <http://idss.org/terms/FSC_scope> ;
+    rdfs:domain <http://idss.org/terms/FSC_scope> ;
     ns2:range <http://idss.org/terms/VOCAB_tenure_management> ;
     ns1:definition "select from control list" ;
     ns1:prefLabel "tenure management" ;
     ns1:scopeNote "Indicate the tenure management included in the coverage of the resource" .
 
 <http://idss.org/terms/tenure_ownership> a ns2:ObjectProperty ;
-    ns2:domain <http://idss.org/terms/FSC_scope> ;
+    rdfs:domain <http://idss.org/terms/FSC_scope> ;
     ns2:range <http://idss.org/terms/VOCAB_tenure_ownership> ;
     ns1:definition "select from control list" ;
     ns1:prefLabel "tenure ownership" ;
     ns1:scopeNote "Indicate the tenure ownership included in the coverage of the resource" .
 
 <http://idss.org/terms/title> a ns2:DatatypeProperty ;
-    ns2:domain <http://idss.org/terms/Item_or_resource> ;
-    ns2:range xsd:string ;
+    rdfs:domain <http://idss.org/terms/Item_or_resource> ;
+    rdfs:range xsd:string ;
     ns1:definition "The full official name given to a resource." ;
     ns1:prefLabel "title" .
 
 <http://idss.org/terms/transition_status> a ns2:ObjectProperty ;
-    ns2:domain <http://idss.org/terms/Item_or_resource> ;
+    rdfs:domain <http://idss.org/terms/Item_or_resource> ;
     ns2:range <http://idss.org/terms/VOCAB_transition_status> ;
     ns1:definition "Yes' or 'No'" ;
     ns1:prefLabel "transition status" .
 
 <http://idss.org/terms/version> a ns2:DatatypeProperty ;
-    ns2:domain <http://idss.org/terms/Item_or_resource> ;
-    ns2:range xsd:string ;
+    rdfs:domain <http://idss.org/terms/Item_or_resource> ;
+    rdfs:range xsd:string ;
     ns1:definition "Version number" ;
     ns1:prefLabel "version" ;
     ns1:scopeNote "Only if explicitly mentioned on the resource" .
 
 <http://idss.org/terms/volume> a ns2:DatatypeProperty ;
-    ns2:domain <http://idss.org/terms/Item_or_resource> ;
-    ns2:range xsd:string ;
+    rdfs:domain <http://idss.org/terms/Item_or_resource> ;
+    rdfs:range xsd:string ;
     ns1:definition "Journal article volume number" ;
     ns1:prefLabel "volume" .
 
@@ -11273,20 +11273,20 @@
 
 <http://idss.org/terms/Link> a ns2:Class ;
     rdfs:subClassOf [ a ns2:Restriction ;
-            ns2:onProperty <http://idss.org/terms/URL> ;
+            ns2:onProperty <http://idss.org/terms/image_or_photo> ;
             ns2:someValuesFrom xsd:string ],
         [ a ns2:Restriction ;
-            ns2:onProperty <http://idss.org/terms/image_or_photo> ;
+            ns2:onProperty <http://idss.org/terms/URL> ;
             ns2:someValuesFrom xsd:string ],
         <http://idss.org/terms/CORE> ;
     ns1:prefLabel "Link" .
 
 <http://idss.org/terms/Organization> a ns2:Class ;
     rdfs:subClassOf [ a ns2:Restriction ;
-            ns2:onProperty <http://idss.org/terms/Bluenumber_ID> ;
+            ns2:onProperty <http://idss.org/terms/GRID_ID> ;
             ns2:someValuesFrom xsd:string ],
         [ a ns2:Restriction ;
-            ns2:onProperty <http://idss.org/terms/GRID_ID> ;
+            ns2:onProperty <http://idss.org/terms/Bluenumber_ID> ;
             ns2:someValuesFrom xsd:string ],
         <http://idss.org/terms/CORE> ;
     ns1:prefLabel "Organization" .
@@ -11308,30 +11308,30 @@
     ns1:prefLabel "Sustainability scheme" .
 
 <http://idss.org/terms/category> a ns2:ObjectProperty ;
-    ns2:domain <http://idss.org/terms/FSC_certificate>,
+    rdfs:domain <http://idss.org/terms/FSC_certificate>,
         <http://idss.org/terms/FSC_evidence> ;
     ns2:range <http://idss.org/terms/VOCAB_category> ;
     ns1:definition "select from control list" ;
     ns1:prefLabel "category" .
 
 <http://idss.org/terms/city> a ns2:DatatypeProperty ;
-    ns2:domain <http://idss.org/terms/Certificate_holder/owner/certified_organization_address>,
+    rdfs:domain <http://idss.org/terms/Certificate_holder/owner/certified_organization_address>,
         <http://idss.org/terms/Certifying_body_address> ;
-    ns2:range xsd:string ;
+    rdfs:range xsd:string ;
     ns1:definition "Complete name of a city or town in an address" ;
     ns1:prefLabel "city" .
 
 <http://idss.org/terms/email_address> a ns2:DatatypeProperty ;
-    ns2:domain <http://idss.org/terms/Certificate_holder/owner/certified_organization_address>,
+    rdfs:domain <http://idss.org/terms/Certificate_holder/owner/certified_organization_address>,
         <http://idss.org/terms/Certifying_body_address> ;
-    ns2:range xsd:string ;
+    rdfs:range xsd:string ;
     ns1:definition "Email address of an organization" ;
     ns1:prefLabel "email address" .
 
 <http://idss.org/terms/notes> a ns2:DatatypeProperty ;
-    ns2:domain <http://idss.org/terms/Evaluation>,
+    rdfs:domain <http://idss.org/terms/Evaluation>,
         <http://idss.org/terms/Item_or_resource> ;
-    ns2:range xsd:string ;
+    rdfs:range xsd:string ;
     ns1:definition "An account of the resource.",
         "Notes from a study, not elsewhere covered" ;
     ns1:prefLabel "notes" ;
@@ -11339,35 +11339,35 @@
 
 <http://idss.org/terms/phone_country_code> a ns2:DatatypeProperty ;
     rdfs:comment "https://en.wikipedia.org/wiki/List_of_country_calling_codes" ;
-    ns2:domain <http://idss.org/terms/Certificate_holder/owner/certified_organization_address>,
+    rdfs:domain <http://idss.org/terms/Certificate_holder/owner/certified_organization_address>,
         <http://idss.org/terms/Certifying_body_address> ;
-    ns2:range xsd:float ;
+    rdfs:range xsd:float ;
     ns1:definition "International subscriber dialing (ISD) codes" ;
     ns1:prefLabel "phone country code" .
 
 <http://idss.org/terms/phone_number> a ns2:DatatypeProperty ;
-    ns2:domain <http://idss.org/terms/Certificate_holder/owner/certified_organization_address>,
+    rdfs:domain <http://idss.org/terms/Certificate_holder/owner/certified_organization_address>,
         <http://idss.org/terms/Certifying_body_address> ;
-    ns2:range xsd:float ;
+    rdfs:range xsd:float ;
     ns1:definition "Official contact phone number of the organization - without country code" ;
     ns1:prefLabel "phone number" .
 
 <http://idss.org/terms/postcode> a ns2:DatatypeProperty ;
-    ns2:domain <http://idss.org/terms/Certificate_holder/owner/certified_organization_address>,
+    rdfs:domain <http://idss.org/terms/Certificate_holder/owner/certified_organization_address>,
         <http://idss.org/terms/Certifying_body_address> ;
-    ns2:range xsd:string ;
+    rdfs:range xsd:string ;
     ns1:definition "Full postcode of an address" ;
     ns1:prefLabel "postcode" .
 
 <http://idss.org/terms/street> a ns2:DatatypeProperty ;
-    ns2:domain <http://idss.org/terms/Certificate_holder/owner/certified_organization_address>,
+    rdfs:domain <http://idss.org/terms/Certificate_holder/owner/certified_organization_address>,
         <http://idss.org/terms/Certifying_body_address> ;
-    ns2:range xsd:string ;
+    rdfs:range xsd:string ;
     ns1:definition "Full street name and number of an address" ;
     ns1:prefLabel "street" .
 
 <http://idss.org/terms/sustainability_dimension> a ns2:ObjectProperty ;
-    ns2:domain <http://idss.org/terms/FSC_scope>,
+    rdfs:domain <http://idss.org/terms/FSC_scope>,
         <http://idss.org/terms/Scope> ;
     ns2:range <http://idss.org/terms/VOCAB_sustainability_dimension> ;
     ns1:definition "The primary sustainability focus of the the resource - select from control list",
@@ -11380,11 +11380,11 @@
 
 <http://idss.org/terms/ID> a ns2:Class,
         ns2:DatatypeProperty ;
-    rdfs:subClassOf <http://idss.org/terms/VOCAB_country_ISO_code> ;
-    ns2:domain <http://idss.org/terms/Certificate_holder/owner/certified_organization>,
+    rdfs:domain <http://idss.org/terms/Certificate_holder/owner/certified_organization>,
         <http://idss.org/terms/Certified_site>,
         <http://idss.org/terms/Item_or_resource> ;
-    ns2:range xsd:string ;
+    rdfs:range xsd:string ;
+    rdfs:subClassOf <http://idss.org/terms/VOCAB_country_ISO_code> ;
     ns1:definition "A number or other consistent code assigned to a certificate holder by a certifying body or scheme",
         "Any ID of the document.",
         "Certified site ID code" ;
@@ -11417,7 +11417,7 @@
 
 <http://idss.org/terms/country> a ns2:ObjectProperty ;
     rdfs:comment "https://www.iso.org/obp/ui/#search/code/" ;
-    ns2:domain <http://idss.org/terms/Certificate_holder/owner/certified_organization_address>,
+    rdfs:domain <http://idss.org/terms/Certificate_holder/owner/certified_organization_address>,
         <http://idss.org/terms/Certifying_body_address>,
         <http://idss.org/terms/Coverage> ;
     ns2:range <http://idss.org/terms/VOCAB_country> ;
@@ -11426,28 +11426,28 @@
     ns1:prefLabel "country" .
 
 <http://idss.org/terms/latitude_and_longitude_location_coordinates> a ns2:DatatypeProperty ;
-    ns2:domain <http://idss.org/terms/Certificate_holder/owner/certified_organization_address>,
+    rdfs:domain <http://idss.org/terms/Certificate_holder/owner/certified_organization_address>,
         <http://idss.org/terms/Certified_site>,
         <http://idss.org/terms/Certifying_body_address> ;
-    ns2:range xsd:string ;
+    rdfs:range xsd:string ;
     ns1:definition "Latitude and longitude location coordinates in decimal degrees (DD). Recording 4 digits to the right of the decimal provides an accuracy of 10m." ;
     ns1:prefLabel "latitude and longitude location coordinates" ;
     ns1:scopeNote "Example of a latitude/longitude coordinate pair in Bolivia: -16.9013, -62.0244" .
 
 <http://idss.org/terms/latitude_location_coordinate> a ns2:DatatypeProperty ;
-    ns2:domain <http://idss.org/terms/Certificate_holder/owner/certified_organization_address>,
+    rdfs:domain <http://idss.org/terms/Certificate_holder/owner/certified_organization_address>,
         <http://idss.org/terms/Certified_site>,
         <http://idss.org/terms/Certifying_body_address> ;
-    ns2:range xsd:string ;
+    rdfs:range xsd:string ;
     ns1:definition "Latitude location coordinates in decimal degrees (DD). Recording 4 digits to the right of the decimal provides an accuracy of 10m." ;
     ns1:prefLabel "latitude location coordinate" ;
     ns1:scopeNote "Example of a latitude coordinate in Bolivia: -16.9013" .
 
 <http://idss.org/terms/longitude_location_coordinate> a ns2:DatatypeProperty ;
-    ns2:domain <http://idss.org/terms/Certificate_holder/owner/certified_organization_address>,
+    rdfs:domain <http://idss.org/terms/Certificate_holder/owner/certified_organization_address>,
         <http://idss.org/terms/Certified_site>,
         <http://idss.org/terms/Certifying_body_address> ;
-    ns2:range xsd:string ;
+    rdfs:range xsd:string ;
     ns1:definition "Longitude location coordinates in decimal degrees (DD). Recording 4 digits to the right of the decimal provides an accuracy of 10m." ;
     ns1:prefLabel "longitude location coordinate" ;
     ns1:scopeNote "Example of a longitude coordinate in Bolivia: --62.0244",
@@ -11455,18 +11455,18 @@
 
 <http://idss.org/terms/name> a ns2:DatatypeProperty,
         ns2:ObjectProperty ;
-    ns2:domain <http://idss.org/terms/Certificate_holder/owner/certified_organization>,
+    rdfs:domain <http://idss.org/terms/Certificate_holder/owner/certified_organization>,
         <http://idss.org/terms/Certifying_body>,
         <http://idss.org/terms/Sustainability_scheme> ;
-    ns2:range <http://idss.org/terms/VOCAB_name>,
-        xsd:string ;
+    rdfs:range xsd:string ;
+    ns2:range <http://idss.org/terms/VOCAB_name> ;
     ns1:definition "Entity assuring/assessing the status and performance of a certificate holder/owner",
         "Entity or individual certified to produce or market a product under the terms of the certificate",
         "Name of certification scheme or body associated with the resource - select from control list" ;
     ns1:prefLabel "name" .
 
 <http://idss.org/terms/status> a ns2:ObjectProperty ;
-    ns2:domain <http://idss.org/terms/Certificate>,
+    rdfs:domain <http://idss.org/terms/Certificate>,
         <http://idss.org/terms/Item_or_resource>,
         <http://idss.org/terms/Standard> ;
     ns2:range <http://idss.org/terms/VOCAB_status> ;
@@ -11475,19 +11475,15 @@
     ns1:prefLabel "status" .
 
 <http://idss.org/terms/website_url> a ns2:DatatypeProperty ;
-    ns2:domain <http://idss.org/terms/Certificate_holder/owner/certified_organization>,
+    rdfs:domain <http://idss.org/terms/Certificate_holder/owner/certified_organization>,
         <http://idss.org/terms/Certifying_body>,
         <http://idss.org/terms/Certifying_body_address> ;
-    ns2:range xsd:string ;
+    rdfs:range xsd:string ;
     ns1:definition "URL of the organization" ;
     ns1:prefLabel "website url" .
 
 <http://idss.org/terms/Evidence> a ns2:Class ;
     rdfs:subClassOf [ a ns2:Restriction ;
-            ns2:maxQualifiedCardinality 1 ;
-            ns2:onClass <http://idss.org/terms/VOCAB_type> ;
-            ns2:onProperty <http://idss.org/terms/type> ],
-        [ a ns2:Restriction ;
             ns2:maxQualifiedCardinality 1 ;
             ns2:onDataRange xsd:string ;
             ns2:onProperty <http://idss.org/terms/summary> ],
@@ -11499,25 +11495,29 @@
             ns2:maxQualifiedCardinality 1 ;
             ns2:onClass <http://idss.org/terms/VOCAB_resource_subtype> ;
             ns2:onProperty <http://idss.org/terms/resource_subtype> ],
+        [ a ns2:Restriction ;
+            ns2:maxQualifiedCardinality 1 ;
+            ns2:onClass <http://idss.org/terms/VOCAB_type> ;
+            ns2:onProperty <http://idss.org/terms/type> ],
         <http://idss.org/terms/IMPACT> ;
     ns1:prefLabel "Evidence" .
 
 <http://idss.org/terms/Standard> a ns2:Class ;
     rdfs:subClassOf [ a ns2:Restriction ;
-            ns2:onProperty <http://idss.org/terms/ID_or_code> ;
-            ns2:someValuesFrom xsd:string ],
+            ns2:maxQualifiedCardinality 1 ;
+            ns2:onClass <http://idss.org/terms/VOCAB_status> ;
+            ns2:onProperty <http://idss.org/terms/status> ],
         [ a ns2:Restriction ;
             ns2:maxQualifiedCardinality 1 ;
             ns2:onDataRange xsd:date ;
             ns2:onProperty <http://idss.org/terms/effective_date> ],
         [ a ns2:Restriction ;
+            ns2:onProperty <http://idss.org/terms/ID_or_code> ;
+            ns2:someValuesFrom xsd:string ],
+        [ a ns2:Restriction ;
             ns2:maxQualifiedCardinality 1 ;
             ns2:onDataRange xsd:date ;
             ns2:onProperty <http://idss.org/terms/date_of_version_1> ],
-        [ a ns2:Restriction ;
-            ns2:maxQualifiedCardinality 1 ;
-            ns2:onClass <http://idss.org/terms/VOCAB_status> ;
-            ns2:onProperty <http://idss.org/terms/status> ],
         <http://idss.org/terms/VOCAB_type> ;
     ns1:prefLabel "Standard" .
 
@@ -11552,7 +11552,7 @@
         [ a ns2:Restriction ;
             ns2:maxQualifiedCardinality 1 ;
             ns2:onDataRange xsd:string ;
-            ns2:onProperty <http://idss.org/terms/website_url> ],
+            ns2:onProperty <http://idss.org/terms/name> ],
         [ a ns2:Restriction ;
             ns2:maxQualifiedCardinality 1 ;
             ns2:onDataRange xsd:string ;
@@ -11560,7 +11560,7 @@
         [ a ns2:Restriction ;
             ns2:maxQualifiedCardinality 1 ;
             ns2:onDataRange xsd:string ;
-            ns2:onProperty <http://idss.org/terms/name> ],
+            ns2:onProperty <http://idss.org/terms/website_url> ],
         [ a ns2:Restriction ;
             ns2:maxQualifiedCardinality 1 ;
             ns2:onDataRange xsd:string ;
@@ -11570,14 +11570,14 @@
 
 <http://idss.org/terms/ISEAL> a ns2:Class ;
     rdfs:subClassOf [ a ns2:Restriction ;
+            ns2:onProperty <http://idss.org/terms/system_element> ;
+            ns2:someValuesFrom <http://idss.org/terms/VOCAB_system_element> ],
+        [ a ns2:Restriction ;
             ns2:onProperty <http://idss.org/terms/strategic_pillar> ;
             ns2:someValuesFrom <http://idss.org/terms/VOCAB_strategic_pillar> ],
         [ a ns2:Restriction ;
             ns2:onProperty <http://idss.org/terms/code_clause_number> ;
             ns2:someValuesFrom <http://idss.org/terms/VOCAB_code_clause_number> ],
-        [ a ns2:Restriction ;
-            ns2:onProperty <http://idss.org/terms/system_element> ;
-            ns2:someValuesFrom <http://idss.org/terms/VOCAB_system_element> ],
         [ a ns2:Restriction ;
             ns2:onProperty <http://idss.org/terms/member_contributor> ;
             ns2:someValuesFrom <http://idss.org/terms/VOCAB_member_contributor> ],
@@ -11621,11 +11621,15 @@
 
 <http://idss.org/terms/FSC_audit> a ns2:Class ;
     rdfs:subClassOf [ a ns2:Restriction ;
-            ns2:onProperty <http://idss.org/terms/stakeholder_types> ;
-            ns2:someValuesFrom <http://idss.org/terms/VOCAB_stakeholder_types> ],
-        [ a ns2:Restriction ;
             ns2:onProperty <http://idss.org/terms/documentation_categories> ;
             ns2:someValuesFrom <http://idss.org/terms/VOCAB_documentation_categories> ],
+        [ a ns2:Restriction ;
+            ns2:onProperty <http://idss.org/terms/sampling_system> ;
+            ns2:someValuesFrom <http://idss.org/terms/VOCAB_sampling_system> ],
+        [ a ns2:Restriction ;
+            ns2:maxQualifiedCardinality 1 ;
+            ns2:onClass <http://idss.org/terms/VOCAB_type> ;
+            ns2:onProperty <http://idss.org/terms/type> ],
         [ a ns2:Restriction ;
             ns2:onProperty <http://idss.org/terms/stakeholder_engagement_types> ;
             ns2:someValuesFrom <http://idss.org/terms/VOCAB_stakeholder_engagement_types> ],
@@ -11633,12 +11637,8 @@
             ns2:onProperty <http://idss.org/terms/site_types> ;
             ns2:someValuesFrom <http://idss.org/terms/VOCAB_site_types> ],
         [ a ns2:Restriction ;
-            ns2:maxQualifiedCardinality 1 ;
-            ns2:onClass <http://idss.org/terms/VOCAB_type> ;
-            ns2:onProperty <http://idss.org/terms/type> ],
-        [ a ns2:Restriction ;
-            ns2:onProperty <http://idss.org/terms/sampling_system> ;
-            ns2:someValuesFrom <http://idss.org/terms/VOCAB_sampling_system> ],
+            ns2:onProperty <http://idss.org/terms/stakeholder_types> ;
+            ns2:someValuesFrom <http://idss.org/terms/VOCAB_stakeholder_types> ],
         <http://idss.org/terms/ASSURANCE> ;
     ns1:prefLabel "FSC audit" .
 
@@ -11700,7 +11700,7 @@
     ns1:prefLabel "VOCAB tenure ownership" .
 
 <http://idss.org/terms/type> a ns2:ObjectProperty ;
-    ns2:domain <http://idss.org/terms/Certificate>,
+    rdfs:domain <http://idss.org/terms/Certificate>,
         <http://idss.org/terms/Evidence>,
         <http://idss.org/terms/FSC_audit>,
         <http://idss.org/terms/FSC_certificate>,
@@ -11719,14 +11719,17 @@
             ns2:someValuesFrom xsd:string ],
         [ a ns2:Restriction ;
             ns2:maxQualifiedCardinality 1 ;
-            ns2:onClass <http://idss.org/terms/VOCAB_geographic_level> ;
-            ns2:onProperty <http://idss.org/terms/geographic_level> ],
+            ns2:onDataRange xsd:string ;
+            ns2:onProperty <http://idss.org/terms/latitude_location_coordinate_for_the_resource_or_its_focus> ],
         [ a ns2:Restriction ;
             ns2:onProperty <http://idss.org/terms/latitude_and_longitude_location_coordinates_for_the_resource_or_its_focus> ;
             ns2:someValuesFrom xsd:string ],
         [ a ns2:Restriction ;
             ns2:onProperty <http://idss.org/terms/country> ;
             ns2:someValuesFrom <http://idss.org/terms/VOCAB_country> ],
+        [ a ns2:Restriction ;
+            ns2:onProperty <http://idss.org/terms/regions> ;
+            ns2:someValuesFrom <http://idss.org/terms/VOCAB_regions> ],
         [ a ns2:Restriction ;
             ns2:maxQualifiedCardinality 1 ;
             ns2:onDataRange xsd:string ;
@@ -11736,11 +11739,8 @@
             ns2:someValuesFrom <http://idss.org/terms/VOCAB_country_ISO_code> ],
         [ a ns2:Restriction ;
             ns2:maxQualifiedCardinality 1 ;
-            ns2:onDataRange xsd:string ;
-            ns2:onProperty <http://idss.org/terms/latitude_location_coordinate_for_the_resource_or_its_focus> ],
-        [ a ns2:Restriction ;
-            ns2:onProperty <http://idss.org/terms/regions> ;
-            ns2:someValuesFrom <http://idss.org/terms/VOCAB_regions> ],
+            ns2:onClass <http://idss.org/terms/VOCAB_geographic_level> ;
+            ns2:onProperty <http://idss.org/terms/geographic_level> ],
         <http://idss.org/terms/COVERAGE> ;
     ns1:prefLabel "Coverage" .
 
@@ -11755,32 +11755,32 @@
 
 <http://idss.org/terms/Scope> a ns2:Class ;
     rdfs:subClassOf [ a ns2:Restriction ;
-            ns2:onProperty <http://idss.org/terms/sector> ;
-            ns2:someValuesFrom <http://idss.org/terms/VOCAB_sector> ],
-        [ a ns2:Restriction ;
-            ns2:onProperty <http://idss.org/terms/sustainability_dimension> ;
-            ns2:someValuesFrom <http://idss.org/terms/VOCAB_sustainability_dimension> ],
-        [ a ns2:Restriction ;
-            ns2:onProperty <http://idss.org/terms/product> ;
-            ns2:someValuesFrom <http://idss.org/terms/VOCAB_product> ],
-        [ a ns2:Restriction ;
-            ns2:onProperty <http://idss.org/terms/subject_keyword> ;
-            ns2:someValuesFrom xsd:string ],
-        [ a ns2:Restriction ;
             ns2:onProperty <http://idss.org/terms/sustainability_outcome> ;
             ns2:someValuesFrom <http://idss.org/terms/VOCAB_sustainability_outcome> ],
         [ a ns2:Restriction ;
-            ns2:onProperty <http://idss.org/terms/SDG_focus> ;
-            ns2:someValuesFrom <http://idss.org/terms/VOCAB_SDG_focus> ],
-        [ a ns2:Restriction ;
-            ns2:onProperty <http://idss.org/terms/sustainability_cross-cutting_lens> ;
-            ns2:someValuesFrom <http://idss.org/terms/VOCAB_sustainability_cross-cutting_lens> ],
+            ns2:onProperty <http://idss.org/terms/subject_keyword> ;
+            ns2:someValuesFrom xsd:string ],
         [ a ns2:Restriction ;
             ns2:onProperty <http://idss.org/terms/Delta_sustainability_indicators> ;
             ns2:someValuesFrom <http://idss.org/terms/VOCAB_Delta_sustainability_indicators> ],
         [ a ns2:Restriction ;
             ns2:onProperty <http://idss.org/terms/sustainability_issue> ;
             ns2:someValuesFrom <http://idss.org/terms/VOCAB_sustainability_issue> ],
+        [ a ns2:Restriction ;
+            ns2:onProperty <http://idss.org/terms/SDG_focus> ;
+            ns2:someValuesFrom <http://idss.org/terms/VOCAB_SDG_focus> ],
+        [ a ns2:Restriction ;
+            ns2:onProperty <http://idss.org/terms/sustainability_dimension> ;
+            ns2:someValuesFrom <http://idss.org/terms/VOCAB_sustainability_dimension> ],
+        [ a ns2:Restriction ;
+            ns2:onProperty <http://idss.org/terms/sector> ;
+            ns2:someValuesFrom <http://idss.org/terms/VOCAB_sector> ],
+        [ a ns2:Restriction ;
+            ns2:onProperty <http://idss.org/terms/sustainability_cross-cutting_lens> ;
+            ns2:someValuesFrom <http://idss.org/terms/VOCAB_sustainability_cross-cutting_lens> ],
+        [ a ns2:Restriction ;
+            ns2:onProperty <http://idss.org/terms/product> ;
+            ns2:someValuesFrom <http://idss.org/terms/VOCAB_product> ],
         <http://idss.org/terms/SCOPE> ;
     ns1:prefLabel "Scope" .
 
@@ -11794,7 +11794,19 @@
     rdfs:subClassOf [ a ns2:Restriction ;
             ns2:maxQualifiedCardinality 1 ;
             ns2:onDataRange xsd:float ;
+            ns2:onProperty <http://idss.org/terms/phone_number> ],
+        [ a ns2:Restriction ;
+            ns2:maxQualifiedCardinality 1 ;
+            ns2:onDataRange xsd:string ;
+            ns2:onProperty <http://idss.org/terms/longitude_location_coordinate> ],
+        [ a ns2:Restriction ;
+            ns2:maxQualifiedCardinality 1 ;
+            ns2:onDataRange xsd:float ;
             ns2:onProperty <http://idss.org/terms/phone_country_code> ],
+        [ a ns2:Restriction ;
+            ns2:maxQualifiedCardinality 1 ;
+            ns2:onDataRange xsd:string ;
+            ns2:onProperty <http://idss.org/terms/latitude_location_coordinate> ],
         [ a ns2:Restriction ;
             ns2:maxQualifiedCardinality 1 ;
             ns2:onDataRange xsd:string ;
@@ -11809,28 +11821,16 @@
             ns2:onProperty <http://idss.org/terms/city> ],
         [ a ns2:Restriction ;
             ns2:maxQualifiedCardinality 1 ;
-            ns2:onClass <http://idss.org/terms/VOCAB_country> ;
-            ns2:onProperty <http://idss.org/terms/country> ],
-        [ a ns2:Restriction ;
-            ns2:maxQualifiedCardinality 1 ;
             ns2:onDataRange xsd:string ;
             ns2:onProperty <http://idss.org/terms/postcode> ],
-        [ a ns2:Restriction ;
-            ns2:maxQualifiedCardinality 1 ;
-            ns2:onDataRange xsd:string ;
-            ns2:onProperty <http://idss.org/terms/longitude_location_coordinate> ],
         [ a ns2:Restriction ;
             ns2:maxQualifiedCardinality 1 ;
             ns2:onDataRange xsd:string ;
             ns2:onProperty <http://idss.org/terms/email_address> ],
         [ a ns2:Restriction ;
             ns2:maxQualifiedCardinality 1 ;
-            ns2:onDataRange xsd:string ;
-            ns2:onProperty <http://idss.org/terms/latitude_location_coordinate> ],
-        [ a ns2:Restriction ;
-            ns2:maxQualifiedCardinality 1 ;
-            ns2:onDataRange xsd:float ;
-            ns2:onProperty <http://idss.org/terms/phone_number> ],
+            ns2:onClass <http://idss.org/terms/VOCAB_country> ;
+            ns2:onProperty <http://idss.org/terms/country> ],
         <http://idss.org/terms/CERTIFICATION> ;
     ns1:prefLabel "Certificate holder/owner/certified organization address" .
 
@@ -11844,19 +11844,11 @@
     rdfs:subClassOf [ a ns2:Restriction ;
             ns2:maxQualifiedCardinality 1 ;
             ns2:onDataRange xsd:string ;
-            ns2:onProperty <http://idss.org/terms/latitude_location_coordinate> ],
-        [ a ns2:Restriction ;
-            ns2:maxQualifiedCardinality 1 ;
-            ns2:onDataRange xsd:string ;
-            ns2:onProperty <http://idss.org/terms/city> ],
-        [ a ns2:Restriction ;
-            ns2:maxQualifiedCardinality 1 ;
-            ns2:onDataRange xsd:float ;
-            ns2:onProperty <http://idss.org/terms/phone_country_code> ],
-        [ a ns2:Restriction ;
-            ns2:maxQualifiedCardinality 1 ;
-            ns2:onDataRange xsd:string ;
             ns2:onProperty <http://idss.org/terms/email_address> ],
+        [ a ns2:Restriction ;
+            ns2:maxQualifiedCardinality 1 ;
+            ns2:onDataRange xsd:string ;
+            ns2:onProperty <http://idss.org/terms/longitude_location_coordinate> ],
         [ a ns2:Restriction ;
             ns2:maxQualifiedCardinality 1 ;
             ns2:onDataRange xsd:string ;
@@ -11868,19 +11860,27 @@
         [ a ns2:Restriction ;
             ns2:maxQualifiedCardinality 1 ;
             ns2:onDataRange xsd:string ;
-            ns2:onProperty <http://idss.org/terms/website_url> ],
-        [ a ns2:Restriction ;
-            ns2:maxQualifiedCardinality 1 ;
-            ns2:onDataRange xsd:string ;
-            ns2:onProperty <http://idss.org/terms/longitude_location_coordinate> ],
-        [ a ns2:Restriction ;
-            ns2:maxQualifiedCardinality 1 ;
-            ns2:onDataRange xsd:float ;
-            ns2:onProperty <http://idss.org/terms/phone_number> ],
+            ns2:onProperty <http://idss.org/terms/city> ],
         [ a ns2:Restriction ;
             ns2:maxQualifiedCardinality 1 ;
             ns2:onClass <http://idss.org/terms/VOCAB_country> ;
             ns2:onProperty <http://idss.org/terms/country> ],
+        [ a ns2:Restriction ;
+            ns2:maxQualifiedCardinality 1 ;
+            ns2:onDataRange xsd:float ;
+            ns2:onProperty <http://idss.org/terms/phone_country_code> ],
+        [ a ns2:Restriction ;
+            ns2:maxQualifiedCardinality 1 ;
+            ns2:onDataRange xsd:string ;
+            ns2:onProperty <http://idss.org/terms/latitude_location_coordinate> ],
+        [ a ns2:Restriction ;
+            ns2:maxQualifiedCardinality 1 ;
+            ns2:onDataRange xsd:string ;
+            ns2:onProperty <http://idss.org/terms/website_url> ],
+        [ a ns2:Restriction ;
+            ns2:maxQualifiedCardinality 1 ;
+            ns2:onDataRange xsd:float ;
+            ns2:onProperty <http://idss.org/terms/phone_number> ],
         [ a ns2:Restriction ;
             ns2:maxQualifiedCardinality 1 ;
             ns2:onDataRange xsd:string ;
@@ -11890,27 +11890,18 @@
 
 <http://idss.org/terms/Pesticides> a ns2:Class ;
     rdfs:subClassOf [ a ns2:Restriction ;
-            ns2:onProperty <http://idss.org/terms/pest_species_name> ;
+            ns2:onProperty <http://idss.org/terms/pest_type> ;
+            ns2:someValuesFrom <http://idss.org/terms/VOCAB_pest_type> ],
+        [ a ns2:Restriction ;
+            ns2:onProperty <http://idss.org/terms/alternatives_challenge> ;
+            ns2:someValuesFrom xsd:string ],
+        [ a ns2:Restriction ;
+            ns2:onProperty <http://idss.org/terms/biocontrol_agent> ;
             ns2:someValuesFrom xsd:string ],
         [ a ns2:Restriction ;
             ns2:maxQualifiedCardinality 1 ;
             ns2:onClass <http://idss.org/terms/VOCAB_alternatives_trial_status> ;
             ns2:onProperty <http://idss.org/terms/alternatives_trial_status> ],
-        [ a ns2:Restriction ;
-            ns2:onProperty <http://idss.org/terms/active_ingredient> ;
-            ns2:someValuesFrom <http://idss.org/terms/VOCAB_active_ingredient> ],
-        [ a ns2:Restriction ;
-            ns2:onProperty <http://idss.org/terms/pest_common_name> ;
-            ns2:someValuesFrom xsd:string ],
-        [ a ns2:Restriction ;
-            ns2:onProperty <http://idss.org/terms/alternatives_method> ;
-            ns2:someValuesFrom <http://idss.org/terms/VOCAB_alternatives_method> ],
-        [ a ns2:Restriction ;
-            ns2:onProperty <http://idss.org/terms/common_name> ;
-            ns2:someValuesFrom <http://idss.org/terms/VOCAB_common_name> ],
-        [ a ns2:Restriction ;
-            ns2:onProperty <http://idss.org/terms/biocontrol_agent> ;
-            ns2:someValuesFrom xsd:string ],
         [ a ns2:Restriction ;
             ns2:onProperty <http://idss.org/terms/alternatives_type> ;
             ns2:someValuesFrom <http://idss.org/terms/VOCAB_alternatives_type> ],
@@ -11918,11 +11909,20 @@
             ns2:onProperty <http://idss.org/terms/alternatives_strategy> ;
             ns2:someValuesFrom xsd:string ],
         [ a ns2:Restriction ;
-            ns2:onProperty <http://idss.org/terms/alternatives_challenge> ;
+            ns2:onProperty <http://idss.org/terms/alternatives_method> ;
+            ns2:someValuesFrom <http://idss.org/terms/VOCAB_alternatives_method> ],
+        [ a ns2:Restriction ;
+            ns2:onProperty <http://idss.org/terms/pest_common_name> ;
             ns2:someValuesFrom xsd:string ],
         [ a ns2:Restriction ;
-            ns2:onProperty <http://idss.org/terms/pest_type> ;
-            ns2:someValuesFrom <http://idss.org/terms/VOCAB_pest_type> ],
+            ns2:onProperty <http://idss.org/terms/active_ingredient> ;
+            ns2:someValuesFrom <http://idss.org/terms/VOCAB_active_ingredient> ],
+        [ a ns2:Restriction ;
+            ns2:onProperty <http://idss.org/terms/pest_species_name> ;
+            ns2:someValuesFrom xsd:string ],
+        [ a ns2:Restriction ;
+            ns2:onProperty <http://idss.org/terms/common_name> ;
+            ns2:someValuesFrom <http://idss.org/terms/VOCAB_common_name> ],
         <http://idss.org/terms/PESTICIDES>,
         <http://idss.org/terms/VOCAB_product> ;
     ns1:prefLabel "Pesticides" .
@@ -11930,12 +11930,12 @@
 <http://idss.org/terms/Certificate> a ns2:Class ;
     rdfs:subClassOf [ a ns2:Restriction ;
             ns2:maxQualifiedCardinality 1 ;
-            ns2:onDataRange xsd:string ;
-            ns2:onProperty <http://idss.org/terms/license_code> ],
-        [ a ns2:Restriction ;
-            ns2:maxQualifiedCardinality 1 ;
             ns2:onDataRange xsd:date ;
             ns2:onProperty <http://idss.org/terms/first_issue_date> ],
+        [ a ns2:Restriction ;
+            ns2:maxQualifiedCardinality 1 ;
+            ns2:onClass <http://idss.org/terms/VOCAB_coverage_type> ;
+            ns2:onProperty <http://idss.org/terms/coverage_type> ],
         [ a ns2:Restriction ;
             ns2:maxQualifiedCardinality 1 ;
             ns2:onDataRange xsd:string ;
@@ -11946,20 +11946,28 @@
             ns2:onProperty <http://idss.org/terms/current_end_date> ],
         [ a ns2:Restriction ;
             ns2:maxQualifiedCardinality 1 ;
-            ns2:onDataRange xsd:date ;
-            ns2:onProperty <http://idss.org/terms/current_start_date> ],
+            ns2:onClass <http://idss.org/terms/VOCAB_license_status> ;
+            ns2:onProperty <http://idss.org/terms/license_status> ],
+        [ a ns2:Restriction ;
+            ns2:maxQualifiedCardinality 1 ;
+            ns2:onDataRange xsd:string ;
+            ns2:onProperty <http://idss.org/terms/scope> ],
         [ a ns2:Restriction ;
             ns2:maxQualifiedCardinality 1 ;
             ns2:onClass <http://idss.org/terms/VOCAB_status> ;
             ns2:onProperty <http://idss.org/terms/status> ],
         [ a ns2:Restriction ;
             ns2:maxQualifiedCardinality 1 ;
-            ns2:onClass <http://idss.org/terms/VOCAB_coverage_type> ;
-            ns2:onProperty <http://idss.org/terms/coverage_type> ],
+            ns2:onDataRange xsd:string ;
+            ns2:onProperty <http://idss.org/terms/code,_number_or_ID> ],
         [ a ns2:Restriction ;
             ns2:maxQualifiedCardinality 1 ;
             ns2:onClass <http://idss.org/terms/VOCAB_ownership_type> ;
             ns2:onProperty <http://idss.org/terms/ownership_type> ],
+        [ a ns2:Restriction ;
+            ns2:maxQualifiedCardinality 1 ;
+            ns2:onDataRange xsd:date ;
+            ns2:onProperty <http://idss.org/terms/current_start_date> ],
         [ a ns2:Restriction ;
             ns2:maxQualifiedCardinality 1 ;
             ns2:onClass <http://idss.org/terms/VOCAB_type> ;
@@ -11967,15 +11975,7 @@
         [ a ns2:Restriction ;
             ns2:maxQualifiedCardinality 1 ;
             ns2:onDataRange xsd:string ;
-            ns2:onProperty <http://idss.org/terms/scope> ],
-        [ a ns2:Restriction ;
-            ns2:maxQualifiedCardinality 1 ;
-            ns2:onClass <http://idss.org/terms/VOCAB_license_status> ;
-            ns2:onProperty <http://idss.org/terms/license_status> ],
-        [ a ns2:Restriction ;
-            ns2:maxQualifiedCardinality 1 ;
-            ns2:onDataRange xsd:string ;
-            ns2:onProperty <http://idss.org/terms/code,_number_or_ID> ],
+            ns2:onProperty <http://idss.org/terms/license_code> ],
         <http://idss.org/terms/CERTIFICATION>,
         <http://idss.org/terms/VOCAB_type> ;
     ns1:prefLabel "Certificate" .
@@ -11988,31 +11988,11 @@
         [ a ns2:Restriction ;
             ns2:maxQualifiedCardinality 1 ;
             ns2:onDataRange xsd:string ;
-            ns2:onProperty <http://idss.org/terms/latitude_location_coordinate> ],
-        [ a ns2:Restriction ;
-            ns2:maxQualifiedCardinality 1 ;
-            ns2:onDataRange xsd:string ;
-            ns2:onProperty <http://idss.org/terms/latitude_and_longitude_location_coordinates> ],
-        [ a ns2:Restriction ;
-            ns2:maxQualifiedCardinality 1 ;
-            ns2:onDataRange xsd:string ;
-            ns2:onProperty <http://idss.org/terms/natural_ecosystem_set-aside_(Ha)> ],
-        [ a ns2:Restriction ;
-            ns2:maxQualifiedCardinality 1 ;
-            ns2:onDataRange xsd:string ;
-            ns2:onProperty <http://idss.org/terms/admin_area_(Ha)> ],
-        [ a ns2:Restriction ;
-            ns2:maxQualifiedCardinality 1 ;
-            ns2:onDataRange xsd:string ;
-            ns2:onProperty <http://idss.org/terms/analysis_area_(Ha)> ],
+            ns2:onProperty <http://idss.org/terms/ID> ],
         [ a ns2:Restriction ;
             ns2:maxQualifiedCardinality 1 ;
             ns2:onDataRange xsd:string ;
             ns2:onProperty <http://idss.org/terms/area_(Ha)> ],
-        [ a ns2:Restriction ;
-            ns2:maxQualifiedCardinality 1 ;
-            ns2:onDataRange xsd:string ;
-            ns2:onProperty <http://idss.org/terms/longitude_location_coordinate> ],
         [ a ns2:Restriction ;
             ns2:maxQualifiedCardinality 1 ;
             ns2:onDataRange xsd:string ;
@@ -12024,57 +12004,77 @@
         [ a ns2:Restriction ;
             ns2:maxQualifiedCardinality 1 ;
             ns2:onDataRange xsd:string ;
-            ns2:onProperty <http://idss.org/terms/ID> ],
+            ns2:onProperty <http://idss.org/terms/latitude_and_longitude_location_coordinates> ],
+        [ a ns2:Restriction ;
+            ns2:maxQualifiedCardinality 1 ;
+            ns2:onDataRange xsd:string ;
+            ns2:onProperty <http://idss.org/terms/natural_ecosystem_set-aside_(Ha)> ],
         [ a ns2:Restriction ;
             ns2:maxQualifiedCardinality 1 ;
             ns2:onDataRange xsd:string ;
             ns2:onProperty <http://idss.org/terms/location_name> ],
+        [ a ns2:Restriction ;
+            ns2:maxQualifiedCardinality 1 ;
+            ns2:onDataRange xsd:string ;
+            ns2:onProperty <http://idss.org/terms/longitude_location_coordinate> ],
+        [ a ns2:Restriction ;
+            ns2:maxQualifiedCardinality 1 ;
+            ns2:onDataRange xsd:string ;
+            ns2:onProperty <http://idss.org/terms/admin_area_(Ha)> ],
+        [ a ns2:Restriction ;
+            ns2:maxQualifiedCardinality 1 ;
+            ns2:onDataRange xsd:string ;
+            ns2:onProperty <http://idss.org/terms/latitude_location_coordinate> ],
+        [ a ns2:Restriction ;
+            ns2:maxQualifiedCardinality 1 ;
+            ns2:onDataRange xsd:string ;
+            ns2:onProperty <http://idss.org/terms/analysis_area_(Ha)> ],
         <http://idss.org/terms/CERTIFICATION> ;
     ns1:prefLabel "Certified site" .
 
 <http://idss.org/terms/Certifying_body> a ns2:Class ;
     rdfs:subClassOf [ a ns2:Restriction ;
-            ns2:onProperty <http://idss.org/terms/standards_certified_for> ;
-            ns2:someValuesFrom xsd:string ],
-        [ a ns2:Restriction ;
-            ns2:onProperty <http://idss.org/terms/standards_accredited_for> ;
-            ns2:someValuesFrom xsd:string ],
-        [ a ns2:Restriction ;
-            ns2:maxQualifiedCardinality 1 ;
-            ns2:onDataRange xsd:string ;
-            ns2:onProperty <http://idss.org/terms/website_url> ],
+            ns2:onProperty <http://idss.org/terms/accredited_geographic_scope> ;
+            ns2:someValuesFrom <http://idss.org/terms/VOCAB_accredited_geographic_scope> ],
         [ a ns2:Restriction ;
             ns2:maxQualifiedCardinality 1 ;
             ns2:onClass <http://idss.org/terms/VOCAB_ASI_accreditation_code> ;
             ns2:onProperty <http://idss.org/terms/ASI_accreditation_code> ],
         [ a ns2:Restriction ;
-            ns2:onProperty <http://idss.org/terms/accredited_technical_scope_type> ;
-            ns2:someValuesFrom <http://idss.org/terms/VOCAB_accredited_technical_scope_type> ],
-        [ a ns2:Restriction ;
-            ns2:onProperty <http://idss.org/terms/program_or_scheme_accredited_for> ;
-            ns2:someValuesFrom <http://idss.org/terms/VOCAB_program_or_scheme_accredited_for> ],
-        [ a ns2:Restriction ;
-            ns2:onProperty <http://idss.org/terms/accredited_geographic_scope> ;
-            ns2:someValuesFrom <http://idss.org/terms/VOCAB_accredited_geographic_scope> ],
-        [ a ns2:Restriction ;
-            ns2:onProperty <http://idss.org/terms/accredited_technical_scope> ;
-            ns2:someValuesFrom <http://idss.org/terms/VOCAB_accredited_technical_scope> ],
+            ns2:maxQualifiedCardinality 1 ;
+            ns2:onDataRange xsd:date ;
+            ns2:onProperty <http://idss.org/terms/accreditation_start_date> ],
         [ a ns2:Restriction ;
             ns2:maxQualifiedCardinality 1 ;
             ns2:onClass <http://idss.org/terms/VOCAB_accreditation_status> ;
             ns2:onProperty <http://idss.org/terms/accreditation_status> ],
         [ a ns2:Restriction ;
             ns2:maxQualifiedCardinality 1 ;
+            ns2:onClass <http://idss.org/terms/VOCAB_name> ;
+            ns2:onProperty <http://idss.org/terms/name> ],
+        [ a ns2:Restriction ;
+            ns2:onProperty <http://idss.org/terms/accredited_technical_scope_type> ;
+            ns2:someValuesFrom <http://idss.org/terms/VOCAB_accredited_technical_scope_type> ],
+        [ a ns2:Restriction ;
+            ns2:onProperty <http://idss.org/terms/accredited_technical_scope> ;
+            ns2:someValuesFrom <http://idss.org/terms/VOCAB_accredited_technical_scope> ],
+        [ a ns2:Restriction ;
+            ns2:maxQualifiedCardinality 1 ;
             ns2:onDataRange xsd:date ;
             ns2:onProperty <http://idss.org/terms/accreditation_end_date> ],
         [ a ns2:Restriction ;
             ns2:maxQualifiedCardinality 1 ;
-            ns2:onClass <http://idss.org/terms/VOCAB_name> ;
-            ns2:onProperty <http://idss.org/terms/name> ],
+            ns2:onDataRange xsd:string ;
+            ns2:onProperty <http://idss.org/terms/website_url> ],
         [ a ns2:Restriction ;
-            ns2:maxQualifiedCardinality 1 ;
-            ns2:onDataRange xsd:date ;
-            ns2:onProperty <http://idss.org/terms/accreditation_start_date> ],
+            ns2:onProperty <http://idss.org/terms/standards_certified_for> ;
+            ns2:someValuesFrom xsd:string ],
+        [ a ns2:Restriction ;
+            ns2:onProperty <http://idss.org/terms/standards_accredited_for> ;
+            ns2:someValuesFrom xsd:string ],
+        [ a ns2:Restriction ;
+            ns2:onProperty <http://idss.org/terms/program_or_scheme_accredited_for> ;
+            ns2:someValuesFrom <http://idss.org/terms/VOCAB_program_or_scheme_accredited_for> ],
         <http://idss.org/terms/ASSURANCE> ;
     ns1:prefLabel "Certifying body" .
 
@@ -12090,54 +12090,54 @@
 <http://idss.org/terms/Evaluation> a ns2:Class ;
     rdfs:subClassOf [ a ns2:Restriction ;
             ns2:maxQualifiedCardinality 1 ;
-            ns2:onClass <http://idss.org/terms/VOCAB_comparison> ;
-            ns2:onProperty <http://idss.org/terms/comparison> ],
+            ns2:onClass <http://idss.org/terms/VOCAB_statistical_significance> ;
+            ns2:onProperty <http://idss.org/terms/statistical_significance> ],
         [ a ns2:Restriction ;
             ns2:onProperty <http://idss.org/terms/findings> ;
             ns2:someValuesFrom xsd:string ],
         [ a ns2:Restriction ;
+            ns2:onProperty <http://idss.org/terms/statistical_test> ;
+            ns2:someValuesFrom xsd:string ],
+        [ a ns2:Restriction ;
             ns2:onProperty <http://idss.org/terms/notes> ;
             ns2:someValuesFrom xsd:string ],
-        [ a ns2:Restriction ;
-            ns2:onProperty <http://idss.org/terms/quotes_on_impact> ;
-            ns2:someValuesFrom xsd:string ],
-        [ a ns2:Restriction ;
-            ns2:maxQualifiedCardinality 1 ;
-            ns2:onClass <http://idss.org/terms/VOCAB_counterfactuals> ;
-            ns2:onProperty <http://idss.org/terms/counterfactuals> ],
         [ a ns2:Restriction ;
             ns2:maxQualifiedCardinality 1 ;
             ns2:onClass <http://idss.org/terms/VOCAB_data/evidence_collection_method> ;
             ns2:onProperty <http://idss.org/terms/data/evidence_collection_method> ],
         [ a ns2:Restriction ;
             ns2:maxQualifiedCardinality 1 ;
-            ns2:onClass <http://idss.org/terms/VOCAB_author_directionality> ;
-            ns2:onProperty <http://idss.org/terms/author_directionality> ],
-        [ a ns2:Restriction ;
-            ns2:onProperty <http://idss.org/terms/statistical_test> ;
-            ns2:someValuesFrom xsd:string ],
-        [ a ns2:Restriction ;
-            ns2:onProperty <http://idss.org/terms/recommendations> ;
-            ns2:someValuesFrom xsd:string ],
-        [ a ns2:Restriction ;
-            ns2:onProperty <http://idss.org/terms/study_scope> ;
-            ns2:someValuesFrom xsd:string ],
+            ns2:onClass <http://idss.org/terms/VOCAB_comparison> ;
+            ns2:onProperty <http://idss.org/terms/comparison> ],
         [ a ns2:Restriction ;
             ns2:maxQualifiedCardinality 1 ;
             ns2:onClass <http://idss.org/terms/VOCAB_no_difference_directionality> ;
             ns2:onProperty <http://idss.org/terms/no_difference_directionality> ],
         [ a ns2:Restriction ;
             ns2:maxQualifiedCardinality 1 ;
+            ns2:onClass <http://idss.org/terms/VOCAB_outcome_identified?> ;
+            ns2:onProperty <http://idss.org/terms/outcome_identified?> ],
+        [ a ns2:Restriction ;
+            ns2:onProperty <http://idss.org/terms/quotes_on_impact> ;
+            ns2:someValuesFrom xsd:string ],
+        [ a ns2:Restriction ;
+            ns2:onProperty <http://idss.org/terms/recommendations> ;
+            ns2:someValuesFrom xsd:string ],
+        [ a ns2:Restriction ;
+            ns2:maxQualifiedCardinality 1 ;
             ns2:onClass <http://idss.org/terms/VOCAB_data_source> ;
             ns2:onProperty <http://idss.org/terms/data_source> ],
         [ a ns2:Restriction ;
             ns2:maxQualifiedCardinality 1 ;
-            ns2:onClass <http://idss.org/terms/VOCAB_statistical_significance> ;
-            ns2:onProperty <http://idss.org/terms/statistical_significance> ],
+            ns2:onClass <http://idss.org/terms/VOCAB_counterfactuals> ;
+            ns2:onProperty <http://idss.org/terms/counterfactuals> ],
         [ a ns2:Restriction ;
             ns2:maxQualifiedCardinality 1 ;
-            ns2:onClass <http://idss.org/terms/VOCAB_outcome_identified?> ;
-            ns2:onProperty <http://idss.org/terms/outcome_identified?> ],
+            ns2:onClass <http://idss.org/terms/VOCAB_author_directionality> ;
+            ns2:onProperty <http://idss.org/terms/author_directionality> ],
+        [ a ns2:Restriction ;
+            ns2:onProperty <http://idss.org/terms/study_scope> ;
+            ns2:someValuesFrom xsd:string ],
         <http://idss.org/terms/IMPACT> ;
     ns1:prefLabel "Evaluation" .
 
@@ -12191,14 +12191,39 @@
 
 <http://idss.org/terms/FSC_scope> a ns2:Class ;
     rdfs:subClassOf [ a ns2:Restriction ;
-            ns2:onProperty <http://idss.org/terms/forest_monitoring_methods> ;
-            ns2:someValuesFrom <http://idss.org/terms/VOCAB_forest_monitoring_methods> ],
+            ns2:onProperty <http://idss.org/terms/outcomes_and_benefits> ;
+            ns2:someValuesFrom <http://idss.org/terms/VOCAB_outcomes_and_benefits> ],
+        [ a ns2:Restriction ;
+            ns2:onProperty <http://idss.org/terms/environmental_issues> ;
+            ns2:someValuesFrom xsd:string ],
+        [ a ns2:Restriction ;
+            ns2:maxQualifiedCardinality 1 ;
+            ns2:onClass <http://idss.org/terms/VOCAB_SLIMF_type> ;
+            ns2:onProperty <http://idss.org/terms/SLIMF_type> ],
+        [ a ns2:Restriction ;
+            ns2:onProperty <http://idss.org/terms/forest_products_identification_system> ;
+            ns2:someValuesFrom <http://idss.org/terms/VOCAB_forest_products_identification_system> ],
+        [ a ns2:Restriction ;
+            ns2:onProperty <http://idss.org/terms/tenure_ownership> ;
+            ns2:someValuesFrom <http://idss.org/terms/VOCAB_tenure_ownership> ],
+        [ a ns2:Restriction ;
+            ns2:onProperty <http://idss.org/terms/social_topics> ;
+            ns2:someValuesFrom xsd:string ],
+        [ a ns2:Restriction ;
+            ns2:onProperty <http://idss.org/terms/high_conservation_values> ;
+            ns2:someValuesFrom <http://idss.org/terms/VOCAB_high_conservation_values> ],
+        [ a ns2:Restriction ;
+            ns2:onProperty <http://idss.org/terms/political,_systemic_or_legal_topics> ;
+            ns2:someValuesFrom xsd:string ],
+        [ a ns2:Restriction ;
+            ns2:onProperty <http://idss.org/terms/non-forestry_activities> ;
+            ns2:someValuesFrom <http://idss.org/terms/VOCAB_non-forestry_activities> ],
+        [ a ns2:Restriction ;
+            ns2:onProperty <http://idss.org/terms/tenure_management> ;
+            ns2:someValuesFrom <http://idss.org/terms/VOCAB_tenure_management> ],
         [ a ns2:Restriction ;
             ns2:onProperty <http://idss.org/terms/forestry_environmental_safeguards> ;
             ns2:someValuesFrom <http://idss.org/terms/VOCAB_forestry_environmental_safeguards> ],
-        [ a ns2:Restriction ;
-            ns2:onProperty <http://idss.org/terms/economic_topics> ;
-            ns2:someValuesFrom xsd:string ],
         [ a ns2:Restriction ;
             ns2:onProperty <http://idss.org/terms/non-forestry_services_for_local_communities> ;
             ns2:someValuesFrom <http://idss.org/terms/VOCAB_non-forestry_services_for_local_communities> ],
@@ -12206,72 +12231,47 @@
             ns2:onProperty <http://idss.org/terms/forest_management_principle> ;
             ns2:someValuesFrom <http://idss.org/terms/VOCAB_forest_management_principle> ],
         [ a ns2:Restriction ;
-            ns2:onProperty <http://idss.org/terms/forest_products> ;
-            ns2:someValuesFrom <http://idss.org/terms/VOCAB_forest_products> ],
-        [ a ns2:Restriction ;
-            ns2:onProperty <http://idss.org/terms/forest_products_identification_system> ;
-            ns2:someValuesFrom <http://idss.org/terms/VOCAB_forest_products_identification_system> ],
-        [ a ns2:Restriction ;
-            ns2:onProperty <http://idss.org/terms/controlled_wood_code> ;
-            ns2:someValuesFrom <http://idss.org/terms/VOCAB_controlled_wood_code> ],
-        [ a ns2:Restriction ;
-            ns2:maxQualifiedCardinality 1 ;
-            ns2:onClass <http://idss.org/terms/VOCAB_SLIMF_type> ;
-            ns2:onProperty <http://idss.org/terms/SLIMF_type> ],
-        [ a ns2:Restriction ;
-            ns2:onProperty <http://idss.org/terms/subject_keywords> ;
-            ns2:someValuesFrom xsd:string ],
-        [ a ns2:Restriction ;
-            ns2:onProperty <http://idss.org/terms/political,_systemic_or_legal_topics> ;
-            ns2:someValuesFrom xsd:string ],
-        [ a ns2:Restriction ;
             ns2:onProperty <http://idss.org/terms/environmental_topics> ;
             ns2:someValuesFrom xsd:string ],
         [ a ns2:Restriction ;
-            ns2:onProperty <http://idss.org/terms/social_topics> ;
+            ns2:onProperty <http://idss.org/terms/political,_systemic_or_legal_issues> ;
             ns2:someValuesFrom xsd:string ],
         [ a ns2:Restriction ;
-            ns2:onProperty <http://idss.org/terms/environmental_issues> ;
-            ns2:someValuesFrom xsd:string ],
+            ns2:onProperty <http://idss.org/terms/forest_biome_/_zone> ;
+            ns2:someValuesFrom <http://idss.org/terms/VOCAB_forest_biome_/_zone> ],
+        [ a ns2:Restriction ;
+            ns2:onProperty <http://idss.org/terms/forest_type> ;
+            ns2:someValuesFrom <http://idss.org/terms/VOCAB_forest_type> ],
+        [ a ns2:Restriction ;
+            ns2:onProperty <http://idss.org/terms/sustainability_dimension> ;
+            ns2:someValuesFrom <http://idss.org/terms/VOCAB_sustainability_dimension> ],
+        [ a ns2:Restriction ;
+            ns2:onProperty <http://idss.org/terms/forest_monitoring_methods> ;
+            ns2:someValuesFrom <http://idss.org/terms/VOCAB_forest_monitoring_methods> ],
         [ a ns2:Restriction ;
             ns2:onProperty <http://idss.org/terms/economic_issues> ;
+            ns2:someValuesFrom xsd:string ],
+        [ a ns2:Restriction ;
+            ns2:onProperty <http://idss.org/terms/social_issues> ;
             ns2:someValuesFrom xsd:string ],
         [ a ns2:Restriction ;
             ns2:onProperty <http://idss.org/terms/forest_and_tree_species> ;
             ns2:someValuesFrom <http://idss.org/terms/VOCAB_forest_and_tree_species> ],
         [ a ns2:Restriction ;
-            ns2:onProperty <http://idss.org/terms/forest_type> ;
-            ns2:someValuesFrom <http://idss.org/terms/VOCAB_forest_type> ],
+            ns2:onProperty <http://idss.org/terms/economic_topics> ;
+            ns2:someValuesFrom xsd:string ],
         [ a ns2:Restriction ;
             ns2:onProperty <http://idss.org/terms/forest_harvesting_techniques> ;
             ns2:someValuesFrom <http://idss.org/terms/VOCAB_forest_harvesting_techniques> ],
         [ a ns2:Restriction ;
-            ns2:onProperty <http://idss.org/terms/tenure_ownership> ;
-            ns2:someValuesFrom <http://idss.org/terms/VOCAB_tenure_ownership> ],
+            ns2:onProperty <http://idss.org/terms/controlled_wood_code> ;
+            ns2:someValuesFrom <http://idss.org/terms/VOCAB_controlled_wood_code> ],
         [ a ns2:Restriction ;
-            ns2:onProperty <http://idss.org/terms/sustainability_dimension> ;
-            ns2:someValuesFrom <http://idss.org/terms/VOCAB_sustainability_dimension> ],
-        [ a ns2:Restriction ;
-            ns2:onProperty <http://idss.org/terms/social_issues> ;
+            ns2:onProperty <http://idss.org/terms/subject_keywords> ;
             ns2:someValuesFrom xsd:string ],
         [ a ns2:Restriction ;
-            ns2:onProperty <http://idss.org/terms/non-forestry_activities> ;
-            ns2:someValuesFrom <http://idss.org/terms/VOCAB_non-forestry_activities> ],
-        [ a ns2:Restriction ;
-            ns2:onProperty <http://idss.org/terms/forest_biome_/_zone> ;
-            ns2:someValuesFrom <http://idss.org/terms/VOCAB_forest_biome_/_zone> ],
-        [ a ns2:Restriction ;
-            ns2:onProperty <http://idss.org/terms/tenure_management> ;
-            ns2:someValuesFrom <http://idss.org/terms/VOCAB_tenure_management> ],
-        [ a ns2:Restriction ;
-            ns2:onProperty <http://idss.org/terms/outcomes_and_benefits> ;
-            ns2:someValuesFrom <http://idss.org/terms/VOCAB_outcomes_and_benefits> ],
-        [ a ns2:Restriction ;
-            ns2:onProperty <http://idss.org/terms/political,_systemic_or_legal_issues> ;
-            ns2:someValuesFrom xsd:string ],
-        [ a ns2:Restriction ;
-            ns2:onProperty <http://idss.org/terms/high_conservation_values> ;
-            ns2:someValuesFrom <http://idss.org/terms/VOCAB_high_conservation_values> ],
+            ns2:onProperty <http://idss.org/terms/forest_products> ;
+            ns2:someValuesFrom <http://idss.org/terms/VOCAB_forest_products> ],
         [ a ns2:Restriction ;
             ns2:onProperty <http://idss.org/terms/forest_management_type_of_control> ;
             ns2:someValuesFrom <http://idss.org/terms/VOCAB_forest_management_type_of_control> ],
@@ -12294,111 +12294,13 @@
     rdfs:subClassOf [ a ns2:Restriction ;
             ns2:maxQualifiedCardinality 1 ;
             ns2:onDataRange xsd:string ;
-            ns2:onProperty <http://idss.org/terms/pagination> ],
-        [ a ns2:Restriction ;
-            ns2:maxQualifiedCardinality 1 ;
-            ns2:onDataRange xsd:string ;
-            ns2:onProperty <http://idss.org/terms/extent> ],
-        [ a ns2:Restriction ;
-            ns2:maxQualifiedCardinality 1 ;
-            ns2:onDataRange xsd:string ;
-            ns2:onProperty <http://idss.org/terms/journal_name> ],
-        [ a ns2:Restriction ;
-            ns2:maxQualifiedCardinality 1 ;
-            ns2:onDataRange xsd:string ;
-            ns2:onProperty <http://idss.org/terms/other_titles> ],
-        [ a ns2:Restriction ;
-            ns2:maxQualifiedCardinality 1 ;
-            ns2:onDataRange xsd:string ;
-            ns2:onProperty <http://idss.org/terms/access_license_holder> ],
-        [ a ns2:Restriction ;
-            ns2:maxQualifiedCardinality 1 ;
-            ns2:onDataRange xsd:string ;
-            ns2:onProperty <http://idss.org/terms/version> ],
-        [ a ns2:Restriction ;
-            ns2:maxQualifiedCardinality 1 ;
-            ns2:onDataRange xsd:date ;
-            ns2:onProperty <http://idss.org/terms/date_changed> ],
-        [ a ns2:Restriction ;
-            ns2:maxQualifiedCardinality 1 ;
-            ns2:onDataRange xsd:string ;
-            ns2:onProperty <http://idss.org/terms/number> ],
-        [ a ns2:Restriction ;
-            ns2:maxQualifiedCardinality 1 ;
-            ns2:onDataRange xsd:date ;
-            ns2:onProperty <http://idss.org/terms/date_accessioned_by_system> ],
-        [ a ns2:Restriction ;
-            ns2:maxQualifiedCardinality 1 ;
-            ns2:onClass <http://idss.org/terms/VOCAB_transition_status> ;
-            ns2:onProperty <http://idss.org/terms/transition_status> ],
-        [ a ns2:Restriction ;
-            ns2:onProperty <http://idss.org/terms/DOI> ;
-            ns2:someValuesFrom xsd:string ],
-        [ a ns2:Restriction ;
-            ns2:maxQualifiedCardinality 1 ;
-            ns2:onDataRange xsd:string ;
-            ns2:onProperty <http://idss.org/terms/abstract> ],
-        [ a ns2:Restriction ;
-            ns2:onProperty <http://idss.org/terms/date_reviewed> ;
-            ns2:someValuesFrom xsd:date ],
-        [ a ns2:Restriction ;
-            ns2:maxQualifiedCardinality 1 ;
-            ns2:onClass <http://idss.org/terms/VOCAB_access_rights> ;
-            ns2:onProperty <http://idss.org/terms/access_rights> ],
-        [ a ns2:Restriction ;
-            ns2:onProperty <http://idss.org/terms/date_revised> ;
-            ns2:someValuesFrom xsd:date ],
-        [ a ns2:Restriction ;
-            ns2:maxQualifiedCardinality 1 ;
-            ns2:onDataRange xsd:date ;
-            ns2:onProperty <http://idss.org/terms/date_issued_or_published> ],
-        [ a ns2:Restriction ;
-            ns2:maxQualifiedCardinality 1 ;
-            ns2:onClass <http://idss.org/terms/VOCAB_audience> ;
-            ns2:onProperty <http://idss.org/terms/audience> ],
-        [ a ns2:Restriction ;
-            ns2:maxQualifiedCardinality 1 ;
-            ns2:onClass <http://idss.org/terms/VOCAB_peer_review_status> ;
-            ns2:onProperty <http://idss.org/terms/peer_review_status> ],
-        [ a ns2:Restriction ;
-            ns2:maxQualifiedCardinality 1 ;
-            ns2:onDataRange xsd:string ;
-            ns2:onProperty <http://idss.org/terms/notes> ],
-        [ a ns2:Restriction ;
-            ns2:maxQualifiedCardinality 1 ;
-            ns2:onDataRange xsd:string ;
-            ns2:onProperty <http://idss.org/terms/publication_place> ],
-        [ a ns2:Restriction ;
-            ns2:maxQualifiedCardinality 1 ;
-            ns2:onDataRange xsd:string ;
-            ns2:onProperty <http://idss.org/terms/citation> ],
-        [ a ns2:Restriction ;
-            ns2:maxQualifiedCardinality 1 ;
-            ns2:onDataRange xsd:date ;
-            ns2:onProperty <http://idss.org/terms/date_of_version> ],
-        [ a ns2:Restriction ;
-            ns2:maxQualifiedCardinality 1 ;
-            ns2:onDataRange xsd:date ;
-            ns2:onProperty <http://idss.org/terms/date_created> ],
-        [ a ns2:Restriction ;
-            ns2:maxQualifiedCardinality 1 ;
-            ns2:onDataRange xsd:string ;
-            ns2:onProperty <http://idss.org/terms/contact_email> ],
-        [ a ns2:Restriction ;
-            ns2:maxQualifiedCardinality 1 ;
-            ns2:onClass <http://idss.org/terms/VOCAB_language_ISO_code> ;
-            ns2:onProperty <http://idss.org/terms/language_ISO_code> ],
-        [ a ns2:Restriction ;
-            ns2:maxQualifiedCardinality 1 ;
-            ns2:onDataRange xsd:date ;
-            ns2:onProperty <http://idss.org/terms/date_available_through_a_system> ],
+            ns2:onProperty <http://idss.org/terms/title> ],
         [ a ns2:Restriction ;
             ns2:onProperty <http://idss.org/terms/authors> ;
             ns2:someValuesFrom xsd:string ],
         [ a ns2:Restriction ;
-            ns2:maxQualifiedCardinality 1 ;
-            ns2:onClass <http://idss.org/terms/VOCAB_access_license> ;
-            ns2:onProperty <http://idss.org/terms/access_license> ],
+            ns2:onProperty <http://idss.org/terms/funding_source> ;
+            ns2:someValuesFrom xsd:string ],
         [ a ns2:Restriction ;
             ns2:maxQualifiedCardinality 1 ;
             ns2:onDataRange xsd:date ;
@@ -12406,44 +12308,15 @@
         [ a ns2:Restriction ;
             ns2:maxQualifiedCardinality 1 ;
             ns2:onDataRange xsd:string ;
-            ns2:onProperty <http://idss.org/terms/Uniform_Resource_Identifier> ],
-        [ a ns2:Restriction ;
-            ns2:onProperty <http://idss.org/terms/funding_source> ;
-            ns2:someValuesFrom xsd:string ],
-        [ a ns2:Restriction ;
-            ns2:onProperty <http://idss.org/terms/publisher> ;
-            ns2:someValuesFrom xsd:string ],
-        [ a ns2:Restriction ;
-            ns2:maxQualifiedCardinality 1 ;
-            ns2:onClass <http://idss.org/terms/VOCAB_availability> ;
-            ns2:onProperty <http://idss.org/terms/availability> ],
-        [ a ns2:Restriction ;
-            ns2:maxQualifiedCardinality 1 ;
-            ns2:onDataRange xsd:string ;
-            ns2:onProperty <http://idss.org/terms/edition> ],
-        [ a ns2:Restriction ;
-            ns2:onProperty <http://idss.org/terms/funding_source_type> ;
-            ns2:someValuesFrom <http://idss.org/terms/VOCAB_funding_source_type> ],
-        [ a ns2:Restriction ;
-            ns2:maxQualifiedCardinality 1 ;
-            ns2:onDataRange xsd:string ;
-            ns2:onProperty <http://idss.org/terms/contact_name> ],
-        [ a ns2:Restriction ;
-            ns2:maxQualifiedCardinality 1 ;
-            ns2:onClass <http://idss.org/terms/VOCAB_status> ;
-            ns2:onProperty <http://idss.org/terms/status> ],
-        [ a ns2:Restriction ;
-            ns2:maxQualifiedCardinality 1 ;
-            ns2:onDataRange xsd:string ;
             ns2:onProperty <http://idss.org/terms/ISBN> ],
         [ a ns2:Restriction ;
             ns2:maxQualifiedCardinality 1 ;
             ns2:onDataRange xsd:string ;
-            ns2:onProperty <http://idss.org/terms/is_replaced_by_another_item_or_resource> ],
+            ns2:onProperty <http://idss.org/terms/version> ],
         [ a ns2:Restriction ;
             ns2:maxQualifiedCardinality 1 ;
             ns2:onDataRange xsd:string ;
-            ns2:onProperty <http://idss.org/terms/volume> ],
+            ns2:onProperty <http://idss.org/terms/number> ],
         [ a ns2:Restriction ;
             ns2:maxQualifiedCardinality 1 ;
             ns2:onClass <http://idss.org/terms/VOCAB_type> ;
@@ -12454,16 +12327,143 @@
             ns2:onProperty <http://idss.org/terms/ID> ],
         [ a ns2:Restriction ;
             ns2:maxQualifiedCardinality 1 ;
-            ns2:onClass <http://idss.org/terms/VOCAB_language_name> ;
-            ns2:onProperty <http://idss.org/terms/language_name> ],
+            ns2:onDataRange xsd:date ;
+            ns2:onProperty <http://idss.org/terms/date_of_version> ],
+        [ a ns2:Restriction ;
+            ns2:onProperty <http://idss.org/terms/DOI> ;
+            ns2:someValuesFrom xsd:string ],
+        [ a ns2:Restriction ;
+            ns2:maxQualifiedCardinality 1 ;
+            ns2:onDataRange xsd:date ;
+            ns2:onProperty <http://idss.org/terms/date_issued_or_published> ],
+        [ a ns2:Restriction ;
+            ns2:maxQualifiedCardinality 1 ;
+            ns2:onClass <http://idss.org/terms/VOCAB_access_license> ;
+            ns2:onProperty <http://idss.org/terms/access_license> ],
         [ a ns2:Restriction ;
             ns2:maxQualifiedCardinality 1 ;
             ns2:onDataRange xsd:string ;
-            ns2:onProperty <http://idss.org/terms/title> ],
+            ns2:onProperty <http://idss.org/terms/abstract> ],
+        [ a ns2:Restriction ;
+            ns2:onProperty <http://idss.org/terms/publisher> ;
+            ns2:someValuesFrom xsd:string ],
+        [ a ns2:Restriction ;
+            ns2:maxQualifiedCardinality 1 ;
+            ns2:onDataRange xsd:string ;
+            ns2:onProperty <http://idss.org/terms/contact_name> ],
+        [ a ns2:Restriction ;
+            ns2:maxQualifiedCardinality 1 ;
+            ns2:onDataRange xsd:string ;
+            ns2:onProperty <http://idss.org/terms/volume> ],
+        [ a ns2:Restriction ;
+            ns2:maxQualifiedCardinality 1 ;
+            ns2:onDataRange xsd:date ;
+            ns2:onProperty <http://idss.org/terms/date_created> ],
+        [ a ns2:Restriction ;
+            ns2:onProperty <http://idss.org/terms/funding_source_type> ;
+            ns2:someValuesFrom <http://idss.org/terms/VOCAB_funding_source_type> ],
+        [ a ns2:Restriction ;
+            ns2:maxQualifiedCardinality 1 ;
+            ns2:onClass <http://idss.org/terms/VOCAB_peer_review_status> ;
+            ns2:onProperty <http://idss.org/terms/peer_review_status> ],
+        [ a ns2:Restriction ;
+            ns2:maxQualifiedCardinality 1 ;
+            ns2:onDataRange xsd:string ;
+            ns2:onProperty <http://idss.org/terms/journal_name> ],
+        [ a ns2:Restriction ;
+            ns2:maxQualifiedCardinality 1 ;
+            ns2:onDataRange xsd:date ;
+            ns2:onProperty <http://idss.org/terms/date_changed> ],
+        [ a ns2:Restriction ;
+            ns2:maxQualifiedCardinality 1 ;
+            ns2:onDataRange xsd:string ;
+            ns2:onProperty <http://idss.org/terms/contact_email> ],
+        [ a ns2:Restriction ;
+            ns2:maxQualifiedCardinality 1 ;
+            ns2:onDataRange xsd:string ;
+            ns2:onProperty <http://idss.org/terms/citation> ],
+        [ a ns2:Restriction ;
+            ns2:maxQualifiedCardinality 1 ;
+            ns2:onClass <http://idss.org/terms/VOCAB_audience> ;
+            ns2:onProperty <http://idss.org/terms/audience> ],
+        [ a ns2:Restriction ;
+            ns2:maxQualifiedCardinality 1 ;
+            ns2:onDataRange xsd:date ;
+            ns2:onProperty <http://idss.org/terms/date_available_through_a_system> ],
+        [ a ns2:Restriction ;
+            ns2:maxQualifiedCardinality 1 ;
+            ns2:onDataRange xsd:string ;
+            ns2:onProperty <http://idss.org/terms/Uniform_Resource_Identifier> ],
+        [ a ns2:Restriction ;
+            ns2:maxQualifiedCardinality 1 ;
+            ns2:onClass <http://idss.org/terms/VOCAB_access_rights> ;
+            ns2:onProperty <http://idss.org/terms/access_rights> ],
+        [ a ns2:Restriction ;
+            ns2:maxQualifiedCardinality 1 ;
+            ns2:onDataRange xsd:string ;
+            ns2:onProperty <http://idss.org/terms/edition> ],
+        [ a ns2:Restriction ;
+            ns2:maxQualifiedCardinality 1 ;
+            ns2:onDataRange xsd:string ;
+            ns2:onProperty <http://idss.org/terms/access_license_holder> ],
+        [ a ns2:Restriction ;
+            ns2:maxQualifiedCardinality 1 ;
+            ns2:onDataRange xsd:string ;
+            ns2:onProperty <http://idss.org/terms/other_titles> ],
+        [ a ns2:Restriction ;
+            ns2:maxQualifiedCardinality 1 ;
+            ns2:onDataRange xsd:string ;
+            ns2:onProperty <http://idss.org/terms/pagination> ],
+        [ a ns2:Restriction ;
+            ns2:onProperty <http://idss.org/terms/date_reviewed> ;
+            ns2:someValuesFrom xsd:date ],
+        [ a ns2:Restriction ;
+            ns2:maxQualifiedCardinality 1 ;
+            ns2:onClass <http://idss.org/terms/VOCAB_language_ISO_code> ;
+            ns2:onProperty <http://idss.org/terms/language_ISO_code> ],
+        [ a ns2:Restriction ;
+            ns2:maxQualifiedCardinality 1 ;
+            ns2:onClass <http://idss.org/terms/VOCAB_language_name> ;
+            ns2:onProperty <http://idss.org/terms/language_name> ],
+        [ a ns2:Restriction ;
+            ns2:onProperty <http://idss.org/terms/date_revised> ;
+            ns2:someValuesFrom xsd:date ],
+        [ a ns2:Restriction ;
+            ns2:maxQualifiedCardinality 1 ;
+            ns2:onClass <http://idss.org/terms/VOCAB_transition_status> ;
+            ns2:onProperty <http://idss.org/terms/transition_status> ],
+        [ a ns2:Restriction ;
+            ns2:maxQualifiedCardinality 1 ;
+            ns2:onDataRange xsd:date ;
+            ns2:onProperty <http://idss.org/terms/date_accessioned_by_system> ],
+        [ a ns2:Restriction ;
+            ns2:maxQualifiedCardinality 1 ;
+            ns2:onDataRange xsd:string ;
+            ns2:onProperty <http://idss.org/terms/is_replaced_by_another_item_or_resource> ],
+        [ a ns2:Restriction ;
+            ns2:maxQualifiedCardinality 1 ;
+            ns2:onClass <http://idss.org/terms/VOCAB_status> ;
+            ns2:onProperty <http://idss.org/terms/status> ],
+        [ a ns2:Restriction ;
+            ns2:maxQualifiedCardinality 1 ;
+            ns2:onClass <http://idss.org/terms/VOCAB_availability> ;
+            ns2:onProperty <http://idss.org/terms/availability> ],
         [ a ns2:Restriction ;
             ns2:maxQualifiedCardinality 1 ;
             ns2:onDataRange xsd:string ;
             ns2:onProperty <http://idss.org/terms/series_name> ],
+        [ a ns2:Restriction ;
+            ns2:maxQualifiedCardinality 1 ;
+            ns2:onDataRange xsd:string ;
+            ns2:onProperty <http://idss.org/terms/publication_place> ],
+        [ a ns2:Restriction ;
+            ns2:maxQualifiedCardinality 1 ;
+            ns2:onDataRange xsd:string ;
+            ns2:onProperty <http://idss.org/terms/extent> ],
+        [ a ns2:Restriction ;
+            ns2:maxQualifiedCardinality 1 ;
+            ns2:onDataRange xsd:string ;
+            ns2:onProperty <http://idss.org/terms/notes> ],
         <http://idss.org/terms/CORE> ;
     ns1:prefLabel "Item or resource" .
 
