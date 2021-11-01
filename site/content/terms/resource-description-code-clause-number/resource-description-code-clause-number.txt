@@ -1,0 +1,108 @@
+A-4.1.1-Accountability
+A-4.2.1-Risk management plan
+A-4.2.2-Liability and Financing
+A-4.3.1-Assurance model
+A-4.4.1-Data sources
+A-4.4.2-Information management system
+A-4.4.3-Data integrity
+A-4.4.4-Data governance
+A-4.5.1-Management reviews
+A-4.5.2-Improvement feedback loop
+A-4-Efficiency and Improvement
+A-5.1.10-Remediation and consequences
+A-5.1.11-Integrity of assurance status
+A-5.1.12-Complaints procedure
+A-5.1.13-Misrepresentation and corruption
+A-5.1.14-Records and document control
+A-5.1.1-Documented management system
+A-5.1.2-Assessment methodology
+A-5.1.3-Sampling within the assessment
+A-5.1.4-Use of technical experts
+A-5.1.5-Exceptions
+A-5.1.6-Group assessment
+A-5.1.7-Group non-conformities
+A-5.1.8-Decision-making mechanism
+A-5.1.9-Appeals
+A-5.2.1-Legality
+A-5.2.2-Legal contracts
+A-5.2.3-Internal audits
+A-5.2.4-Responsibility for outsourcing
+A-5.2.5-Authority for assurance decisions
+A-5.3.1-Equivalence arrangements
+A-5.4.1-Oversight mechanism
+A-5.4.2-Independence of oversight
+A-5.4.3-Competence of oversight personnel
+A-5.4.4-Authority of oversight bodies
+A-5.4.5-Accreditation
+A-5.4.6-Proxy accreditation
+A-5.5.1-Personnel competencies
+A-5.5.2-Building competence
+A-5.5.3-Auditor calibration
+A-5.5.4-Evaluation of competency
+A-5.6.1-Impartiality and Conflicts of interest
+A-5.6.2-Auditor impartiality
+A-5.6.3-Impartiality in the assessment
+A-5.6.4-Impartial decision-making
+A-5-Rigour and Impartiality
+A-6.1.1-Information on performance
+A-6.2.1-Accessibility
+A-6.2.2-Risk-based assessment
+A-6.3.1-Publicly available information
+A-6.3.2-Stakeholder input
+I-8.3-Performance Monitoring
+I-8.4-Quality Assurance for Performance Monitoring
+I-8.5-Outcome and Impact Evaluations
+I-8.6-Quality Assurance for Outcome and Impact Evaluations
+I-8.7-Monitoring and Evaluation Reports
+I-8.8-Indicator Alignment
+I-8.9-Communication of Evaluation Results
+I-9. Learning and Improving-
+I-9.1-Internalising Learning and Improving
+I-9.2-Improving M&E System Effectiveness
+I-9.3-Responding to and Using M&E Results
+I--Aspirational Good Practice
+SS-4.1-Standard-Setting Procedures
+SS-4.2-Consistency Between Standards
+SS-5.10-Records
+SS-5.11-Resolving Complaints
+SS-5.1-Terms of Reference
+SS-5.2-Stakeholder Identification
+SS-5.3-Public Summary
+SS-5.4-Public Consultation
+SS-5.5-Feasibility Assessment
+SS-5.6-Decision-Making
+SS-5.7-Standards' Availability
+SS-5.8-Review and Revision of Standards
+SS-5.9-Transition Period
+SS-6.1-Sustainability Outcomes
+SS-6.2-Performance Level
+SS-6.3-Consistent Interpretation
+SS-6.4-Local ApplicabilityA-6.3.3-Changes to the assurance system
+A-6-Value and Accessbility
+I-10. Transparency and Public Information-
+I-10.1-Publicly Available Information About the M&E System
+I-10.2-Transparency of Evaluations
+I-10.3-Substantiating Claims
+I-10.4-Increased Transparency, Public Access, and Engagement
+I-5.1-Monitoring and Evaluation System
+I-5.2-Scope and Boundaries of the M&E System
+I-5.3-Plan for Expansion
+I-5.4-Resources
+I-5.5-Roles and Responsibilities
+I-5.6-Data Management
+I-5.7-Data Confidentiality and Use
+I-5.8-Integrating M&E in the Organisation
+I-5.9-Cooperation and Coordination
+I-6. Stakeholder Engagement in M&E System Design-
+I-6.1-Stakeholder Identification
+I-6.2-Stakeholder Consultation
+I-7. Defining the Intended Change
+I-7.1-Intended Impact and Outcomes
+I-7.2-Causal Pathways
+I-7.3-Unintended Effects
+I-7.4-Influencing Factors
+I-8. Monitoring and Evaluation-
+I-8.11-Ethical Guidelines
+I-8.1-Benefits of M&E for Entities Involved in the Standard System
+I-8.1-Performance Monitoring and Outcome and Impact Evaluation
+I-8.2-Indicators

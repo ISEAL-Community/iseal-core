@@ -1,0 +1,14 @@
+// override some Bootstrap colors. Apparently we need to do this *before* we
+// process Bootstrap.
+
+// ISEAL dark blue
+$primary: #072439;
+// ISEAL light blue
+$secondary: #2A7AB7;
+
+// selectively import components we need from bootstrap
+// see: node_modules/bootstrap/scss/bootstrap.scss
+@import 'bootstrap';
+
+// local style overrides
+@import 'main';

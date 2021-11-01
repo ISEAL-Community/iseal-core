@@ -1,0 +1,53 @@
+/*
+   From Bootstrap v5.0 sticky footer example
+   See:  https://getbootstrap.com/docs/5.0/examples/sticky-footer/
+*/
+
+// this is the second dark blue, slightly lighter than the primary
+$iseal-dark-blue: #0e304a;
+// another light blue
+$iseal-light-blue: #328cd1;
+
+/*
+   Some styles inspired from the Dublin Core DCTERMS website, see:
+   https://www.dublincore.org/specifications/dublin-core/dcmi-terms/
+*/
+
+body {
+    /* for the "scroll spy" navbar feature */
+    position: relative;
+    color: $primary;
+    background-color: $white;
+    font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif;
+}
+
+div.badge-required {
+    float: right;
+}
+
+td.field-name {
+    text-align: right;
+    font-weight: 700;
+}
+
+.table {
+    color: $primary;
+}
+
+/* Override Bootstrap's top border on tbody */
+.table>:not(:first-child) {
+    border-top: 2px solid $iseal-light-blue;
+}
+
+h1, h2, h3 {
+    color: $primary;
+}
+
+.footer {
+  color: $white;
+  background-color: $iseal-dark-blue;
+
+  a, a:hover {
+    color: inherit;
+  }
+}

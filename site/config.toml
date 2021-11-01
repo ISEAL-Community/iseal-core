@@ -1,0 +1,16 @@
+title="ISEAL Schema"
+baseURL="https://alanorth.github.io/iseal-schema"
+languageCode = "en-us"
+enableRobotsTXT = true
+publishDir = "docs"
+disablePathToLower = true
+
+[permalinks]
+  terms = "/:slug/"
+
+[params]
+  # Site author
+  author = "Alan Orth"
+
+  # Description/subtitle for homepage
+  description = "Documenting metadata fields and controlled vocabularies for the ISEAL core schema."

@@ -1,0 +1,4 @@
+Cluster sampling
+Random sampling
+Stratified sampling
+Systematic sampling
