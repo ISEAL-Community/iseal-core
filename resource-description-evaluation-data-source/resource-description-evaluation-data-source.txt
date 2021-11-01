@@ -1,0 +1,7 @@
+Data by scheme / tool under evaluation
+Geospatial data layers
+Independent researcher data
+Intergovernmental data (World Bank, UN, FAO data)
+National Statistics - national government data
+Other
+Private company data
