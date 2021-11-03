@@ -1,4 +1,4 @@
-title="ISEAL Schema"
+title="ISEAL Core Metadata Set"
 baseURL="https://alanorth.github.io/iseal-schema"
 languageCode = "en-us"
 enableRobotsTXT = true
@@ -13,4 +13,4 @@ disablePathToLower = true
   author = "Alan Orth"
 
   # Description/subtitle for homepage
-  description = "Documenting metadata fields and controlled vocabularies for the ISEAL core schema."
+  description = "Documenting metadata elements and controlled vocabularies for the ISEAL Core Metadata Set."

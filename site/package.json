@@ -1,7 +1,7 @@
 {
   "name": "iseal-schema",
   "version": "0.0.1",
-  "description": "Generate ISEAL schema documentation website.",
+  "description": "Generate ISEAL Core Metadata Set documentation website.",
   "scripts": {
     "build:css": "sass --style expanded source/scss/style.scss assets/css/style.css.tmp && cleancss -O1 --format breakWith=lf --with-rebase assets/css/style.css.tmp -o assets/css/style.min.css",
     "build:js": "uglifyjs node_modules/jquery/dist/jquery.slim.min.js node_modules/bootstrap/dist/js/bootstrap.min.js -o assets/js/bundle.min.js",

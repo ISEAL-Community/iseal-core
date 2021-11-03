@@ -1,4 +1,4 @@
-# ISEAL Core Schema
+# ISEAL Core Metadata Set
 
 ## TODO
 
