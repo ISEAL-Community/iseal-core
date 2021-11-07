@@ -42,7 +42,7 @@
         <p class="lead">This page provides a reference specification for the ISEAL Core Metadata Set.</p>
         <p>In this documentation we list metadata requirements, provide controlled vocabularies, and share technical information about the schema.</p>
         <h2 id="metadata">Metadata</h2>
-        <p>ISEAL Core Metadata Set currently uses fields from the following standard metadata schemas:</p>
+        <p>ISEAL Core Metadata Set currently uses elements from the following standard metadata schemas:</p>
         <ul>
           <li><a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#section-3">Dublin Core Elements</a> with the <code>dc</code> namespace prefix. These were <a href="http://www.dlib.org/dlib/July95/07weibel.html">originally designated in 1995</a> and are considered deprecated and superseded by Dublin Core Terms. Due to legacy code in the DSpace software we must still use some of these.</li>
           <li><a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#section-2">Dublin Core Terms</a> with the <code>dcterms</code> namespace prefix. These contain the original Dublin Core Terms and add others. As of 2008 these supercede the original Dublin Core Elements.</li>
@@ -50,7 +50,7 @@
         <p>General guidelines for metadata using the ISEAL Core Metadata Set:</p>
         <ul>
           <li><strong>Encoding</strong>: metadata should be encoded in UTF-8 to ensure correct representation of international characters.</li>
-          <li><strong>Applicability</strong>: metadata should describe what the item is, <em>not what it isn't</em>. If a metadata field is not applicable you should not use it. Do not enter "N/A"!</li>
+          <li><strong>Applicability</strong>: metadata should describe what the item is, <em>not what it isn't</em>. If a metadata element is not applicable you should not use it. Do not enter "N/A"!</li>
         </ul>
         <h3 id="required-metadata">Required Metadata</h3>
 
@@ -79,7 +79,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>is.contributor.member</td>
             </tr>
             
@@ -131,7 +131,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>dc.contributor.author</td>
             </tr>
             
@@ -176,7 +176,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>dcterms.issued</td>
             </tr>
             
@@ -221,7 +221,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>dcterms.publisher</td>
             </tr>
             
@@ -261,7 +261,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>dc.title</td>
             </tr>
             
@@ -301,7 +301,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>dcterms.type</td>
             </tr>
             
@@ -326,7 +326,7 @@
         
 
         <h3 id="optional-metadata">Optional Metadata</h3>
-        <p>These fields are optional, but we strongly suggest that you include as many as you can.</p>
+        <p>These elements are optional, but we strongly suggest that you include as many as you can.</p>
 
         
         <div class="col">
@@ -389,7 +389,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>is.certificate.ID</td>
             </tr>
             
@@ -427,7 +427,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>is.certificate.locations</td>
             </tr>
             
@@ -472,7 +472,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>is.certificate.duration</td>
             </tr>
             
@@ -515,7 +515,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>is.certificate.endDate</td>
             </tr>
             
@@ -558,7 +558,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>is.certificate.startDate</td>
             </tr>
             
@@ -601,7 +601,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>is.certificate.firstStartDate</td>
             </tr>
             
@@ -634,7 +634,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>is.certificate.licenseCode</td>
             </tr>
             
@@ -672,7 +672,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>is.certificate.licenseStatus</td>
             </tr>
             
@@ -717,7 +717,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>is.certificate.ownership</td>
             </tr>
             
@@ -757,7 +757,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>is.certificate.scope</td>
             </tr>
             
@@ -795,7 +795,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>is.certificate.status</td>
             </tr>
             
@@ -840,7 +840,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>is.certifiedOrganization.gln</td>
             </tr>
             
@@ -878,7 +878,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>is.certifiedOrganizationID</td>
             </tr>
             
@@ -916,7 +916,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>is.certifiedOrganization.name</td>
             </tr>
             
@@ -959,7 +959,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>is.certifiedOrganization.role</td>
             </tr>
             
@@ -1004,7 +1004,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>is.certifiedOrganization.url</td>
             </tr>
             
@@ -1153,7 +1153,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>is.certifiedOrganization.addressLatLong</td>
             </tr>
             
@@ -1196,7 +1196,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>is.certifiedOrganization.addressLat</td>
             </tr>
             
@@ -1239,7 +1239,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>is.certifiedOrganization.addressLong</td>
             </tr>
             
@@ -1404,7 +1404,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>is.certifiedSite.adminArea</td>
             </tr>
             
@@ -1437,7 +1437,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>is.certifiedSite.analysisArea</td>
             </tr>
             
@@ -1475,7 +1475,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>is.certifiedSite.area</td>
             </tr>
             
@@ -1513,7 +1513,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>is.certificate.siteID</td>
             </tr>
             
@@ -1556,7 +1556,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>is.certifiedSite.latLong</td>
             </tr>
             
@@ -1639,7 +1639,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>is.certifiedSite.lat</td>
             </tr>
             
@@ -1677,7 +1677,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>is.certifiedSite.locationName</td>
             </tr>
             
@@ -1720,7 +1720,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>is.certifiedSite.long</td>
             </tr>
             
@@ -1753,7 +1753,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>is.certifiedSite.naturalSetAside</td>
             </tr>
             
@@ -1786,7 +1786,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>is.certifiedSite.productionArea</td>
             </tr>
             
@@ -1819,7 +1819,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>is.certifiedSite.restorationSetAside</td>
             </tr>
             
@@ -1857,7 +1857,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>is.certificate.sites</td>
             </tr>
             
@@ -2121,7 +2121,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>is.certifyingBody.asiCode</td>
             </tr>
             
@@ -2166,7 +2166,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>is.certifyingBody</td>
             </tr>
             
@@ -2702,7 +2702,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>is.coverage.country</td>
             </tr>
             
@@ -2747,7 +2747,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>is.coverage.countryAlpha2</td>
             </tr>
             
@@ -2792,7 +2792,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>is.coverage.geographicLevel</td>
             </tr>
             
@@ -2842,7 +2842,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>is.coverage.latLong</td>
             </tr>
             
@@ -2885,7 +2885,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>is.coverage.latitude</td>
             </tr>
             
@@ -2928,7 +2928,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>is.coverage.longitude</td>
             </tr>
             
@@ -2966,7 +2966,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>is.coverage.place</td>
             </tr>
             
@@ -3004,7 +3004,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>is.coverage.region</td>
             </tr>
             
@@ -3049,7 +3049,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>is.evaluation.authorDirectionality</td>
             </tr>
             
@@ -3094,7 +3094,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>is.evaluation.comparison</td>
             </tr>
             
@@ -3139,7 +3139,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>is.evaluation.counterfacts</td>
             </tr>
             
@@ -3184,7 +3184,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>is.evaluation.dataSource</td>
             </tr>
             
@@ -3229,7 +3229,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>is.evaluation.collection</td>
             </tr>
             
@@ -3274,7 +3274,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>is.evaluation.findings</td>
             </tr>
             
@@ -3312,7 +3312,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>is.evaluation.noDifferenceDirectionality</td>
             </tr>
             
@@ -3357,7 +3357,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>is.evaluation.notes</td>
             </tr>
             
@@ -3395,7 +3395,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>is.evaluation.outcome</td>
             </tr>
             
@@ -3440,7 +3440,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>is.evaluation.quotes</td>
             </tr>
             
@@ -3478,7 +3478,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>is.evaluation.recommendations</td>
             </tr>
             
@@ -3516,7 +3516,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>is.evaluation.significance</td>
             </tr>
             
@@ -3556,7 +3556,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>is.evaluation.test</td>
             </tr>
             
@@ -3589,7 +3589,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>is.evaluation.scope</td>
             </tr>
             
@@ -3627,7 +3627,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>is.evidenceSubType</td>
             </tr>
             
@@ -3672,7 +3672,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>is.evidenceResourceType</td>
             </tr>
             
@@ -3717,7 +3717,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>is.evidenceSummary</td>
             </tr>
             
@@ -3755,7 +3755,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>is.evidenceType</td>
             </tr>
             
@@ -4040,7 +4040,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>fsc.certificate.category</td>
             </tr>
             
@@ -4085,7 +4085,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>fsc.certificate.type</td>
             </tr>
             
@@ -4135,7 +4135,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>fsc.coverage.region</td>
             </tr>
             
@@ -4180,7 +4180,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>fsc.evidenceCategory</td>
             </tr>
             
@@ -4225,7 +4225,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>fsc.doc.code</td>
             </tr>
             
@@ -4270,7 +4270,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>fsc.wood.code</td>
             </tr>
             
@@ -4320,7 +4320,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>fsc.issue.economic</td>
             </tr>
             
@@ -4358,7 +4358,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>fsc.topic.economic</td>
             </tr>
             
@@ -4401,7 +4401,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>fsc.issue.environmental</td>
             </tr>
             
@@ -4439,7 +4439,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>fsc.topic.environmental</td>
             </tr>
             
@@ -4482,7 +4482,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>fsc.focus.forestSpecies</td>
             </tr>
             
@@ -4532,7 +4532,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>fsc.focus.forestZone</td>
             </tr>
             
@@ -4622,7 +4622,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>fsc.focus.fmPrinciple</td>
             </tr>
             
@@ -4672,7 +4672,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>fsc.focus.fmControl</td>
             </tr>
             
@@ -4762,7 +4762,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>fsc.focus.forestProduct</td>
             </tr>
             
@@ -4852,7 +4852,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>fsc.focus.forestType</td>
             </tr>
             
@@ -5062,7 +5062,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>fsc.focus.outcome</td>
             </tr>
             
@@ -5112,7 +5112,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>fsc.issue.political</td>
             </tr>
             
@@ -5150,7 +5150,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>fsc.topic.political</td>
             </tr>
             
@@ -5233,7 +5233,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>fsc.issue.social</td>
             </tr>
             
@@ -5271,7 +5271,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>fsc.topic.social</td>
             </tr>
             
@@ -5314,7 +5314,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>fsc.subject</td>
             </tr>
             
@@ -5357,7 +5357,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>fsc.focus.sustainDimension</td>
             </tr>
             
@@ -5407,7 +5407,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>fsc.focus.tenureManagement</td>
             </tr>
             
@@ -5457,7 +5457,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>fsc.focus.tenureOwnership</td>
             </tr>
             
@@ -5542,7 +5542,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>is.identifier.clause</td>
             </tr>
             
@@ -5587,7 +5587,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>is.identifier.code</td>
             </tr>
             
@@ -5632,7 +5632,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>is.focus.strategyPillar</td>
             </tr>
             
@@ -5677,7 +5677,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>is.focus.systemElement</td>
             </tr>
             
@@ -5722,7 +5722,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>dcterms.abstract</td>
             </tr>
             
@@ -5765,7 +5765,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>dcterms.license</td>
             </tr>
             
@@ -5815,7 +5815,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>dcterms.rightsHolder</td>
             </tr>
             
@@ -5858,7 +5858,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>dcterms.accessRights</td>
             </tr>
             
@@ -5903,7 +5903,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>dcterms.audience</td>
             </tr>
             
@@ -5948,7 +5948,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>is.availability.fullText</td>
             </tr>
             
@@ -5998,7 +5998,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>dcterms.bibliographicCitation</td>
             </tr>
             
@@ -6041,7 +6041,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>is.contact.email</td>
             </tr>
             
@@ -6084,7 +6084,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>is.contact.name</td>
             </tr>
             
@@ -6127,7 +6127,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>dc.date.accessioned</td>
             </tr>
             
@@ -6170,7 +6170,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>dc.date.available</td>
             </tr>
             
@@ -6213,7 +6213,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>dcterms.modified</td>
             </tr>
             
@@ -6256,7 +6256,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>dcterms.created</td>
             </tr>
             
@@ -6299,7 +6299,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>is.dateOfVersion</td>
             </tr>
             
@@ -6342,7 +6342,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>is.dateReviewed</td>
             </tr>
             
@@ -6385,7 +6385,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>is.dateRevised</td>
             </tr>
             
@@ -6428,7 +6428,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>dcterms.dateSubmitted</td>
             </tr>
             
@@ -6466,7 +6466,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>is.identifier.doi</td>
             </tr>
             
@@ -6499,7 +6499,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>is.extent.edition</td>
             </tr>
             
@@ -6537,7 +6537,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>dcterms.extent</td>
             </tr>
             
@@ -6580,7 +6580,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>is.contributor.funder</td>
             </tr>
             
@@ -6618,7 +6618,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>is.contributor.funderType</td>
             </tr>
             
@@ -6668,7 +6668,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>is.identifier.ID</td>
             </tr>
             
@@ -6706,7 +6706,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>dcterms.isReplacedBy</td>
             </tr>
             
@@ -6744,7 +6744,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>is.identifier.isbn</td>
             </tr>
             
@@ -6782,7 +6782,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>is.journalName</td>
             </tr>
             
@@ -6820,7 +6820,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>dcterms.language</td>
             </tr>
             
@@ -6865,7 +6865,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>is.language</td>
             </tr>
             
@@ -6915,7 +6915,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>dcterms.description</td>
             </tr>
             
@@ -6953,7 +6953,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>is.extent.number</td>
             </tr>
             
@@ -6996,7 +6996,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>dcterms.alternative</td>
             </tr>
             
@@ -7034,7 +7034,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>is.extent.pages</td>
             </tr>
             
@@ -7072,7 +7072,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>is.item.reviewStatus</td>
             </tr>
             
@@ -7117,7 +7117,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>is.item.publicationPlace</td>
             </tr>
             
@@ -7160,7 +7160,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>dcterms.isPartOf</td>
             </tr>
             
@@ -7198,7 +7198,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>fsc.inTransition</td>
             </tr>
             
@@ -7243,7 +7243,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>dc.identifier.uri</td>
             </tr>
             
@@ -7286,7 +7286,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>is.extent.version</td>
             </tr>
             
@@ -7324,7 +7324,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>is.extent.volume</td>
             </tr>
             
@@ -7362,7 +7362,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>is.link.image</td>
             </tr>
             
@@ -7405,7 +7405,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>is.link.url</td>
             </tr>
             
@@ -7509,7 +7509,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>is.pesticide.activeIngredient</td>
             </tr>
             
@@ -7554,7 +7554,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>is.pesticide.challenge</td>
             </tr>
             
@@ -7597,7 +7597,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>is.pesticide.alternativeMethod</td>
             </tr>
             
@@ -7642,7 +7642,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>is.pesticide.alternativeStrategy</td>
             </tr>
             
@@ -7685,7 +7685,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>is.pesticide.alternativeTrial</td>
             </tr>
             
@@ -7735,7 +7735,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>is.pesticide.alternativeType</td>
             </tr>
             
@@ -7780,7 +7780,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>is.pesticide.biocontrolAgent</td>
             </tr>
             
@@ -7823,7 +7823,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>is.pesticide.commonName</td>
             </tr>
             
@@ -7866,7 +7866,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>is.pesticide.pestName</td>
             </tr>
             
@@ -7909,7 +7909,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>is.pesticide.pestSpecies</td>
             </tr>
             
@@ -7952,7 +7952,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>is.pesticide.pestType</td>
             </tr>
             
@@ -8037,7 +8037,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>is.focus.products</td>
             </tr>
             
@@ -8082,7 +8082,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>is.focus.sdg</td>
             </tr>
             
@@ -8127,7 +8127,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>is.focus.sectors</td>
             </tr>
             
@@ -8172,7 +8172,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>dcterms.subject</td>
             </tr>
             
@@ -8210,7 +8210,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>is.focus.sustainLens</td>
             </tr>
             
@@ -8255,7 +8255,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>is.focus.sustainDimension</td>
             </tr>
             
@@ -8300,7 +8300,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>is.focus.sustainIssue</td>
             </tr>
             
@@ -8345,7 +8345,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>is.focus.sustainOutcome</td>
             </tr>
             
@@ -8395,7 +8395,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>is.dateOfVersion1</td>
             </tr>
             
@@ -8438,7 +8438,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>dcterms.valid</td>
             </tr>
             
@@ -8481,7 +8481,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>is.identifier.standardCode</td>
             </tr>
             
@@ -8519,7 +8519,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>is.identifier.standardStatus</td>
             </tr>
             
@@ -8564,7 +8564,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>is.identifier.schemeName</td>
             </tr>
             
@@ -8609,7 +8609,7 @@
             
             
             <tr>
-              <td class="col-2 field-name">Suggested field</td>
+              <td class="col-2 field-name">Suggested element</td>
               <td>is.identifier.schemeType</td>
             </tr>
             
@@ -8642,7 +8642,7 @@
 
     <footer class="footer mt-auto">
       <div class="container">
-        <p class="mb-0 py-1">ISEAL Core Metadata Set<span class="float-end"><span class="text-white-50">Last modified Wednesday, Nov 3, 2021</span> <a href="#">Back to top</a></span></p>
+        <p class="mb-0 py-1">ISEAL Core Metadata Set<span class="float-end"><span class="text-white-50">Last modified Sunday, Nov 7, 2021</span> <a href="#">Back to top</a></span></p>
       </div>
     </footer>
     
