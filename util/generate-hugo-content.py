@@ -126,6 +126,8 @@ def parseSchema(schema_df):
         indexLines.append(f"required: {required}\n")
         if controlled_vocab:
             indexLines.append(f"vocabulary: '{element_name_safe}.txt'\n")
+        if module:
+            indexLines.append(f"module: '{module}'\n")
         indexLines.append(f"policy: '{policy}'\n")
         ## TODO: use some real date...?
         # indexLines.append(f"date: '2019-05-04T00:00:00+00:00'\n")
