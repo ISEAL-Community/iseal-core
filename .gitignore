@@ -1,1 +1,3 @@
 site/node_modules
+site/.hugo_build.lock
+site/bin
