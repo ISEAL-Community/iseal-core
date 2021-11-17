@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 #
-# generate-docs.py v0.0.1
+# generate-hugo-content.py v0.0.1
 #
 # SPDX-License-Identifier: GPL-3.0-only
 
