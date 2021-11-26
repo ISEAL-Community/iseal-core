@@ -3,7 +3,7 @@
           <thead>
             <tr class="table-secondary">
               <th colspan="2">
-                {{- .Params.title | markdownify -}}
+                <span class="">{{ .Params.title | markdownify }}</span>
                 {{- with .Params.required -}}
                 <div class="badge-required">
                   <span class="badge bg-primary align-middle">Required</span>
@@ -16,6 +16,10 @@
             <tr>
               <td class="col-2 field-name">Label</td>
               <td>{{ .Name | markdownify }}</td>
+            </tr>
+            <tr>
+              <td class="col-2 field-name">Module</td>
+              <td>{{ .Params.module | markdownify }}</td>
             </tr>
             {{ with .Params.description }}
             <tr>
