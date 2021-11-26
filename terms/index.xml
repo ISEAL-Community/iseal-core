@@ -7,1865 +7,1415 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://alanorth.github.io/iseal-schema/terms/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Abstract</title>
+      <link>https://alanorth.github.io/iseal-schema/global-abstract/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://alanorth.github.io/iseal-schema/global-abstract/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Access rights</title>
+      <link>https://alanorth.github.io/iseal-schema/global-access-rights/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://alanorth.github.io/iseal-schema/global-access-rights/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Audience</title>
+      <link>https://alanorth.github.io/iseal-schema/global-audience/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://alanorth.github.io/iseal-schema/global-audience/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Author ORCID identifier</title>
-      <link>https://alanorth.github.io/iseal-schema/resource-description-author-orcid-identifier/</link>
+      <link>https://alanorth.github.io/iseal-schema/global-author-orcid-identifier/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/resource-description-author-orcid-identifier/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/global-author-orcid-identifier/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Certificate - code, number or ID</title>
-      <link>https://alanorth.github.io/iseal-schema/certificate-code-number-or-id/</link>
+      <title>Authors</title>
+      <link>https://alanorth.github.io/iseal-schema/global-authors/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/certificate-code-number-or-id/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/global-authors/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Certificate - coverage type</title>
-      <link>https://alanorth.github.io/iseal-schema/certificate-coverage-type/</link>
+      <title>Availability</title>
+      <link>https://alanorth.github.io/iseal-schema/global-availability/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/certificate-coverage-type/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/global-availability/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Certificate - current duration (months)</title>
-      <link>https://alanorth.github.io/iseal-schema/certificate-current-duration/</link>
+      <title>Certificate code, number or ID</title>
+      <link>https://alanorth.github.io/iseal-schema/certification-certificate-code-number-or-id/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/certificate-current-duration/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/certification-certificate-code-number-or-id/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Certificate - current end date</title>
-      <link>https://alanorth.github.io/iseal-schema/certificate-current-end-date/</link>
+      <title>Certificate coverage type</title>
+      <link>https://alanorth.github.io/iseal-schema/certification-certificate-coverage-type/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/certificate-current-end-date/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/certification-certificate-coverage-type/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Certificate - current start date</title>
-      <link>https://alanorth.github.io/iseal-schema/certificate-current-start-date/</link>
+      <title>Certificate current duration</title>
+      <link>https://alanorth.github.io/iseal-schema/certification-certificate-current-duration/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/certificate-current-start-date/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/certification-certificate-current-duration/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Certificate - first issue date</title>
-      <link>https://alanorth.github.io/iseal-schema/certificate-first-issue-date/</link>
+      <title>Certificate current end date</title>
+      <link>https://alanorth.github.io/iseal-schema/certification-certificate-current-end-date/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/certificate-first-issue-date/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/certification-certificate-current-end-date/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Certificate - license code</title>
-      <link>https://alanorth.github.io/iseal-schema/certificate-license-code/</link>
+      <title>Certificate current start date</title>
+      <link>https://alanorth.github.io/iseal-schema/certification-certificate-current-start-date/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/certificate-license-code/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/certification-certificate-current-start-date/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Certificate - license status</title>
-      <link>https://alanorth.github.io/iseal-schema/certificate-license-status/</link>
+      <title>Certificate first issue date</title>
+      <link>https://alanorth.github.io/iseal-schema/certification-certificate-first-issue-date/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/certificate-license-status/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/certification-certificate-first-issue-date/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Certificate - ownership type</title>
-      <link>https://alanorth.github.io/iseal-schema/certificate-ownership-type/</link>
+      <title>Certificate holder, owner or certified organization city</title>
+      <link>https://alanorth.github.io/iseal-schema/certification-certificate-holder-owner-or-certified-organization-city/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/certificate-ownership-type/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/certification-certificate-holder-owner-or-certified-organization-city/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Certificate - scope</title>
-      <link>https://alanorth.github.io/iseal-schema/certificate-scope/</link>
+      <title>Certificate holder, owner or certified organization country</title>
+      <link>https://alanorth.github.io/iseal-schema/certification-certificate-holder-owner-or-certified-organization-country/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/certificate-scope/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/certification-certificate-holder-owner-or-certified-organization-country/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Certificate - status</title>
-      <link>https://alanorth.github.io/iseal-schema/certificate-status/</link>
+      <title>Certificate holder, owner or certified organization email address</title>
+      <link>https://alanorth.github.io/iseal-schema/certification-certificate-holder-owner-or-certified-organization-email-address/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/certificate-status/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/certification-certificate-holder-owner-or-certified-organization-email-address/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Certificate holder/owner/certified organization - GLN</title>
-      <link>https://alanorth.github.io/iseal-schema/certificate-holder-gln/</link>
+      <title>Certificate holder, owner or certified organization GLN</title>
+      <link>https://alanorth.github.io/iseal-schema/certification-certificate-holder-owner-or-certified-organization-gln/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/certificate-holder-gln/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/certification-certificate-holder-owner-or-certified-organization-gln/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Certificate holder/owner/certified organization - ID</title>
-      <link>https://alanorth.github.io/iseal-schema/certificate-holder-id/</link>
+      <title>Certificate holder, owner or certified organization ID</title>
+      <link>https://alanorth.github.io/iseal-schema/certification-certificate-holder-owner-or-certified-organization-id/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/certificate-holder-id/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/certification-certificate-holder-owner-or-certified-organization-id/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Certificate holder/owner/certified organization - name</title>
-      <link>https://alanorth.github.io/iseal-schema/certificate-holder-name/</link>
+      <title>Certificate holder, owner or certified organization latitude and longitude location coordinates</title>
+      <link>https://alanorth.github.io/iseal-schema/certification-certificate-holder-owner-or-certified-organization-latitude-and-longitude-location-coordinates/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/certificate-holder-name/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/certification-certificate-holder-owner-or-certified-organization-latitude-and-longitude-location-coordinates/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Certificate holder/owner/certified organization - role</title>
-      <link>https://alanorth.github.io/iseal-schema/certificate-holder-role/</link>
+      <title>Certificate holder, owner or certified organization latitude location coordinate</title>
+      <link>https://alanorth.github.io/iseal-schema/certification-certificate-holder-owner-or-certified-organization-latitude-location-coordinate/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/certificate-holder-role/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/certification-certificate-holder-owner-or-certified-organization-latitude-location-coordinate/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Certificate holder/owner/certified organization - website url</title>
-      <link>https://alanorth.github.io/iseal-schema/certificate-holder-website-url/</link>
+      <title>Certificate holder, owner or certified organization longitude location coordinate</title>
+      <link>https://alanorth.github.io/iseal-schema/certification-certificate-holder-owner-or-certified-organization-longitude-location-coordinate/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/certificate-holder-website-url/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/certification-certificate-holder-owner-or-certified-organization-longitude-location-coordinate/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Certificate holder/owner/certified organization address - city</title>
-      <link>https://alanorth.github.io/iseal-schema/certificate-holder-city/</link>
+      <title>Certificate holder, owner or certified organization name</title>
+      <link>https://alanorth.github.io/iseal-schema/certification-certificate-holder-owner-or-certified-organization-name/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/certificate-holder-city/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/certification-certificate-holder-owner-or-certified-organization-name/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Certificate holder/owner/certified organization address - country</title>
-      <link>https://alanorth.github.io/iseal-schema/certificate-holder-country/</link>
+      <title>Certificate holder, owner or certified organization phone country code</title>
+      <link>https://alanorth.github.io/iseal-schema/certification-certificate-holder-owner-or-certified-organization-phone-country-code/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/certificate-holder-country/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/certification-certificate-holder-owner-or-certified-organization-phone-country-code/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Certificate holder/owner/certified organization address - email address</title>
-      <link>https://alanorth.github.io/iseal-schema/certificate-holder-email-address/</link>
+      <title>Certificate holder, owner or certified organization phone number</title>
+      <link>https://alanorth.github.io/iseal-schema/certification-certificate-holder-owner-or-certified-organization-phone-number/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/certificate-holder-email-address/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/certification-certificate-holder-owner-or-certified-organization-phone-number/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Certificate holder/owner/certified organization address - latitude and longitude location coordinates</title>
-      <link>https://alanorth.github.io/iseal-schema/certificate-holder-latitude-and-longitude-location-coordinates/</link>
+      <title>Certificate holder, owner or certified organization postcode</title>
+      <link>https://alanorth.github.io/iseal-schema/certification-certificate-holder-owner-or-certified-organization-postcode/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/certificate-holder-latitude-and-longitude-location-coordinates/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/certification-certificate-holder-owner-or-certified-organization-postcode/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Certificate holder/owner/certified organization address - latitude location coordinate</title>
-      <link>https://alanorth.github.io/iseal-schema/certificate-holder-latitude-location-coordinate/</link>
+      <title>Certificate holder, owner or certified organization role</title>
+      <link>https://alanorth.github.io/iseal-schema/certification-certificate-holder-owner-or-certified-organization-role/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/certificate-holder-latitude-location-coordinate/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/certification-certificate-holder-owner-or-certified-organization-role/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Certificate holder/owner/certified organization address - longitude location coordinate</title>
-      <link>https://alanorth.github.io/iseal-schema/certificate-holder-longitude-location-coordinate/</link>
+      <title>Certificate holder, owner or certified organization street name</title>
+      <link>https://alanorth.github.io/iseal-schema/certification-certificate-holder-owner-or-certified-organization-street-name/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/certificate-holder-longitude-location-coordinate/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/certification-certificate-holder-owner-or-certified-organization-street-name/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Certificate holder/owner/certified organization address - phone country code</title>
-      <link>https://alanorth.github.io/iseal-schema/certificate-holder-phone-country-code/</link>
+      <title>Certificate holder, owner or certified organization website url</title>
+      <link>https://alanorth.github.io/iseal-schema/certification-certificate-holder-owner-or-certified-organization-website-url/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/certificate-holder-phone-country-code/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/certification-certificate-holder-owner-or-certified-organization-website-url/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Certificate holder/owner/certified organization address - phone number</title>
-      <link>https://alanorth.github.io/iseal-schema/certificate-holder-phone-number/</link>
+      <title>Certificate license code</title>
+      <link>https://alanorth.github.io/iseal-schema/certification-certificate-license-code/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/certificate-holder-phone-number/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/certification-certificate-license-code/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Certificate holder/owner/certified organization address - postcode</title>
-      <link>https://alanorth.github.io/iseal-schema/certificate-holder-postcode/</link>
+      <title>Certificate license status</title>
+      <link>https://alanorth.github.io/iseal-schema/certification-certificate-license-status/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/certificate-holder-postcode/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/certification-certificate-license-status/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Certificate holder/owner/certified organization address - street</title>
-      <link>https://alanorth.github.io/iseal-schema/certificate-holder-street/</link>
+      <title>Certificate ownership type</title>
+      <link>https://alanorth.github.io/iseal-schema/certification-certificate-ownership-type/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/certificate-holder-street/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/certification-certificate-ownership-type/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Certified site - admin area (Ha)</title>
-      <link>https://alanorth.github.io/iseal-schema/certified-resource-admin-area/</link>
+      <title>Certificate scope</title>
+      <link>https://alanorth.github.io/iseal-schema/certification-certificate-scope/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/certified-resource-admin-area/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/certification-certificate-scope/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Certified site - analysis area (Ha)</title>
-      <link>https://alanorth.github.io/iseal-schema/certified-resource-analysis-area/</link>
+      <title>Certificate status</title>
+      <link>https://alanorth.github.io/iseal-schema/certification-certificate-status/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/certified-resource-analysis-area/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/certification-certificate-status/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Certified site - area (Ha)</title>
-      <link>https://alanorth.github.io/iseal-schema/certified-resource-area/</link>
+      <title>Certificate type</title>
+      <link>https://alanorth.github.io/iseal-schema/certification-certificate-type/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/certified-resource-area/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/certification-certificate-type/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Certified site - ID</title>
-      <link>https://alanorth.github.io/iseal-schema/certified-resource-id/</link>
+      <title>Certified site admin area</title>
+      <link>https://alanorth.github.io/iseal-schema/certification-certified-site-admin-area/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/certified-resource-id/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/certification-certified-site-admin-area/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Certified site - latitude and longitude location coordinates</title>
-      <link>https://alanorth.github.io/iseal-schema/certified-resource-latitude-and-longitude-location-coordinates/</link>
+      <title>Certified site analysis area</title>
+      <link>https://alanorth.github.io/iseal-schema/certification-certified-site-analysis-area/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/certified-resource-latitude-and-longitude-location-coordinates/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/certification-certified-site-analysis-area/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Certified site - latitude and longitude location coordinates detail</title>
-      <link>https://alanorth.github.io/iseal-schema/certified-resource-latitude-and-longitude-location-coordinates-detail/</link>
+      <title>Certified site area</title>
+      <link>https://alanorth.github.io/iseal-schema/certification-certified-site-area/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/certified-resource-latitude-and-longitude-location-coordinates-detail/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/certification-certified-site-area/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Certified site - latitude location coordinate</title>
-      <link>https://alanorth.github.io/iseal-schema/certified-resource-latitude-location-coordinate/</link>
+      <title>Certified site ID</title>
+      <link>https://alanorth.github.io/iseal-schema/certification-certified-site-id/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/certified-resource-latitude-location-coordinate/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/certification-certified-site-id/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Certified site - location name</title>
-      <link>https://alanorth.github.io/iseal-schema/certified-resource-location-name/</link>
+      <title>Certified site latitude and longitude location coordinates</title>
+      <link>https://alanorth.github.io/iseal-schema/certification-certified-site-latitude-and-longitude-location-coordinates/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/certified-resource-location-name/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/certification-certified-site-latitude-and-longitude-location-coordinates/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Certified site - longitude location coordinate</title>
-      <link>https://alanorth.github.io/iseal-schema/certified-resource-longitude-location-coordinate/</link>
+      <title>Certified site latitude and longitude location coordinates detail</title>
+      <link>https://alanorth.github.io/iseal-schema/certification-certified-site-latitude-and-longitude-location-coordinates-detail/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/certified-resource-longitude-location-coordinate/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/certification-certified-site-latitude-and-longitude-location-coordinates-detail/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Certified site - natural ecosystem set-aside (Ha)</title>
-      <link>https://alanorth.github.io/iseal-schema/certified-resource-natural-ecosystem-set-aside/</link>
+      <title>Certified site latitude location coordinate</title>
+      <link>https://alanorth.github.io/iseal-schema/certification-certified-site-latitude-location-coordinate/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/certified-resource-natural-ecosystem-set-aside/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/certification-certified-site-latitude-location-coordinate/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Certified site - production area (Ha)</title>
-      <link>https://alanorth.github.io/iseal-schema/certified-resource-production-area/</link>
+      <title>Certified site location name</title>
+      <link>https://alanorth.github.io/iseal-schema/certification-certified-site-location-name/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/certified-resource-production-area/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/certification-certified-site-location-name/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Certified site - restoration set-aside (Ha)</title>
-      <link>https://alanorth.github.io/iseal-schema/certified-resource-restoration-set-aside/</link>
+      <title>Certified site longitude location coordinate</title>
+      <link>https://alanorth.github.io/iseal-schema/certification-certified-site-longitude-location-coordinate/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/certified-resource-restoration-set-aside/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/certification-certified-site-longitude-location-coordinate/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Certified sites - number covered by the certificate</title>
-      <link>https://alanorth.github.io/iseal-schema/certified-resource-number-covered-by-the-certificate/</link>
+      <title>Certified site natural ecosystem set-aside</title>
+      <link>https://alanorth.github.io/iseal-schema/certification-certified-site-natural-ecosystem-set-aside/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/certified-resource-number-covered-by-the-certificate/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/certification-certified-site-natural-ecosystem-set-aside/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Certifying body - accreditation end date</title>
-      <link>https://alanorth.github.io/iseal-schema/certifying-body-accreditation-end-date/</link>
+      <title>Certified site production area</title>
+      <link>https://alanorth.github.io/iseal-schema/certification-certified-site-production-area/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/certifying-body-accreditation-end-date/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/certification-certified-site-production-area/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Certifying body - accreditation start date</title>
-      <link>https://alanorth.github.io/iseal-schema/certifying-body-accreditation-start-date/</link>
+      <title>Certified site restoration set-aside</title>
+      <link>https://alanorth.github.io/iseal-schema/certification-certified-site-restoration-set-aside/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/certifying-body-accreditation-start-date/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/certification-certified-site-restoration-set-aside/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Certifying body - accreditation status</title>
-      <link>https://alanorth.github.io/iseal-schema/certifying-body-accreditation-status/</link>
+      <title>Certified sites number covered by the certificate</title>
+      <link>https://alanorth.github.io/iseal-schema/certification-certified-sites-number-covered-by-the-certificate/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/certifying-body-accreditation-status/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/certification-certified-sites-number-covered-by-the-certificate/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Certifying body - accredited geographic scope</title>
-      <link>https://alanorth.github.io/iseal-schema/certifying-body-accredited-geographic-scope/</link>
+      <title>Certifying body accreditation end date</title>
+      <link>https://alanorth.github.io/iseal-schema/certification-certifying-body-accreditation-end-date/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/certifying-body-accredited-geographic-scope/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/certification-certifying-body-accreditation-end-date/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Certifying body - accredited technical scope</title>
-      <link>https://alanorth.github.io/iseal-schema/certifying-body-accredited-technical-scope/</link>
+      <title>Certifying body accreditation start date</title>
+      <link>https://alanorth.github.io/iseal-schema/certification-certifying-body-accreditation-start-date/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/certifying-body-accredited-technical-scope/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/certification-certifying-body-accreditation-start-date/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Certifying body - accredited technical scope type</title>
-      <link>https://alanorth.github.io/iseal-schema/certifying-body-accredited-technical-scope-type/</link>
+      <title>Certifying body accreditation status</title>
+      <link>https://alanorth.github.io/iseal-schema/certification-certifying-body-accreditation-status/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/certifying-body-accredited-technical-scope-type/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/certification-certifying-body-accreditation-status/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Certifying body - ASI accreditation code</title>
-      <link>https://alanorth.github.io/iseal-schema/certifying-body-asi-accreditation-code/</link>
+      <title>Certifying body accredited geographic scope</title>
+      <link>https://alanorth.github.io/iseal-schema/certification-certifying-body-accredited-geographic-scope/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/certifying-body-asi-accreditation-code/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/certification-certifying-body-accredited-geographic-scope/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Certifying body - name</title>
-      <link>https://alanorth.github.io/iseal-schema/certifying-body-name/</link>
+      <title>Certifying body accredited technical scope</title>
+      <link>https://alanorth.github.io/iseal-schema/certification-certifying-body-accredited-technical-scope/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/certifying-body-name/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/certification-certifying-body-accredited-technical-scope/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Certifying body - program or scheme accredited for</title>
-      <link>https://alanorth.github.io/iseal-schema/certifying-body-program-or-scheme-accredited-for/</link>
+      <title>Certifying body accredited technical scope type</title>
+      <link>https://alanorth.github.io/iseal-schema/certification-certifying-body-accredited-technical-scope-type/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/certifying-body-program-or-scheme-accredited-for/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/certification-certifying-body-accredited-technical-scope-type/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Certifying body - standards accredited for</title>
-      <link>https://alanorth.github.io/iseal-schema/certifying-body-standards-accredited-for/</link>
+      <title>Certifying body ASI accreditation code</title>
+      <link>https://alanorth.github.io/iseal-schema/certification-certifying-body-asi-accreditation-code/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/certifying-body-standards-accredited-for/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/certification-certifying-body-asi-accreditation-code/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Certifying body - standards certified for</title>
-      <link>https://alanorth.github.io/iseal-schema/certifying-body-standards-certified-for/</link>
+      <title>Certifying body city</title>
+      <link>https://alanorth.github.io/iseal-schema/certification-certifying-body-city/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/certifying-body-standards-certified-for/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/certification-certifying-body-city/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Certifying body address - city</title>
-      <link>https://alanorth.github.io/iseal-schema/certifying-body-city/</link>
+      <title>Certifying body country</title>
+      <link>https://alanorth.github.io/iseal-schema/certification-certifying-body-country/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/certifying-body-city/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/certification-certifying-body-country/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Certifying body address - country</title>
-      <link>https://alanorth.github.io/iseal-schema/certifying-body-country/</link>
+      <title>Certifying body email address</title>
+      <link>https://alanorth.github.io/iseal-schema/certification-certifying-body-email-address/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/certifying-body-country/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/certification-certifying-body-email-address/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Certifying body address - email address</title>
-      <link>https://alanorth.github.io/iseal-schema/certifying-body-email-address/</link>
+      <title>Certifying body latitude and longitude location coordinates</title>
+      <link>https://alanorth.github.io/iseal-schema/certification-certifying-body-latitude-and-longitude-location-coordinates/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/certifying-body-email-address/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/certification-certifying-body-latitude-and-longitude-location-coordinates/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Certifying body address - latitude and longitude location coordinates</title>
-      <link>https://alanorth.github.io/iseal-schema/certifying-body-latitude-and-longitude-location-coordinates/</link>
+      <title>Certifying body latitude location coordinate</title>
+      <link>https://alanorth.github.io/iseal-schema/certification-certifying-body-latitude-location-coordinate/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/certifying-body-latitude-and-longitude-location-coordinates/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/certification-certifying-body-latitude-location-coordinate/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Certifying body address - latitude location coordinate</title>
-      <link>https://alanorth.github.io/iseal-schema/certifying-body-latitude-location-coordinate/</link>
+      <title>Certifying body longitude location coordinate</title>
+      <link>https://alanorth.github.io/iseal-schema/certification-certifying-body-longitude-location-coordinate/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/certifying-body-latitude-location-coordinate/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/certification-certifying-body-longitude-location-coordinate/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Certifying body address - longitude location coordinate</title>
-      <link>https://alanorth.github.io/iseal-schema/certifying-body-longitude-location-coordinate/</link>
+      <title>Certifying body name</title>
+      <link>https://alanorth.github.io/iseal-schema/certification-certifying-body-name/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/certifying-body-longitude-location-coordinate/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/certification-certifying-body-name/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Certifying body address - phone country code</title>
-      <link>https://alanorth.github.io/iseal-schema/certifying-body-phone-country-code/</link>
+      <title>Certifying body phone country code</title>
+      <link>https://alanorth.github.io/iseal-schema/certification-certifying-body-phone-country-code/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/certifying-body-phone-country-code/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/certification-certifying-body-phone-country-code/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Certifying body address - phone number</title>
-      <link>https://alanorth.github.io/iseal-schema/certifying-body-phone-number/</link>
+      <title>Certifying body phone number</title>
+      <link>https://alanorth.github.io/iseal-schema/certification-certifying-body-phone-number/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/certifying-body-phone-number/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/certification-certifying-body-phone-number/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Certifying body address - postcode</title>
-      <link>https://alanorth.github.io/iseal-schema/certifying-body-postcode/</link>
+      <title>Certifying body postcode</title>
+      <link>https://alanorth.github.io/iseal-schema/certification-certifying-body-postcode/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/certifying-body-postcode/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/certification-certifying-body-postcode/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Certifying body address - street</title>
-      <link>https://alanorth.github.io/iseal-schema/certifying-body-street/</link>
+      <title>Certifying body program or scheme accredited for</title>
+      <link>https://alanorth.github.io/iseal-schema/certification-certifying-body-program-or-scheme-accredited-for/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/certifying-body-street/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/certification-certifying-body-program-or-scheme-accredited-for/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Certifying body address - website url</title>
-      <link>https://alanorth.github.io/iseal-schema/certifying-body-website-url/</link>
+      <title>Certifying body standards accredited for</title>
+      <link>https://alanorth.github.io/iseal-schema/certification-certifying-body-standards-accredited-for/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/certifying-body-website-url/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/certification-certifying-body-standards-accredited-for/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Coverage - country</title>
-      <link>https://alanorth.github.io/iseal-schema/resource-coverage-country/</link>
+      <title>Certifying body standards certified for</title>
+      <link>https://alanorth.github.io/iseal-schema/certification-certifying-body-standards-certified-for/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/resource-coverage-country/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/certification-certifying-body-standards-certified-for/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Coverage - country ISO code</title>
-      <link>https://alanorth.github.io/iseal-schema/resource-coverage-country-iso-code/</link>
+      <title>Certifying body street name</title>
+      <link>https://alanorth.github.io/iseal-schema/certification-certifying-body-street-name/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/resource-coverage-country-iso-code/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/certification-certifying-body-street-name/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Coverage - geographic level</title>
-      <link>https://alanorth.github.io/iseal-schema/resource-coverage-geographic-level/</link>
+      <title>Certifying body website url</title>
+      <link>https://alanorth.github.io/iseal-schema/certification-certifying-body-website-url/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/resource-coverage-geographic-level/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/certification-certifying-body-website-url/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Coverage - latitude and longitude location coordinates for the resource or its focus</title>
-      <link>https://alanorth.github.io/iseal-schema/resource-coverage-latitude-and-longitude-location-coordinates-for-the-resource-or-its-focus/</link>
+      <title>Citation</title>
+      <link>https://alanorth.github.io/iseal-schema/global-citation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/resource-coverage-latitude-and-longitude-location-coordinates-for-the-resource-or-its-focus/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/global-citation/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Coverage - latitude location coordinate for the resource or its focus</title>
-      <link>https://alanorth.github.io/iseal-schema/resource-coverage-latitude-location-coordinate-for-the-resource-or-its-focus/</link>
+      <title>Contact email</title>
+      <link>https://alanorth.github.io/iseal-schema/global-contact-email/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/resource-coverage-latitude-location-coordinate-for-the-resource-or-its-focus/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/global-contact-email/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Coverage - longitude location coordinate for the resource or its focus</title>
-      <link>https://alanorth.github.io/iseal-schema/resource-coverage-longitude-location-coordinate-for-the-resource-or-its-focus/</link>
+      <title>Contact name</title>
+      <link>https://alanorth.github.io/iseal-schema/global-contact-name/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/resource-coverage-longitude-location-coordinate-for-the-resource-or-its-focus/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/global-contact-name/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Coverage - place name</title>
-      <link>https://alanorth.github.io/iseal-schema/resource-coverage-place-name/</link>
+      <title>Country ISO code</title>
+      <link>https://alanorth.github.io/iseal-schema/global-country-iso-code/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/resource-coverage-place-name/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/global-country-iso-code/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Coverage - regions</title>
-      <link>https://alanorth.github.io/iseal-schema/resource-coverage-regions/</link>
+      <title>Country name</title>
+      <link>https://alanorth.github.io/iseal-schema/global-country-name/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/resource-coverage-regions/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/global-country-name/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Evaluation: author directionality</title>
-      <link>https://alanorth.github.io/iseal-schema/resource-description-evaluation-author-directionality/</link>
+      <title>date accessioned by system</title>
+      <link>https://alanorth.github.io/iseal-schema/global-date-accessioned-by-system/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/resource-description-evaluation-author-directionality/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/global-date-accessioned-by-system/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Evaluation: comparison</title>
-      <link>https://alanorth.github.io/iseal-schema/resource-description-evaluation-comparison/</link>
+      <title>date available through a system</title>
+      <link>https://alanorth.github.io/iseal-schema/global-date-available-through-a-system/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/resource-description-evaluation-comparison/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/global-date-available-through-a-system/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Evaluation: counterfactuals</title>
-      <link>https://alanorth.github.io/iseal-schema/resource-description-evaluation-counterfactuals/</link>
+      <title>date changed</title>
+      <link>https://alanorth.github.io/iseal-schema/global-date-changed/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/resource-description-evaluation-counterfactuals/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/global-date-changed/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Evaluation: data source</title>
-      <link>https://alanorth.github.io/iseal-schema/resource-description-evaluation-data-source/</link>
+      <title>date created</title>
+      <link>https://alanorth.github.io/iseal-schema/global-date-created/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/resource-description-evaluation-data-source/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/global-date-created/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Evaluation: data/evidence collection method</title>
-      <link>https://alanorth.github.io/iseal-schema/resource-description-evaluation-data-evidence-collection-method/</link>
+      <title>date issued or published</title>
+      <link>https://alanorth.github.io/iseal-schema/global-date-issued-or-published/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/resource-description-evaluation-data-evidence-collection-method/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/global-date-issued-or-published/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Evaluation: findings</title>
-      <link>https://alanorth.github.io/iseal-schema/resource-description-evaluation-findings/</link>
+      <title>date of version</title>
+      <link>https://alanorth.github.io/iseal-schema/global-date-of-version/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/resource-description-evaluation-findings/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/global-date-of-version/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Evaluation: no difference directionality</title>
-      <link>https://alanorth.github.io/iseal-schema/resource-description-evaluation-no-difference-directionality/</link>
+      <title>date reviewed</title>
+      <link>https://alanorth.github.io/iseal-schema/global-date-reviewed/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/resource-description-evaluation-no-difference-directionality/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/global-date-reviewed/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Evaluation: notes</title>
-      <link>https://alanorth.github.io/iseal-schema/resource-description-evaluation-notes/</link>
+      <title>date revised</title>
+      <link>https://alanorth.github.io/iseal-schema/global-date-revised/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/resource-description-evaluation-notes/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/global-date-revised/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Evaluation: outcome identified?</title>
-      <link>https://alanorth.github.io/iseal-schema/resource-description-evaluation-outcome-identified/</link>
+      <title>date submitted</title>
+      <link>https://alanorth.github.io/iseal-schema/global-date-submitted/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/resource-description-evaluation-outcome-identified/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/global-date-submitted/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Evaluation: quotes on impact</title>
-      <link>https://alanorth.github.io/iseal-schema/resource-description-evaluation-quotes-on-impact/</link>
+      <title>DOI</title>
+      <link>https://alanorth.github.io/iseal-schema/global-doi/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/resource-description-evaluation-quotes-on-impact/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/global-doi/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Evaluation: recommendations</title>
-      <link>https://alanorth.github.io/iseal-schema/resource-description-evaluation-recommendations/</link>
+      <title>Edition</title>
+      <link>https://alanorth.github.io/iseal-schema/global-edition/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/resource-description-evaluation-recommendations/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/global-edition/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Evaluation: statistical significance</title>
-      <link>https://alanorth.github.io/iseal-schema/resource-description-evaluation-statistical-significance/</link>
+      <title>Evaluation author directionality</title>
+      <link>https://alanorth.github.io/iseal-schema/impact-evaluation-author-directionality/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/resource-description-evaluation-statistical-significance/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/impact-evaluation-author-directionality/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Evaluation: statistical test</title>
-      <link>https://alanorth.github.io/iseal-schema/resource-description-evaluation-statistical-test/</link>
+      <title>Evaluation comparison</title>
+      <link>https://alanorth.github.io/iseal-schema/impact-evaluation-comparison/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/resource-description-evaluation-statistical-test/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/impact-evaluation-comparison/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Evaluation: study scope</title>
-      <link>https://alanorth.github.io/iseal-schema/resource-description-evaluation-study-scope/</link>
+      <title>Evaluation counterfactuals</title>
+      <link>https://alanorth.github.io/iseal-schema/impact-evaluation-counterfactuals/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/resource-description-evaluation-study-scope/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/impact-evaluation-counterfactuals/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Evidence: resource subtype</title>
-      <link>https://alanorth.github.io/iseal-schema/resource-description-evidence-resource-subtype/</link>
+      <title>Evaluation data source</title>
+      <link>https://alanorth.github.io/iseal-schema/impact-evaluation-data-source/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/resource-description-evidence-resource-subtype/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/impact-evaluation-data-source/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Evidence: resource type</title>
-      <link>https://alanorth.github.io/iseal-schema/resource-description-evidence-resource-type/</link>
+      <title>Evaluation data/evidence collection method</title>
+      <link>https://alanorth.github.io/iseal-schema/impact-evaluation-data-evidence-collection-method/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/resource-description-evidence-resource-type/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/impact-evaluation-data-evidence-collection-method/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Evidence: summary</title>
-      <link>https://alanorth.github.io/iseal-schema/resource-description-evidence-summary/</link>
+      <title>Evaluation findings</title>
+      <link>https://alanorth.github.io/iseal-schema/impact-evaluation-findings/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/resource-description-evidence-summary/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/impact-evaluation-findings/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Evidence: type</title>
-      <link>https://alanorth.github.io/iseal-schema/resource-description-evidence-type/</link>
+      <title>Evaluation no difference directionality</title>
+      <link>https://alanorth.github.io/iseal-schema/impact-evaluation-no-difference-directionality/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/resource-description-evidence-type/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/impact-evaluation-no-difference-directionality/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>FSC audit - documentation categories</title>
-      <link>https://alanorth.github.io/iseal-schema/fsc-audit-documentation-categories/</link>
+      <title>Evaluation notes</title>
+      <link>https://alanorth.github.io/iseal-schema/impact-evaluation-notes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/fsc-audit-documentation-categories/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/impact-evaluation-notes/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>FSC audit - sampling system</title>
-      <link>https://alanorth.github.io/iseal-schema/fsc-audit-sampling-system/</link>
+      <title>Evaluation outcome identified?</title>
+      <link>https://alanorth.github.io/iseal-schema/impact-evaluation-outcome-identified/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/fsc-audit-sampling-system/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/impact-evaluation-outcome-identified/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>FSC audit - site types</title>
-      <link>https://alanorth.github.io/iseal-schema/fsc-audit-site-types/</link>
+      <title>Evaluation quotes on impact</title>
+      <link>https://alanorth.github.io/iseal-schema/impact-evaluation-quotes-on-impact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/fsc-audit-site-types/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/impact-evaluation-quotes-on-impact/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>FSC audit - stakeholder engagement types</title>
-      <link>https://alanorth.github.io/iseal-schema/fsc-audit-stakeholder-engagement-types/</link>
+      <title>Evaluation recommendations</title>
+      <link>https://alanorth.github.io/iseal-schema/impact-evaluation-recommendations/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/fsc-audit-stakeholder-engagement-types/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/impact-evaluation-recommendations/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>FSC audit - stakeholder types</title>
-      <link>https://alanorth.github.io/iseal-schema/fsc-audit-stakeholder-types/</link>
+      <title>Evaluation statistical significance</title>
+      <link>https://alanorth.github.io/iseal-schema/impact-evaluation-statistical-significance/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/fsc-audit-stakeholder-types/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/impact-evaluation-statistical-significance/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>FSC audit - type</title>
-      <link>https://alanorth.github.io/iseal-schema/fsc-audit-type/</link>
+      <title>Evaluation statistical test</title>
+      <link>https://alanorth.github.io/iseal-schema/impact-evaluation-statistical-test/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/fsc-audit-type/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/impact-evaluation-statistical-test/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>FSC certificate - category</title>
-      <link>https://alanorth.github.io/iseal-schema/certificate-category/</link>
+      <title>Evaluation study scope</title>
+      <link>https://alanorth.github.io/iseal-schema/impact-evaluation-study-scope/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/certificate-category/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/impact-evaluation-study-scope/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>FSC certificate - type</title>
-      <link>https://alanorth.github.io/iseal-schema/certificate-type/</link>
+      <title>Evidence resource subtype</title>
+      <link>https://alanorth.github.io/iseal-schema/impact-evidence-resource-subtype/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/certificate-type/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/impact-evidence-resource-subtype/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>FSC coverage - region</title>
-      <link>https://alanorth.github.io/iseal-schema/fsc-resource-coverage-region/</link>
+      <title>Evidence resource type</title>
+      <link>https://alanorth.github.io/iseal-schema/impact-evidence-resource-type/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/fsc-resource-coverage-region/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/impact-evidence-resource-type/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>FSC evidence - category</title>
-      <link>https://alanorth.github.io/iseal-schema/fsc-impact-category/</link>
+      <title>Evidence summary</title>
+      <link>https://alanorth.github.io/iseal-schema/impact-evidence-summary/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/fsc-impact-category/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/impact-evidence-summary/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>FSC item or resource - document type</title>
-      <link>https://alanorth.github.io/iseal-schema/fsc-resource-description-document-type/</link>
+      <title>Evidence type</title>
+      <link>https://alanorth.github.io/iseal-schema/impact-evidence-type/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/fsc-resource-description-document-type/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/impact-evidence-type/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>FSC scope - controlled wood code</title>
-      <link>https://alanorth.github.io/iseal-schema/fsc-resource-scope-controlled-wood-code/</link>
+      <title>Extent</title>
+      <link>https://alanorth.github.io/iseal-schema/global-extent/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/fsc-resource-scope-controlled-wood-code/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/global-extent/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>FSC scope - economic issues</title>
-      <link>https://alanorth.github.io/iseal-schema/fsc-resource-scope-economic-issues/</link>
+      <title>Funding source name</title>
+      <link>https://alanorth.github.io/iseal-schema/global-funding-source-name/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/fsc-resource-scope-economic-issues/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/global-funding-source-name/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>FSC scope - economic topics</title>
-      <link>https://alanorth.github.io/iseal-schema/fsc-resource-scope-economic-topics/</link>
+      <title>Funding source type</title>
+      <link>https://alanorth.github.io/iseal-schema/global-funding-source-type/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/fsc-resource-scope-economic-topics/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/global-funding-source-type/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>FSC scope - environmental issues</title>
-      <link>https://alanorth.github.io/iseal-schema/fsc-resource-scope-environmental-issues/</link>
+      <title>Geographic level</title>
+      <link>https://alanorth.github.io/iseal-schema/global-geographic-level/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/fsc-resource-scope-environmental-issues/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/global-geographic-level/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>FSC scope - environmental topics</title>
-      <link>https://alanorth.github.io/iseal-schema/fsc-resource-scope-environmental-topics/</link>
+      <title>ID</title>
+      <link>https://alanorth.github.io/iseal-schema/global-id/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/fsc-resource-scope-environmental-topics/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/global-id/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>FSC scope - forest and tree species</title>
-      <link>https://alanorth.github.io/iseal-schema/fsc-resource-scope-forest-and-tree-species/</link>
+      <title>Is replaced by another item or resource</title>
+      <link>https://alanorth.github.io/iseal-schema/global-is-replaced-by-another-item-or-resource/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/fsc-resource-scope-forest-and-tree-species/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/global-is-replaced-by-another-item-or-resource/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>FSC scope - forest biome / zone</title>
-      <link>https://alanorth.github.io/iseal-schema/fsc-resource-scope-forest-biome-zone/</link>
+      <title>ISBN</title>
+      <link>https://alanorth.github.io/iseal-schema/global-isbn/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/fsc-resource-scope-forest-biome-zone/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/global-isbn/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>FSC scope - forest harvesting techniques</title>
-      <link>https://alanorth.github.io/iseal-schema/fsc-resource-scope-forest-harvesting-techniques/</link>
+      <title>ISEAL code clause number</title>
+      <link>https://alanorth.github.io/iseal-schema/global-iseal-code-clause-number/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/fsc-resource-scope-forest-harvesting-techniques/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/global-iseal-code-clause-number/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>FSC scope - forest management principle</title>
-      <link>https://alanorth.github.io/iseal-schema/fsc-resource-scope-forest-management-principle/</link>
+      <title>ISEAL code name</title>
+      <link>https://alanorth.github.io/iseal-schema/global-iseal-code-name/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/fsc-resource-scope-forest-management-principle/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/global-iseal-code-name/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>FSC scope - forest management type of control</title>
-      <link>https://alanorth.github.io/iseal-schema/fsc-resource-scope-forest-management-type-of-control/</link>
+      <title>ISEAL Delta project sustainability indicator</title>
+      <link>https://alanorth.github.io/iseal-schema/global-iseal-delta-project-sustainability-indicator/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/fsc-resource-scope-forest-management-type-of-control/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/global-iseal-delta-project-sustainability-indicator/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>FSC scope - forest monitoring methods</title>
-      <link>https://alanorth.github.io/iseal-schema/fsc-resource-scope-forest-monitoring-methods/</link>
+      <title>ISEAL member contributor</title>
+      <link>https://alanorth.github.io/iseal-schema/global-iseal-member-contributor/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/fsc-resource-scope-forest-monitoring-methods/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/global-iseal-member-contributor/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>FSC scope - forest products</title>
-      <link>https://alanorth.github.io/iseal-schema/fsc-resource-scope-forest-products/</link>
+      <title>ISEAL strategic pillar</title>
+      <link>https://alanorth.github.io/iseal-schema/global-iseal-strategic-pillar/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/fsc-resource-scope-forest-products/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/global-iseal-strategic-pillar/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>FSC scope - forest products identification system</title>
-      <link>https://alanorth.github.io/iseal-schema/fsc-resource-scope-forest-products-identification-system/</link>
+      <title>ISEAL system element</title>
+      <link>https://alanorth.github.io/iseal-schema/global-iseal-system-element/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/fsc-resource-scope-forest-products-identification-system/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/global-iseal-system-element/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>FSC scope - forest type</title>
-      <link>https://alanorth.github.io/iseal-schema/fsc-resource-scope-forest-type/</link>
+      <title>Journal name</title>
+      <link>https://alanorth.github.io/iseal-schema/global-journal-name/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/fsc-resource-scope-forest-type/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/global-journal-name/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>FSC scope - forestry environmental safeguards</title>
-      <link>https://alanorth.github.io/iseal-schema/fsc-resource-scope-forestry-environmental-safeguards/</link>
+      <title>Language ISO code</title>
+      <link>https://alanorth.github.io/iseal-schema/global-language-iso-code/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/fsc-resource-scope-forestry-environmental-safeguards/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/global-language-iso-code/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>FSC scope - high conservation values</title>
-      <link>https://alanorth.github.io/iseal-schema/fsc-resource-scope-high-conservation-values/</link>
+      <title>Language name</title>
+      <link>https://alanorth.github.io/iseal-schema/global-language-name/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/fsc-resource-scope-high-conservation-values/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/global-language-name/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>FSC scope - non-forestry activities</title>
-      <link>https://alanorth.github.io/iseal-schema/fsc-resource-scope-non-forestry-activities/</link>
+      <title>Latitude and longitude location coordinates for the resource or its focus</title>
+      <link>https://alanorth.github.io/iseal-schema/global-latitude-and-longitude-location-coordinates-for-the-resource-or-its-focus/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/fsc-resource-scope-non-forestry-activities/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/global-latitude-and-longitude-location-coordinates-for-the-resource-or-its-focus/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>FSC scope - non-forestry services for local communities</title>
-      <link>https://alanorth.github.io/iseal-schema/fsc-resource-scope-non-forestry-services-for-local-communities/</link>
+      <title>Latitude location coordinate for the resource or its focus</title>
+      <link>https://alanorth.github.io/iseal-schema/global-latitude-location-coordinate-for-the-resource-or-its-focus/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/fsc-resource-scope-non-forestry-services-for-local-communities/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/global-latitude-location-coordinate-for-the-resource-or-its-focus/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>FSC scope - outcomes and benefits</title>
-      <link>https://alanorth.github.io/iseal-schema/fsc-resource-scope-outcomes-and-benefits/</link>
+      <title>Link to a URL</title>
+      <link>https://alanorth.github.io/iseal-schema/global-link-to-a-url/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/fsc-resource-scope-outcomes-and-benefits/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/global-link-to-a-url/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>FSC scope - political, systemic or legal issues</title>
-      <link>https://alanorth.github.io/iseal-schema/fsc-resource-scope-political-systemic-or-legal-issues/</link>
+      <title>Link to an image, photo or other multimedia</title>
+      <link>https://alanorth.github.io/iseal-schema/global-link-to-an-image-photo-or-other-multimedia/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/fsc-resource-scope-political-systemic-or-legal-issues/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/global-link-to-an-image-photo-or-other-multimedia/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>FSC scope - political, systemic or legal topics</title>
-      <link>https://alanorth.github.io/iseal-schema/fsc-resource-scope-political-systemic-or-legal-topics/</link>
+      <title>Longitude location coordinate for the resource or its focus</title>
+      <link>https://alanorth.github.io/iseal-schema/global-longitude-location-coordinate-for-the-resource-or-its-focus/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/fsc-resource-scope-political-systemic-or-legal-topics/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/global-longitude-location-coordinate-for-the-resource-or-its-focus/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>FSC scope - SLIMF type</title>
-      <link>https://alanorth.github.io/iseal-schema/fsc-resource-scope-slimf-type/</link>
+      <title>Notes</title>
+      <link>https://alanorth.github.io/iseal-schema/global-notes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/fsc-resource-scope-slimf-type/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/global-notes/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>FSC scope - social issues</title>
-      <link>https://alanorth.github.io/iseal-schema/fsc-resource-scope-social-issues/</link>
+      <title>Number</title>
+      <link>https://alanorth.github.io/iseal-schema/global-number/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/fsc-resource-scope-social-issues/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>FSC scope - social topics</title>
-      <link>https://alanorth.github.io/iseal-schema/fsc-resource-scope-social-topics/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://alanorth.github.io/iseal-schema/fsc-resource-scope-social-topics/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>FSC scope - subject keywords</title>
-      <link>https://alanorth.github.io/iseal-schema/fsc-resource-scope-subject-keywords/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://alanorth.github.io/iseal-schema/fsc-resource-scope-subject-keywords/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>FSC scope - sustainability dimension</title>
-      <link>https://alanorth.github.io/iseal-schema/fsc-resource-scope-sustainability-dimension/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://alanorth.github.io/iseal-schema/fsc-resource-scope-sustainability-dimension/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>FSC scope - tenure management</title>
-      <link>https://alanorth.github.io/iseal-schema/fsc-resource-scope-tenure-management/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://alanorth.github.io/iseal-schema/fsc-resource-scope-tenure-management/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>FSC scope - tenure ownership</title>
-      <link>https://alanorth.github.io/iseal-schema/fsc-resource-scope-tenure-ownership/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://alanorth.github.io/iseal-schema/fsc-resource-scope-tenure-ownership/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>FSC standard - type</title>
-      <link>https://alanorth.github.io/iseal-schema/fsc-resource-description-type/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://alanorth.github.io/iseal-schema/fsc-resource-description-type/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ISEAL - code clause number</title>
-      <link>https://alanorth.github.io/iseal-schema/resource-description-code-clause-number/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://alanorth.github.io/iseal-schema/resource-description-code-clause-number/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ISEAL - code name</title>
-      <link>https://alanorth.github.io/iseal-schema/resource-description-code-name/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://alanorth.github.io/iseal-schema/resource-description-code-name/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ISEAL - member contributor</title>
-      <link>https://alanorth.github.io/iseal-schema/resource-description-member-contributor/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://alanorth.github.io/iseal-schema/resource-description-member-contributor/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ISEAL - strategic pillar</title>
-      <link>https://alanorth.github.io/iseal-schema/resource-scope-strategic-pillar/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://alanorth.github.io/iseal-schema/resource-scope-strategic-pillar/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ISEAL - system element</title>
-      <link>https://alanorth.github.io/iseal-schema/resource-scope-system-element/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://alanorth.github.io/iseal-schema/resource-scope-system-element/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Item or resource - abstract</title>
-      <link>https://alanorth.github.io/iseal-schema/resource-description-abstract/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://alanorth.github.io/iseal-schema/resource-description-abstract/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Item or resource - access license</title>
-      <link>https://alanorth.github.io/iseal-schema/resource-status-access-license/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://alanorth.github.io/iseal-schema/resource-status-access-license/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Item or resource - access license holder</title>
-      <link>https://alanorth.github.io/iseal-schema/resource-status-access-license-holder/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://alanorth.github.io/iseal-schema/resource-status-access-license-holder/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Item or resource - access rights</title>
-      <link>https://alanorth.github.io/iseal-schema/resource-status-access-rights/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://alanorth.github.io/iseal-schema/resource-status-access-rights/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Item or resource - audience</title>
-      <link>https://alanorth.github.io/iseal-schema/resource-description-audience/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://alanorth.github.io/iseal-schema/resource-description-audience/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Item or resource - authors</title>
-      <link>https://alanorth.github.io/iseal-schema/resource-description-authors/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://alanorth.github.io/iseal-schema/resource-description-authors/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Item or resource - availability</title>
-      <link>https://alanorth.github.io/iseal-schema/resource-status-availability/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://alanorth.github.io/iseal-schema/resource-status-availability/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Item or resource - citation</title>
-      <link>https://alanorth.github.io/iseal-schema/resource-description-citation/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://alanorth.github.io/iseal-schema/resource-description-citation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Item or resource - contact email</title>
-      <link>https://alanorth.github.io/iseal-schema/links-contact-email/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://alanorth.github.io/iseal-schema/links-contact-email/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Item or resource - contact name</title>
-      <link>https://alanorth.github.io/iseal-schema/links-contact-name/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://alanorth.github.io/iseal-schema/links-contact-name/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Item or resource - date accessioned by system</title>
-      <link>https://alanorth.github.io/iseal-schema/resource-status-date-accessioned-by-system/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://alanorth.github.io/iseal-schema/resource-status-date-accessioned-by-system/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Item or resource - date available through a system</title>
-      <link>https://alanorth.github.io/iseal-schema/resource-status-date-available-through-a-system/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://alanorth.github.io/iseal-schema/resource-status-date-available-through-a-system/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Item or resource - date changed</title>
-      <link>https://alanorth.github.io/iseal-schema/resource-status-date-changed/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://alanorth.github.io/iseal-schema/resource-status-date-changed/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Item or resource - date created</title>
-      <link>https://alanorth.github.io/iseal-schema/resource-status-date-created/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://alanorth.github.io/iseal-schema/resource-status-date-created/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Item or resource - date issued or published</title>
-      <link>https://alanorth.github.io/iseal-schema/resource-status-date-issued-or-published/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://alanorth.github.io/iseal-schema/resource-status-date-issued-or-published/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Item or resource - date of version</title>
-      <link>https://alanorth.github.io/iseal-schema/resource-status-date-of-version/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://alanorth.github.io/iseal-schema/resource-status-date-of-version/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Item or resource - date reviewed</title>
-      <link>https://alanorth.github.io/iseal-schema/resource-status-date-reviewed/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://alanorth.github.io/iseal-schema/resource-status-date-reviewed/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Item or resource - date revised</title>
-      <link>https://alanorth.github.io/iseal-schema/resource-status-date-revised/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://alanorth.github.io/iseal-schema/resource-status-date-revised/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Item or resource - date submitted</title>
-      <link>https://alanorth.github.io/iseal-schema/resource-status-date-submitted/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://alanorth.github.io/iseal-schema/resource-status-date-submitted/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Item or resource - DOI</title>
-      <link>https://alanorth.github.io/iseal-schema/resource-description-doi/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://alanorth.github.io/iseal-schema/resource-description-doi/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Item or resource - edition</title>
-      <link>https://alanorth.github.io/iseal-schema/resource-description-edition/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://alanorth.github.io/iseal-schema/resource-description-edition/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Item or resource - extent</title>
-      <link>https://alanorth.github.io/iseal-schema/resource-description-extent/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://alanorth.github.io/iseal-schema/resource-description-extent/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Item or resource - funding source</title>
-      <link>https://alanorth.github.io/iseal-schema/resource-description-funding-source/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://alanorth.github.io/iseal-schema/resource-description-funding-source/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Item or resource - funding source type</title>
-      <link>https://alanorth.github.io/iseal-schema/resource-description-funding-source-type/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://alanorth.github.io/iseal-schema/resource-description-funding-source-type/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Item or resource - ID</title>
-      <link>https://alanorth.github.io/iseal-schema/resource-description-id/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://alanorth.github.io/iseal-schema/resource-description-id/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Item or resource - is replaced by another item or resource</title>
-      <link>https://alanorth.github.io/iseal-schema/resource-description-is-replaced-by-another-item-or-resource/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://alanorth.github.io/iseal-schema/resource-description-is-replaced-by-another-item-or-resource/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Item or resource - ISBN</title>
-      <link>https://alanorth.github.io/iseal-schema/resource-description-isbn/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://alanorth.github.io/iseal-schema/resource-description-isbn/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Item or resource - journal name</title>
-      <link>https://alanorth.github.io/iseal-schema/resource-description-journal-name/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://alanorth.github.io/iseal-schema/resource-description-journal-name/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Item or resource - language ISO code</title>
-      <link>https://alanorth.github.io/iseal-schema/resource-description-language-iso-code/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://alanorth.github.io/iseal-schema/resource-description-language-iso-code/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Item or resource - language name</title>
-      <link>https://alanorth.github.io/iseal-schema/resource-description-language-name/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://alanorth.github.io/iseal-schema/resource-description-language-name/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Item or resource - notes</title>
-      <link>https://alanorth.github.io/iseal-schema/resource-description-notes/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://alanorth.github.io/iseal-schema/resource-description-notes/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Item or resource - number</title>
-      <link>https://alanorth.github.io/iseal-schema/resource-description-number/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://alanorth.github.io/iseal-schema/resource-description-number/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Item or resource - other titles</title>
-      <link>https://alanorth.github.io/iseal-schema/resource-description-other-titles/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://alanorth.github.io/iseal-schema/resource-description-other-titles/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Item or resource - pagination</title>
-      <link>https://alanorth.github.io/iseal-schema/resource-description-pagination/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://alanorth.github.io/iseal-schema/resource-description-pagination/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Item or resource - peer review status</title>
-      <link>https://alanorth.github.io/iseal-schema/resource-status-peer-review-status/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://alanorth.github.io/iseal-schema/resource-status-peer-review-status/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Item or resource - publication place</title>
-      <link>https://alanorth.github.io/iseal-schema/resource-description-publication-place/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://alanorth.github.io/iseal-schema/resource-description-publication-place/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Item or resource - publisher</title>
-      <link>https://alanorth.github.io/iseal-schema/resource-description-publisher/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://alanorth.github.io/iseal-schema/resource-description-publisher/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Item or resource - series name</title>
-      <link>https://alanorth.github.io/iseal-schema/resource-description-series-name/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://alanorth.github.io/iseal-schema/resource-description-series-name/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Item or resource - title</title>
-      <link>https://alanorth.github.io/iseal-schema/resource-description-title/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://alanorth.github.io/iseal-schema/resource-description-title/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Item or resource - transition status</title>
-      <link>https://alanorth.github.io/iseal-schema/fsc-resource-description-transition-status/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://alanorth.github.io/iseal-schema/fsc-resource-description-transition-status/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Item or resource - type</title>
-      <link>https://alanorth.github.io/iseal-schema/resource-description-type/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://alanorth.github.io/iseal-schema/resource-description-type/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Item or resource - Uniform Resource Identifier</title>
-      <link>https://alanorth.github.io/iseal-schema/resource-description-uniform-resource-identifier/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://alanorth.github.io/iseal-schema/resource-description-uniform-resource-identifier/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Item or resource - version</title>
-      <link>https://alanorth.github.io/iseal-schema/resource-description-version/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://alanorth.github.io/iseal-schema/resource-description-version/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Item or resource - volume</title>
-      <link>https://alanorth.github.io/iseal-schema/resource-description-volume/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://alanorth.github.io/iseal-schema/resource-description-volume/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Link - image or photo</title>
-      <link>https://alanorth.github.io/iseal-schema/links-image-or-photo/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://alanorth.github.io/iseal-schema/links-image-or-photo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Link - URL</title>
-      <link>https://alanorth.github.io/iseal-schema/links-url/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://alanorth.github.io/iseal-schema/links-url/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/global-number/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Organization Bluenumber ID</title>
-      <link>https://alanorth.github.io/iseal-schema/resource-description-organization-bluenumber-id/</link>
+      <link>https://alanorth.github.io/iseal-schema/global-organization-bluenumber-id/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/resource-description-organization-bluenumber-id/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/global-organization-bluenumber-id/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Organization ROR ID</title>
-      <link>https://alanorth.github.io/iseal-schema/resource-description-organization-ror-id/</link>
+      <link>https://alanorth.github.io/iseal-schema/global-organization-ror-id/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/resource-description-organization-ror-id/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/global-organization-ror-id/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Pesticides - active ingredient</title>
-      <link>https://alanorth.github.io/iseal-schema/fsc-resource-scope-active-ingredient/</link>
+      <title>Other titles</title>
+      <link>https://alanorth.github.io/iseal-schema/global-other-titles/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/fsc-resource-scope-active-ingredient/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/global-other-titles/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Pesticides - alternatives challenge</title>
-      <link>https://alanorth.github.io/iseal-schema/fsc-resource-scope-alternatives-challenge/</link>
+      <title>Pagination</title>
+      <link>https://alanorth.github.io/iseal-schema/global-pagination/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/fsc-resource-scope-alternatives-challenge/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/global-pagination/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Pesticides - alternatives method</title>
-      <link>https://alanorth.github.io/iseal-schema/fsc-resource-scope-alternatives-method/</link>
+      <title>peer review status</title>
+      <link>https://alanorth.github.io/iseal-schema/global-peer-review-status/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/fsc-resource-scope-alternatives-method/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/global-peer-review-status/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Pesticides - alternatives strategy</title>
-      <link>https://alanorth.github.io/iseal-schema/fsc-resource-scope-alternatives-strategy/</link>
+      <title>Place name</title>
+      <link>https://alanorth.github.io/iseal-schema/global-place-name/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/fsc-resource-scope-alternatives-strategy/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/global-place-name/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Pesticides - alternatives trial status</title>
-      <link>https://alanorth.github.io/iseal-schema/fsc-resource-scope-alternatives-trial-status/</link>
+      <title>Product focus</title>
+      <link>https://alanorth.github.io/iseal-schema/global-product-focus/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/fsc-resource-scope-alternatives-trial-status/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/global-product-focus/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Pesticides - alternatives type</title>
-      <link>https://alanorth.github.io/iseal-schema/fsc-resource-scope-alternatives-type/</link>
+      <title>Publication place</title>
+      <link>https://alanorth.github.io/iseal-schema/global-publication-place/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/fsc-resource-scope-alternatives-type/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/global-publication-place/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Pesticides - biocontrol agent</title>
-      <link>https://alanorth.github.io/iseal-schema/fsc-resource-scope-biocontrol-agent/</link>
+      <title>Publisher</title>
+      <link>https://alanorth.github.io/iseal-schema/global-publisher/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/fsc-resource-scope-biocontrol-agent/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/global-publisher/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Pesticides - common name</title>
-      <link>https://alanorth.github.io/iseal-schema/fsc-resource-scope-common-name/</link>
+      <title>Region name</title>
+      <link>https://alanorth.github.io/iseal-schema/global-region-name/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/fsc-resource-scope-common-name/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/global-region-name/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Pesticides - pest common name</title>
-      <link>https://alanorth.github.io/iseal-schema/fsc-resource-scope-pest-common-name/</link>
+      <title>SDG focus</title>
+      <link>https://alanorth.github.io/iseal-schema/global-sdg-focus/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/fsc-resource-scope-pest-common-name/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/global-sdg-focus/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Pesticides - pest species name</title>
-      <link>https://alanorth.github.io/iseal-schema/fsc-resource-scope-pest-species-name/</link>
+      <title>Sector focus</title>
+      <link>https://alanorth.github.io/iseal-schema/global-sector-focus/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/fsc-resource-scope-pest-species-name/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/global-sector-focus/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Pesticides - pest type</title>
-      <link>https://alanorth.github.io/iseal-schema/fsc-resource-scope-pest-type/</link>
+      <title>Series name</title>
+      <link>https://alanorth.github.io/iseal-schema/global-series-name/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/fsc-resource-scope-pest-type/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/global-series-name/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Scope - Delta sustainability indicators</title>
-      <link>https://alanorth.github.io/iseal-schema/resource-scope-delta-sustainability-indicators/</link>
+      <title>Standard date of version 1</title>
+      <link>https://alanorth.github.io/iseal-schema/global-standard-date-of-version-1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/resource-scope-delta-sustainability-indicators/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/global-standard-date-of-version-1/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Scope - product</title>
-      <link>https://alanorth.github.io/iseal-schema/resource-scope-product/</link>
+      <title>Standard effective date</title>
+      <link>https://alanorth.github.io/iseal-schema/global-standard-effective-date/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/resource-scope-product/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/global-standard-effective-date/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Scope - SDG focus</title>
-      <link>https://alanorth.github.io/iseal-schema/resource-scope-sdg-focus/</link>
+      <title>Standard ID or code</title>
+      <link>https://alanorth.github.io/iseal-schema/global-standard-id-or-code/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/resource-scope-sdg-focus/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/global-standard-id-or-code/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Scope - sector</title>
-      <link>https://alanorth.github.io/iseal-schema/resource-scope-sector/</link>
+      <title>Standard status</title>
+      <link>https://alanorth.github.io/iseal-schema/global-standard-status/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/resource-scope-sector/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/global-standard-status/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Scope - subject keyword</title>
-      <link>https://alanorth.github.io/iseal-schema/resource-scope-subject-keyword/</link>
+      <title>status</title>
+      <link>https://alanorth.github.io/iseal-schema/global-status/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/resource-scope-subject-keyword/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/global-status/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Scope - sustainability cross-cutting lens</title>
-      <link>https://alanorth.github.io/iseal-schema/resource-scope-sustainability-cross-cutting-lens/</link>
+      <title>Subject focus</title>
+      <link>https://alanorth.github.io/iseal-schema/global-subject-focus/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/resource-scope-sustainability-cross-cutting-lens/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/global-subject-focus/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Scope - sustainability dimension</title>
-      <link>https://alanorth.github.io/iseal-schema/resource-scope-sustainability-dimension/</link>
+      <title>Sustainability cross-cutting lens</title>
+      <link>https://alanorth.github.io/iseal-schema/global-sustainability-cross-cutting-lens/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/resource-scope-sustainability-dimension/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/global-sustainability-cross-cutting-lens/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Scope - sustainability issue</title>
-      <link>https://alanorth.github.io/iseal-schema/resource-scope-sustainability-issue/</link>
+      <title>Sustainability dimension</title>
+      <link>https://alanorth.github.io/iseal-schema/global-sustainability-dimension/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/resource-scope-sustainability-issue/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/global-sustainability-dimension/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Scope - sustainability outcome</title>
-      <link>https://alanorth.github.io/iseal-schema/resource-scope-sustainability-outcome/</link>
+      <title>sustainability issue</title>
+      <link>https://alanorth.github.io/iseal-schema/global-sustainability-issue/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/resource-scope-sustainability-outcome/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/global-sustainability-issue/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Standard - date of version 1</title>
-      <link>https://alanorth.github.io/iseal-schema/resource-status-date-of-version-1/</link>
+      <title>sustainability outcome</title>
+      <link>https://alanorth.github.io/iseal-schema/global-sustainability-outcome/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/resource-status-date-of-version-1/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/global-sustainability-outcome/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Standard - effective date</title>
-      <link>https://alanorth.github.io/iseal-schema/resource-status-effective-date/</link>
+      <title>Sustainability scheme name</title>
+      <link>https://alanorth.github.io/iseal-schema/global-sustainability-scheme-name/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/resource-status-effective-date/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/global-sustainability-scheme-name/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Standard - ID or code</title>
-      <link>https://alanorth.github.io/iseal-schema/resource-description-id-or-code/</link>
+      <title>Sustainability scheme type</title>
+      <link>https://alanorth.github.io/iseal-schema/global-sustainability-scheme-type/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/resource-description-id-or-code/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/global-sustainability-scheme-type/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Standard - status</title>
-      <link>https://alanorth.github.io/iseal-schema/resource-status-status/</link>
+      <title>Title</title>
+      <link>https://alanorth.github.io/iseal-schema/global-title/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/resource-status-status/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/global-title/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Sustainability scheme - name</title>
-      <link>https://alanorth.github.io/iseal-schema/resource-coverage-name/</link>
+      <title>Type</title>
+      <link>https://alanorth.github.io/iseal-schema/global-type/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/resource-coverage-name/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/global-type/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Sustainability scheme - type</title>
-      <link>https://alanorth.github.io/iseal-schema/resource-coverage-type/</link>
+      <title>Uniform Resource Identifier</title>
+      <link>https://alanorth.github.io/iseal-schema/global-uniform-resource-identifier/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alanorth.github.io/iseal-schema/resource-coverage-type/</guid>
+      <guid>https://alanorth.github.io/iseal-schema/global-uniform-resource-identifier/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Usage license holder</title>
+      <link>https://alanorth.github.io/iseal-schema/global-usage-license-holder/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://alanorth.github.io/iseal-schema/global-usage-license-holder/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Usage rights license</title>
+      <link>https://alanorth.github.io/iseal-schema/global-usage-rights-license/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://alanorth.github.io/iseal-schema/global-usage-rights-license/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Version number</title>
+      <link>https://alanorth.github.io/iseal-schema/global-version-number/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://alanorth.github.io/iseal-schema/global-version-number/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Volume number</title>
+      <link>https://alanorth.github.io/iseal-schema/global-volume-number/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://alanorth.github.io/iseal-schema/global-volume-number/</guid>
       <description></description>
     </item>
     
