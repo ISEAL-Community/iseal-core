@@ -53,13 +53,15 @@ def parseSchema(schema_df):
         element_name = element_name.strip()
 
         # For example Assurance, Certification, Core, Impact, etc
-        module = row["idss module"].lower()
+        module = row["idss schema module"].capitalize()
         # For example Certifying Body, FSC audit, Certificate, etc
-        module_cat = row["idss module category"]
+        cluster = row["idss element cluster"].capitalize()
 
         # Generate a URL-safe version of the element name, though we need to
         # think about what field we want to use here.
-        element_name_safe = module_cat.replace(" ", "-").lower() + "-" + element_name
+        element_name_safe = cluster.replace(" ", "-").lower() + "-" + element_name
+
+        print(f"element name: {element_name_safe}")
 
         # Create output directory for term using the URL-safe version
         outputDirectory = f"site/content/terms/{element_name_safe}"
@@ -114,7 +116,8 @@ def parseSchema(schema_df):
         # TOML frontmatter format for Hugo.
         indexLines = []
         indexLines.append("---\n")
-        # Use the full title for now (even though it's ugly)
+        # Use the full title for now (even though it's ugly). Better to fix the
+        # schema spreadsheet than try to process the title here.
         indexLines.append("title: '" + row["element name"] + "'\n")
         if dspace_field_name:
             indexLines.append(f"field: '{dspace_field_name}'\n")
@@ -128,6 +131,8 @@ def parseSchema(schema_df):
             indexLines.append(f"vocabulary: '{element_name_safe}.txt'\n")
         if module:
             indexLines.append(f"module: '{module}'\n")
+        if cluster:
+            indexLines.append(f"cluster: '{cluster}'\n")
         indexLines.append(f"policy: '{policy}'\n")
         ## TODO: use some real date...?
         # indexLines.append(f"date: '2019-05-04T00:00:00+00:00'\n")
