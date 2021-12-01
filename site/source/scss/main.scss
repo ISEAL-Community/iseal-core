@@ -8,6 +8,12 @@ $iseal-dark-blue: #0e304a;
 // another light blue
 $iseal-light-blue: #328cd1;
 
+// Secondary colors
+$iseal-secondary-orange: rgb(223, 155, 24);
+$iseal-secondary-green: rgb(137, 168, 52);
+$iseal-secondary-red: rgb(196, 41, 55);
+$iseal-secondary-purple: rgb(116, 68, 129);
+
 /*
    Some styles inspired from the Dublin Core DCTERMS website, see:
    https://www.dublincore.org/specifications/dublin-core/dcmi-terms/
@@ -16,13 +22,23 @@ $iseal-light-blue: #328cd1;
 body {
     /* for the "scroll spy" navbar feature */
     position: relative;
-    color: $primary;
+    color: $black;
     background-color: $white;
-    font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif;
+    font-family: Arial,sans-serif;
+}
+
+// The ISEAL Branding Guidelines Version 3.0 say that sub-headings should be
+// normal weight and secondary blue color.
+p.lead {
+    color: $secondary;
 }
 
 div.badge-required {
     float: right;
+
+    span {
+        background-color: $iseal-secondary-red;
+    }
 }
 
 td.field-name {
@@ -30,17 +46,16 @@ td.field-name {
     font-weight: 700;
 }
 
-.table {
-    color: $primary;
-}
-
 /* Override Bootstrap's top border on tbody */
 .table>:not(:first-child) {
     border-top: 2px solid $iseal-light-blue;
 }
 
+// The ISEAL Branding Guidelines Version 3.0 say that headings should be bold
+// weight and primary blue color.
 h1, h2, h3 {
     color: $primary;
+    font-weight: 700;
 }
 
 .footer {
