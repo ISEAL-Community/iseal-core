@@ -3,10 +3,11 @@
    See:  https://getbootstrap.com/docs/5.0/examples/sticky-footer/
 */
 
-// this is the second dark blue, slightly lighter than the primary
-$iseal-dark-blue: #0e304a;
-// another light blue
-$iseal-light-blue: #328cd1;
+// Tint colors (80%, 60%, 40%, and 20% of primary blue)
+$iseal-tint-80: rgb(68, 106, 160);
+$iseal-tint-60: rgb(113, 136, 181);
+$iseal-tint-40: rgb(159, 172, 205);
+$iseal-tint-20: rgb(206, 212, 229);
 
 // Secondary colors
 $iseal-secondary-orange: rgb(223, 155, 24);
@@ -33,6 +34,10 @@ p.lead {
     color: $secondary;
 }
 
+.nav-link {
+    color: inherit;
+}
+
 div.badge-required {
     float: right;
 
@@ -48,7 +53,7 @@ td.field-name {
 
 /* Override Bootstrap's top border on tbody */
 .table>:not(:first-child) {
-    border-top: 2px solid $iseal-light-blue;
+    border-top: 2px solid $iseal-tint-80;
 }
 
 // The ISEAL Branding Guidelines Version 3.0 say that headings should be bold
@@ -64,7 +69,7 @@ code {
 
 .footer {
   color: $white;
-  background-color: $iseal-dark-blue;
+  background-color: $primary;
 
   a, a:hover {
     color: inherit;
