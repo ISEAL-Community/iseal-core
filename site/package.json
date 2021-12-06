@@ -8,7 +8,7 @@
     "build:site": "./bin/hugo/hugo",
     "build": "npm run build:css && npm run build:js && npm run clean && npm run build:site",
     "clean": "rm assets/css/style.css.tmp assets/css/style.css.tmp.map",
-    "postinstall": "hugo-installer --version 0.89.2"
+    "postinstall": "hugo-installer --version 0.89.4"
   },
   "keywords": [
     "ISEAL",
