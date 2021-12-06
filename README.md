@@ -39,6 +39,7 @@ $ npm run build
 ## TODO
 
 - Update links to final version (from alanorth to iseal GitHub)
+- Convert schema Excel to CSV and commit to repository
 - Extract controlled vocabularies and schema.csv to data directory, remove openpyxl dependency
 - Add more information and instructions to README.md
 
