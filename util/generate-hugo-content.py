@@ -177,7 +177,7 @@ parser.add_argument(
 parser.add_argument(
     "-i",
     "--input-file",
-    help="Path to schema fields file (idss_schema_fields.xlsx).",
+    help="Path to schema fields file (schema-fields.csv).",
     required=True,
     type=argparse.FileType("r"),
 )
@@ -198,7 +198,7 @@ os.makedirs("site/content/terms", mode=0o755, exist_ok=True)
 if args.debug:
     print(f"Opening {args.input_file.name}")
 
-df = pd.read_excel(args.input_file.name)
+df = pd.read_csv(args.input_file.name)
 # Added inplace=True
 df.dropna(how="all", axis=1, inplace=True)
 df.fillna("", inplace=True)
