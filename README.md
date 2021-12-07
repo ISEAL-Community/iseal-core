@@ -38,9 +38,14 @@ $ npm run build
 
 ## TODO
 
-- Update links to final version (from alanorth to iseal GitHub)
-- Extract controlled vocabularies to data directory
-- Add more information and instructions to README.md
+- Repository
+  - Update links to final version (from alanorth to iseal GitHub)
+  - Add more information and instructions to README.md
+- Schema
+  - Add DSpace fields for all that are missing
+  - Extract controlled vocabularies to data directory
+- Site
+  - Change "Suggested element" to "DSpace mapping"
 
 ## License
 
