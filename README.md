@@ -24,7 +24,7 @@ $ pip install -r requirements.txt
 Then run the utility scripts to parse the schema:
 
 ```console
-$ ./util/generate-hugo-content.py -i ./idss_schema_fields_new2.xlsx --clean -d
+$ ./util/generate-hugo-content.py -i ./data/schema-fields.csv --clean -d
 ```
 
 ## Node.js Setup
@@ -39,7 +39,6 @@ $ npm run build
 ## TODO
 
 - Update links to final version (from alanorth to iseal GitHub)
-- Convert schema Excel to CSV and commit to repository
 - Extract controlled vocabularies and schema.csv to data directory, remove openpyxl dependency
 - Add more information and instructions to README.md
 
