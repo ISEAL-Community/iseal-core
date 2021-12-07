@@ -39,7 +39,7 @@ $ npm run build
 ## TODO
 
 - Update links to final version (from alanorth to iseal GitHub)
-- Extract controlled vocabularies and schema.csv to data directory, remove openpyxl dependency
+- Extract controlled vocabularies to data directory
 - Add more information and instructions to README.md
 
 ## License
