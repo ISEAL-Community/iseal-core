@@ -19,6 +19,7 @@
                 <a class="nav-link ms-3 my-1" href="#cluster-impact">Impact</a>
               </nav>
               <a class="nav-link" href="#schema-extensions">Schema Extensions</a>
+              <a class="nav-link" href="#download">Download</a>
               <a class="nav-link" href="#feedback">Feedback</a>
             </nav>
           </nav>
@@ -112,6 +113,35 @@
           {{ .Render "term" }}
         </div>
         {{ end }}
+        <h2 id="download">Download</h2>
+        <p>The ISEAL Core schema is available for download in two formats:</p>
+        <div class="container ">
+          <div class="row pb-4 row-cols-1 row-cols-lg-2">
+            <div class="col d-flex align-items-start">
+              <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
+                {{ $fileCodeIcon := resources.Get "icons/file-earmark-code.svg" | resources.Fingerprint }}
+                <img src="{{ $fileCodeIcon.Permalink }}" alt="File icon with earmark" width="32" height="32">
+              </div>
+              <div>
+                <h3>Turtle</h3>
+                <p>Terse RDF Triple Language (TTL). Use this format when you need to validate metadata against ISEAL Core programmatically.</p>
+                <a href="https://raw.githubusercontent.com/alanorth/iseal-schema/main/data/iseal-core.ttl" class="btn btn-primary">Download</a>
+              </div>
+            </div>
+            <div class="col d-flex align-items-start">
+              <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
+                {{ $fileSpreadsheetIcon := resources.Get "icons/file-earmark-spreadsheet.svg" | resources.Fingerprint }}
+                <img src="{{ $fileSpreadsheetIcon.Permalink }}" alt="File icon with earmark" width="32" height="32" />
+              </div>
+              <div>
+                <h3>CSV</h3>
+                <p>Comma-separated Values (CSV). Use this format when you just need a quick and easy offline reference.</p>
+                <a href="https://raw.githubusercontent.com/alanorth/iseal-schema/main/data/schema-fields.csv" class="btn btn-primary">Download</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <h2 id="feedback">Feedback</h2>
         <p>If you have questions/comments please contact ____.</p>
       </main>
