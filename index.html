@@ -10,7 +10,7 @@
     <link rel="canonical" href="https://alanorth.github.io/iseal-schema/">
 
     
-    <link href="https://alanorth.github.io/iseal-schema/css/style.min.0f2eef423ff91e5afc30964bf7596fae0aabcd0d7ba9056abf1d70e567a91c5e.css" rel="stylesheet" integrity="sha256-Dy7vQj/5Hlr8MJZL91lvrgqrzQ17qQVqvx1w5WepHF4=" crossorigin="anonymous">
+    <link href="https://alanorth.github.io/iseal-schema/css/style.min.217002b73c5e3e58acb1e61ffe608bb9eb38a037c74929fe36abd2c97a969e58.css" rel="stylesheet" integrity="sha256-IXACtzxePlisseYf/mCLues4oDfHSSn&#43;NqvSyXqWnlg=" crossorigin="anonymous">
   </head>
 
   
@@ -34,6 +34,7 @@
                 <a class="nav-link ms-3 my-1" href="#cluster-impact">Impact</a>
               </nav>
               <a class="nav-link" href="#schema-extensions">Schema Extensions</a>
+              <a class="nav-link" href="#download">Download</a>
               <a class="nav-link" href="#feedback">Feedback</a>
             </nav>
           </nav>
@@ -46,27 +47,44 @@
         <p>ISEAL Core is a set of structured terms and vocabularies that can be used as metadata to describe, share, and reuse different digital resources across the ISEAL Community and broader set of stakeholders. The resources described using the ISEAL Core are those that sustainability systems typically collect, curate, manage, use, publish and archive. They may be datasets, published research, certificates, videos, images, maps, or other organizational documentation.</p>
         <h2 id="clusters-and-modules">Clusters and Modules</h2>
         <p>Metadata elements in ISEAL Core are organized around three <em>clusters</em> and ten <em>modules</em>.</p>
-        <ul>
-          <li>Global</li>
-          <ul>
-            <li>Coverage</li>
-            <li>Form</li>
-            <li>Provenance</li>
-            <li>Scope</li>
-            <li>Status</li>
-          </ul>
-          <li>Certification</li>
-          <ul>
-            <li>Certificate</li>
-            <li>Certificate Holder, Owner or Certified organization</li>
-            <li>Certified Resource or Site</li>
-            <li>Certifying Body</li>
-          </ul>
-          <li>Impact</li>
-          <ul>
-            <li>Impact</li>
-          </ul>
-        </ul>
+        <div class="m-3">
+          <table class="table table-striped table-sm text-center">
+            <thead class="table-light">
+              <tr>
+                <th>Global</th>
+                <th>Certification</th>
+                <th>Impact</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Coverage</td>
+                <td>Certificate</td>
+                <td>Impact</td>
+              </tr>
+              <tr>
+                <td>Form</td>
+                <td>Certificate Holder, Owner or Certified organization</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>Provenance</td>
+                <td>Certified Resource or Site</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>Scope</td>
+                <td>Certifying Body</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>Status</td>
+                <td></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
         <h2 id="metadata-elements">Metadata Elements</h2>
         <p>ISEAL Core uses elements from the following standard metadata schemas:</p>
         <ul>
@@ -7497,6 +7515,35 @@
 
         </div>
         
+        <h2 id="download">Download</h2>
+        <p>The ISEAL Core schema is available for download in two formats:</p>
+        <div class="container ">
+          <div class="row pb-4 row-cols-1 row-cols-lg-2">
+            <div class="col d-flex align-items-start">
+              <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
+                
+                <img src="https://alanorth.github.io/iseal-schema/icons/file-earmark-code.6c7c10f684199da20282ec350f5ee1a7bdb78f638661bb60aabb7b4dd313ec93.svg" alt="File icon with earmark" width="32" height="32">
+              </div>
+              <div>
+                <h3>Turtle</h3>
+                <p>Terse RDF Triple Language (TTL). Use this format when you need to validate metadata against ISEAL Core programmatically.</p>
+                <a href="https://raw.githubusercontent.com/alanorth/iseal-schema/main/data/iseal-core.ttl" class="btn btn-primary">Download</a>
+              </div>
+            </div>
+            <div class="col d-flex align-items-start">
+              <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
+                
+                <img src="https://alanorth.github.io/iseal-schema/icons/file-earmark-spreadsheet.d6b63249e80cb195fe3fe97e96496fe0273881323cc77554c7f24654474073e7.svg" alt="File icon with earmark" width="32" height="32" />
+              </div>
+              <div>
+                <h3>CSV</h3>
+                <p>Comma-separated Values (CSV). Use this format when you just need a quick and easy offline reference.</p>
+                <a href="https://raw.githubusercontent.com/alanorth/iseal-schema/main/data/schema-fields.csv" class="btn btn-primary">Download</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <h2 id="feedback">Feedback</h2>
         <p>If you have questions/comments please contact ____.</p>
       </main>
@@ -7507,7 +7554,7 @@
 
     <footer class="footer mt-auto">
       <div class="container">
-          <p class="mb-0 py-1">ISEAL Core Metadata Set. This work is licensed under a <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.<span class="float-end"><span class="text-white-50">Last modified Thursday, Dec 2, 2021</span> <a href="#">Back to top</a></span></p>
+          <p class="mb-0 py-1">ISEAL Core Metadata Set. This work is licensed under a <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.<span class="float-end"><span class="text-white-50">Last modified Sunday, Dec 12, 2021</span> <a href="#">Back to top</a></span></p>
       </div>
     </footer>
     
