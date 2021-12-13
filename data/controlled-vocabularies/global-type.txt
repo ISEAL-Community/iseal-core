@@ -1,0 +1,54 @@
+Advice note
+Agenda
+Audio
+Bibliography
+Blog
+Blog post
+Book
+Book chapter
+Brief
+Case study
+Certificate
+Checklist
+Code
+Code interpretation
+Conference paper
+Conference resource
+Consultation outcome
+Database
+Dataset
+Directive
+Event report
+Factsheet
+Guidance
+Image
+Infographic
+Internal document
+Journal article
+Journal issue
+Legal opinion or brief
+Manual
+Map
+Minutes
+Multimedia
+News item
+Newsletter
+Other
+Policy
+Polygon
+Presentation
+Procedure
+Report
+Report summary
+Research brief
+Research report
+Shape file
+Software
+Standard
+Thesis
+Tool
+Traning material
+Video
+Web page
+Web site
+Working paper

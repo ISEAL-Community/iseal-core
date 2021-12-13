@@ -1,0 +1,16 @@
+CC-BY
+CC-BY-NC
+CC-BY-NC-ND
+CC-BY-NC-SA
+CC-BY-ND
+CC-BY-SA
+Copyrighted
+Copyrighted; all rights reserved
+Copyrighted; Non-commercial educational use only
+Copyrighted; Non-commercial use only
+GPL
+LGPL
+MIT
+None
+OGL
+Other

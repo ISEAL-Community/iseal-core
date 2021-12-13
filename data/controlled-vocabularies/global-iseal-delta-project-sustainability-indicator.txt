@@ -1,0 +1,18 @@
+1 - Use of highly hazardous pesticides
+2 - Pesticide risk
+3 - Irrigation water management
+3.1 - Water extracted for irrigation
+3.2 - Irrigation efficiency
+3.3 - Water productivity
+4 - Top soil carbon content
+5 - Fertilizer use by type
+6 - Forest, wetland and grassland converted for production
+7 - Greenhouse gas emissions
+8 - Average yield
+9 - Gross margin from production
+10 - Price at farm gate
+11 - Proportion of workers earning a legal minimum wage
+12 - Incidence of child labour
+13 - Incidence of forced labour
+14 - Women's empowerment
+15 - Frequency of on-farm fatalities and non-fatalities
