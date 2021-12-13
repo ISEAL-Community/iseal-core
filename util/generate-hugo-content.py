@@ -40,10 +40,11 @@ def parseSchema(schema_df):
         # Strip just in case
         element_name = element_name.strip()
 
-        # For example Assurance, Certification, Core, Impact, etc
-        module = row["idss schema module"].capitalize()
         # For example Certifying Body, FSC audit, Certificate, etc
         cluster = row["idss element cluster"].capitalize()
+
+        # For example Assurance, Certification, Core, Impact, etc
+        module = row["idss schema module"].capitalize()
 
         # Generate a URL-safe version of the element name, though we need to
         # think about what field we want to use here.
