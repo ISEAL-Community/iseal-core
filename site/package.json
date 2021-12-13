@@ -9,7 +9,8 @@
     "build": "npm run build:css && npm run build:js && npm run clean && npm run copy:icons && npm run build:site",
     "clean": "rm assets/css/style.css.tmp assets/css/style.css.tmp.map",
     "copy:icons": "cp node_modules/bootstrap-icons/icons/file-earmark-code.svg node_modules/bootstrap-icons/icons/file-earmark-spreadsheet.svg assets/icons",
-    "postinstall": "hugo-installer --version 0.89.4"
+    "postinstall": "hugo-installer --version 0.89.4",
+    "server": "./bin/hugo/hugo serve"
   },
   "keywords": [
     "ISEAL",
