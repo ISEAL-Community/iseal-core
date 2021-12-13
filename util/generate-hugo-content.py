@@ -9,6 +9,7 @@ import os
 import re
 import sys
 from shutil import rmtree
+from shutil import copyfile
 
 import pandas as pd
 
@@ -78,9 +79,13 @@ def parseSchema(schema_df):
         if row["element controlled values or terms"]:
             controlled_vocab = True
 
-            exportVocabulary(
-                row["element controlled values or terms"], element_name_safe
-            )
+            controlled_vocabulary_src=f"data/controlled-vocabularies/{element_name_safe}.txt"
+            controlled_vocabulary_dst=f"site/content/terms/{element_name_safe}/vocabulary.txt"
+
+            copyfile(controlled_vocabulary_src, controlled_vocabulary_dst)
+
+            if args.debug:
+                print(f"Copied controlled vocabulary: {element_name_safe}")
         else:
             controlled_vocab = False
 
@@ -118,7 +123,7 @@ def parseSchema(schema_df):
             indexLines.append(f"comment: '{comment}'\n")
         indexLines.append(f"required: {required}\n")
         if controlled_vocab:
-            indexLines.append(f"vocabulary: '{element_name_safe}.txt'\n")
+            indexLines.append(f"vocabulary: 'vocabulary.txt'\n")
         if module:
             indexLines.append(f"module: '{module}'\n")
         if cluster:
@@ -130,24 +135,6 @@ def parseSchema(schema_df):
 
         with open(f"site/content/terms/{element_name_safe}/index.md", "w") as f:
             f.writelines(indexLines)
-
-
-def exportVocabulary(vocabulary: str, element_name_safe: str):
-    # Create an empty list where we'll add all the values (we don't need to do
-    # it this way, but using a list allows us to de-duplicate the values).
-    controlledVocabularyLines = []
-    for value in vocabulary.split("||"):
-        if value not in controlledVocabularyLines:
-            controlledVocabularyLines.append(value)
-
-    with open(
-        f"site/content/terms/{element_name_safe}/{element_name_safe}.txt", "w"
-    ) as f:
-        for value in controlledVocabularyLines:
-            f.write(f"{value}\n")
-
-    if args.debug:
-        print(f"Exported controlled vocabulary: {element_name_safe}")
 
 
 parser = argparse.ArgumentParser(
