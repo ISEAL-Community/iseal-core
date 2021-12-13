@@ -5,7 +5,7 @@ slug: 'global-country-iso-code'
 description: 'Official 2 letter ISO country code'
 comment: 'select from control list'
 required: False
-vocabulary: 'global-country-iso-code.txt'
+vocabulary: 'vocabulary.txt'
 module: 'Coverage'
 cluster: 'Global'
 policy: 'Controlled value. Multi select from control list.'

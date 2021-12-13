@@ -5,7 +5,7 @@ slug: 'certification-certificate-license-status'
 description: 'Whether a certificate license is valid or suspended'
 comment: 'select from control list'
 required: False
-vocabulary: 'certification-certificate-license-status.txt'
+vocabulary: 'vocabulary.txt'
 module: 'Certificate'
 cluster: 'Certification'
 policy: 'Controlled value. Single select from control list.'

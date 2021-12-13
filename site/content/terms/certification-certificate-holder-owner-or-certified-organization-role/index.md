@@ -5,7 +5,7 @@ slug: 'certification-certificate-holder-owner-or-certified-organization-role'
 description: 'The role(s) an organzation plays in a supply chain'
 comment: 'ITC database'
 required: False
-vocabulary: 'certification-certificate-holder-owner-or-certified-organization-role.txt'
+vocabulary: 'vocabulary.txt'
 module: 'Certificate holder, owner or certified organization'
 cluster: 'Certification'
 policy: 'Controlled value. Multi select from control list.'

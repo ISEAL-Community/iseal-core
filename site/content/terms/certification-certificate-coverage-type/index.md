@@ -5,7 +5,7 @@ slug: 'certification-certificate-coverage-type'
 description: 'Whether a certificate covers single or multiple locations'
 comment: 'select from control list'
 required: False
-vocabulary: 'certification-certificate-coverage-type.txt'
+vocabulary: 'vocabulary.txt'
 module: 'Certificate'
 cluster: 'Certification'
 policy: 'Controlled value. Single select from control list.'
