@@ -38,16 +38,6 @@ p.lead {
     color: inherit;
 }
 
-.icon-square {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 3rem;
-  height: 3rem;
-  font-size: 1.5rem;
-  border-radius: .75rem;
-}
-
 div.badge-required {
     float: right;
 
@@ -71,6 +61,12 @@ td.field-name {
 h1, h2, h3 {
     color: $primary;
     font-weight: 700;
+}
+
+h3 img.icon {
+    width: 32px;
+    height: 32px;
+    vertical-align: bottom;
 }
 
 code {
