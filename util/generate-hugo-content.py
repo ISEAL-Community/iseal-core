@@ -17,19 +17,7 @@ def parseSchema(schema_df):
     # Iterate over all rows (the "index, row" syntax allows us to access column
     # headings in each row, which isn't possible if we just do row).
     for index, row in schema_df.iterrows():
-        # Split the element name on " - " because the category is duplicated
-        # here, but in a format that is more difficult to use than the "idss
-        # module category" field. I will # encourage Peter to modify this
-        # field so it is less descriptive because that's what the "idss module
-        # category" field does (and more consistently).
-        if " - " in row["element name"]:
-            # We only want the specific element name, not the category, ie:
-            #
-            #   [Category]  [Element]
-            #   FSC audit - sampling system
-            element_name = row["element name"].split(" - ")[1]
-        else:
-            element_name = row["element name"]
+        element_name = row["element name"]
 
         # Make sure element name is URL friendly because we need to use it in
         # the file system and in the URL.
