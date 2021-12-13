@@ -46,8 +46,9 @@ def parseSchema(schema_df):
         # For example Assurance, Certification, Core, Impact, etc
         module = row["idss schema module"].capitalize()
 
-        # Generate a URL-safe version of the element name, though we need to
-        # think about what field we want to use here.
+        # Generate a "safe" version of the element name for use in URLs and
+        # files by combining the cluster and the element name. This could
+        # change in the future.
         element_name_safe = cluster.replace(" ", "-").lower() + "-" + element_name
 
         print(f"element name: {element_name_safe}")
