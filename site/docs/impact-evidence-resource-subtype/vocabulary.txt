@@ -1,0 +1,26 @@
+Descriptive information - contextual and operational
+Descriptive information - field learning, stories and situations
+Descriptive information - theoretical studies or conceptual explorations
+Empirical study - control not matched but some confounders taken into account - data collected before and after intervention
+Empirical study - control not matched but some confounders taken into account - data collected post-intervention
+Empirical study - control not matched, data collected before and after intervention
+Empirical study - control not matched, data collected post-intervention
+Empirical study - no control, data collected before and after intervention
+Empirical study - no control, data collected post-intervention
+Empirical study - qualitative
+Empirical study - RCT
+Empirical study - with matched control, data collected before and after intervention
+Empirical study - with matched control, data collected post-intervention
+Modeling study - future scenario or potential effects
+Modeling study - one scenario examination
+Modeling study - patterns at a large scale using context variables
+Modeling study - two scenario comparison
+Monitoring report - basic
+Monitoring report - collective
+Monitoring report - performance
+Other resources - methodological papers
+Other resources - synthesis products
+Other resources - thought leadership pieces
+Synthesis paper - literature review
+Synthesis paper - systematic review
+Synthesis paper - systematic review with meta-analysis

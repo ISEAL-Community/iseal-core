@@ -1,0 +1,5 @@
+Site
+Subnational
+National
+Region
+Global
