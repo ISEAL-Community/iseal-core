@@ -34,8 +34,11 @@ jobs:
           commit_message: Automated commit with site updates
           # Only commit if there are changes to the site.
           file_pattern: site/*
+
   pages:
     runs-on: ubuntu-latest
+    # Only run if we are on the main branch. We don't want to update the site
+    # with content from other branches.
     if: ${{ github.ref_name == 'main' }}
     # We need the parse job above. Do not run if that one fails.
     needs: parse
