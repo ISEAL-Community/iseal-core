@@ -43,7 +43,11 @@ jobs:
     # We need the parse job above. Do not run if that one fails.
     needs: parse
     steps:
-      - uses: actions/checkout@v2
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Git pull
+        run: git pull
+
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
