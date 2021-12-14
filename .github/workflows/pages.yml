@@ -2,8 +2,6 @@ name: Pages
 
 on:
   push:
-    branches:
-      - main
 
 jobs:
   parse:
@@ -22,6 +20,7 @@ jobs:
         run: poetry --version
   pages:
     runs-on: ubuntu-latest
+    if: ${{ github.ref_name == 'main' }}
     steps:
       - uses: actions/checkout@v2
       - name: Deploy
