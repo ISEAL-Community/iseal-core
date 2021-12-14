@@ -19,7 +19,7 @@ jobs:
         run: poetry install
       - name: Generate Hugo content
         run: |
-          ./util/generate-hugo-content.py -i data/schema-fields.csv --clean -d
+          poetry run ./util/generate-hugo-content.py -i ./data/schema-fields.csv --clean -d
   pages:
     runs-on: ubuntu-latest
     if: ${{ github.ref_name == 'main' }}
