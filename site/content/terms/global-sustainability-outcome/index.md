@@ -1,5 +1,5 @@
 ---
-title: 'sustainability outcome'
+title: 'Sustainability outcome'
 field: 'is.focus.sustainOutcome'
 slug: 'global-sustainability-outcome'
 description: 'Specific sustainability outcome(s) covered in the resource'
