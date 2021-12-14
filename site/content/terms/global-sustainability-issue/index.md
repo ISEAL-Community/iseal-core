@@ -1,5 +1,5 @@
 ---
-title: 'sustainability issue'
+title: 'Sustainability issue'
 field: 'is.focus.sustainIssue'
 slug: 'global-sustainability-issue'
 description: 'Specific sustainability issue(s) covered in the resource'
