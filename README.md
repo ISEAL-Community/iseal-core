@@ -42,9 +42,10 @@ $ npm run build
   - Update links to final version (from alanorth to iseal GitHub)
   - Add more information and instructions to README.md
 - Schema
-  - Extract controlled vocabularies to data directory
+  - Rename to iseal-core.csv
 - Site
-  - Change "Suggested element" to "DSpace mapping"
+  - Change "Suggested element" to "DSpace mapping"?
+  - Add page for FSC schema extension
 
 ## License
 
