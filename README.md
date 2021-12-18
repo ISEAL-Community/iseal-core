@@ -43,6 +43,8 @@ $ npm run build
   - Add more information and instructions to README.md
 - Schema
   - Rename to iseal-core.csv
+  - Remove combined "latLong" fields (they can be inferred from the separate fields)
+  - Remove controlled vocabularies from the schema CSVs
 - Site
   - Change "Suggested element" to "DSpace mapping"?
   - Add page for FSC schema extension
