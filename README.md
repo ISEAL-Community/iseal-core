@@ -24,7 +24,7 @@ $ pip install -r requirements.txt
 Then run the utility scripts to parse the schema:
 
 ```console
-$ ./util/generate-hugo-content.py -i ./data/schema-fields.csv --clean -d
+$ ./util/generate-hugo-content.py -i ./data/iseal-core.csv --clean -d
 ```
 
 ## Node.js Setup

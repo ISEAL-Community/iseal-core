@@ -138,7 +138,7 @@ def parseSchema(schema_df):
 
 
 parser = argparse.ArgumentParser(
-    description="Parse an ISEAL schema Excel file to produce documentation about metadata requirements."
+    description="Parse an ISEAL schema CSV file to produce documentation about metadata requirements."
 )
 parser.add_argument(
     "--clean",
@@ -154,7 +154,7 @@ parser.add_argument(
 parser.add_argument(
     "-i",
     "--input-file",
-    help="Path to schema fields file (schema-fields.csv).",
+    help="Path to schema fields file (ie, iseal-core.csv).",
     required=True,
     type=argparse.FileType("r"),
 )

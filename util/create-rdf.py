@@ -20,7 +20,7 @@ def make_core():
     iseal = URIRef(NS)
     g.add((iseal, RDF.type, OWL.Ontology))
 
-    df = pd.read_csv("../data/schema-fields.csv")
+    df = pd.read_csv("../data/iseal-core.csv")
     df.dropna(how="all", axis=1)
     df.fillna("", inplace=True)
 
