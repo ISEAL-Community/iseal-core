@@ -6,7 +6,7 @@ description: 'A class of entity for whom the resource is intended or useful'
 comment: 'select from control list'
 required: False
 vocabulary: 'vocabulary.txt'
-module: 'Scope'
+module: 'Form'
 cluster: 'Global'
 policy: 'Controlled value. Repeat values.'
 ---

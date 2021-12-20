@@ -1,5 +1,5 @@
 ---
-title: 'date changed'
+title: 'Date changed'
 field: 'dcterms.modified'
 slug: 'global-date-changed'
 description: 'Date when the resource was changed.'

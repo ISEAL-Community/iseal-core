@@ -1,5 +1,5 @@
 ---
-title: 'date available through a system'
+title: 'Date available through a system'
 field: 'dc.date.available'
 slug: 'global-date-available-through-a-system'
 description: 'Date or date range item became available to the public.'

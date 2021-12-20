@@ -1,5 +1,5 @@
 ---
-title: 'peer review status'
+title: 'Peer review status'
 field: 'is.item.reviewStatus'
 slug: 'global-peer-review-status'
 description: 'Whether the resource has been peer reviewed'

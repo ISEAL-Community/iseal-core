@@ -1,5 +1,5 @@
 ---
-title: 'date revised'
+title: 'Date revised'
 field: 'is.dateRevised'
 slug: 'global-date-revised'
 description: 'Date the resource was, is, will be revised'

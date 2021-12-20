@@ -1,5 +1,5 @@
 ---
-title: 'date reviewed'
+title: 'Date reviewed'
 field: 'is.dateReviewed'
 slug: 'global-date-reviewed'
 description: 'Date the resource was, is, will be reviewed'

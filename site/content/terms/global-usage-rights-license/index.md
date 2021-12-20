@@ -6,7 +6,7 @@ description: 'A legal document giving official permission to do something with a
 comment: 'Normally the type of license, indicated by a short name/code - select from control list'
 required: False
 vocabulary: 'vocabulary.txt'
-module: 'Status'
+module: 'Form'
 cluster: 'Global'
 policy: 'Controlled value. Single select from control list.'
 ---

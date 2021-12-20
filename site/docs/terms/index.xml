@@ -664,7 +664,7 @@
     </item>
     
     <item>
-      <title>date accessioned by system</title>
+      <title>Date accessioned by system</title>
       <link>https://alanorth.github.io/iseal-schema/global-date-accessioned-by-system/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -673,7 +673,7 @@
     </item>
     
     <item>
-      <title>date available through a system</title>
+      <title>Date available through a system</title>
       <link>https://alanorth.github.io/iseal-schema/global-date-available-through-a-system/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -682,7 +682,7 @@
     </item>
     
     <item>
-      <title>date changed</title>
+      <title>Date changed</title>
       <link>https://alanorth.github.io/iseal-schema/global-date-changed/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -691,7 +691,7 @@
     </item>
     
     <item>
-      <title>date created</title>
+      <title>Date created</title>
       <link>https://alanorth.github.io/iseal-schema/global-date-created/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -700,7 +700,7 @@
     </item>
     
     <item>
-      <title>date issued or published</title>
+      <title>Date issued or published</title>
       <link>https://alanorth.github.io/iseal-schema/global-date-issued-or-published/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -709,7 +709,7 @@
     </item>
     
     <item>
-      <title>date of version</title>
+      <title>Date of version</title>
       <link>https://alanorth.github.io/iseal-schema/global-date-of-version/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -718,7 +718,7 @@
     </item>
     
     <item>
-      <title>date reviewed</title>
+      <title>Date reviewed</title>
       <link>https://alanorth.github.io/iseal-schema/global-date-reviewed/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -727,7 +727,7 @@
     </item>
     
     <item>
-      <title>date revised</title>
+      <title>Date revised</title>
       <link>https://alanorth.github.io/iseal-schema/global-date-revised/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -736,7 +736,7 @@
     </item>
     
     <item>
-      <title>date submitted</title>
+      <title>Date submitted</title>
       <link>https://alanorth.github.io/iseal-schema/global-date-submitted/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -930,6 +930,15 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://alanorth.github.io/iseal-schema/global-extent/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Format</title>
+      <link>https://alanorth.github.io/iseal-schema/global-format/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://alanorth.github.io/iseal-schema/global-format/</guid>
       <description></description>
     </item>
     
@@ -1168,7 +1177,7 @@
     </item>
     
     <item>
-      <title>peer review status</title>
+      <title>Peer review status</title>
       <link>https://alanorth.github.io/iseal-schema/global-peer-review-status/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -1285,7 +1294,7 @@
     </item>
     
     <item>
-      <title>status</title>
+      <title>Status</title>
       <link>https://alanorth.github.io/iseal-schema/global-status/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       

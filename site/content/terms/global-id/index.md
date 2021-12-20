@@ -5,7 +5,7 @@ slug: 'global-id'
 description: 'Any ID associated with the item or resource.'
 comment: 'Use other elements for ISBN or DOI'
 required: False
-module: 'Provenance'
+module: 'Form'
 cluster: 'Global'
 policy: 'Free value. Single value only.'
 ---

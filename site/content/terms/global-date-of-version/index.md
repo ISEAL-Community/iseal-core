@@ -1,5 +1,5 @@
 ---
-title: 'date of version'
+title: 'Date of version'
 field: 'is.dateOfVersion'
 slug: 'global-date-of-version'
 description: 'Date as indicated on the resource'

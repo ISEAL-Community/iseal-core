@@ -1,5 +1,5 @@
 ---
-title: 'date created'
+title: 'Date created'
 field: 'dcterms.created'
 slug: 'global-date-created'
 description: 'Date of creation of the resource.'

@@ -1,5 +1,5 @@
 ---
-title: 'status'
+title: 'Status'
 field: 'is.item.status'
 slug: 'global-status'
 description: 'The stage the resource has reached'

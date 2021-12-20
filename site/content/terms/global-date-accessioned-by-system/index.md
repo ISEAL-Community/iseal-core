@@ -1,5 +1,5 @@
 ---
-title: 'date accessioned by system'
+title: 'Date accessioned by system'
 field: 'dc.date.accessioned'
 slug: 'global-date-accessioned-by-system'
 description: 'Date a system takes possession of item.'

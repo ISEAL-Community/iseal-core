@@ -1,5 +1,5 @@
 ---
-title: 'date issued or published'
+title: 'Date issued or published'
 field: 'dcterms.issued'
 slug: 'global-date-issued-or-published'
 description: 'Date of formal issuance (e.g., publication) of the resource.'
