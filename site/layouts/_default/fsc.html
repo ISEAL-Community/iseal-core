@@ -1,0 +1,75 @@
+{{ define "title" }}{{ .Site.Title }} | FSC Schema Extension{{ end }}
+{{/* override style for FSC layout */}}
+{{ define "style" }}
+{{   $style := resources.Get "css/fsc.min.css" | resources.Fingerprint }}
+     <link href="{{ $style.Permalink }}" rel="stylesheet" integrity="{{ $style.Data.Integrity }}" crossorigin="anonymous">
+{{ end }}
+{{ define "main" }}
+
+  <body data-bs-spy="scroll" data-bs-target="#navbar-navigation">
+  <div class="container-fluid">
+    <div class="row">
+      <!-- only show menu on large devices -->
+      <div class="col-lg-2 d-none d-lg-block">
+        <div class="sticky-top">
+          <nav id="navbar-navigation" class="navbar navbar-light bg-light flex-column align-items-start p-3">
+            <a class="navbar-brand" href="#">Navigation</a>
+            <nav class="nav nav-pills flex-column">
+              <a class="nav-link ms-3 my-1" href="#metadata-elements">Metadata Elements</a>
+              <a class="nav-link ms-3 my-1" href="#download">Download</a>
+              <a class="nav-link ms-3 my-1" href="#feedback">Feedback</a>
+            </nav>
+            <a class="nav-link" href="{{ .Site.BaseURL }}">Back to ISEAL Core</a>
+          </nav>
+        </div>
+      </div>
+      <!-- main content is 10 columns on large devices, 12 on all others -->
+      <main class="col-lg-10">
+        <h1>FSC Schema Extension</h1>
+        <p class="lead">This page provides a reference specification for the Forest Stewardship Council (FSC) schema extension.</p>
+        <h2 id="metadata-elements">Metadata Elements</h2>
+        <p>
+        {{/* Note: we need to use two ranges for each cluster because it is */}}
+        {{/* not possible to re-use Hugo's paginate object unless you use   */}}
+        {{/* the same exact arguments each time.                            */}}
+
+        <!-- TODO: note that not all terms have field names so this list is not exclusive! -->
+        {{ range where (where site.RegularPages "Type" "terms") "Params.cluster" "==" "Fsc" }}
+        {{-  if .Params.field -}}
+          <a class="btn btn-sm btn-outline-primary m-1" href="#{{ .Params.slug }}">{{ .Params.field }}</a>
+        {{-  end -}}
+        {{ end }}
+        </p>
+
+        {{ range where (where site.RegularPages "Type" "terms") "Params.cluster" "==" "Fsc" }}
+        <div class="col">
+          {{ .Render "term" }}
+        </div>
+        {{ end }}
+
+        <h2 id="download">Download</h2>
+        <p>The FSC schema extension is available for download in two formats:</p>
+        <div class="row mb-2 justify-content-center">
+          <div class="col-sm-12 col-lg-4">
+            {{ $fileCodeIcon := resources.Get "icons/file-earmark-code.svg" | resources.Fingerprint }}
+            <h3><img class="icon me-1" src="{{ $fileCodeIcon.Permalink }}" alt="File icon with earmark"/>Turtle</h3>
+            <p>Terse RDF Triple Language (TTL). Use this format when you need to validate metadata against ISEAL Core programmatically.</p>
+            <a href="https://raw.githubusercontent.com/alanorth/iseal-schema/main/data/fsc.ttl" class="btn btn-primary">Download</a>
+          </div>
+          <div class="col-sm-12 col-lg-4">
+            {{ $fileSpreadsheetIcon := resources.Get "icons/file-earmark-spreadsheet.svg" | resources.Fingerprint }}
+            <h3><img class="icon me-1" src="{{ $fileSpreadsheetIcon.Permalink }}" alt="File icon with earmark"/>CSV</h3>
+            <p>Comma-separated Values (CSV). Use this format when you just need a quick and easy offline reference.</p>
+            <a href="https://raw.githubusercontent.com/alanorth/iseal-schema/main/data/fsc.csv" class="btn btn-primary">Download</a>
+          </div>
+        </div>
+
+        <h2 id="feedback">Feedback</h2>
+        <p>If you have questions/comments please contact ____.</p>
+      </main>
+    </div><!-- end .row -->
+  </div><!-- end .container-fluid -->
+
+{{ end }}
+
+{{- /* vim: set ts=2 sw=2 et: */}}

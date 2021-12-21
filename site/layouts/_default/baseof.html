@@ -7,8 +7,10 @@
 
     <link rel="canonical" href="{{ .Permalink }}">
 
-    {{ $style := resources.Get "css/style.min.css" | resources.Fingerprint }}
+    {{ block "style" . }}
+    {{ $style := resources.Get "css/iseal.min.css" | resources.Fingerprint }}
     <link href="{{ $style.Permalink }}" rel="stylesheet" integrity="{{ $style.Data.Integrity }}" crossorigin="anonymous">
+    {{ end }}
   </head>
 
   <!-- body start is in main because it needs scrollspy only on home -->
