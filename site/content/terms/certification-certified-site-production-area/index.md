@@ -4,7 +4,8 @@ field: 'is.certifiedSite.productionArea'
 slug: 'certification-certified-site-production-area'
 description: 'in hectares'
 required: False
-module: 'Certified resource or site'
+module: 'Certified Resource or Site'
 cluster: 'Certification'
 policy: 'Free value. Single value only.'
+layout: 'home'
 ---

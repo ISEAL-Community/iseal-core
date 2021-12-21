@@ -7,4 +7,5 @@ required: False
 module: 'Form'
 cluster: 'Global'
 policy: 'Free value. Single value only.'
+layout: 'home'
 ---

@@ -4,7 +4,8 @@ field: 'is.certifiedSite.restorationSetAside'
 slug: 'certification-certified-site-restoration-set-aside'
 description: 'in hectares'
 required: False
-module: 'Certified resource or site'
+module: 'Certified Resource or Site'
 cluster: 'Certification'
 policy: 'Free value. Single value only.'
+layout: 'home'
 ---

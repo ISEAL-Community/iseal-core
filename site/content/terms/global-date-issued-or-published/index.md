@@ -8,4 +8,5 @@ required: True
 module: 'Status'
 cluster: 'Global'
 policy: 'Date. Single value only.'
+layout: 'home'
 ---

@@ -8,4 +8,5 @@ required: False
 module: 'Status'
 cluster: 'Global'
 policy: 'Url. Single value only.'
+layout: 'home'
 ---

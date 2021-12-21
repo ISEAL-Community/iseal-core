@@ -9,4 +9,5 @@ vocabulary: 'vocabulary.txt'
 module: 'Status'
 cluster: 'Global'
 policy: 'Controlled value. Single select from control list.'
+layout: 'home'
 ---

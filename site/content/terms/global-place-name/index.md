@@ -7,4 +7,5 @@ required: False
 module: 'Coverage'
 cluster: 'Global'
 policy: 'Geo value. Repeat values.'
+layout: 'home'
 ---

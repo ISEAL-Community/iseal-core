@@ -4,7 +4,8 @@ field: 'is.certifiedOrganization.gln'
 slug: 'certification-certificate-holder-owner-or-certified-organization-gln'
 description: 'Global Location Number of companies to identify their locations'
 required: False
-module: 'Certificate holder, owner or certified organization'
+module: 'Certificate Holder, Owner or Certified organization'
 cluster: 'Certification'
 policy: 'Free value. Single value only.'
+layout: 'home'
 ---

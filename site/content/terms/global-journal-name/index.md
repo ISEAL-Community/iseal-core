@@ -7,4 +7,5 @@ required: False
 module: 'Provenance'
 cluster: 'Global'
 policy: 'Free value. Single value only.'
+layout: 'home'
 ---

@@ -8,4 +8,5 @@ required: False
 module: 'Certificate'
 cluster: 'Certification'
 policy: 'Date. Single value only.'
+layout: 'home'
 ---

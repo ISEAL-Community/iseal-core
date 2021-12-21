@@ -7,4 +7,5 @@ required: False
 module: 'Scope'
 cluster: 'Global'
 policy: 'Free value. Repeat values.'
+layout: 'home'
 ---

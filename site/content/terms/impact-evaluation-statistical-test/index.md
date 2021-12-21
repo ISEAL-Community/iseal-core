@@ -6,4 +6,5 @@ required: False
 module: 'Impact'
 cluster: 'Impact'
 policy: 'Free value. Repeat values.'
+layout: 'home'
 ---

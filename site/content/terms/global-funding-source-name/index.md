@@ -8,4 +8,5 @@ required: False
 module: 'Provenance'
 cluster: 'Global'
 policy: 'Free value. Repeat values.'
+layout: 'home'
 ---

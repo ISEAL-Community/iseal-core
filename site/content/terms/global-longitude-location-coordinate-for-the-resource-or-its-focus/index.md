@@ -8,4 +8,5 @@ required: False
 module: 'Coverage'
 cluster: 'Global'
 policy: 'Geo value. Single value only.'
+layout: 'home'
 ---

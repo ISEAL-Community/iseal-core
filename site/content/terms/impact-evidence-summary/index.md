@@ -7,4 +7,5 @@ required: False
 module: 'Impact'
 cluster: 'Impact'
 policy: 'Free value. Single value only.'
+layout: 'home'
 ---

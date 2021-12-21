@@ -9,4 +9,5 @@ vocabulary: 'vocabulary.txt'
 module: 'Form'
 cluster: 'Global'
 policy: 'Controlled value. Single value only.'
+layout: 'home'
 ---

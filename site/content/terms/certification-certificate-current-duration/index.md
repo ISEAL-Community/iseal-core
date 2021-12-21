@@ -7,4 +7,5 @@ required: False
 module: 'Certificate'
 cluster: 'Certification'
 policy: 'Free value. Single value only.'
+layout: 'home'
 ---

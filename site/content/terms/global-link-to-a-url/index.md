@@ -8,4 +8,5 @@ required: False
 module: 'Form'
 cluster: 'Global'
 policy: 'Url. Repeat values.'
+layout: 'home'
 ---

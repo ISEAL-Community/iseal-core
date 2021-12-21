@@ -5,7 +5,8 @@ description: 'Full country name'
 comment: 'select from control list'
 required: False
 vocabulary: 'vocabulary.txt'
-module: 'Certifying body'
+module: 'Certifying Body'
 cluster: 'Certification'
 policy: 'Controlled value. Single select from control list.'
+layout: 'home'
 ---

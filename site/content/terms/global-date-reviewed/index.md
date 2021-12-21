@@ -8,4 +8,5 @@ required: False
 module: 'Status'
 cluster: 'Global'
 policy: 'Date. Repeat values.'
+layout: 'home'
 ---

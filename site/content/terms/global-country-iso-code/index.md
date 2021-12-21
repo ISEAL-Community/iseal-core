@@ -9,4 +9,5 @@ vocabulary: 'vocabulary.txt'
 module: 'Coverage'
 cluster: 'Global'
 policy: 'Controlled value. Multi select from control list.'
+layout: 'home'
 ---
