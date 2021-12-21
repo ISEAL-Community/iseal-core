@@ -1,0 +1,4 @@
+Tropical
+Boreal
+Subtropical
+Temperate
