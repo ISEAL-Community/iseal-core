@@ -44,8 +44,19 @@ def parseSchema(schema_df):
         # For example Certifying Body, FSC audit, Certificate, etc
         cluster = row["idss element cluster"].capitalize()
 
-        # For example Assurance, Certification, Core, Impact, etc
-        module = row["idss schema module"].capitalize()
+        # Extract the module (whether from IDSS or extension), for example
+        # Assurance, Certification, Core, Impact, etc
+        if "idss schema module" in df.columns:
+            module = row["idss schema module"]
+
+            # Use the default home layout
+            layout = "home"
+        elif "fsc extension module" in df.columns:
+            module = row["fsc extension module"]
+
+            # Since we know this is the FSC schema we can set the layout to
+            # use the custom fsc layout instead of the default home layout.
+            layout = "fsc"
 
         # Generate a "safe" version of the element name for use in URLs and
         # files by combining the cluster and the element name. This could
@@ -79,8 +90,12 @@ def parseSchema(schema_df):
         if row["element controlled values or terms"]:
             controlled_vocab = True
 
-            controlled_vocabulary_src=f"data/controlled-vocabularies/{element_name_safe}.txt"
-            controlled_vocabulary_dst=f"site/content/terms/{element_name_safe}/vocabulary.txt"
+            controlled_vocabulary_src = (
+                f"data/controlled-vocabularies/{element_name_safe}.txt"
+            )
+            controlled_vocabulary_dst = (
+                f"site/content/terms/{element_name_safe}/vocabulary.txt"
+            )
 
             copyfile(controlled_vocabulary_src, controlled_vocabulary_dst)
 
@@ -89,7 +104,7 @@ def parseSchema(schema_df):
         else:
             controlled_vocab = False
 
-        if row["mandatory?"] == "MANDATORY":
+        if "mandatory?" in df.columns and row["mandatory?"] == "MANDATORY":
             required = True
         else:
             required = False
@@ -129,6 +144,8 @@ def parseSchema(schema_df):
         if cluster:
             indexLines.append(f"cluster: '{cluster}'\n")
         indexLines.append(f"policy: '{policy}'\n")
+        if layout:
+            indexLines.append(f"layout: '{layout}'\n")
         ## TODO: use some real date...?
         # indexLines.append(f"date: '2019-05-04T00:00:00+00:00'\n")
         indexLines.append("---")
