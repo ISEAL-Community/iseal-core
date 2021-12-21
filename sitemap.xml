@@ -212,6 +212,86 @@
   </url><url>
     <loc>https://alanorth.github.io/iseal-schema/global-format/</loc>
   </url><url>
+    <loc>https://alanorth.github.io/iseal-schema/fsc-fsc-audit-documentation-categories/</loc>
+  </url><url>
+    <loc>https://alanorth.github.io/iseal-schema/fsc-fsc-audit-sampling-system/</loc>
+  </url><url>
+    <loc>https://alanorth.github.io/iseal-schema/fsc-fsc-audit-site-types/</loc>
+  </url><url>
+    <loc>https://alanorth.github.io/iseal-schema/fsc-fsc-audit-stakeholder-engagement-types/</loc>
+  </url><url>
+    <loc>https://alanorth.github.io/iseal-schema/fsc-fsc-audit-stakeholder-types/</loc>
+  </url><url>
+    <loc>https://alanorth.github.io/iseal-schema/fsc-fsc-audit-type/</loc>
+  </url><url>
+    <loc>https://alanorth.github.io/iseal-schema/fsc-fsc-certificate-category/</loc>
+  </url><url>
+    <loc>https://alanorth.github.io/iseal-schema/fsc-fsc-certificate-type/</loc>
+  </url><url>
+    <loc>https://alanorth.github.io/iseal-schema/fsc-fsc-controlled-wood-code/</loc>
+  </url><url>
+    <loc>https://alanorth.github.io/iseal-schema/fsc-fsc-coverage-region/</loc>
+  </url><url>
+    <loc>https://alanorth.github.io/iseal-schema/fsc-fsc-economic-issues/</loc>
+  </url><url>
+    <loc>https://alanorth.github.io/iseal-schema/fsc-fsc-economic-topics/</loc>
+  </url><url>
+    <loc>https://alanorth.github.io/iseal-schema/fsc-fsc-environmental-issues/</loc>
+  </url><url>
+    <loc>https://alanorth.github.io/iseal-schema/fsc-fsc-environmental-topics/</loc>
+  </url><url>
+    <loc>https://alanorth.github.io/iseal-schema/fsc-fsc-evidence-category/</loc>
+  </url><url>
+    <loc>https://alanorth.github.io/iseal-schema/fsc-fsc-forest-and-tree-species/</loc>
+  </url><url>
+    <loc>https://alanorth.github.io/iseal-schema/fsc-fsc-forest-biome-zone/</loc>
+  </url><url>
+    <loc>https://alanorth.github.io/iseal-schema/fsc-fsc-forest-harvesting-techniques/</loc>
+  </url><url>
+    <loc>https://alanorth.github.io/iseal-schema/fsc-fsc-forest-management-principle/</loc>
+  </url><url>
+    <loc>https://alanorth.github.io/iseal-schema/fsc-fsc-forest-management-type-of-control/</loc>
+  </url><url>
+    <loc>https://alanorth.github.io/iseal-schema/fsc-fsc-forest-monitoring-methods/</loc>
+  </url><url>
+    <loc>https://alanorth.github.io/iseal-schema/fsc-fsc-forest-products/</loc>
+  </url><url>
+    <loc>https://alanorth.github.io/iseal-schema/fsc-fsc-forest-products-identification-system/</loc>
+  </url><url>
+    <loc>https://alanorth.github.io/iseal-schema/fsc-fsc-forest-type/</loc>
+  </url><url>
+    <loc>https://alanorth.github.io/iseal-schema/fsc-fsc-forestry-environmental-safeguards/</loc>
+  </url><url>
+    <loc>https://alanorth.github.io/iseal-schema/fsc-fsc-high-conservation-values/</loc>
+  </url><url>
+    <loc>https://alanorth.github.io/iseal-schema/fsc-fsc-non-forestry-activities/</loc>
+  </url><url>
+    <loc>https://alanorth.github.io/iseal-schema/fsc-fsc-non-forestry-services-for-local-communities/</loc>
+  </url><url>
+    <loc>https://alanorth.github.io/iseal-schema/fsc-fsc-outcomes-and-benefits/</loc>
+  </url><url>
+    <loc>https://alanorth.github.io/iseal-schema/fsc-fsc-political-systemic-or-legal-issues/</loc>
+  </url><url>
+    <loc>https://alanorth.github.io/iseal-schema/fsc-fsc-political-systemic-or-legal-topics/</loc>
+  </url><url>
+    <loc>https://alanorth.github.io/iseal-schema/fsc-fsc-resource-type/</loc>
+  </url><url>
+    <loc>https://alanorth.github.io/iseal-schema/fsc-fsc-scope-slimf-type/</loc>
+  </url><url>
+    <loc>https://alanorth.github.io/iseal-schema/fsc-fsc-social-issues/</loc>
+  </url><url>
+    <loc>https://alanorth.github.io/iseal-schema/fsc-fsc-social-topics/</loc>
+  </url><url>
+    <loc>https://alanorth.github.io/iseal-schema/fsc-fsc-standard-type/</loc>
+  </url><url>
+    <loc>https://alanorth.github.io/iseal-schema/fsc-fsc-subject-keywords/</loc>
+  </url><url>
+    <loc>https://alanorth.github.io/iseal-schema/fsc-fsc-sustainability-dimension/</loc>
+  </url><url>
+    <loc>https://alanorth.github.io/iseal-schema/fsc-fsc-tenure-management/</loc>
+  </url><url>
+    <loc>https://alanorth.github.io/iseal-schema/fsc-fsc-tenure-ownership/</loc>
+  </url><url>
     <loc>https://alanorth.github.io/iseal-schema/global-funding-source-name/</loc>
   </url><url>
     <loc>https://alanorth.github.io/iseal-schema/global-funding-source-type/</loc>
@@ -268,6 +348,28 @@
   </url><url>
     <loc>https://alanorth.github.io/iseal-schema/global-peer-review-status/</loc>
   </url><url>
+    <loc>https://alanorth.github.io/iseal-schema/fsc-pest-biocontrol-agent/</loc>
+  </url><url>
+    <loc>https://alanorth.github.io/iseal-schema/fsc-pest-common-name/</loc>
+  </url><url>
+    <loc>https://alanorth.github.io/iseal-schema/fsc-pest-species-name/</loc>
+  </url><url>
+    <loc>https://alanorth.github.io/iseal-schema/fsc-pest-type/</loc>
+  </url><url>
+    <loc>https://alanorth.github.io/iseal-schema/fsc-pesticide-active-ingredient/</loc>
+  </url><url>
+    <loc>https://alanorth.github.io/iseal-schema/fsc-pesticide-alternatives-challenge/</loc>
+  </url><url>
+    <loc>https://alanorth.github.io/iseal-schema/fsc-pesticide-alternatives-method/</loc>
+  </url><url>
+    <loc>https://alanorth.github.io/iseal-schema/fsc-pesticide-alternatives-strategy/</loc>
+  </url><url>
+    <loc>https://alanorth.github.io/iseal-schema/fsc-pesticide-alternatives-trial-status/</loc>
+  </url><url>
+    <loc>https://alanorth.github.io/iseal-schema/fsc-pesticide-alternatives-type/</loc>
+  </url><url>
+    <loc>https://alanorth.github.io/iseal-schema/fsc-pesticide-common-name/</loc>
+  </url><url>
     <loc>https://alanorth.github.io/iseal-schema/global-place-name/</loc>
   </url><url>
     <loc>https://alanorth.github.io/iseal-schema/global-product-focus/</loc>
@@ -313,6 +415,8 @@
     <loc>https://alanorth.github.io/iseal-schema/terms/</loc>
   </url><url>
     <loc>https://alanorth.github.io/iseal-schema/global-title/</loc>
+  </url><url>
+    <loc>https://alanorth.github.io/iseal-schema/fsc-transition-status/</loc>
   </url><url>
     <loc>https://alanorth.github.io/iseal-schema/global-type/</loc>
   </url><url>
