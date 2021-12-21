@@ -1,6 +1,0 @@
-Group certificate
-Group single low intensity management units
-Multiple management units
-Single low intensity management unit
-Single management unit
-Single small management unit

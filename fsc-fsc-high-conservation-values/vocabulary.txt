@@ -1,6 +1,0 @@
-HCV1 Species diversity
-HCV2 Landscape-level ecosystems and mosaics
-HCV3 Ecosystems and habitats
-HCV4 Critical ecosystem services
-HCV5 Community needs
-HCV6 Cultural values
