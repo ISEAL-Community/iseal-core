@@ -1,0 +1,46 @@
+// override some Bootstrap colors. Apparently we need to do this *before* we
+// process Bootstrap.
+
+// ISEAL primary (dark) blue
+$primary: rgb(0, 82, 142);
+// ISEAL secondary (light) blue
+$secondary: rgb(27, 118, 188);
+
+// Tint colors (80%, 60%, 40%, and 20% of primary blue)
+$iseal-tint-80: rgb(68, 106, 160);
+$iseal-tint-60: rgb(113, 136, 181);
+$iseal-tint-40: rgb(159, 172, 205);
+$iseal-tint-20: rgb(206, 212, 229);
+
+// Secondary colors
+$iseal-secondary-orange: rgb(223, 155, 24);
+$iseal-secondary-green: rgb(137, 168, 52);
+$iseal-secondary-red: rgb(196, 41, 55);
+$iseal-secondary-purple: rgb(116, 68, 129);
+
+// selectively import components we need from bootstrap
+// see: node_modules/bootstrap/scss/bootstrap.scss
+@import 'bootstrap';
+
+// common style overrides
+@import 'main';
+
+div.badge-required {
+    float: right;
+
+    span {
+        background-color: $iseal-secondary-red;
+    }
+}
+
+/* Override Bootstrap's top border on tbody */
+.table>:not(:first-child) {
+    border-top: 2px solid $iseal-tint-80;
+}
+
+// The ISEAL Branding Guidelines Version 3.0 say that headings should be bold
+// weight and primary blue color.
+h1, h2, h3 {
+    color: $primary;
+    font-weight: 700;
+}

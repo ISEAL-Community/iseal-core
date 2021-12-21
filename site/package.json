@@ -3,11 +3,13 @@
   "version": "0.0.1",
   "description": "Generate ISEAL Core Metadata Set documentation website.",
   "scripts": {
-    "build:css": "sass --style expanded source/scss/style.scss assets/css/style.css.tmp && cleancss -O1 --format breakWith=lf --with-rebase assets/css/style.css.tmp -o assets/css/style.min.css",
+    "build:css": "npm run build:css:iseal && npm run build:css:fsc",
+    "build:css:fsc": "sass --style expanded source/scss/fsc.scss assets/css/fsc.css.tmp && cleancss -O1 --format breakWith=lf --with-rebase assets/css/fsc.css.tmp -o assets/css/fsc.min.css",
+    "build:css:iseal": "sass --style expanded source/scss/iseal.scss assets/css/iseal.css.tmp && cleancss -O1 --format breakWith=lf --with-rebase assets/css/iseal.css.tmp -o assets/css/iseal.min.css",
     "build:js": "uglifyjs node_modules/jquery/dist/jquery.slim.min.js node_modules/bootstrap/dist/js/bootstrap.min.js -o assets/js/bundle.min.js",
     "build:site": "./bin/hugo/hugo",
     "build": "npm run build:css && npm run build:js && npm run clean && npm run copy:icons && npm run build:site",
-    "clean": "rm assets/css/style.css.tmp assets/css/style.css.tmp.map",
+    "clean": "rm assets/css/*.css.tmp assets/css/*.css.tmp.map",
     "copy:icons": "cp node_modules/bootstrap-icons/icons/file-earmark-code.svg node_modules/bootstrap-icons/icons/file-earmark-spreadsheet.svg assets/icons",
     "postinstall": "hugo-installer --version 0.89.4",
     "server": "./bin/hugo/hugo serve"

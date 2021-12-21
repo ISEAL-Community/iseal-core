@@ -1,0 +1,31 @@
+// override some Bootstrap colors. Apparently we need to do this *before* we
+// process Bootstrap.
+
+// FSC primary (dark) green
+$primary: rgb(0, 92, 66);
+// FSC secondary (light) green
+$secondary: rgb(114, 191, 66);
+
+// selectively import components we need from bootstrap
+// see: node_modules/bootstrap/scss/bootstrap.scss
+@import 'bootstrap';
+
+// common style overrides
+@import 'main';
+
+div.badge-required {
+    float: right;
+
+    span {
+        background-color: var(--bs-red);
+    }
+}
+
+/* Override Bootstrap's top border on tbody */
+.table>:not(:first-child) {
+    border-top: 2px solid $primary;
+}
+
+h1, h2, h3 {
+    color: $primary;
+}

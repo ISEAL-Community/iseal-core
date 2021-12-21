@@ -3,18 +3,6 @@
    See:  https://getbootstrap.com/docs/5.0/examples/sticky-footer/
 */
 
-// Tint colors (80%, 60%, 40%, and 20% of primary blue)
-$iseal-tint-80: rgb(68, 106, 160);
-$iseal-tint-60: rgb(113, 136, 181);
-$iseal-tint-40: rgb(159, 172, 205);
-$iseal-tint-20: rgb(206, 212, 229);
-
-// Secondary colors
-$iseal-secondary-orange: rgb(223, 155, 24);
-$iseal-secondary-green: rgb(137, 168, 52);
-$iseal-secondary-red: rgb(196, 41, 55);
-$iseal-secondary-purple: rgb(116, 68, 129);
-
 /*
    Some styles inspired from the Dublin Core DCTERMS website, see:
    https://www.dublincore.org/specifications/dublin-core/dcmi-terms/
@@ -38,28 +26,8 @@ p.lead {
     color: inherit;
 }
 
-div.badge-required {
-    float: right;
-
-    span {
-        background-color: $iseal-secondary-red;
-    }
-}
-
 td.field-name {
     text-align: right;
-    font-weight: 700;
-}
-
-/* Override Bootstrap's top border on tbody */
-.table>:not(:first-child) {
-    border-top: 2px solid $iseal-tint-80;
-}
-
-// The ISEAL Branding Guidelines Version 3.0 say that headings should be bold
-// weight and primary blue color.
-h1, h2, h3 {
-    color: $primary;
     font-weight: 700;
 }
 
@@ -67,10 +35,6 @@ h3 img.icon {
     width: 32px;
     height: 32px;
     vertical-align: bottom;
-}
-
-code {
-    color: $iseal-secondary-orange;
 }
 
 .footer {
