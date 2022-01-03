@@ -1,7 +1,7 @@
 ---
 title: 'Certificate holder, owner or certified organization country'
 slug: 'certification-certificate-holder-owner-or-certified-organization-country'
-description: 'Full country name'
+description: 'Full country name. Terms should be in ISO 3166-1 format.'
 comment: 'select from control list'
 required: False
 vocabulary: 'vocabulary.txt'

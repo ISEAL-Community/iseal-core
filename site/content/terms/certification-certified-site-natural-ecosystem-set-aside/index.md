@@ -2,7 +2,7 @@
 title: 'Certified site natural ecosystem set-aside'
 field: 'is.certifiedSite.naturalSetAside'
 slug: 'certification-certified-site-natural-ecosystem-set-aside'
-description: 'in hectares'
+description: 'Area in hectares'
 required: False
 module: 'Certified Resource or Site'
 cluster: 'Certification'

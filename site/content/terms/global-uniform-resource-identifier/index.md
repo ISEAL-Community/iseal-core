@@ -2,7 +2,7 @@
 title: 'Uniform Resource Identifier'
 field: 'dc.identifier.uri'
 slug: 'global-uniform-resource-identifier'
-description: 'Usually assigned by a repository, eg a handle address in a Dspace repository'
+description: 'Usually assigned by a repository, eg a handle address in a DSpace repository'
 required: False
 module: 'Form'
 cluster: 'Global'

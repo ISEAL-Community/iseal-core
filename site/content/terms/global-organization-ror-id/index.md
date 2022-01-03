@@ -1,7 +1,7 @@
 ---
-title: 'Organization ROR ID'
+title: 'Organization RoR ID'
 slug: 'global-organization-ror-id'
-description: 'GRID ID for an organization'
+description: 'RoR ID for an organization'
 comment: 'Assign for resources associated to organizations'
 required: False
 module: 'Provenance'

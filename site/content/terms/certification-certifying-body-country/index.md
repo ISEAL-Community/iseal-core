@@ -1,7 +1,7 @@
 ---
 title: 'Certifying body country'
 slug: 'certification-certifying-body-country'
-description: 'Full country name'
+description: 'Full country name. Terms should be in ISO 3166-1 format.'
 comment: 'select from control list'
 required: False
 vocabulary: 'vocabulary.txt'

@@ -2,7 +2,7 @@
 title: 'Certificate type'
 field: 'is.certificate.type'
 slug: 'certification-certificate-type'
-description: 'Types of certificate'
+description: 'Type of certificate'
 comment: 'select from control list'
 required: False
 vocabulary: 'vocabulary.txt'
