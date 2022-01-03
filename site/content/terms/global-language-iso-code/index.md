@@ -2,7 +2,7 @@
 title: 'Language ISO code'
 field: 'dcterms.language'
 slug: 'global-language-iso-code'
-description: 'Official 2 letter ISO language code of the resource'
+description: 'A language of the resource. Terms should be in lower case ISO 639-1 (aka Alpha 2) format.'
 comment: 'select from control list'
 required: False
 vocabulary: 'vocabulary.txt'

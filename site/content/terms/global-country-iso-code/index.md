@@ -2,7 +2,7 @@
 title: 'Country ISO code'
 field: 'is.coverage.countryAlpha2'
 slug: 'global-country-iso-code'
-description: 'Official 2 letter ISO country code'
+description: 'Country. Terms should be in ISO 3166-1 Alpha 2 format.'
 comment: 'select from control list'
 required: False
 vocabulary: 'vocabulary.txt'
