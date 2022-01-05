@@ -3,7 +3,7 @@ title: 'Date reviewed'
 field: 'is.dateReviewed'
 slug: 'global-date-reviewed'
 description: 'Date the resource was, is, will be reviewed'
-comment: 'yyyy-mm-dd'
+comment: 'Date in YYYY-MM-DD format. At the very least you must enter the year, but month and day is better if possible.'
 required: False
 module: 'Status'
 cluster: 'Global'

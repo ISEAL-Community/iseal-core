@@ -2,7 +2,7 @@
 title: 'Certifying body accreditation start date'
 slug: 'certification-certifying-body-accreditation-start-date'
 description: 'Date when a bodys accreditation ends'
-comment: 'yyyy-mm-dd'
+comment: 'Date in YYYY-MM-DD format. At the very least you must enter the year, but month and day is better if possible.'
 required: False
 module: 'Certifying Body'
 cluster: 'Certification'
