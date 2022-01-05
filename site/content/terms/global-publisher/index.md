@@ -3,7 +3,7 @@ title: 'Publisher'
 field: 'dcterms.publisher'
 slug: 'global-publisher'
 description: 'An entity responsible for making the resource available.'
-comment: 'Usually the name of an organization'
+comment: 'Usually the name of an organization. Use resources like ROR.'
 required: True
 module: 'Provenance'
 cluster: 'Global'

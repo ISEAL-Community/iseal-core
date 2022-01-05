@@ -3,7 +3,7 @@ title: 'Authors'
 field: 'dc.contributor.author'
 slug: 'global-authors'
 description: 'Persons or organizations intellectually responsible for the content of the resource.'
-comment: 'consistent style recommended; use resources like ORCID or ROR'
+comment: 'Consistent style recommended. Use resources like ORCID or ROR. Note: using legacy “dc” namespace due to limitations with the DSpace institutional repository software.'
 required: True
 module: 'Provenance'
 cluster: 'Global'
