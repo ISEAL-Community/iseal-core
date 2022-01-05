@@ -5,7 +5,7 @@ The ISEAL Core Metadata Set (ISEAL Core) is a set of structured terms and vocabu
   <img width="600" alt="Screenshot of ISEAL Core Metadata Set documentation" src="screenshot.png">
 </p>
 
-You can see a user-friendly version of the schema [here](https://alanorth.github.io/iseal-schema/).
+You can see a user-friendly version of the schema [here](https://iseal-community.github.io/iseal-core/).
 
 ## Requirements
 
