@@ -2,7 +2,7 @@
 title: 'Sustainability cross-cutting lens'
 field: 'is.focus.sustainLens'
 slug: 'global-sustainability-cross-cutting-lens'
-comment: 'select from control list'
+comment: 'Select from control list'
 required: False
 vocabulary: 'vocabulary.txt'
 module: 'Scope'

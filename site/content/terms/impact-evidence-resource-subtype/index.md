@@ -2,7 +2,7 @@
 title: 'Evidence resource subtype'
 field: 'is.evidenceSubType'
 slug: 'impact-evidence-resource-subtype'
-comment: 'select from control list'
+comment: 'Select from control list'
 required: False
 vocabulary: 'vocabulary.txt'
 module: 'Impact'

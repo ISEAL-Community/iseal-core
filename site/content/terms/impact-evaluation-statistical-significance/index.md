@@ -2,7 +2,7 @@
 title: 'Evaluation statistical significance'
 field: 'is.evaluation.significance'
 slug: 'impact-evaluation-statistical-significance'
-comment: 'select from control list'
+comment: 'Select from control list'
 required: False
 vocabulary: 'vocabulary.txt'
 module: 'Impact'

@@ -3,7 +3,7 @@ title: 'Status'
 field: 'is.item.status'
 slug: 'global-status'
 description: 'The stage the resource has reached'
-comment: 'select from control list'
+comment: 'Select from control list'
 required: True
 vocabulary: 'vocabulary.txt'
 module: 'Status'

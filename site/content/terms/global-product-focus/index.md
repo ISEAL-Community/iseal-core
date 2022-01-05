@@ -3,7 +3,7 @@ title: 'Product focus'
 field: 'is.focus.products'
 slug: 'global-product-focus'
 description: 'Certified commodites or products'
-comment: 'select from control list'
+comment: 'Select from control list'
 required: False
 vocabulary: 'vocabulary.txt'
 module: 'Scope'

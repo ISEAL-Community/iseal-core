@@ -3,7 +3,7 @@ title: 'Availability'
 field: 'is.availability.fullText'
 slug: 'global-availability'
 description: 'Indicate if the complete resource is available for use'
-comment: 'select from control list'
+comment: 'Select from control list'
 required: False
 vocabulary: 'vocabulary.txt'
 module: 'Form'

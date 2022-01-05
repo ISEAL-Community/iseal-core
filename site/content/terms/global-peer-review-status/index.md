@@ -3,7 +3,7 @@ title: 'Peer review status'
 field: 'is.item.reviewStatus'
 slug: 'global-peer-review-status'
 description: 'Whether the resource has been peer reviewed'
-comment: 'select from control list'
+comment: 'Select from control list'
 required: False
 vocabulary: 'vocabulary.txt'
 module: 'Status'

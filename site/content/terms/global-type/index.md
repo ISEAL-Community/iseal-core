@@ -3,7 +3,7 @@ title: 'Type'
 field: 'dcterms.type'
 slug: 'global-type'
 description: 'The nature, type or genre of the resource'
-comment: 'select from control list'
+comment: 'Select from control list'
 required: True
 vocabulary: 'vocabulary.txt'
 module: 'Form'

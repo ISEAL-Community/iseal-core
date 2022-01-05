@@ -2,7 +2,7 @@
 title: 'Evaluation comparison'
 field: 'is.evaluation.comparison'
 slug: 'impact-evaluation-comparison'
-comment: 'select from control list'
+comment: 'Select from control list'
 required: False
 vocabulary: 'vocabulary.txt'
 module: 'Impact'

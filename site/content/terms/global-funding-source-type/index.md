@@ -3,7 +3,7 @@ title: 'Funding source type'
 field: 'is.contributor.funderType'
 slug: 'global-funding-source-type'
 description: 'An agreed typology of funder types'
-comment: 'select from control list'
+comment: 'Select from control list'
 required: False
 vocabulary: 'vocabulary.txt'
 module: 'Provenance'

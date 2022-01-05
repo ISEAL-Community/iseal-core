@@ -2,7 +2,7 @@
 title: 'Evidence type'
 field: 'is.evidenceType'
 slug: 'impact-evidence-type'
-comment: 'select from control list'
+comment: 'Select from control list'
 required: False
 vocabulary: 'vocabulary.txt'
 module: 'Impact'

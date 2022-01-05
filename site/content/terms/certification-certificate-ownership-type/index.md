@@ -3,7 +3,7 @@ title: 'Certificate ownership type'
 field: 'is.certificate.ownership'
 slug: 'certification-certificate-ownership-type'
 description: 'Whether a certificate covers individual or group owners'
-comment: 'select from control list'
+comment: 'Select from control list'
 required: False
 vocabulary: 'vocabulary.txt'
 module: 'Certificate'

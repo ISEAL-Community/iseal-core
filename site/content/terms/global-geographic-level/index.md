@@ -3,7 +3,7 @@ title: 'Geographic level'
 field: 'is.coverage.geographicLevel'
 slug: 'global-geographic-level'
 description: 'Level of geographic focus or coverage'
-comment: 'select from control list'
+comment: 'Select from control list'
 required: False
 vocabulary: 'vocabulary.txt'
 module: 'Coverage'

@@ -2,7 +2,7 @@
 title: 'Evaluation data source'
 field: 'is.evaluation.dataSource'
 slug: 'impact-evaluation-data-source'
-comment: 'select from control list'
+comment: 'Select from control list'
 required: False
 vocabulary: 'vocabulary.txt'
 module: 'Impact'

@@ -3,7 +3,7 @@ title: 'Format'
 field: 'dcterms.format'
 slug: 'global-format'
 description: 'The file format or physical medium of the resource'
-comment: 'select from control list'
+comment: 'Select from control list'
 required: False
 vocabulary: 'vocabulary.txt'
 module: 'Form'

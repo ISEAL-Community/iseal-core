@@ -2,7 +2,7 @@
 title: 'Evaluation author directionality'
 field: 'is.evaluation.authorDirectionality'
 slug: 'impact-evaluation-author-directionality'
-comment: 'select from control list'
+comment: 'Select from control list'
 required: False
 vocabulary: 'vocabulary.txt'
 module: 'Impact'

@@ -3,7 +3,7 @@ title: 'Sustainability scheme name'
 field: 'is.identifier.schemeName'
 slug: 'global-sustainability-scheme-name'
 description: 'Name of certification scheme or body associated with the resource'
-comment: 'select from control list'
+comment: 'Select from control list'
 required: False
 vocabulary: 'vocabulary.txt'
 module: 'Scope'

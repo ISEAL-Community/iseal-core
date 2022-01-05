@@ -3,7 +3,7 @@ title: 'ISEAL code name'
 field: 'is.identifier.code'
 slug: 'global-iseal-code-name'
 description: 'Associated ISEAL code(s) of practice'
-comment: 'select from control list'
+comment: 'Select from control list'
 required: False
 vocabulary: 'vocabulary.txt'
 module: 'Scope'

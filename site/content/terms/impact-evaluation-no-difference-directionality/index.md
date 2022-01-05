@@ -2,7 +2,7 @@
 title: 'Evaluation no difference directionality'
 field: 'is.evaluation.noDifferenceDirectionality'
 slug: 'impact-evaluation-no-difference-directionality'
-comment: 'select from control list'
+comment: 'Select from control list'
 required: False
 vocabulary: 'vocabulary.txt'
 module: 'Impact'

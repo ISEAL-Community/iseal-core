@@ -3,7 +3,7 @@ title: 'Language name'
 field: 'is.language'
 slug: 'global-language-name'
 description: 'Popular name for the language of the resource'
-comment: 'select from control list'
+comment: 'Select from control list'
 required: False
 vocabulary: 'vocabulary.txt'
 module: 'Form'
