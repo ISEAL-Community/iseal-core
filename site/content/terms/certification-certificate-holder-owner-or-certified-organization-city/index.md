@@ -1,5 +1,6 @@
 ---
 title: 'Certificate holder, owner or certified organization city'
+field: 'is.certifiedOrganization.city'
 slug: 'certification-certificate-holder-owner-or-certified-organization-city'
 description: 'Complete name of a city or town in an address'
 required: False

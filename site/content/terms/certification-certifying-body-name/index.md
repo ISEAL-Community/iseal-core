@@ -1,6 +1,6 @@
 ---
 title: 'Certifying body name'
-field: 'is.certifyingBody'
+field: 'is.certifyingBody.name'
 slug: 'certification-certifying-body-name'
 description: 'Entity assuring/assessing the status and performance of a certificate holder/owner'
 required: False

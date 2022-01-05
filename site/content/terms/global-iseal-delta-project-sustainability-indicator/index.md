@@ -1,5 +1,6 @@
 ---
 title: 'ISEAL Delta project sustainability indicator'
+field: 'is.delta.sustainIndicator'
 slug: 'global-iseal-delta-project-sustainability-indicator'
 description: 'Farm-level, outcome/impact indicators across the social, economic and environmental dimensions of sustainability'
 comment: 'Select from control list'

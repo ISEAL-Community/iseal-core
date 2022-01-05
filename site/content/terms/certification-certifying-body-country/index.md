@@ -1,5 +1,6 @@
 ---
 title: 'Certifying body country'
+field: 'is.certifyingBody.country'
 slug: 'certification-certifying-body-country'
 description: 'Full country name. Terms should be in ISO 3166-1 format.'
 comment: 'Select from control list'

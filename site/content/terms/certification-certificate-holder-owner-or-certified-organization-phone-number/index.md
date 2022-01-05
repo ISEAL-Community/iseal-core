@@ -1,5 +1,6 @@
 ---
 title: 'Certificate holder, owner or certified organization phone number'
+field: 'is.certifiedOrganization.phoneNumber'
 slug: 'certification-certificate-holder-owner-or-certified-organization-phone-number'
 description: 'Official contact phone number of the organization - without country code'
 required: False

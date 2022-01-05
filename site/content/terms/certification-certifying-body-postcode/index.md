@@ -1,5 +1,6 @@
 ---
 title: 'Certifying body postcode'
+field: 'is.certifyingBody.postcode'
 slug: 'certification-certifying-body-postcode'
 description: 'Full postcode of an address'
 required: False

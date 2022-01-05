@@ -1,5 +1,6 @@
 ---
 title: 'Certifying body accredited technical scope'
+field: 'is.certifyingBody.accreditedTechScope'
 slug: 'certification-certifying-body-accredited-technical-scope'
 comment: 'Select from control list'
 required: False

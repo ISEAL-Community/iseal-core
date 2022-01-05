@@ -1,5 +1,6 @@
 ---
 title: 'Certificate holder, owner or certified organization phone country code'
+field: 'is.certifiedOrganization.phoneCountryCode'
 slug: 'certification-certificate-holder-owner-or-certified-organization-phone-country-code'
 description: 'International subscriber dialing (ISD) codes'
 required: False

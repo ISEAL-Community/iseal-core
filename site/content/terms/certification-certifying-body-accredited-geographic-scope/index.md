@@ -1,5 +1,6 @@
 ---
 title: 'Certifying body accredited geographic scope'
+field: 'is.certifyingBody.accreditedGeoScope'
 slug: 'certification-certifying-body-accredited-geographic-scope'
 description: 'Countries the body is certified to work in. Terms should be in ISO 3166-1 format.'
 comment: 'Select from control list'

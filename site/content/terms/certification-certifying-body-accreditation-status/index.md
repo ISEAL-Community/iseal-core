@@ -1,5 +1,6 @@
 ---
 title: 'Certifying body accreditation status'
+field: 'is.certifyingBody.accreditationStatus'
 slug: 'certification-certifying-body-accreditation-status'
 comment: 'Select from control list'
 required: False

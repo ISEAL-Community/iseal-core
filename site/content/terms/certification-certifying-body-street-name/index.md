@@ -1,5 +1,6 @@
 ---
 title: 'Certifying body street name'
+field: 'is.certifyingBody.streetName'
 slug: 'certification-certifying-body-street-name'
 description: 'Full street name and number of an address'
 required: False

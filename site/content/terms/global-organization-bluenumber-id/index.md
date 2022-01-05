@@ -1,5 +1,6 @@
 ---
 title: 'Organization Bluenumber ID'
+field: 'is.organization.bluenumber'
 slug: 'global-organization-bluenumber-id'
 required: False
 module: 'Provenance'

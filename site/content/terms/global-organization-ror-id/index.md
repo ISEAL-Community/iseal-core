@@ -1,5 +1,6 @@
 ---
 title: 'Organization ROR ID'
+field: 'is.organization.ror'
 slug: 'global-organization-ror-id'
 description: 'ROR ID for an organization'
 comment: 'Assign for resources associated to organizations'

@@ -1,5 +1,6 @@
 ---
 title: 'Author ORCID identifier'
+field: 'is.author.orcid'
 slug: 'global-author-orcid-identifier'
 description: 'ORCID identifier of individuals'
 comment: 'Assign for each author'
