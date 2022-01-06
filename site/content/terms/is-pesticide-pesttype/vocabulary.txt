@@ -1,0 +1,7 @@
+Animal
+Disease
+Fungus
+Insect
+Pine wildling
+Plant
+Weed

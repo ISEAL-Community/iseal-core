@@ -1,0 +1,13 @@
+---
+title: 'Availability'
+field: 'is.availability.fullText'
+slug: 'is-availability-fulltext'
+description: 'Indicate if the complete resource is available for use'
+comment: 'Select from control list'
+required: False
+vocabulary: 'vocabulary.txt'
+module: 'Form'
+cluster: 'Global'
+policy: 'Controlled value. Single select from control list.'
+layout: 'home'
+---

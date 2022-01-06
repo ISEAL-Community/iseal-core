@@ -1,6 +1,0 @@
-TXT
-PDF
-PNG
-JPG
-MP3
-MP4

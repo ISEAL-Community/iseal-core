@@ -1,0 +1,9 @@
+Expired
+Suspended
+Terminated
+Withdrawn
+Extended
+Suspended and Blocked
+Terminated and Blocked
+Issued
+Reissued

@@ -1,0 +1,16 @@
+Indigenous
+Mixed Forest
+Natural Forest
+Natural Forest - Boreal
+Natural Forest - Community forestry
+Natural Forest - Conservation purposes
+Natural Forest - Temperate
+Natural Forest - Tropical
+Plantation
+SLIMF - Boreal
+SLIMF - Community
+SLIMF - Conservation
+SLIMF - Plantation
+SLIMF - Temperate
+SLIMF - Tropical
+Small or Low-Intensity Managed Forest

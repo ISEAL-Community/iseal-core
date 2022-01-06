@@ -1,0 +1,8 @@
+adv
+cw
+dir
+gui
+ns
+pol
+pro
+std
