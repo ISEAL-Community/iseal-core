@@ -58,10 +58,14 @@ def parseSchema(schema_df):
             # use the custom fsc layout instead of the default home layout.
             layout = "fsc"
 
+        if row["dspace field name"] is not None and row["dspace field name"] != "":
+            dspace_field_name = row["dspace field name"]
+        else:
+            dspace_field_name = False
+
         # Generate a "safe" version of the element name for use in URLs and
-        # files by combining the cluster and the element name. This could
-        # change in the future.
-        element_name_safe = cluster.replace(" ", "-").lower() + "-" + element_name
+        # files by using the DSpace field name with dots replaced by dashes.
+        element_name_safe = dspace_field_name.replace(".", "-").lower()
 
         print(f"element name: {element_name_safe}")
 
@@ -108,11 +112,6 @@ def parseSchema(schema_df):
             required = True
         else:
             required = False
-
-        if row["dspace field name"] is not None and row["dspace field name"] != "":
-            dspace_field_name = row["dspace field name"]
-        else:
-            dspace_field_name = False
 
         # Combine element type and options into a "policy" of sorts and convert
         # them to sentence case because they are ALL CAPS in the Excel. We don't
