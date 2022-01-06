@@ -39,7 +39,58 @@ N7.1.2 Tyres
 N7.1.3 Balls
 N7.1.4 Footwear
 N7.1.5 Rubber foam pillows and mattresses
-N7.1.6 Balata, gutta-percha, guayule, chicle
+N7.1.6 Balata, gutta-percha, guayule, timber or plywood
+W4.3.1 Treated glued laminated timber
+W4.3.2 Treated finger jointed lumber
+W5 Solid wood (sawn, chipped, sliced or peeled)
+W5.1 Flitches and boules
+W5.2 Solid wood boards
+W5.3 Beams
+W5.4 Planks
+W5.5 Poles and piles
+W5.6 Railway sleepers/ties, not impregnated
+W5.7 Raw wood for parquet flooring
+W5.8 Slabs and edgings
+W5.9 Pencil slats
+W6 Products from planing mill
+W6.1 Dimensional timber and lumber, finished
+W6.2 Non-dimensional timber and lumber
+W6.3 Boards, finished
+W7 Veneer
+W7.1 Peeled veneer
+W7.2 Sliced veneer
+W7.3 Sawn veneer
+W7.4 Veneer strips
+W8 Wood panels
+W8.1 Plywood
+W8.1.1 Laminboard
+W8.1.2 Veneer plywood
+W8.2 Particleboard
+W8.2.1 Melamine particleboard
+W8.2.2 Veneered particleboard
+W8.2.3 Oriented Strand Board
+W8.2.4 Smooth-surface panel
+W8.2.5 Wood cement particleboard
+W8.2.6 Plasterboard
+W8.2.7 Strawboard
+W8.2.8 Graded particleboard
+W8.3 Fibreboard
+W8.3.1 High-density fibreboard
+W8.3.2 Medium-density fibreboard
+W8.3.3 Softboard
+W8.3.4 Medium-hard-fibreboard
+W9 Engineered wood products
+W9.1 Finger jointed wood
+W9.10 Compressed wood
+W9.11 Wood-plastic composites
+W9.2 Laminated veneer lumber
+W9.3 Parallel strand lumber
+W9.4 Wood-wool board
+W9.5 Solid-wood board
+W9.6 Glued laminated timber
+W9.7 I-joists and I-beams
+W9.8 Laminated compressed wood
+W9.9 Composite board chicle
 N7.1.7 Other manufactured articles of rubber
 N7.2 Gum resin
 N7.3 Resin and manufactured resin products
@@ -269,55 +320,4 @@ W3.7 Sawdust briquettes
 W4 Impregnated/treated wood
 W4.1 Impregnated roundwood
 W4.2 Impregnated railway sleepers/ties
-W4.3 Treated dimensional lumber,timber or plywood
-W4.3.1 Treated glued laminated timber
-W4.3.2 Treated finger jointed lumber
-W5 Solid wood (sawn, chipped, sliced or peeled)
-W5.1 Flitches and boules
-W5.2 Solid wood boards
-W5.3 Beams
-W5.4 Planks
-W5.5 Poles and piles
-W5.6 Railway sleepers/ties, not impregnated
-W5.7 Raw wood for parquet flooring
-W5.8 Slabs and edgings
-W5.9 Pencil slats
-W6 Products from planing mill
-W6.1 Dimensional timber and lumber, finished
-W6.2 Non-dimensional timber and lumber
-W6.3 Boards, finished
-W7 Veneer
-W7.1 Peeled veneer
-W7.2 Sliced veneer
-W7.3 Sawn veneer
-W7.4 Veneer strips
-W8 Wood panels
-W8.1 Plywood
-W8.1.1 Laminboard
-W8.1.2 Veneer plywood
-W8.2 Particleboard
-W8.2.1 Melamine particleboard
-W8.2.2 Veneered particleboard
-W8.2.3 Oriented Strand Board
-W8.2.4 Smooth-surface panel
-W8.2.5 Wood cement particleboard
-W8.2.6 Plasterboard
-W8.2.7 Strawboard
-W8.2.8 Graded particleboard
-W8.3 Fibreboard
-W8.3.1 High-density fibreboard
-W8.3.2 Medium-density fibreboard
-W8.3.3 Softboard
-W8.3.4 Medium-hard-fibreboard
-W9 Engineered wood products
-W9.1 Finger jointed wood
-W9.10 Compressed wood
-W9.11 Wood-plastic composites
-W9.2 Laminated veneer lumber
-W9.3 Parallel strand lumber
-W9.4 Wood-wool board
-W9.5 Solid-wood board
-W9.6 Glued laminated timber
-W9.7 I-joists and I-beams
-W9.8 Laminated compressed wood
-W9.9 Composite board
+W4.3 Treated dimensional lumber

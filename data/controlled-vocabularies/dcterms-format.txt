@@ -1,5 +1,4 @@
-TXT
-PDF
+TXT|PDF
 PNG
 JPG
 MP3
