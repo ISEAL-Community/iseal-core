@@ -1,0 +1,2708 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1"><meta name="generator" content="Hugo 0.91.2" />
+
+
+    <title>ISEAL Core Metadata Set | FSC Schema Extension</title>
+
+    <link rel="canonical" href="https://alanorth.github.io/iseal-schema/fsc-certificate-category/">
+
+    
+
+     <link href="https://alanorth.github.io/iseal-schema/css/fsc.min.b2c55d836f66789be46a918dd4bc428a69ffe288c552f2ae9be5b242f9ced3ac.css" rel="stylesheet" integrity="sha256-ssVdg29meJvkapGN1LxCimn/4ojFUvKum&#43;WyQvnO06w=" crossorigin="anonymous">
+
+  </head>
+
+  
+
+    
+
+  <body data-bs-spy="scroll" data-bs-target="#navbar-navigation">
+  <div class="container-fluid">
+    <div class="row">
+      
+      <div class="col-lg-2 d-none d-lg-block">
+        <div class="sticky-top">
+          <nav id="navbar-navigation" class="navbar navbar-light bg-light flex-column align-items-start p-3">
+            <a class="navbar-brand" href="#">Navigation</a>
+            <nav class="nav nav-pills flex-column">
+              <a class="nav-link ms-3 my-1" href="#metadata-elements">Metadata Elements</a>
+              <a class="nav-link ms-3 my-1" href="#download">Download</a>
+              <a class="nav-link ms-3 my-1" href="#feedback">Feedback</a>
+            </nav>
+            <a class="nav-link" href="https://alanorth.github.io/iseal-schema">Back to ISEAL Core</a>
+          </nav>
+        </div>
+      </div>
+      
+      <main class="col-lg-10">
+        <h1>FSC Schema Extension</h1>
+        <p class="lead">This page provides a reference specification for the Forest Stewardship Council (FSC) schema extension.</p>
+        <h2 id="metadata-elements">Metadata Elements</h2>
+        <p>
+        
+        
+        
+
+        
+        <a class="btn btn-sm btn-outline-primary m-1" href="#fsc-audit-documentationcat">fsc.audit.documentationCat</a><a class="btn btn-sm btn-outline-primary m-1" href="#fsc-audit-samplingsystem">fsc.audit.samplingSystem</a><a class="btn btn-sm btn-outline-primary m-1" href="#fsc-audit-site">fsc.audit.site</a><a class="btn btn-sm btn-outline-primary m-1" href="#fsc-audit-stakeholderengagement">fsc.audit.stakeholderEngagement</a><a class="btn btn-sm btn-outline-primary m-1" href="#fsc-audit-stakeholdertype">fsc.audit.stakeholderType</a><a class="btn btn-sm btn-outline-primary m-1" href="#fsc-audit-type">fsc.audit.type</a><a class="btn btn-sm btn-outline-primary m-1" href="#fsc-certificate-category">fsc.certificate.category</a><a class="btn btn-sm btn-outline-primary m-1" href="#fsc-certificate-type">fsc.certificate.type</a><a class="btn btn-sm btn-outline-primary m-1" href="#fsc-wood-code">fsc.wood.code</a><a class="btn btn-sm btn-outline-primary m-1" href="#fsc-coverage-region">fsc.coverage.region</a><a class="btn btn-sm btn-outline-primary m-1" href="#fsc-issue-economic">fsc.issue.economic</a><a class="btn btn-sm btn-outline-primary m-1" href="#fsc-topic-economic">fsc.topic.economic</a><a class="btn btn-sm btn-outline-primary m-1" href="#fsc-issue-environmental">fsc.issue.environmental</a><a class="btn btn-sm btn-outline-primary m-1" href="#fsc-topic-environmental">fsc.topic.environmental</a><a class="btn btn-sm btn-outline-primary m-1" href="#fsc-evidencecategory">fsc.evidenceCategory</a><a class="btn btn-sm btn-outline-primary m-1" href="#fsc-focus-forestspecies">fsc.focus.forestSpecies</a><a class="btn btn-sm btn-outline-primary m-1" href="#fsc-focus-forestzone">fsc.focus.forestZone</a><a class="btn btn-sm btn-outline-primary m-1" href="#fsc-focus-harvestingtechnique">fsc.focus.harvestingTechnique</a><a class="btn btn-sm btn-outline-primary m-1" href="#fsc-focus-fmprinciple">fsc.focus.fmPrinciple</a><a class="btn btn-sm btn-outline-primary m-1" href="#fsc-focus-fmcontrol">fsc.focus.fmControl</a><a class="btn btn-sm btn-outline-primary m-1" href="#fsc-focus-forestmonitoring">fsc.focus.forestMonitoring</a><a class="btn btn-sm btn-outline-primary m-1" href="#fsc-focus-forestproduct">fsc.focus.forestProduct</a><a class="btn btn-sm btn-outline-primary m-1" href="#fsc-focus-forestproductidsys">fsc.focus.forestProductIdSys</a><a class="btn btn-sm btn-outline-primary m-1" href="#fsc-focus-foresttype">fsc.focus.forestType</a><a class="btn btn-sm btn-outline-primary m-1" href="#fsc-focus-forestrysafeguard">fsc.focus.forestrySafeguard</a><a class="btn btn-sm btn-outline-primary m-1" href="#fsc-focus-highconservationval">fsc.focus.highConservationVal</a><a class="btn btn-sm btn-outline-primary m-1" href="#fsc-focus-nonforestryactivity">fsc.focus.nonForestryActivity</a><a class="btn btn-sm btn-outline-primary m-1" href="#fsc-focus-nonforestryservice">fsc.focus.nonForestryService</a><a class="btn btn-sm btn-outline-primary m-1" href="#fsc-focus-outcome">fsc.focus.outcome</a><a class="btn btn-sm btn-outline-primary m-1" href="#fsc-issue-political">fsc.issue.political</a><a class="btn btn-sm btn-outline-primary m-1" href="#fsc-topic-political">fsc.topic.political</a><a class="btn btn-sm btn-outline-primary m-1" href="#fsc-doccode">fsc.docCode</a><a class="btn btn-sm btn-outline-primary m-1" href="#fsc-focus-scope">fsc.focus.scope</a><a class="btn btn-sm btn-outline-primary m-1" href="#fsc-issue-social">fsc.issue.social</a><a class="btn btn-sm btn-outline-primary m-1" href="#fsc-topic-social">fsc.topic.social</a><a class="btn btn-sm btn-outline-primary m-1" href="#fsc-standard-type">fsc.standard.type</a><a class="btn btn-sm btn-outline-primary m-1" href="#fsc-subject">fsc.subject</a><a class="btn btn-sm btn-outline-primary m-1" href="#fsc-focus-sustaindimension">fsc.focus.sustainDimension</a><a class="btn btn-sm btn-outline-primary m-1" href="#fsc-focus-tenuremanagement">fsc.focus.tenureManagement</a><a class="btn btn-sm btn-outline-primary m-1" href="#fsc-focus-tenureownership">fsc.focus.tenureOwnership</a><a class="btn btn-sm btn-outline-primary m-1" href="#is-pesticide-biocontrolagent">is.pesticide.biocontrolAgent</a><a class="btn btn-sm btn-outline-primary m-1" href="#is-pesticide-pestname">is.pesticide.pestName</a><a class="btn btn-sm btn-outline-primary m-1" href="#is-pesticide-pestspecies">is.pesticide.pestSpecies</a><a class="btn btn-sm btn-outline-primary m-1" href="#is-pesticide-pesttype">is.pesticide.pestType</a><a class="btn btn-sm btn-outline-primary m-1" href="#is-pesticide-activeingredient">is.pesticide.activeIngredient</a><a class="btn btn-sm btn-outline-primary m-1" href="#is-pesticide-challenge">is.pesticide.challenge</a><a class="btn btn-sm btn-outline-primary m-1" href="#is-pesticide-alternativemethod">is.pesticide.alternativeMethod</a><a class="btn btn-sm btn-outline-primary m-1" href="#is-pesticide-alternativestrategy">is.pesticide.alternativeStrategy</a><a class="btn btn-sm btn-outline-primary m-1" href="#is-pesticide-alternativetrial">is.pesticide.alternativeTrial</a><a class="btn btn-sm btn-outline-primary m-1" href="#is-pesticide-alternativetype">is.pesticide.alternativeType</a><a class="btn btn-sm btn-outline-primary m-1" href="#is-pesticide-commonname">is.pesticide.commonName</a><a class="btn btn-sm btn-outline-primary m-1" href="#fsc-intransition">fsc.inTransition</a>
+        </p>
+
+        
+        <div class="col">
+                  <p class="invisible"><a id="fsc-audit-documentationcat"></a></p>
+        <table class="table table-sm table-bordered">
+          <thead>
+            <tr class="table-secondary">
+              <th colspan="2">
+                <span class="">FSC audit documentation categories</span></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="col-2 field-name">Label</td>
+              <td>FSC audit documentation categories</td>
+            </tr>
+            <tr>
+              <td class="col-2 field-name">Module</td>
+              <td>Assurance</td>
+            </tr>
+            
+            
+            <tr>
+              <td class="col-2 field-name">Comment</td>
+              <td>select from control list</td>
+            </tr>
+            
+            
+            <tr>
+              <td class="col-2 field-name">Suggested element</td>
+              <td><code>fsc.audit.documentationCat</code></td>
+            </tr>
+            
+            
+            <tr>
+              <td class="col-2 field-name">Policy</td>
+              <td>Controlled value. Multi select from control list.</td>
+            </tr>
+            
+            
+            
+            <tr>
+              <td class="col-2 field-name">Vocabulary</td>
+              <td><a href="/iseal-schema/fsc-audit-documentationcat/vocabulary.txt">vocabulary.txt</a></td>
+            </tr>
+            
+            
+          </tbody>
+        </table>
+
+        </div>
+        
+        <div class="col">
+                  <p class="invisible"><a id="fsc-audit-samplingsystem"></a></p>
+        <table class="table table-sm table-bordered">
+          <thead>
+            <tr class="table-secondary">
+              <th colspan="2">
+                <span class="">FSC audit sampling system</span></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="col-2 field-name">Label</td>
+              <td>FSC audit sampling system</td>
+            </tr>
+            <tr>
+              <td class="col-2 field-name">Module</td>
+              <td>Assurance</td>
+            </tr>
+            
+            
+            <tr>
+              <td class="col-2 field-name">Comment</td>
+              <td>select from control list</td>
+            </tr>
+            
+            
+            <tr>
+              <td class="col-2 field-name">Suggested element</td>
+              <td><code>fsc.audit.samplingSystem</code></td>
+            </tr>
+            
+            
+            <tr>
+              <td class="col-2 field-name">Policy</td>
+              <td>Controlled value. Multi select from control list.</td>
+            </tr>
+            
+            
+            
+            <tr>
+              <td class="col-2 field-name">Vocabulary</td>
+              <td><a href="/iseal-schema/fsc-audit-samplingsystem/vocabulary.txt">vocabulary.txt</a></td>
+            </tr>
+            
+            
+          </tbody>
+        </table>
+
+        </div>
+        
+        <div class="col">
+                  <p class="invisible"><a id="fsc-audit-site"></a></p>
+        <table class="table table-sm table-bordered">
+          <thead>
+            <tr class="table-secondary">
+              <th colspan="2">
+                <span class="">FSC audit site types</span></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="col-2 field-name">Label</td>
+              <td>FSC audit site types</td>
+            </tr>
+            <tr>
+              <td class="col-2 field-name">Module</td>
+              <td>Assurance</td>
+            </tr>
+            
+            
+            <tr>
+              <td class="col-2 field-name">Comment</td>
+              <td>select from control list</td>
+            </tr>
+            
+            
+            <tr>
+              <td class="col-2 field-name">Suggested element</td>
+              <td><code>fsc.audit.site</code></td>
+            </tr>
+            
+            
+            <tr>
+              <td class="col-2 field-name">Policy</td>
+              <td>Controlled value. Multi select from control list.</td>
+            </tr>
+            
+            
+            
+            <tr>
+              <td class="col-2 field-name">Vocabulary</td>
+              <td><a href="/iseal-schema/fsc-audit-site/vocabulary.txt">vocabulary.txt</a></td>
+            </tr>
+            
+            
+          </tbody>
+        </table>
+
+        </div>
+        
+        <div class="col">
+                  <p class="invisible"><a id="fsc-audit-stakeholderengagement"></a></p>
+        <table class="table table-sm table-bordered">
+          <thead>
+            <tr class="table-secondary">
+              <th colspan="2">
+                <span class="">FSC audit stakeholder engagement types</span></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="col-2 field-name">Label</td>
+              <td>FSC audit stakeholder engagement types</td>
+            </tr>
+            <tr>
+              <td class="col-2 field-name">Module</td>
+              <td>Assurance</td>
+            </tr>
+            
+            
+            <tr>
+              <td class="col-2 field-name">Comment</td>
+              <td>select from control list</td>
+            </tr>
+            
+            
+            <tr>
+              <td class="col-2 field-name">Suggested element</td>
+              <td><code>fsc.audit.stakeholderEngagement</code></td>
+            </tr>
+            
+            
+            <tr>
+              <td class="col-2 field-name">Policy</td>
+              <td>Controlled value. Multi select from control list.</td>
+            </tr>
+            
+            
+            
+            <tr>
+              <td class="col-2 field-name">Vocabulary</td>
+              <td><a href="/iseal-schema/fsc-audit-stakeholderengagement/vocabulary.txt">vocabulary.txt</a></td>
+            </tr>
+            
+            
+          </tbody>
+        </table>
+
+        </div>
+        
+        <div class="col">
+                  <p class="invisible"><a id="fsc-audit-stakeholdertype"></a></p>
+        <table class="table table-sm table-bordered">
+          <thead>
+            <tr class="table-secondary">
+              <th colspan="2">
+                <span class="">FSC audit stakeholder types</span></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="col-2 field-name">Label</td>
+              <td>FSC audit stakeholder types</td>
+            </tr>
+            <tr>
+              <td class="col-2 field-name">Module</td>
+              <td>Assurance</td>
+            </tr>
+            
+            
+            <tr>
+              <td class="col-2 field-name">Comment</td>
+              <td>select from control list</td>
+            </tr>
+            
+            
+            <tr>
+              <td class="col-2 field-name">Suggested element</td>
+              <td><code>fsc.audit.stakeholderType</code></td>
+            </tr>
+            
+            
+            <tr>
+              <td class="col-2 field-name">Policy</td>
+              <td>Controlled value. Multi select from control list.</td>
+            </tr>
+            
+            
+            
+            <tr>
+              <td class="col-2 field-name">Vocabulary</td>
+              <td><a href="/iseal-schema/fsc-audit-stakeholdertype/vocabulary.txt">vocabulary.txt</a></td>
+            </tr>
+            
+            
+          </tbody>
+        </table>
+
+        </div>
+        
+        <div class="col">
+                  <p class="invisible"><a id="fsc-audit-type"></a></p>
+        <table class="table table-sm table-bordered">
+          <thead>
+            <tr class="table-secondary">
+              <th colspan="2">
+                <span class="">FSC audit type</span></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="col-2 field-name">Label</td>
+              <td>FSC audit type</td>
+            </tr>
+            <tr>
+              <td class="col-2 field-name">Module</td>
+              <td>Assurance</td>
+            </tr>
+            
+            
+            <tr>
+              <td class="col-2 field-name">Comment</td>
+              <td>select from control list</td>
+            </tr>
+            
+            
+            <tr>
+              <td class="col-2 field-name">Suggested element</td>
+              <td><code>fsc.audit.type</code></td>
+            </tr>
+            
+            
+            <tr>
+              <td class="col-2 field-name">Policy</td>
+              <td>Controlled value. Single select from control list.</td>
+            </tr>
+            
+            
+            
+            <tr>
+              <td class="col-2 field-name">Vocabulary</td>
+              <td><a href="/iseal-schema/fsc-audit-type/vocabulary.txt">vocabulary.txt</a></td>
+            </tr>
+            
+            
+          </tbody>
+        </table>
+
+        </div>
+        
+        <div class="col">
+                  <p class="invisible"><a id="fsc-certificate-category"></a></p>
+        <table class="table table-sm table-bordered">
+          <thead>
+            <tr class="table-secondary">
+              <th colspan="2">
+                <span class="">FSC certificate category</span></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="col-2 field-name">Label</td>
+              <td>FSC certificate category</td>
+            </tr>
+            <tr>
+              <td class="col-2 field-name">Module</td>
+              <td>Certificate</td>
+            </tr>
+            
+            <tr>
+              <td class="col-2 field-name">Definition</td>
+              <td>Categories of FSC certificates</td>
+            </tr>
+            
+            
+            <tr>
+              <td class="col-2 field-name">Comment</td>
+              <td>select from control list</td>
+            </tr>
+            
+            
+            <tr>
+              <td class="col-2 field-name">Suggested element</td>
+              <td><code>fsc.certificate.category</code></td>
+            </tr>
+            
+            
+            <tr>
+              <td class="col-2 field-name">Policy</td>
+              <td>Controlled value. Single select from control list.</td>
+            </tr>
+            
+            
+            
+            <tr>
+              <td class="col-2 field-name">Vocabulary</td>
+              <td><a href="/iseal-schema/fsc-certificate-category/vocabulary.txt">vocabulary.txt</a></td>
+            </tr>
+            
+            
+          </tbody>
+        </table>
+
+        </div>
+        
+        <div class="col">
+                  <p class="invisible"><a id="fsc-certificate-type"></a></p>
+        <table class="table table-sm table-bordered">
+          <thead>
+            <tr class="table-secondary">
+              <th colspan="2">
+                <span class="">FSC certificate type</span></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="col-2 field-name">Label</td>
+              <td>FSC certificate type</td>
+            </tr>
+            <tr>
+              <td class="col-2 field-name">Module</td>
+              <td>Certificate</td>
+            </tr>
+            
+            <tr>
+              <td class="col-2 field-name">Definition</td>
+              <td>Types of FSC certificates</td>
+            </tr>
+            
+            
+            <tr>
+              <td class="col-2 field-name">Comment</td>
+              <td>select from control list</td>
+            </tr>
+            
+            
+            <tr>
+              <td class="col-2 field-name">Suggested element</td>
+              <td><code>fsc.certificate.type</code></td>
+            </tr>
+            
+            
+            <tr>
+              <td class="col-2 field-name">Policy</td>
+              <td>Controlled value. Single select from control list.</td>
+            </tr>
+            
+            
+            
+            <tr>
+              <td class="col-2 field-name">Vocabulary</td>
+              <td><a href="/iseal-schema/fsc-certificate-type/vocabulary.txt">vocabulary.txt</a></td>
+            </tr>
+            
+            
+          </tbody>
+        </table>
+
+        </div>
+        
+        <div class="col">
+                  <p class="invisible"><a id="fsc-wood-code"></a></p>
+        <table class="table table-sm table-bordered">
+          <thead>
+            <tr class="table-secondary">
+              <th colspan="2">
+                <span class="">FSC controlled wood code</span></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="col-2 field-name">Label</td>
+              <td>FSC controlled wood code</td>
+            </tr>
+            <tr>
+              <td class="col-2 field-name">Module</td>
+              <td>Scope</td>
+            </tr>
+            
+            
+            <tr>
+              <td class="col-2 field-name">Comment</td>
+              <td>select from control list</td>
+            </tr>
+            
+            
+            <tr>
+              <td class="col-2 field-name">Suggested element</td>
+              <td><code>fsc.wood.code</code></td>
+            </tr>
+            
+            
+            <tr>
+              <td class="col-2 field-name">Policy</td>
+              <td>Controlled value. Multi select from control list.</td>
+            </tr>
+            
+            
+            
+            <tr>
+              <td class="col-2 field-name">Vocabulary</td>
+              <td><a href="/iseal-schema/fsc-wood-code/vocabulary.txt">vocabulary.txt</a></td>
+            </tr>
+            
+            
+          </tbody>
+        </table>
+
+        </div>
+        
+        <div class="col">
+                  <p class="invisible"><a id="fsc-coverage-region"></a></p>
+        <table class="table table-sm table-bordered">
+          <thead>
+            <tr class="table-secondary">
+              <th colspan="2">
+                <span class="">FSC coverage region</span></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="col-2 field-name">Label</td>
+              <td>FSC coverage region</td>
+            </tr>
+            <tr>
+              <td class="col-2 field-name">Module</td>
+              <td>Coverage</td>
+            </tr>
+            
+            <tr>
+              <td class="col-2 field-name">Definition</td>
+              <td>FSC regions if different to the ISEAL list</td>
+            </tr>
+            
+            
+            <tr>
+              <td class="col-2 field-name">Comment</td>
+              <td>select from control list</td>
+            </tr>
+            
+            
+            <tr>
+              <td class="col-2 field-name">Suggested element</td>
+              <td><code>fsc.coverage.region</code></td>
+            </tr>
+            
+            
+            <tr>
+              <td class="col-2 field-name">Policy</td>
+              <td>Controlled value. Multi select from control list.</td>
+            </tr>
+            
+            
+            
+            <tr>
+              <td class="col-2 field-name">Vocabulary</td>
+              <td><a href="/iseal-schema/fsc-coverage-region/vocabulary.txt">vocabulary.txt</a></td>
+            </tr>
+            
+            
+          </tbody>
+        </table>
+
+        </div>
+        
+        <div class="col">
+                  <p class="invisible"><a id="fsc-issue-economic"></a></p>
+        <table class="table table-sm table-bordered">
+          <thead>
+            <tr class="table-secondary">
+              <th colspan="2">
+                <span class="">FSC economic issues</span></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="col-2 field-name">Label</td>
+              <td>FSC economic issues</td>
+            </tr>
+            <tr>
+              <td class="col-2 field-name">Module</td>
+              <td>Scope</td>
+            </tr>
+            
+            <tr>
+              <td class="col-2 field-name">Definition</td>
+              <td>Indicate the outcome(s) the resource mainly supports or contributes to</td>
+            </tr>
+            
+            
+            <tr>
+              <td class="col-2 field-name">Comment</td>
+              <td>select from control list</td>
+            </tr>
+            
+            
+            <tr>
+              <td class="col-2 field-name">Suggested element</td>
+              <td><code>fsc.issue.economic</code></td>
+            </tr>
+            
+            
+            <tr>
+              <td class="col-2 field-name">Policy</td>
+              <td>Free value. Repeat values.</td>
+            </tr>
+            
+            
+          </tbody>
+        </table>
+
+        </div>
+        
+        <div class="col">
+                  <p class="invisible"><a id="fsc-topic-economic"></a></p>
+        <table class="table table-sm table-bordered">
+          <thead>
+            <tr class="table-secondary">
+              <th colspan="2">
+                <span class="">FSC economic topics</span></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="col-2 field-name">Label</td>
+              <td>FSC economic topics</td>
+            </tr>
+            <tr>
+              <td class="col-2 field-name">Module</td>
+              <td>Scope</td>
+            </tr>
+            
+            
+            <tr>
+              <td class="col-2 field-name">Comment</td>
+              <td>select from control list</td>
+            </tr>
+            
+            
+            <tr>
+              <td class="col-2 field-name">Suggested element</td>
+              <td><code>fsc.topic.economic</code></td>
+            </tr>
+            
+            
+            <tr>
+              <td class="col-2 field-name">Policy</td>
+              <td>Free value. Repeat values.</td>
+            </tr>
+            
+            
+          </tbody>
+        </table>
+
+        </div>
+        
+        <div class="col">
+                  <p class="invisible"><a id="fsc-issue-environmental"></a></p>
+        <table class="table table-sm table-bordered">
+          <thead>
+            <tr class="table-secondary">
+              <th colspan="2">
+                <span class="">FSC environmental issues</span></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="col-2 field-name">Label</td>
+              <td>FSC environmental issues</td>
+            </tr>
+            <tr>
+              <td class="col-2 field-name">Module</td>
+              <td>Scope</td>
+            </tr>
+            
+            <tr>
+              <td class="col-2 field-name">Definition</td>
+              <td>Indicate the outcome(s) the resource mainly supports or contributes to</td>
+            </tr>
+            
+            
+            <tr>
+              <td class="col-2 field-name">Comment</td>
+              <td>select from control list</td>
+            </tr>
+            
+            
+            <tr>
+              <td class="col-2 field-name">Suggested element</td>
+              <td><code>fsc.issue.environmental</code></td>
+            </tr>
+            
+            
+            <tr>
+              <td class="col-2 field-name">Policy</td>
+              <td>Free value. Repeat values.</td>
+            </tr>
+            
+            
+          </tbody>
+        </table>
+
+        </div>
+        
+        <div class="col">
+                  <p class="invisible"><a id="fsc-topic-environmental"></a></p>
+        <table class="table table-sm table-bordered">
+          <thead>
+            <tr class="table-secondary">
+              <th colspan="2">
+                <span class="">FSC environmental topics</span></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="col-2 field-name">Label</td>
+              <td>FSC environmental topics</td>
+            </tr>
+            <tr>
+              <td class="col-2 field-name">Module</td>
+              <td>Scope</td>
+            </tr>
+            
+            
+            <tr>
+              <td class="col-2 field-name">Comment</td>
+              <td>select from control list</td>
+            </tr>
+            
+            
+            <tr>
+              <td class="col-2 field-name">Suggested element</td>
+              <td><code>fsc.topic.environmental</code></td>
+            </tr>
+            
+            
+            <tr>
+              <td class="col-2 field-name">Policy</td>
+              <td>Free value. Repeat values.</td>
+            </tr>
+            
+            
+          </tbody>
+        </table>
+
+        </div>
+        
+        <div class="col">
+                  <p class="invisible"><a id="fsc-evidencecategory"></a></p>
+        <table class="table table-sm table-bordered">
+          <thead>
+            <tr class="table-secondary">
+              <th colspan="2">
+                <span class="">FSC evidence category</span></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="col-2 field-name">Label</td>
+              <td>FSC evidence category</td>
+            </tr>
+            <tr>
+              <td class="col-2 field-name">Module</td>
+              <td>Impact</td>
+            </tr>
+            
+            
+            <tr>
+              <td class="col-2 field-name">Comment</td>
+              <td>select from control list</td>
+            </tr>
+            
+            
+            <tr>
+              <td class="col-2 field-name">Suggested element</td>
+              <td><code>fsc.evidenceCategory</code></td>
+            </tr>
+            
+            
+            <tr>
+              <td class="col-2 field-name">Policy</td>
+              <td>Controlled value. Single select from control list.</td>
+            </tr>
+            
+            
+            
+            <tr>
+              <td class="col-2 field-name">Vocabulary</td>
+              <td><a href="/iseal-schema/fsc-evidencecategory/vocabulary.txt">vocabulary.txt</a></td>
+            </tr>
+            
+            
+          </tbody>
+        </table>
+
+        </div>
+        
+        <div class="col">
+                  <p class="invisible"><a id="fsc-focus-forestspecies"></a></p>
+        <table class="table table-sm table-bordered">
+          <thead>
+            <tr class="table-secondary">
+              <th colspan="2">
+                <span class="">FSC forest and tree species</span></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="col-2 field-name">Label</td>
+              <td>FSC forest and tree species</td>
+            </tr>
+            <tr>
+              <td class="col-2 field-name">Module</td>
+              <td>Scope</td>
+            </tr>
+            
+            <tr>
+              <td class="col-2 field-name">Definition</td>
+              <td>Indicate the species included in the coverage of the resource</td>
+            </tr>
+            
+            
+            <tr>
+              <td class="col-2 field-name">Comment</td>
+              <td>select from control list</td>
+            </tr>
+            
+            
+            <tr>
+              <td class="col-2 field-name">Suggested element</td>
+              <td><code>fsc.focus.forestSpecies</code></td>
+            </tr>
+            
+            
+            <tr>
+              <td class="col-2 field-name">Policy</td>
+              <td>Controlled value. Multi select from control list.</td>
+            </tr>
+            
+            
+            
+            <tr>
+              <td class="col-2 field-name">Vocabulary</td>
+              <td><a href="/iseal-schema/fsc-focus-forestspecies/vocabulary.txt">vocabulary.txt</a></td>
+            </tr>
+            
+            
+          </tbody>
+        </table>
+
+        </div>
+        
+        <div class="col">
+                  <p class="invisible"><a id="fsc-focus-forestzone"></a></p>
+        <table class="table table-sm table-bordered">
+          <thead>
+            <tr class="table-secondary">
+              <th colspan="2">
+                <span class="">FSC forest biome / zone</span></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="col-2 field-name">Label</td>
+              <td>FSC forest biome / zone</td>
+            </tr>
+            <tr>
+              <td class="col-2 field-name">Module</td>
+              <td>Scope</td>
+            </tr>
+            
+            <tr>
+              <td class="col-2 field-name">Definition</td>
+              <td>Indicate the zone(s) included in the coverage of the resource</td>
+            </tr>
+            
+            
+            <tr>
+              <td class="col-2 field-name">Comment</td>
+              <td>select from control list</td>
+            </tr>
+            
+            
+            <tr>
+              <td class="col-2 field-name">Suggested element</td>
+              <td><code>fsc.focus.forestZone</code></td>
+            </tr>
+            
+            
+            <tr>
+              <td class="col-2 field-name">Policy</td>
+              <td>Controlled value. Multi select from control list.</td>
+            </tr>
+            
+            
+            
+            <tr>
+              <td class="col-2 field-name">Vocabulary</td>
+              <td><a href="/iseal-schema/fsc-focus-forestzone/vocabulary.txt">vocabulary.txt</a></td>
+            </tr>
+            
+            
+          </tbody>
+        </table>
+
+        </div>
+        
+        <div class="col">
+                  <p class="invisible"><a id="fsc-focus-harvestingtechnique"></a></p>
+        <table class="table table-sm table-bordered">
+          <thead>
+            <tr class="table-secondary">
+              <th colspan="2">
+                <span class="">FSC forest harvesting techniques</span></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="col-2 field-name">Label</td>
+              <td>FSC forest harvesting techniques</td>
+            </tr>
+            <tr>
+              <td class="col-2 field-name">Module</td>
+              <td>Scope</td>
+            </tr>
+            
+            
+            <tr>
+              <td class="col-2 field-name">Comment</td>
+              <td>select from control list</td>
+            </tr>
+            
+            
+            <tr>
+              <td class="col-2 field-name">Suggested element</td>
+              <td><code>fsc.focus.harvestingTechnique</code></td>
+            </tr>
+            
+            
+            <tr>
+              <td class="col-2 field-name">Policy</td>
+              <td>Controlled value. Multi select from control list.</td>
+            </tr>
+            
+            
+            
+            <tr>
+              <td class="col-2 field-name">Vocabulary</td>
+              <td><a href="/iseal-schema/fsc-focus-harvestingtechnique/vocabulary.txt">vocabulary.txt</a></td>
+            </tr>
+            
+            
+          </tbody>
+        </table>
+
+        </div>
+        
+        <div class="col">
+                  <p class="invisible"><a id="fsc-focus-fmprinciple"></a></p>
+        <table class="table table-sm table-bordered">
+          <thead>
+            <tr class="table-secondary">
+              <th colspan="2">
+                <span class="">FSC forest management principle</span></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="col-2 field-name">Label</td>
+              <td>FSC forest management principle</td>
+            </tr>
+            <tr>
+              <td class="col-2 field-name">Module</td>
+              <td>Scope</td>
+            </tr>
+            
+            <tr>
+              <td class="col-2 field-name">Definition</td>
+              <td>Indicate the FM principle(s) the resource supports or contributes to</td>
+            </tr>
+            
+            
+            <tr>
+              <td class="col-2 field-name">Comment</td>
+              <td>select from control list</td>
+            </tr>
+            
+            
+            <tr>
+              <td class="col-2 field-name">Suggested element</td>
+              <td><code>fsc.focus.fmPrinciple</code></td>
+            </tr>
+            
+            
+            <tr>
+              <td class="col-2 field-name">Policy</td>
+              <td>Controlled value. Multi select from control list.</td>
+            </tr>
+            
+            
+            
+            <tr>
+              <td class="col-2 field-name">Vocabulary</td>
+              <td><a href="/iseal-schema/fsc-focus-fmprinciple/vocabulary.txt">vocabulary.txt</a></td>
+            </tr>
+            
+            
+          </tbody>
+        </table>
+
+        </div>
+        
+        <div class="col">
+                  <p class="invisible"><a id="fsc-focus-fmcontrol"></a></p>
+        <table class="table table-sm table-bordered">
+          <thead>
+            <tr class="table-secondary">
+              <th colspan="2">
+                <span class="">FSC forest management type of control</span></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="col-2 field-name">Label</td>
+              <td>FSC forest management type of control</td>
+            </tr>
+            <tr>
+              <td class="col-2 field-name">Module</td>
+              <td>Scope</td>
+            </tr>
+            
+            <tr>
+              <td class="col-2 field-name">Definition</td>
+              <td>Indicate the FM control type(s) included in the coverage of the resource</td>
+            </tr>
+            
+            
+            <tr>
+              <td class="col-2 field-name">Comment</td>
+              <td>select from control list</td>
+            </tr>
+            
+            
+            <tr>
+              <td class="col-2 field-name">Suggested element</td>
+              <td><code>fsc.focus.fmControl</code></td>
+            </tr>
+            
+            
+            <tr>
+              <td class="col-2 field-name">Policy</td>
+              <td>Controlled value. Multi select from control list.</td>
+            </tr>
+            
+            
+            
+            <tr>
+              <td class="col-2 field-name">Vocabulary</td>
+              <td><a href="/iseal-schema/fsc-focus-fmcontrol/vocabulary.txt">vocabulary.txt</a></td>
+            </tr>
+            
+            
+          </tbody>
+        </table>
+
+        </div>
+        
+        <div class="col">
+                  <p class="invisible"><a id="fsc-focus-forestmonitoring"></a></p>
+        <table class="table table-sm table-bordered">
+          <thead>
+            <tr class="table-secondary">
+              <th colspan="2">
+                <span class="">FSC forest monitoring methods</span></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="col-2 field-name">Label</td>
+              <td>FSC forest monitoring methods</td>
+            </tr>
+            <tr>
+              <td class="col-2 field-name">Module</td>
+              <td>Scope</td>
+            </tr>
+            
+            
+            <tr>
+              <td class="col-2 field-name">Comment</td>
+              <td>select from control list</td>
+            </tr>
+            
+            
+            <tr>
+              <td class="col-2 field-name">Suggested element</td>
+              <td><code>fsc.focus.forestMonitoring</code></td>
+            </tr>
+            
+            
+            <tr>
+              <td class="col-2 field-name">Policy</td>
+              <td>Controlled value. Multi select from control list.</td>
+            </tr>
+            
+            
+            
+            <tr>
+              <td class="col-2 field-name">Vocabulary</td>
+              <td><a href="/iseal-schema/fsc-focus-forestmonitoring/vocabulary.txt">vocabulary.txt</a></td>
+            </tr>
+            
+            
+          </tbody>
+        </table>
+
+        </div>
+        
+        <div class="col">
+                  <p class="invisible"><a id="fsc-focus-forestproduct"></a></p>
+        <table class="table table-sm table-bordered">
+          <thead>
+            <tr class="table-secondary">
+              <th colspan="2">
+                <span class="">FSC forest products</span></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="col-2 field-name">Label</td>
+              <td>FSC forest products</td>
+            </tr>
+            <tr>
+              <td class="col-2 field-name">Module</td>
+              <td>Scope</td>
+            </tr>
+            
+            <tr>
+              <td class="col-2 field-name">Definition</td>
+              <td>Indicate the products included in the coverage of the resource</td>
+            </tr>
+            
+            
+            <tr>
+              <td class="col-2 field-name">Comment</td>
+              <td>select from control list</td>
+            </tr>
+            
+            
+            <tr>
+              <td class="col-2 field-name">Suggested element</td>
+              <td><code>fsc.focus.forestProduct</code></td>
+            </tr>
+            
+            
+            <tr>
+              <td class="col-2 field-name">Policy</td>
+              <td>Controlled value. Multi select from control list.</td>
+            </tr>
+            
+            
+            
+            <tr>
+              <td class="col-2 field-name">Vocabulary</td>
+              <td><a href="/iseal-schema/fsc-focus-forestproduct/vocabulary.txt">vocabulary.txt</a></td>
+            </tr>
+            
+            
+          </tbody>
+        </table>
+
+        </div>
+        
+        <div class="col">
+                  <p class="invisible"><a id="fsc-focus-forestproductidsys"></a></p>
+        <table class="table table-sm table-bordered">
+          <thead>
+            <tr class="table-secondary">
+              <th colspan="2">
+                <span class="">FSC forest products identification system</span></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="col-2 field-name">Label</td>
+              <td>FSC forest products identification system</td>
+            </tr>
+            <tr>
+              <td class="col-2 field-name">Module</td>
+              <td>Scope</td>
+            </tr>
+            
+            
+            <tr>
+              <td class="col-2 field-name">Comment</td>
+              <td>select from control list</td>
+            </tr>
+            
+            
+            <tr>
+              <td class="col-2 field-name">Suggested element</td>
+              <td><code>fsc.focus.forestProductIdSys</code></td>
+            </tr>
+            
+            
+            <tr>
+              <td class="col-2 field-name">Policy</td>
+              <td>Controlled value. Multi select from control list.</td>
+            </tr>
+            
+            
+            
+            <tr>
+              <td class="col-2 field-name">Vocabulary</td>
+              <td><a href="/iseal-schema/fsc-focus-forestproductidsys/vocabulary.txt">vocabulary.txt</a></td>
+            </tr>
+            
+            
+          </tbody>
+        </table>
+
+        </div>
+        
+        <div class="col">
+                  <p class="invisible"><a id="fsc-focus-foresttype"></a></p>
+        <table class="table table-sm table-bordered">
+          <thead>
+            <tr class="table-secondary">
+              <th colspan="2">
+                <span class="">FSC forest type</span></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="col-2 field-name">Label</td>
+              <td>FSC forest type</td>
+            </tr>
+            <tr>
+              <td class="col-2 field-name">Module</td>
+              <td>Scope</td>
+            </tr>
+            
+            <tr>
+              <td class="col-2 field-name">Definition</td>
+              <td>Indicate the type(s) included in the coverage of the resource</td>
+            </tr>
+            
+            
+            <tr>
+              <td class="col-2 field-name">Comment</td>
+              <td>select from control list</td>
+            </tr>
+            
+            
+            <tr>
+              <td class="col-2 field-name">Suggested element</td>
+              <td><code>fsc.focus.forestType</code></td>
+            </tr>
+            
+            
+            <tr>
+              <td class="col-2 field-name">Policy</td>
+              <td>Controlled value. Multi select from control list.</td>
+            </tr>
+            
+            
+            
+            <tr>
+              <td class="col-2 field-name">Vocabulary</td>
+              <td><a href="/iseal-schema/fsc-focus-foresttype/vocabulary.txt">vocabulary.txt</a></td>
+            </tr>
+            
+            
+          </tbody>
+        </table>
+
+        </div>
+        
+        <div class="col">
+                  <p class="invisible"><a id="fsc-focus-forestrysafeguard"></a></p>
+        <table class="table table-sm table-bordered">
+          <thead>
+            <tr class="table-secondary">
+              <th colspan="2">
+                <span class="">FSC forestry environmental safeguards</span></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="col-2 field-name">Label</td>
+              <td>FSC forestry environmental safeguards</td>
+            </tr>
+            <tr>
+              <td class="col-2 field-name">Module</td>
+              <td>Scope</td>
+            </tr>
+            
+            
+            <tr>
+              <td class="col-2 field-name">Comment</td>
+              <td>select from control list</td>
+            </tr>
+            
+            
+            <tr>
+              <td class="col-2 field-name">Suggested element</td>
+              <td><code>fsc.focus.forestrySafeguard</code></td>
+            </tr>
+            
+            
+            <tr>
+              <td class="col-2 field-name">Policy</td>
+              <td>Controlled value. Multi select from control list.</td>
+            </tr>
+            
+            
+            
+            <tr>
+              <td class="col-2 field-name">Vocabulary</td>
+              <td><a href="/iseal-schema/fsc-focus-forestrysafeguard/vocabulary.txt">vocabulary.txt</a></td>
+            </tr>
+            
+            
+          </tbody>
+        </table>
+
+        </div>
+        
+        <div class="col">
+                  <p class="invisible"><a id="fsc-focus-highconservationval"></a></p>
+        <table class="table table-sm table-bordered">
+          <thead>
+            <tr class="table-secondary">
+              <th colspan="2">
+                <span class="">FSC high conservation values</span></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="col-2 field-name">Label</td>
+              <td>FSC high conservation values</td>
+            </tr>
+            <tr>
+              <td class="col-2 field-name">Module</td>
+              <td>Scope</td>
+            </tr>
+            
+            
+            <tr>
+              <td class="col-2 field-name">Comment</td>
+              <td>select from control list</td>
+            </tr>
+            
+            
+            <tr>
+              <td class="col-2 field-name">Suggested element</td>
+              <td><code>fsc.focus.highConservationVal</code></td>
+            </tr>
+            
+            
+            <tr>
+              <td class="col-2 field-name">Policy</td>
+              <td>Controlled value. Multi select from control list.</td>
+            </tr>
+            
+            
+            
+            <tr>
+              <td class="col-2 field-name">Vocabulary</td>
+              <td><a href="/iseal-schema/fsc-focus-highconservationval/vocabulary.txt">vocabulary.txt</a></td>
+            </tr>
+            
+            
+          </tbody>
+        </table>
+
+        </div>
+        
+        <div class="col">
+                  <p class="invisible"><a id="fsc-focus-nonforestryactivity"></a></p>
+        <table class="table table-sm table-bordered">
+          <thead>
+            <tr class="table-secondary">
+              <th colspan="2">
+                <span class="">FSC non-forestry activities</span></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="col-2 field-name">Label</td>
+              <td>FSC non-forestry activities</td>
+            </tr>
+            <tr>
+              <td class="col-2 field-name">Module</td>
+              <td>Scope</td>
+            </tr>
+            
+            
+            <tr>
+              <td class="col-2 field-name">Comment</td>
+              <td>select from control list</td>
+            </tr>
+            
+            
+            <tr>
+              <td class="col-2 field-name">Suggested element</td>
+              <td><code>fsc.focus.nonForestryActivity</code></td>
+            </tr>
+            
+            
+            <tr>
+              <td class="col-2 field-name">Policy</td>
+              <td>Controlled value. Multi select from control list.</td>
+            </tr>
+            
+            
+            
+            <tr>
+              <td class="col-2 field-name">Vocabulary</td>
+              <td><a href="/iseal-schema/fsc-focus-nonforestryactivity/vocabulary.txt">vocabulary.txt</a></td>
+            </tr>
+            
+            
+          </tbody>
+        </table>
+
+        </div>
+        
+        <div class="col">
+                  <p class="invisible"><a id="fsc-focus-nonforestryservice"></a></p>
+        <table class="table table-sm table-bordered">
+          <thead>
+            <tr class="table-secondary">
+              <th colspan="2">
+                <span class="">FSC non-forestry services for local communities</span></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="col-2 field-name">Label</td>
+              <td>FSC non-forestry services for local communities</td>
+            </tr>
+            <tr>
+              <td class="col-2 field-name">Module</td>
+              <td>Scope</td>
+            </tr>
+            
+            
+            <tr>
+              <td class="col-2 field-name">Comment</td>
+              <td>select from control list</td>
+            </tr>
+            
+            
+            <tr>
+              <td class="col-2 field-name">Suggested element</td>
+              <td><code>fsc.focus.nonForestryService</code></td>
+            </tr>
+            
+            
+            <tr>
+              <td class="col-2 field-name">Policy</td>
+              <td>Controlled value. Multi select from control list.</td>
+            </tr>
+            
+            
+            
+            <tr>
+              <td class="col-2 field-name">Vocabulary</td>
+              <td><a href="/iseal-schema/fsc-focus-nonforestryservice/vocabulary.txt">vocabulary.txt</a></td>
+            </tr>
+            
+            
+          </tbody>
+        </table>
+
+        </div>
+        
+        <div class="col">
+                  <p class="invisible"><a id="fsc-focus-outcome"></a></p>
+        <table class="table table-sm table-bordered">
+          <thead>
+            <tr class="table-secondary">
+              <th colspan="2">
+                <span class="">FSC outcomes and benefits</span></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="col-2 field-name">Label</td>
+              <td>FSC outcomes and benefits</td>
+            </tr>
+            <tr>
+              <td class="col-2 field-name">Module</td>
+              <td>Scope</td>
+            </tr>
+            
+            <tr>
+              <td class="col-2 field-name">Definition</td>
+              <td>Indicate the outcome(s) the resource mainly supports or contributes to</td>
+            </tr>
+            
+            
+            <tr>
+              <td class="col-2 field-name">Comment</td>
+              <td>select from control list</td>
+            </tr>
+            
+            
+            <tr>
+              <td class="col-2 field-name">Suggested element</td>
+              <td><code>fsc.focus.outcome</code></td>
+            </tr>
+            
+            
+            <tr>
+              <td class="col-2 field-name">Policy</td>
+              <td>Controlled value. Multi select from control list.</td>
+            </tr>
+            
+            
+            
+            <tr>
+              <td class="col-2 field-name">Vocabulary</td>
+              <td><a href="/iseal-schema/fsc-focus-outcome/vocabulary.txt">vocabulary.txt</a></td>
+            </tr>
+            
+            
+          </tbody>
+        </table>
+
+        </div>
+        
+        <div class="col">
+                  <p class="invisible"><a id="fsc-issue-political"></a></p>
+        <table class="table table-sm table-bordered">
+          <thead>
+            <tr class="table-secondary">
+              <th colspan="2">
+                <span class="">FSC political, systemic or legal issues</span></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="col-2 field-name">Label</td>
+              <td>FSC political, systemic or legal issues</td>
+            </tr>
+            <tr>
+              <td class="col-2 field-name">Module</td>
+              <td>Scope</td>
+            </tr>
+            
+            <tr>
+              <td class="col-2 field-name">Definition</td>
+              <td>Indicate the outcome(s) the resource mainly supports or contributes to</td>
+            </tr>
+            
+            
+            <tr>
+              <td class="col-2 field-name">Comment</td>
+              <td>select from control list</td>
+            </tr>
+            
+            
+            <tr>
+              <td class="col-2 field-name">Suggested element</td>
+              <td><code>fsc.issue.political</code></td>
+            </tr>
+            
+            
+            <tr>
+              <td class="col-2 field-name">Policy</td>
+              <td>Free value. Repeat values.</td>
+            </tr>
+            
+            
+          </tbody>
+        </table>
+
+        </div>
+        
+        <div class="col">
+                  <p class="invisible"><a id="fsc-topic-political"></a></p>
+        <table class="table table-sm table-bordered">
+          <thead>
+            <tr class="table-secondary">
+              <th colspan="2">
+                <span class="">FSC political, systemic or legal topics</span></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="col-2 field-name">Label</td>
+              <td>FSC political, systemic or legal topics</td>
+            </tr>
+            <tr>
+              <td class="col-2 field-name">Module</td>
+              <td>Scope</td>
+            </tr>
+            
+            
+            <tr>
+              <td class="col-2 field-name">Comment</td>
+              <td>select from control list</td>
+            </tr>
+            
+            
+            <tr>
+              <td class="col-2 field-name">Suggested element</td>
+              <td><code>fsc.topic.political</code></td>
+            </tr>
+            
+            
+            <tr>
+              <td class="col-2 field-name">Policy</td>
+              <td>Free value. Repeat values.</td>
+            </tr>
+            
+            
+          </tbody>
+        </table>
+
+        </div>
+        
+        <div class="col">
+                  <p class="invisible"><a id="fsc-doccode"></a></p>
+        <table class="table table-sm table-bordered">
+          <thead>
+            <tr class="table-secondary">
+              <th colspan="2">
+                <span class="">FSC resource type</span></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="col-2 field-name">Label</td>
+              <td>FSC resource type</td>
+            </tr>
+            <tr>
+              <td class="col-2 field-name">Module</td>
+              <td>Form</td>
+            </tr>
+            
+            
+            <tr>
+              <td class="col-2 field-name">Comment</td>
+              <td>select from control list</td>
+            </tr>
+            
+            
+            <tr>
+              <td class="col-2 field-name">Suggested element</td>
+              <td><code>fsc.docCode</code></td>
+            </tr>
+            
+            
+            <tr>
+              <td class="col-2 field-name">Policy</td>
+              <td>Controlled value. Single select from control list.</td>
+            </tr>
+            
+            
+            
+            <tr>
+              <td class="col-2 field-name">Vocabulary</td>
+              <td><a href="/iseal-schema/fsc-doccode/vocabulary.txt">vocabulary.txt</a></td>
+            </tr>
+            
+            
+          </tbody>
+        </table>
+
+        </div>
+        
+        <div class="col">
+                  <p class="invisible"><a id="fsc-focus-scope"></a></p>
+        <table class="table table-sm table-bordered">
+          <thead>
+            <tr class="table-secondary">
+              <th colspan="2">
+                <span class="">FSC scope - SLIMF type</span></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="col-2 field-name">Label</td>
+              <td>FSC scope - SLIMF type</td>
+            </tr>
+            <tr>
+              <td class="col-2 field-name">Module</td>
+              <td>Scope</td>
+            </tr>
+            
+            <tr>
+              <td class="col-2 field-name">Definition</td>
+              <td>Small or Low Intensity Managed Forests</td>
+            </tr>
+            
+            
+            <tr>
+              <td class="col-2 field-name">Comment</td>
+              <td>select from control list</td>
+            </tr>
+            
+            
+            <tr>
+              <td class="col-2 field-name">Suggested element</td>
+              <td><code>fsc.focus.scope</code></td>
+            </tr>
+            
+            
+            <tr>
+              <td class="col-2 field-name">Policy</td>
+              <td>Controlled value. Single select from control list.</td>
+            </tr>
+            
+            
+            
+            <tr>
+              <td class="col-2 field-name">Vocabulary</td>
+              <td><a href="/iseal-schema/fsc-focus-scope/vocabulary.txt">vocabulary.txt</a></td>
+            </tr>
+            
+            
+          </tbody>
+        </table>
+
+        </div>
+        
+        <div class="col">
+                  <p class="invisible"><a id="fsc-issue-social"></a></p>
+        <table class="table table-sm table-bordered">
+          <thead>
+            <tr class="table-secondary">
+              <th colspan="2">
+                <span class="">FSC social issues</span></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="col-2 field-name">Label</td>
+              <td>FSC social issues</td>
+            </tr>
+            <tr>
+              <td class="col-2 field-name">Module</td>
+              <td>Scope</td>
+            </tr>
+            
+            <tr>
+              <td class="col-2 field-name">Definition</td>
+              <td>Indicate the outcome(s) the resource mainly supports or contributes to</td>
+            </tr>
+            
+            
+            <tr>
+              <td class="col-2 field-name">Comment</td>
+              <td>select from control list</td>
+            </tr>
+            
+            
+            <tr>
+              <td class="col-2 field-name">Suggested element</td>
+              <td><code>fsc.issue.social</code></td>
+            </tr>
+            
+            
+            <tr>
+              <td class="col-2 field-name">Policy</td>
+              <td>Free value. Repeat values.</td>
+            </tr>
+            
+            
+          </tbody>
+        </table>
+
+        </div>
+        
+        <div class="col">
+                  <p class="invisible"><a id="fsc-topic-social"></a></p>
+        <table class="table table-sm table-bordered">
+          <thead>
+            <tr class="table-secondary">
+              <th colspan="2">
+                <span class="">FSC social topics</span></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="col-2 field-name">Label</td>
+              <td>FSC social topics</td>
+            </tr>
+            <tr>
+              <td class="col-2 field-name">Module</td>
+              <td>Scope</td>
+            </tr>
+            
+            
+            <tr>
+              <td class="col-2 field-name">Comment</td>
+              <td>select from control list</td>
+            </tr>
+            
+            
+            <tr>
+              <td class="col-2 field-name">Suggested element</td>
+              <td><code>fsc.topic.social</code></td>
+            </tr>
+            
+            
+            <tr>
+              <td class="col-2 field-name">Policy</td>
+              <td>Free value. Repeat values.</td>
+            </tr>
+            
+            
+          </tbody>
+        </table>
+
+        </div>
+        
+        <div class="col">
+                  <p class="invisible"><a id="fsc-standard-type"></a></p>
+        <table class="table table-sm table-bordered">
+          <thead>
+            <tr class="table-secondary">
+              <th colspan="2">
+                <span class="">FSC standard type</span></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="col-2 field-name">Label</td>
+              <td>FSC standard type</td>
+            </tr>
+            <tr>
+              <td class="col-2 field-name">Module</td>
+              <td>Form</td>
+            </tr>
+            
+            
+            <tr>
+              <td class="col-2 field-name">Comment</td>
+              <td>select from control list</td>
+            </tr>
+            
+            
+            <tr>
+              <td class="col-2 field-name">Suggested element</td>
+              <td><code>fsc.standard.type</code></td>
+            </tr>
+            
+            
+            <tr>
+              <td class="col-2 field-name">Policy</td>
+              <td>Controlled value. Multi select from control list.</td>
+            </tr>
+            
+            
+            
+            <tr>
+              <td class="col-2 field-name">Vocabulary</td>
+              <td><a href="/iseal-schema/fsc-standard-type/vocabulary.txt">vocabulary.txt</a></td>
+            </tr>
+            
+            
+          </tbody>
+        </table>
+
+        </div>
+        
+        <div class="col">
+                  <p class="invisible"><a id="fsc-subject"></a></p>
+        <table class="table table-sm table-bordered">
+          <thead>
+            <tr class="table-secondary">
+              <th colspan="2">
+                <span class="">FSC subject keywords</span></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="col-2 field-name">Label</td>
+              <td>FSC subject keywords</td>
+            </tr>
+            <tr>
+              <td class="col-2 field-name">Module</td>
+              <td>Scope</td>
+            </tr>
+            
+            <tr>
+              <td class="col-2 field-name">Definition</td>
+              <td>Enter any keywords that help to describe the resource content or coverage</td>
+            </tr>
+            
+            
+            <tr>
+              <td class="col-2 field-name">Comment</td>
+              <td>select from control list</td>
+            </tr>
+            
+            
+            <tr>
+              <td class="col-2 field-name">Suggested element</td>
+              <td><code>fsc.subject</code></td>
+            </tr>
+            
+            
+            <tr>
+              <td class="col-2 field-name">Policy</td>
+              <td>Free value. Repeat values.</td>
+            </tr>
+            
+            
+          </tbody>
+        </table>
+
+        </div>
+        
+        <div class="col">
+                  <p class="invisible"><a id="fsc-focus-sustaindimension"></a></p>
+        <table class="table table-sm table-bordered">
+          <thead>
+            <tr class="table-secondary">
+              <th colspan="2">
+                <span class="">FSC sustainability dimension</span></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="col-2 field-name">Label</td>
+              <td>FSC sustainability dimension</td>
+            </tr>
+            <tr>
+              <td class="col-2 field-name">Module</td>
+              <td>Scope</td>
+            </tr>
+            
+            <tr>
+              <td class="col-2 field-name">Definition</td>
+              <td>Indicate the sustainability dimension the resource mainly supports or contributes to</td>
+            </tr>
+            
+            
+            <tr>
+              <td class="col-2 field-name">Comment</td>
+              <td>select from control list</td>
+            </tr>
+            
+            
+            <tr>
+              <td class="col-2 field-name">Suggested element</td>
+              <td><code>fsc.focus.sustainDimension</code></td>
+            </tr>
+            
+            
+            <tr>
+              <td class="col-2 field-name">Policy</td>
+              <td>Controlled value. Multi select from control list.</td>
+            </tr>
+            
+            
+            
+            <tr>
+              <td class="col-2 field-name">Vocabulary</td>
+              <td><a href="/iseal-schema/fsc-focus-sustaindimension/vocabulary.txt">vocabulary.txt</a></td>
+            </tr>
+            
+            
+          </tbody>
+        </table>
+
+        </div>
+        
+        <div class="col">
+                  <p class="invisible"><a id="fsc-focus-tenuremanagement"></a></p>
+        <table class="table table-sm table-bordered">
+          <thead>
+            <tr class="table-secondary">
+              <th colspan="2">
+                <span class="">FSC tenure management</span></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="col-2 field-name">Label</td>
+              <td>FSC tenure management</td>
+            </tr>
+            <tr>
+              <td class="col-2 field-name">Module</td>
+              <td>Scope</td>
+            </tr>
+            
+            <tr>
+              <td class="col-2 field-name">Definition</td>
+              <td>Indicate the tenure management included in the coverage of the resource</td>
+            </tr>
+            
+            
+            <tr>
+              <td class="col-2 field-name">Comment</td>
+              <td>select from control list</td>
+            </tr>
+            
+            
+            <tr>
+              <td class="col-2 field-name">Suggested element</td>
+              <td><code>fsc.focus.tenureManagement</code></td>
+            </tr>
+            
+            
+            <tr>
+              <td class="col-2 field-name">Policy</td>
+              <td>Controlled value. Multi select from control list.</td>
+            </tr>
+            
+            
+            
+            <tr>
+              <td class="col-2 field-name">Vocabulary</td>
+              <td><a href="/iseal-schema/fsc-focus-tenuremanagement/vocabulary.txt">vocabulary.txt</a></td>
+            </tr>
+            
+            
+          </tbody>
+        </table>
+
+        </div>
+        
+        <div class="col">
+                  <p class="invisible"><a id="fsc-focus-tenureownership"></a></p>
+        <table class="table table-sm table-bordered">
+          <thead>
+            <tr class="table-secondary">
+              <th colspan="2">
+                <span class="">FSC tenure ownership</span></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="col-2 field-name">Label</td>
+              <td>FSC tenure ownership</td>
+            </tr>
+            <tr>
+              <td class="col-2 field-name">Module</td>
+              <td>Scope</td>
+            </tr>
+            
+            <tr>
+              <td class="col-2 field-name">Definition</td>
+              <td>Indicate the tenure ownership included in the coverage of the resource</td>
+            </tr>
+            
+            
+            <tr>
+              <td class="col-2 field-name">Comment</td>
+              <td>select from control list</td>
+            </tr>
+            
+            
+            <tr>
+              <td class="col-2 field-name">Suggested element</td>
+              <td><code>fsc.focus.tenureOwnership</code></td>
+            </tr>
+            
+            
+            <tr>
+              <td class="col-2 field-name">Policy</td>
+              <td>Controlled value. Multi select from control list.</td>
+            </tr>
+            
+            
+            
+            <tr>
+              <td class="col-2 field-name">Vocabulary</td>
+              <td><a href="/iseal-schema/fsc-focus-tenureownership/vocabulary.txt">vocabulary.txt</a></td>
+            </tr>
+            
+            
+          </tbody>
+        </table>
+
+        </div>
+        
+        <div class="col">
+                  <p class="invisible"><a id="is-pesticide-biocontrolagent"></a></p>
+        <table class="table table-sm table-bordered">
+          <thead>
+            <tr class="table-secondary">
+              <th colspan="2">
+                <span class="">Pest biocontrol agent</span></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="col-2 field-name">Label</td>
+              <td>Pest biocontrol agent</td>
+            </tr>
+            <tr>
+              <td class="col-2 field-name">Module</td>
+              <td>Pesticides</td>
+            </tr>
+            
+            <tr>
+              <td class="col-2 field-name">Definition</td>
+              <td>The alternative biocontrol agent to control a pest</td>
+            </tr>
+            
+            
+            
+            <tr>
+              <td class="col-2 field-name">Suggested element</td>
+              <td><code>is.pesticide.biocontrolAgent</code></td>
+            </tr>
+            
+            
+            <tr>
+              <td class="col-2 field-name">Policy</td>
+              <td>Free value. Repeat values.</td>
+            </tr>
+            
+            
+          </tbody>
+        </table>
+
+        </div>
+        
+        <div class="col">
+                  <p class="invisible"><a id="is-pesticide-pestname"></a></p>
+        <table class="table table-sm table-bordered">
+          <thead>
+            <tr class="table-secondary">
+              <th colspan="2">
+                <span class="">Pest common name</span></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="col-2 field-name">Label</td>
+              <td>Pest common name</td>
+            </tr>
+            <tr>
+              <td class="col-2 field-name">Module</td>
+              <td>Pesticides</td>
+            </tr>
+            
+            <tr>
+              <td class="col-2 field-name">Definition</td>
+              <td>The common name of a pest</td>
+            </tr>
+            
+            
+            
+            <tr>
+              <td class="col-2 field-name">Suggested element</td>
+              <td><code>is.pesticide.pestName</code></td>
+            </tr>
+            
+            
+            <tr>
+              <td class="col-2 field-name">Policy</td>
+              <td>Free value. Repeat values.</td>
+            </tr>
+            
+            
+          </tbody>
+        </table>
+
+        </div>
+        
+        <div class="col">
+                  <p class="invisible"><a id="is-pesticide-pestspecies"></a></p>
+        <table class="table table-sm table-bordered">
+          <thead>
+            <tr class="table-secondary">
+              <th colspan="2">
+                <span class="">Pest species name</span></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="col-2 field-name">Label</td>
+              <td>Pest species name</td>
+            </tr>
+            <tr>
+              <td class="col-2 field-name">Module</td>
+              <td>Pesticides</td>
+            </tr>
+            
+            <tr>
+              <td class="col-2 field-name">Definition</td>
+              <td>The species name of the pest</td>
+            </tr>
+            
+            
+            
+            <tr>
+              <td class="col-2 field-name">Suggested element</td>
+              <td><code>is.pesticide.pestSpecies</code></td>
+            </tr>
+            
+            
+            <tr>
+              <td class="col-2 field-name">Policy</td>
+              <td>Free value. Repeat values.</td>
+            </tr>
+            
+            
+          </tbody>
+        </table>
+
+        </div>
+        
+        <div class="col">
+                  <p class="invisible"><a id="is-pesticide-pesttype"></a></p>
+        <table class="table table-sm table-bordered">
+          <thead>
+            <tr class="table-secondary">
+              <th colspan="2">
+                <span class="">Pest type</span></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="col-2 field-name">Label</td>
+              <td>Pest type</td>
+            </tr>
+            <tr>
+              <td class="col-2 field-name">Module</td>
+              <td>Pesticides</td>
+            </tr>
+            
+            <tr>
+              <td class="col-2 field-name">Definition</td>
+              <td>The type of a pest</td>
+            </tr>
+            
+            
+            <tr>
+              <td class="col-2 field-name">Comment</td>
+              <td>select from control list</td>
+            </tr>
+            
+            
+            <tr>
+              <td class="col-2 field-name">Suggested element</td>
+              <td><code>is.pesticide.pestType</code></td>
+            </tr>
+            
+            
+            <tr>
+              <td class="col-2 field-name">Policy</td>
+              <td>Controlled value. Multi select from control list.</td>
+            </tr>
+            
+            
+            
+            <tr>
+              <td class="col-2 field-name">Vocabulary</td>
+              <td><a href="/iseal-schema/is-pesticide-pesttype/vocabulary.txt">vocabulary.txt</a></td>
+            </tr>
+            
+            
+          </tbody>
+        </table>
+
+        </div>
+        
+        <div class="col">
+                  <p class="invisible"><a id="is-pesticide-activeingredient"></a></p>
+        <table class="table table-sm table-bordered">
+          <thead>
+            <tr class="table-secondary">
+              <th colspan="2">
+                <span class="">Pesticide active ingredient</span></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="col-2 field-name">Label</td>
+              <td>Pesticide active ingredient</td>
+            </tr>
+            <tr>
+              <td class="col-2 field-name">Module</td>
+              <td>Pesticides</td>
+            </tr>
+            
+            <tr>
+              <td class="col-2 field-name">Definition</td>
+              <td>Pesticide active ingredient</td>
+            </tr>
+            
+            
+            <tr>
+              <td class="col-2 field-name">Comment</td>
+              <td>select from control list</td>
+            </tr>
+            
+            
+            <tr>
+              <td class="col-2 field-name">Suggested element</td>
+              <td><code>is.pesticide.activeIngredient</code></td>
+            </tr>
+            
+            
+            <tr>
+              <td class="col-2 field-name">Policy</td>
+              <td>Controlled value. Multi select from control list.</td>
+            </tr>
+            
+            
+            
+            <tr>
+              <td class="col-2 field-name">Vocabulary</td>
+              <td><a href="/iseal-schema/is-pesticide-activeingredient/vocabulary.txt">vocabulary.txt</a></td>
+            </tr>
+            
+            
+          </tbody>
+        </table>
+
+        </div>
+        
+        <div class="col">
+                  <p class="invisible"><a id="is-pesticide-challenge"></a></p>
+        <table class="table table-sm table-bordered">
+          <thead>
+            <tr class="table-secondary">
+              <th colspan="2">
+                <span class="">Pesticide alternatives challenge</span></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="col-2 field-name">Label</td>
+              <td>Pesticide alternatives challenge</td>
+            </tr>
+            <tr>
+              <td class="col-2 field-name">Module</td>
+              <td>Pesticides</td>
+            </tr>
+            
+            <tr>
+              <td class="col-2 field-name">Definition</td>
+              <td>The challenge a pesticide aims to control</td>
+            </tr>
+            
+            
+            
+            <tr>
+              <td class="col-2 field-name">Suggested element</td>
+              <td><code>is.pesticide.challenge</code></td>
+            </tr>
+            
+            
+            <tr>
+              <td class="col-2 field-name">Policy</td>
+              <td>Free value. Repeat values.</td>
+            </tr>
+            
+            
+          </tbody>
+        </table>
+
+        </div>
+        
+        <div class="col">
+                  <p class="invisible"><a id="is-pesticide-alternativemethod"></a></p>
+        <table class="table table-sm table-bordered">
+          <thead>
+            <tr class="table-secondary">
+              <th colspan="2">
+                <span class="">Pesticide alternatives method</span></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="col-2 field-name">Label</td>
+              <td>Pesticide alternatives method</td>
+            </tr>
+            <tr>
+              <td class="col-2 field-name">Module</td>
+              <td>Pesticides</td>
+            </tr>
+            
+            <tr>
+              <td class="col-2 field-name">Definition</td>
+              <td>The method used to control a pest</td>
+            </tr>
+            
+            
+            <tr>
+              <td class="col-2 field-name">Comment</td>
+              <td>select from control list</td>
+            </tr>
+            
+            
+            <tr>
+              <td class="col-2 field-name">Suggested element</td>
+              <td><code>is.pesticide.alternativeMethod</code></td>
+            </tr>
+            
+            
+            <tr>
+              <td class="col-2 field-name">Policy</td>
+              <td>Controlled value. Multi select from control list.</td>
+            </tr>
+            
+            
+            
+            <tr>
+              <td class="col-2 field-name">Vocabulary</td>
+              <td><a href="/iseal-schema/is-pesticide-alternativemethod/vocabulary.txt">vocabulary.txt</a></td>
+            </tr>
+            
+            
+          </tbody>
+        </table>
+
+        </div>
+        
+        <div class="col">
+                  <p class="invisible"><a id="is-pesticide-alternativestrategy"></a></p>
+        <table class="table table-sm table-bordered">
+          <thead>
+            <tr class="table-secondary">
+              <th colspan="2">
+                <span class="">Pesticide alternatives strategy</span></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="col-2 field-name">Label</td>
+              <td>Pesticide alternatives strategy</td>
+            </tr>
+            <tr>
+              <td class="col-2 field-name">Module</td>
+              <td>Pesticides</td>
+            </tr>
+            
+            <tr>
+              <td class="col-2 field-name">Definition</td>
+              <td>The strategy to tackle a pest</td>
+            </tr>
+            
+            
+            
+            <tr>
+              <td class="col-2 field-name">Suggested element</td>
+              <td><code>is.pesticide.alternativeStrategy</code></td>
+            </tr>
+            
+            
+            <tr>
+              <td class="col-2 field-name">Policy</td>
+              <td>Free value. Repeat values.</td>
+            </tr>
+            
+            
+          </tbody>
+        </table>
+
+        </div>
+        
+        <div class="col">
+                  <p class="invisible"><a id="is-pesticide-alternativetrial"></a></p>
+        <table class="table table-sm table-bordered">
+          <thead>
+            <tr class="table-secondary">
+              <th colspan="2">
+                <span class="">Pesticide alternatives trial status</span></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="col-2 field-name">Label</td>
+              <td>Pesticide alternatives trial status</td>
+            </tr>
+            <tr>
+              <td class="col-2 field-name">Module</td>
+              <td>Pesticides</td>
+            </tr>
+            
+            <tr>
+              <td class="col-2 field-name">Definition</td>
+              <td>The type of alternatives strategy</td>
+            </tr>
+            
+            
+            <tr>
+              <td class="col-2 field-name">Comment</td>
+              <td>select from control list</td>
+            </tr>
+            
+            
+            <tr>
+              <td class="col-2 field-name">Suggested element</td>
+              <td><code>is.pesticide.alternativeTrial</code></td>
+            </tr>
+            
+            
+            <tr>
+              <td class="col-2 field-name">Policy</td>
+              <td>Controlled value. Multi select from control list.</td>
+            </tr>
+            
+            
+            
+            <tr>
+              <td class="col-2 field-name">Vocabulary</td>
+              <td><a href="/iseal-schema/is-pesticide-alternativetrial/vocabulary.txt">vocabulary.txt</a></td>
+            </tr>
+            
+            
+          </tbody>
+        </table>
+
+        </div>
+        
+        <div class="col">
+                  <p class="invisible"><a id="is-pesticide-alternativetype"></a></p>
+        <table class="table table-sm table-bordered">
+          <thead>
+            <tr class="table-secondary">
+              <th colspan="2">
+                <span class="">Pesticide alternatives type</span></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="col-2 field-name">Label</td>
+              <td>Pesticide alternatives type</td>
+            </tr>
+            <tr>
+              <td class="col-2 field-name">Module</td>
+              <td>Pesticides</td>
+            </tr>
+            
+            <tr>
+              <td class="col-2 field-name">Definition</td>
+              <td>Whether the alternative pesticide approach has been trialed</td>
+            </tr>
+            
+            
+            <tr>
+              <td class="col-2 field-name">Comment</td>
+              <td>Yes or No</td>
+            </tr>
+            
+            
+            <tr>
+              <td class="col-2 field-name">Suggested element</td>
+              <td><code>is.pesticide.alternativeType</code></td>
+            </tr>
+            
+            
+            <tr>
+              <td class="col-2 field-name">Policy</td>
+              <td>Controlled value. Single select from control list.</td>
+            </tr>
+            
+            
+            
+            <tr>
+              <td class="col-2 field-name">Vocabulary</td>
+              <td><a href="/iseal-schema/is-pesticide-alternativetype/vocabulary.txt">vocabulary.txt</a></td>
+            </tr>
+            
+            
+          </tbody>
+        </table>
+
+        </div>
+        
+        <div class="col">
+                  <p class="invisible"><a id="is-pesticide-commonname"></a></p>
+        <table class="table table-sm table-bordered">
+          <thead>
+            <tr class="table-secondary">
+              <th colspan="2">
+                <span class="">Pesticide common name</span></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="col-2 field-name">Label</td>
+              <td>Pesticide common name</td>
+            </tr>
+            <tr>
+              <td class="col-2 field-name">Module</td>
+              <td>Pesticides</td>
+            </tr>
+            
+            <tr>
+              <td class="col-2 field-name">Definition</td>
+              <td>The common name of the pesticide</td>
+            </tr>
+            
+            
+            <tr>
+              <td class="col-2 field-name">Comment</td>
+              <td>select from control list</td>
+            </tr>
+            
+            
+            <tr>
+              <td class="col-2 field-name">Suggested element</td>
+              <td><code>is.pesticide.commonName</code></td>
+            </tr>
+            
+            
+            <tr>
+              <td class="col-2 field-name">Policy</td>
+              <td>Controlled value. Multi select from control list.</td>
+            </tr>
+            
+            
+          </tbody>
+        </table>
+
+        </div>
+        
+        <div class="col">
+                  <p class="invisible"><a id="fsc-intransition"></a></p>
+        <table class="table table-sm table-bordered">
+          <thead>
+            <tr class="table-secondary">
+              <th colspan="2">
+                <span class="">Transition status</span></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="col-2 field-name">Label</td>
+              <td>Transition status</td>
+            </tr>
+            <tr>
+              <td class="col-2 field-name">Module</td>
+              <td>Status</td>
+            </tr>
+            
+            
+            <tr>
+              <td class="col-2 field-name">Comment</td>
+              <td>Yes or No</td>
+            </tr>
+            
+            
+            <tr>
+              <td class="col-2 field-name">Suggested element</td>
+              <td><code>fsc.inTransition</code></td>
+            </tr>
+            
+            
+            <tr>
+              <td class="col-2 field-name">Policy</td>
+              <td>Controlled value. Single select from control list.</td>
+            </tr>
+            
+            
+            
+            <tr>
+              <td class="col-2 field-name">Vocabulary</td>
+              <td><a href="/iseal-schema/fsc-intransition/vocabulary.txt">vocabulary.txt</a></td>
+            </tr>
+            
+            
+          </tbody>
+        </table>
+
+        </div>
+        
+
+        <h2 id="download">Download</h2>
+        <p>The FSC schema extension is available for download in two formats:</p>
+        <div class="row mb-2 justify-content-center">
+          <div class="col-sm-12 col-lg-4">
+            
+            <h3><img class="icon me-1" src="https://alanorth.github.io/iseal-schema/icons/file-earmark-code.6c7c10f684199da20282ec350f5ee1a7bdb78f638661bb60aabb7b4dd313ec93.svg" alt="File icon with earmark"/>Turtle</h3>
+            <p>Terse RDF Triple Language (TTL). Use this format when you need to validate metadata against ISEAL Core programmatically.</p>
+            <a href="https://raw.githubusercontent.com/alanorth/iseal-schema/main/data/fsc.ttl" class="btn btn-primary">Download</a>
+          </div>
+          <div class="col-sm-12 col-lg-4">
+            
+            <h3><img class="icon me-1" src="https://alanorth.github.io/iseal-schema/icons/file-earmark-spreadsheet.d6b63249e80cb195fe3fe97e96496fe0273881323cc77554c7f24654474073e7.svg" alt="File icon with earmark"/>CSV</h3>
+            <p>Comma-separated Values (CSV). Use this format when you just need a quick and easy offline reference.</p>
+            <a href="https://raw.githubusercontent.com/alanorth/iseal-schema/main/data/fsc.csv" class="btn btn-primary">Download</a>
+          </div>
+        </div>
+
+        <h2 id="feedback">Feedback</h2>
+        <p>If you have questions/comments please contact ____.</p>
+      </main>
+    </div>
+  </div>
+
+
+
+    <footer class="footer mt-auto">
+      <div class="container">
+          <p class="mb-0 py-1">ISEAL Core Metadata Set. This work is licensed under a <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.<span class="float-end"><span class="text-white-50">Last modified Thursday, Jan 6, 2022</span> <a href="#">Back to top</a></span></p>
+      </div>
+    </footer>
+    
+    <script src="https://alanorth.github.io/iseal-schema/js/bundle.min.c09aea57b2c4a76915f3545728514295d083ef50efcac96e3d03995ee7be01d1.js" integrity="sha256-wJrqV7LEp2kV81RXKFFCldCD71DvysluPQOZXue&#43;AdE=" crossorigin="anonymous" async></script>
+  </body>
+</html>

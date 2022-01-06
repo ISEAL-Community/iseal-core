@@ -2,434 +2,434 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://alanorth.github.io/iseal-schema/global-abstract/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/dcterms-abstract/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/global-access-rights/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/dcterms-accessrights/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/global-audience/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/dcterms-audience/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/global-author-orcid-identifier/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/is-author-orcid/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/global-authors/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/dc-contributor-author/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/global-availability/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/is-availability-fulltext/</loc>
   </url><url>
     <loc>https://alanorth.github.io/iseal-schema/categories/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/certification-certificate-code-number-or-id/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/is-certificate-id/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/certification-certificate-coverage-type/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/is-certificate-locations/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/certification-certificate-current-duration/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/is-certificate-duration/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/certification-certificate-current-end-date/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/is-certificate-enddate/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/certification-certificate-current-start-date/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/is-certificate-startdate/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/certification-certificate-first-issue-date/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/is-certificate-firststartdate/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/certification-certificate-holder-owner-or-certified-organization-city/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/is-certifiedorganization-city/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/certification-certificate-holder-owner-or-certified-organization-country/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/is-certifiedorganization-country/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/certification-certificate-holder-owner-or-certified-organization-email-address/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/is-certifiedorganization-email/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/certification-certificate-holder-owner-or-certified-organization-gln/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/is-certifiedorganization-gln/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/certification-certificate-holder-owner-or-certified-organization-id/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/is-certifiedorganizationid/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/certification-certificate-holder-owner-or-certified-organization-latitude-and-longitude-location-coordinates/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/is-certifiedorganization-addresslatlong/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/certification-certificate-holder-owner-or-certified-organization-latitude-location-coordinate/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/is-certifiedorganization-addresslat/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/certification-certificate-holder-owner-or-certified-organization-longitude-location-coordinate/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/is-certifiedorganization-addresslong/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/certification-certificate-holder-owner-or-certified-organization-name/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/is-certifiedorganization-name/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/certification-certificate-holder-owner-or-certified-organization-phone-country-code/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/is-certifiedorganization-phonecountrycode/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/certification-certificate-holder-owner-or-certified-organization-phone-number/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/is-certifiedorganization-phonenumber/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/certification-certificate-holder-owner-or-certified-organization-postcode/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/is-certifiedorganization-postcode/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/certification-certificate-holder-owner-or-certified-organization-role/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/is-certifiedorganization-role/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/certification-certificate-holder-owner-or-certified-organization-street-name/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/is-certifiedorganization-streetname/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/certification-certificate-holder-owner-or-certified-organization-website-url/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/is-certifiedorganization-url/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/certification-certificate-license-code/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/is-certificate-licensecode/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/certification-certificate-license-status/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/is-certificate-licensestatus/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/certification-certificate-ownership-type/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/is-certificate-ownership/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/certification-certificate-scope/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/is-certificate-scope/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/certification-certificate-status/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/is-certificate-status/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/certification-certificate-type/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/is-certificate-type/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/certification-certified-site-admin-area/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/is-certifiedsite-adminarea/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/certification-certified-site-analysis-area/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/is-certifiedsite-analysisarea/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/certification-certified-site-area/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/is-certifiedsite-area/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/certification-certified-site-id/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/is-certificate-siteid/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/certification-certified-site-latitude-and-longitude-location-coordinates/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/is-certifiedsite-latlong/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/certification-certified-site-latitude-and-longitude-location-coordinates-detail/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/is-certifiedsite-coorddetail/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/certification-certified-site-latitude-location-coordinate/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/is-certifiedsite-lat/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/certification-certified-site-location-name/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/is-certifiedsite-locationname/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/certification-certified-site-longitude-location-coordinate/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/is-certifiedsite-long/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/certification-certified-site-natural-ecosystem-set-aside/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/is-certifiedsite-naturalsetaside/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/certification-certified-site-production-area/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/is-certifiedsite-productionarea/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/certification-certified-site-restoration-set-aside/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/is-certifiedsite-restorationsetaside/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/certification-certified-sites-number-covered-by-the-certificate/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/is-certificate-sites/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/certification-certifying-body-accreditation-end-date/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/is-certifyingbody-accreditationenddate/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/certification-certifying-body-accreditation-start-date/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/is-certifyingbody-accreditationstartdate/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/certification-certifying-body-accreditation-status/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/is-certifyingbody-accreditationstatus/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/certification-certifying-body-accredited-geographic-scope/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/is-certifyingbody-accreditedgeoscope/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/certification-certifying-body-accredited-technical-scope/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/is-certifyingbody-accreditedtechscope/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/certification-certifying-body-accredited-technical-scope-type/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/is-certifyingbody-accreditedtechscopetype/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/certification-certifying-body-asi-accreditation-code/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/is-certifyingbody-asicode/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/certification-certifying-body-city/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/is-certifyingbody-city/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/certification-certifying-body-country/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/is-certifyingbody-country/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/certification-certifying-body-email-address/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/is-certifyingbody-email/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/certification-certifying-body-latitude-and-longitude-location-coordinates/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/is-certifyingbody-addresslatlong/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/certification-certifying-body-latitude-location-coordinate/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/is-certifyingbody-addresslat/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/certification-certifying-body-longitude-location-coordinate/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/is-certifyingbody-addresslong/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/certification-certifying-body-name/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/is-certifyingbody-name/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/certification-certifying-body-phone-country-code/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/is-certifyingbody-phonecountrycode/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/certification-certifying-body-phone-number/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/is-certifyingbody-phonenumber/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/certification-certifying-body-postcode/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/is-certifyingbody-postcode/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/certification-certifying-body-program-or-scheme-accredited-for/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/is-certifyingbody-schemeaccredited/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/certification-certifying-body-standards-accredited-for/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/is-certifyingbody-standardaccredited/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/certification-certifying-body-standards-certified-for/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/is-certifyingbody-standardcertified/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/certification-certifying-body-street-name/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/is-certifyingbody-streetname/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/certification-certifying-body-website-url/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/is-certifyingbody-url/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/global-citation/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/dcterms-bibliographiccitation/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/global-contact-email/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/is-contact-email/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/global-contact-name/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/is-contact-name/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/global-country-iso-code/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/is-coverage-countryalpha2/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/global-country-name/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/is-coverage-country/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/global-date-accessioned-by-system/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/dc-date-accessioned/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/global-date-available-through-a-system/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/dc-date-available/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/global-date-changed/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/dcterms-modified/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/global-date-created/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/dcterms-created/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/global-date-issued-or-published/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/dcterms-issued/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/global-date-of-version/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/is-dateofversion/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/global-date-reviewed/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/is-datereviewed/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/global-date-revised/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/is-daterevised/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/global-date-submitted/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/dcterms-datesubmitted/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/global-doi/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/is-identifier-doi/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/global-edition/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/is-extent-edition/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/impact-evaluation-author-directionality/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/is-evaluation-authordirectionality/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/impact-evaluation-comparison/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/is-evaluation-comparison/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/impact-evaluation-counterfactuals/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/is-evaluation-counterfacts/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/impact-evaluation-data-source/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/is-evaluation-datasource/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/impact-evaluation-data-evidence-collection-method/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/is-evaluation-collection/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/impact-evaluation-findings/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/is-evaluation-findings/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/impact-evaluation-no-difference-directionality/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/is-evaluation-nodifferencedirectionality/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/impact-evaluation-notes/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/is-evaluation-notes/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/impact-evaluation-outcome-identified/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/is-evaluation-outcome/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/impact-evaluation-quotes-on-impact/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/is-evaluation-quotes/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/impact-evaluation-recommendations/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/is-evaluation-recommendations/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/impact-evaluation-statistical-significance/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/is-evaluation-significance/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/impact-evaluation-statistical-test/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/is-evaluation-test/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/impact-evaluation-study-scope/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/is-evaluation-scope/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/impact-evidence-resource-subtype/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/is-evidencesubtype/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/impact-evidence-resource-type/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/is-evidenceresourcetype/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/impact-evidence-summary/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/is-evidencesummary/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/impact-evidence-type/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/is-evidencetype/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/global-extent/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/dcterms-extent/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/global-format/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/dcterms-format/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/fsc-fsc-audit-documentation-categories/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/fsc-audit-documentationcat/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/fsc-fsc-audit-sampling-system/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/fsc-audit-samplingsystem/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/fsc-fsc-audit-site-types/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/fsc-audit-site/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/fsc-fsc-audit-stakeholder-engagement-types/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/fsc-audit-stakeholderengagement/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/fsc-fsc-audit-stakeholder-types/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/fsc-audit-stakeholdertype/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/fsc-fsc-audit-type/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/fsc-audit-type/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/fsc-fsc-certificate-category/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/fsc-certificate-category/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/fsc-fsc-certificate-type/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/fsc-certificate-type/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/fsc-fsc-controlled-wood-code/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/fsc-wood-code/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/fsc-fsc-coverage-region/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/fsc-coverage-region/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/fsc-fsc-economic-issues/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/fsc-issue-economic/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/fsc-fsc-economic-topics/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/fsc-topic-economic/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/fsc-fsc-environmental-issues/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/fsc-issue-environmental/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/fsc-fsc-environmental-topics/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/fsc-topic-environmental/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/fsc-fsc-evidence-category/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/fsc-evidencecategory/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/fsc-fsc-forest-and-tree-species/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/fsc-focus-forestspecies/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/fsc-fsc-forest-biome-zone/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/fsc-focus-forestzone/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/fsc-fsc-forest-harvesting-techniques/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/fsc-focus-harvestingtechnique/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/fsc-fsc-forest-management-principle/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/fsc-focus-fmprinciple/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/fsc-fsc-forest-management-type-of-control/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/fsc-focus-fmcontrol/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/fsc-fsc-forest-monitoring-methods/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/fsc-focus-forestmonitoring/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/fsc-fsc-forest-products/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/fsc-focus-forestproduct/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/fsc-fsc-forest-products-identification-system/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/fsc-focus-forestproductidsys/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/fsc-fsc-forest-type/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/fsc-focus-foresttype/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/fsc-fsc-forestry-environmental-safeguards/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/fsc-focus-forestrysafeguard/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/fsc-fsc-high-conservation-values/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/fsc-focus-highconservationval/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/fsc-fsc-non-forestry-activities/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/fsc-focus-nonforestryactivity/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/fsc-fsc-non-forestry-services-for-local-communities/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/fsc-focus-nonforestryservice/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/fsc-fsc-outcomes-and-benefits/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/fsc-focus-outcome/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/fsc-fsc-political-systemic-or-legal-issues/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/fsc-issue-political/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/fsc-fsc-political-systemic-or-legal-topics/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/fsc-topic-political/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/fsc-fsc-resource-type/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/fsc-doccode/</loc>
   </url><url>
     <loc>https://alanorth.github.io/iseal-schema/fsc/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/fsc-fsc-scope-slimf-type/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/fsc-focus-scope/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/fsc-fsc-social-issues/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/fsc-issue-social/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/fsc-fsc-social-topics/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/fsc-topic-social/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/fsc-fsc-standard-type/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/fsc-standard-type/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/fsc-fsc-subject-keywords/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/fsc-subject/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/fsc-fsc-sustainability-dimension/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/fsc-focus-sustaindimension/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/fsc-fsc-tenure-management/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/fsc-focus-tenuremanagement/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/fsc-fsc-tenure-ownership/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/fsc-focus-tenureownership/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/global-funding-source-name/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/is-contributor-funder/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/global-funding-source-type/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/is-contributor-fundertype/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/global-geographic-level/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/is-coverage-geographiclevel/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/global-id/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/is-identifier-id/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/global-is-replaced-by-another-item-or-resource/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/dcterms-isreplacedby/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/global-isbn/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/is-identifier-isbn/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/global-iseal-code-clause-number/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/is-identifier-clause/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/global-iseal-code-name/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/is-identifier-code/</loc>
   </url><url>
     <loc>https://alanorth.github.io/iseal-schema/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/global-iseal-delta-project-sustainability-indicator/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/is-delta-sustainindicator/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/global-iseal-member-contributor/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/is-contributor-member/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/global-iseal-strategic-pillar/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/is-focus-strategypillar/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/global-iseal-system-element/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/is-focus-systemelement/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/global-journal-name/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/is-journalname/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/global-language-iso-code/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/dcterms-language/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/global-language-name/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/is-language/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/global-latitude-and-longitude-location-coordinates-for-the-resource-or-its-focus/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/is-coverage-latlong/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/global-latitude-location-coordinate-for-the-resource-or-its-focus/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/is-coverage-latitude/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/global-link-to-a-url/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/is-link-url/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/global-link-to-an-image-photo-or-other-multimedia/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/is-link-image/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/global-longitude-location-coordinate-for-the-resource-or-its-focus/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/is-coverage-longitude/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/global-notes/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/dcterms-description/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/global-number/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/is-extent-number/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/global-organization-bluenumber-id/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/is-organization-bluenumber/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/global-organization-ror-id/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/is-organization-ror/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/global-other-titles/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/dcterms-alternative/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/global-pagination/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/is-extent-pages/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/global-peer-review-status/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/is-item-reviewstatus/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/fsc-pest-biocontrol-agent/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/is-pesticide-biocontrolagent/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/fsc-pest-common-name/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/is-pesticide-pestname/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/fsc-pest-species-name/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/is-pesticide-pestspecies/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/fsc-pest-type/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/is-pesticide-pesttype/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/fsc-pesticide-active-ingredient/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/is-pesticide-activeingredient/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/fsc-pesticide-alternatives-challenge/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/is-pesticide-challenge/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/fsc-pesticide-alternatives-method/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/is-pesticide-alternativemethod/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/fsc-pesticide-alternatives-strategy/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/is-pesticide-alternativestrategy/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/fsc-pesticide-alternatives-trial-status/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/is-pesticide-alternativetrial/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/fsc-pesticide-alternatives-type/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/is-pesticide-alternativetype/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/fsc-pesticide-common-name/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/is-pesticide-commonname/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/global-place-name/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/is-coverage-place/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/global-product-focus/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/is-focus-products/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/global-publication-place/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/is-item-publicationplace/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/global-publisher/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/dcterms-publisher/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/global-region-name/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/is-coverage-region/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/global-sdg-focus/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/is-focus-sdg/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/global-sector-focus/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/is-focus-sectors/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/global-series-name/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/dcterms-ispartof/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/global-standard-date-of-version-1/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/is-dateofversion1/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/global-standard-effective-date/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/dcterms-valid/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/global-standard-id-or-code/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/is-identifier-standardcode/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/global-standard-status/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/is-identifier-standardstatus/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/global-status/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/is-item-status/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/global-subject-focus/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/dcterms-subject/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/global-sustainability-cross-cutting-lens/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/is-focus-sustainlens/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/global-sustainability-dimension/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/is-focus-sustaindimension/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/global-sustainability-issue/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/is-focus-sustainissue/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/global-sustainability-outcome/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/is-focus-sustainoutcome/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/global-sustainability-scheme-name/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/is-identifier-schemename/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/global-sustainability-scheme-type/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/is-identifier-schemetype/</loc>
   </url><url>
     <loc>https://alanorth.github.io/iseal-schema/tags/</loc>
   </url><url>
     <loc>https://alanorth.github.io/iseal-schema/terms/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/global-title/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/dc-title/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/fsc-transition-status/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/fsc-intransition/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/global-type/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/dcterms-type/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/global-uniform-resource-identifier/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/dc-identifier-uri/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/global-usage-license-holder/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/dcterms-rightsholder/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/global-usage-rights-license/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/dcterms-license/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/global-version-number/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/is-extent-version/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/global-volume-number/</loc>
+    <loc>https://alanorth.github.io/iseal-schema/is-extent-volume/</loc>
   </url>
 </urlset>
