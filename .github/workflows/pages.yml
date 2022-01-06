@@ -31,6 +31,9 @@ jobs:
         working-directory: site
       - name: Commit Hugo content
         uses: stefanzweifel/git-auto-commit-action@v4
+        # Only run if we are on the main branch. We don't want to create extra
+        # commits on feature branches or pull requests.
+        if: ${{ github.ref_name == 'main' }}
         with:
           commit_message: Automated commit with site updates
           # Only commit if there are changes to the site.
