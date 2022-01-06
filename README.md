@@ -40,7 +40,6 @@ $ npm run build
 ## TODO
 
 - Repository
-  - Update links to final version (from alanorth to iseal GitHub)
   - Add more information and instructions to README.md
 - Schema
   - Remove combined "latLong" fields (they can be inferred from the separate fields)
