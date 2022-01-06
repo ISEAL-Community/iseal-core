@@ -12,10 +12,10 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v2
         with:
-          # 2021-12-14 this is currently an OK choice, but it will need to be
+          # 2022-01-06 this is currently an OK choice, but it will need to be
           # updated eventually as the ecosystem moves. Keep in sync with the
           # version in pyproject.toml.
-          python-version: 3.9
+          python-version: 3.10
       - name: Install Poetry
         uses: abatilo/actions-poetry@v2.1.4
       - name: Install Python dependencies
