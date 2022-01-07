@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on ISEAL Core Metadata Set</title>
-    <link>https://alanorth.github.io/iseal-schema/categories/</link>
+    <link>https://iseal-community.github.io/iseal-core/categories/</link>
     <description>Recent content in Categories on ISEAL Core Metadata Set</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://alanorth.github.io/iseal-schema/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://iseal-community.github.io/iseal-core/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

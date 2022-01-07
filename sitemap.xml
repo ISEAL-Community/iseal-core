@@ -2,434 +2,434 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://alanorth.github.io/iseal-schema/dcterms-abstract/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/dcterms-abstract/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/dcterms-accessrights/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/dcterms-accessrights/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/dcterms-audience/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/dcterms-audience/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/is-author-orcid/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/is-author-orcid/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/dc-contributor-author/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/dc-contributor-author/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/is-availability-fulltext/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/is-availability-fulltext/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/categories/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/categories/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/is-certificate-id/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/is-certificate-id/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/is-certificate-locations/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/is-certificate-locations/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/is-certificate-duration/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/is-certificate-duration/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/is-certificate-enddate/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/is-certificate-enddate/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/is-certificate-startdate/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/is-certificate-startdate/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/is-certificate-firststartdate/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/is-certificate-firststartdate/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/is-certifiedorganization-city/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/is-certifiedorganization-city/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/is-certifiedorganization-country/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/is-certifiedorganization-country/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/is-certifiedorganization-email/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/is-certifiedorganization-email/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/is-certifiedorganization-gln/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/is-certifiedorganization-gln/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/is-certifiedorganizationid/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/is-certifiedorganizationid/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/is-certifiedorganization-addresslatlong/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/is-certifiedorganization-addresslatlong/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/is-certifiedorganization-addresslat/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/is-certifiedorganization-addresslat/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/is-certifiedorganization-addresslong/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/is-certifiedorganization-addresslong/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/is-certifiedorganization-name/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/is-certifiedorganization-name/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/is-certifiedorganization-phonecountrycode/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/is-certifiedorganization-phonecountrycode/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/is-certifiedorganization-phonenumber/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/is-certifiedorganization-phonenumber/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/is-certifiedorganization-postcode/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/is-certifiedorganization-postcode/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/is-certifiedorganization-role/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/is-certifiedorganization-role/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/is-certifiedorganization-streetname/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/is-certifiedorganization-streetname/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/is-certifiedorganization-url/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/is-certifiedorganization-url/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/is-certificate-licensecode/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/is-certificate-licensecode/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/is-certificate-licensestatus/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/is-certificate-licensestatus/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/is-certificate-ownership/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/is-certificate-ownership/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/is-certificate-scope/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/is-certificate-scope/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/is-certificate-status/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/is-certificate-status/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/is-certificate-type/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/is-certificate-type/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/is-certifiedsite-adminarea/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/is-certifiedsite-adminarea/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/is-certifiedsite-analysisarea/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/is-certifiedsite-analysisarea/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/is-certifiedsite-area/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/is-certifiedsite-area/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/is-certificate-siteid/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/is-certificate-siteid/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/is-certifiedsite-latlong/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/is-certifiedsite-latlong/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/is-certifiedsite-coorddetail/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/is-certifiedsite-coorddetail/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/is-certifiedsite-lat/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/is-certifiedsite-lat/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/is-certifiedsite-locationname/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/is-certifiedsite-locationname/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/is-certifiedsite-long/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/is-certifiedsite-long/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/is-certifiedsite-naturalsetaside/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/is-certifiedsite-naturalsetaside/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/is-certifiedsite-productionarea/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/is-certifiedsite-productionarea/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/is-certifiedsite-restorationsetaside/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/is-certifiedsite-restorationsetaside/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/is-certificate-sites/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/is-certificate-sites/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/is-certifyingbody-accreditationenddate/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/is-certifyingbody-accreditationenddate/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/is-certifyingbody-accreditationstartdate/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/is-certifyingbody-accreditationstartdate/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/is-certifyingbody-accreditationstatus/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/is-certifyingbody-accreditationstatus/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/is-certifyingbody-accreditedgeoscope/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/is-certifyingbody-accreditedgeoscope/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/is-certifyingbody-accreditedtechscope/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/is-certifyingbody-accreditedtechscope/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/is-certifyingbody-accreditedtechscopetype/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/is-certifyingbody-accreditedtechscopetype/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/is-certifyingbody-asicode/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/is-certifyingbody-asicode/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/is-certifyingbody-city/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/is-certifyingbody-city/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/is-certifyingbody-country/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/is-certifyingbody-country/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/is-certifyingbody-email/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/is-certifyingbody-email/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/is-certifyingbody-addresslatlong/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/is-certifyingbody-addresslatlong/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/is-certifyingbody-addresslat/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/is-certifyingbody-addresslat/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/is-certifyingbody-addresslong/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/is-certifyingbody-addresslong/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/is-certifyingbody-name/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/is-certifyingbody-name/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/is-certifyingbody-phonecountrycode/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/is-certifyingbody-phonecountrycode/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/is-certifyingbody-phonenumber/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/is-certifyingbody-phonenumber/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/is-certifyingbody-postcode/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/is-certifyingbody-postcode/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/is-certifyingbody-schemeaccredited/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/is-certifyingbody-schemeaccredited/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/is-certifyingbody-standardaccredited/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/is-certifyingbody-standardaccredited/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/is-certifyingbody-standardcertified/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/is-certifyingbody-standardcertified/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/is-certifyingbody-streetname/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/is-certifyingbody-streetname/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/is-certifyingbody-url/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/is-certifyingbody-url/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/dcterms-bibliographiccitation/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/dcterms-bibliographiccitation/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/is-contact-email/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/is-contact-email/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/is-contact-name/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/is-contact-name/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/is-coverage-countryalpha2/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/is-coverage-countryalpha2/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/is-coverage-country/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/is-coverage-country/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/dc-date-accessioned/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/dc-date-accessioned/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/dc-date-available/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/dc-date-available/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/dcterms-modified/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/dcterms-modified/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/dcterms-created/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/dcterms-created/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/dcterms-issued/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/dcterms-issued/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/is-dateofversion/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/is-dateofversion/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/is-datereviewed/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/is-datereviewed/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/is-daterevised/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/is-daterevised/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/dcterms-datesubmitted/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/dcterms-datesubmitted/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/is-identifier-doi/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/is-identifier-doi/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/is-extent-edition/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/is-extent-edition/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/is-evaluation-authordirectionality/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/is-evaluation-authordirectionality/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/is-evaluation-comparison/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/is-evaluation-comparison/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/is-evaluation-counterfacts/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/is-evaluation-counterfacts/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/is-evaluation-datasource/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/is-evaluation-datasource/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/is-evaluation-collection/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/is-evaluation-collection/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/is-evaluation-findings/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/is-evaluation-findings/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/is-evaluation-nodifferencedirectionality/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/is-evaluation-nodifferencedirectionality/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/is-evaluation-notes/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/is-evaluation-notes/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/is-evaluation-outcome/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/is-evaluation-outcome/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/is-evaluation-quotes/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/is-evaluation-quotes/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/is-evaluation-recommendations/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/is-evaluation-recommendations/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/is-evaluation-significance/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/is-evaluation-significance/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/is-evaluation-test/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/is-evaluation-test/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/is-evaluation-scope/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/is-evaluation-scope/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/is-evidencesubtype/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/is-evidencesubtype/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/is-evidenceresourcetype/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/is-evidenceresourcetype/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/is-evidencesummary/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/is-evidencesummary/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/is-evidencetype/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/is-evidencetype/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/dcterms-extent/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/dcterms-extent/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/dcterms-format/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/dcterms-format/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/fsc-audit-documentationcat/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/fsc-audit-documentationcat/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/fsc-audit-samplingsystem/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/fsc-audit-samplingsystem/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/fsc-audit-site/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/fsc-audit-site/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/fsc-audit-stakeholderengagement/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/fsc-audit-stakeholderengagement/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/fsc-audit-stakeholdertype/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/fsc-audit-stakeholdertype/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/fsc-audit-type/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/fsc-audit-type/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/fsc-certificate-category/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/fsc-certificate-category/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/fsc-certificate-type/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/fsc-certificate-type/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/fsc-wood-code/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/fsc-wood-code/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/fsc-coverage-region/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/fsc-coverage-region/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/fsc-issue-economic/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/fsc-issue-economic/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/fsc-topic-economic/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/fsc-topic-economic/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/fsc-issue-environmental/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/fsc-issue-environmental/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/fsc-topic-environmental/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/fsc-topic-environmental/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/fsc-evidencecategory/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/fsc-evidencecategory/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/fsc-focus-forestspecies/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/fsc-focus-forestspecies/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/fsc-focus-forestzone/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/fsc-focus-forestzone/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/fsc-focus-harvestingtechnique/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/fsc-focus-harvestingtechnique/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/fsc-focus-fmprinciple/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/fsc-focus-fmprinciple/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/fsc-focus-fmcontrol/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/fsc-focus-fmcontrol/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/fsc-focus-forestmonitoring/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/fsc-focus-forestmonitoring/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/fsc-focus-forestproduct/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/fsc-focus-forestproduct/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/fsc-focus-forestproductidsys/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/fsc-focus-forestproductidsys/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/fsc-focus-foresttype/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/fsc-focus-foresttype/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/fsc-focus-forestrysafeguard/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/fsc-focus-forestrysafeguard/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/fsc-focus-highconservationval/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/fsc-focus-highconservationval/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/fsc-focus-nonforestryactivity/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/fsc-focus-nonforestryactivity/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/fsc-focus-nonforestryservice/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/fsc-focus-nonforestryservice/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/fsc-focus-outcome/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/fsc-focus-outcome/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/fsc-issue-political/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/fsc-issue-political/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/fsc-topic-political/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/fsc-topic-political/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/fsc-doccode/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/fsc-doccode/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/fsc/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/fsc/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/fsc-focus-scope/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/fsc-focus-scope/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/fsc-issue-social/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/fsc-issue-social/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/fsc-topic-social/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/fsc-topic-social/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/fsc-standard-type/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/fsc-standard-type/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/fsc-subject/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/fsc-subject/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/fsc-focus-sustaindimension/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/fsc-focus-sustaindimension/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/fsc-focus-tenuremanagement/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/fsc-focus-tenuremanagement/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/fsc-focus-tenureownership/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/fsc-focus-tenureownership/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/is-contributor-funder/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/is-contributor-funder/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/is-contributor-fundertype/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/is-contributor-fundertype/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/is-coverage-geographiclevel/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/is-coverage-geographiclevel/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/is-identifier-id/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/is-identifier-id/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/dcterms-isreplacedby/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/dcterms-isreplacedby/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/is-identifier-isbn/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/is-identifier-isbn/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/is-identifier-clause/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/is-identifier-clause/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/is-identifier-code/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/is-identifier-code/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/is-delta-sustainindicator/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/is-delta-sustainindicator/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/is-contributor-member/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/is-contributor-member/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/is-focus-strategypillar/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/is-focus-strategypillar/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/is-focus-systemelement/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/is-focus-systemelement/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/is-journalname/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/is-journalname/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/dcterms-language/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/dcterms-language/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/is-language/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/is-language/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/is-coverage-latlong/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/is-coverage-latlong/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/is-coverage-latitude/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/is-coverage-latitude/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/is-link-url/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/is-link-url/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/is-link-image/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/is-link-image/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/is-coverage-longitude/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/is-coverage-longitude/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/dcterms-description/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/dcterms-description/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/is-extent-number/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/is-extent-number/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/is-organization-bluenumber/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/is-organization-bluenumber/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/is-organization-ror/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/is-organization-ror/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/dcterms-alternative/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/dcterms-alternative/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/is-extent-pages/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/is-extent-pages/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/is-item-reviewstatus/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/is-item-reviewstatus/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/is-pesticide-biocontrolagent/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/is-pesticide-biocontrolagent/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/is-pesticide-pestname/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/is-pesticide-pestname/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/is-pesticide-pestspecies/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/is-pesticide-pestspecies/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/is-pesticide-pesttype/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/is-pesticide-pesttype/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/is-pesticide-activeingredient/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/is-pesticide-activeingredient/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/is-pesticide-challenge/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/is-pesticide-challenge/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/is-pesticide-alternativemethod/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/is-pesticide-alternativemethod/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/is-pesticide-alternativestrategy/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/is-pesticide-alternativestrategy/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/is-pesticide-alternativetrial/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/is-pesticide-alternativetrial/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/is-pesticide-alternativetype/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/is-pesticide-alternativetype/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/is-pesticide-commonname/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/is-pesticide-commonname/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/is-coverage-place/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/is-coverage-place/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/is-focus-products/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/is-focus-products/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/is-item-publicationplace/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/is-item-publicationplace/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/dcterms-publisher/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/dcterms-publisher/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/is-coverage-region/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/is-coverage-region/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/is-focus-sdg/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/is-focus-sdg/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/is-focus-sectors/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/is-focus-sectors/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/dcterms-ispartof/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/dcterms-ispartof/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/is-dateofversion1/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/is-dateofversion1/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/dcterms-valid/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/dcterms-valid/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/is-identifier-standardcode/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/is-identifier-standardcode/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/is-identifier-standardstatus/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/is-identifier-standardstatus/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/is-item-status/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/is-item-status/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/dcterms-subject/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/dcterms-subject/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/is-focus-sustainlens/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/is-focus-sustainlens/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/is-focus-sustaindimension/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/is-focus-sustaindimension/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/is-focus-sustainissue/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/is-focus-sustainissue/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/is-focus-sustainoutcome/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/is-focus-sustainoutcome/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/is-identifier-schemename/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/is-identifier-schemename/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/is-identifier-schemetype/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/is-identifier-schemetype/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/tags/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/tags/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/terms/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/terms/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/dc-title/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/dc-title/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/fsc-intransition/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/fsc-intransition/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/dcterms-type/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/dcterms-type/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/dc-identifier-uri/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/dc-identifier-uri/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/dcterms-rightsholder/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/dcterms-rightsholder/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/dcterms-license/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/dcterms-license/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/is-extent-version/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/is-extent-version/</loc>
   </url><url>
-    <loc>https://alanorth.github.io/iseal-schema/is-extent-volume/</loc>
+    <loc>https://iseal-community.github.io/iseal-core/is-extent-volume/</loc>
   </url>
 </urlset>
