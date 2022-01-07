@@ -1,5 +1,5 @@
 title="ISEAL Core Metadata Set"
-baseURL="https://alanorth.github.io/iseal-schema"
+baseURL="https://iseal-community.github.io/iseal-core"
 languageCode = "en-us"
 enableRobotsTXT = true
 publishDir = "docs"

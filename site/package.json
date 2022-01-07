@@ -1,5 +1,5 @@
 {
-  "name": "iseal-schema",
+  "name": "iseal-core",
   "version": "0.0.1",
   "description": "Generate ISEAL Core Metadata Set documentation website.",
   "scripts": {
