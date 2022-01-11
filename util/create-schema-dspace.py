@@ -109,7 +109,22 @@ def create_schema(schema):
     # Check the status
     if request.status_code == requests.codes.ok:
         return True
+    # DSpace responds with HTTP 500 if the schema exists
+    elif request.status_code == requests.codes.internal_server_error:
+        print(f"  Schema already exists: {schema['prefix']}")
+
+        return False
+    # DSpace responds with HTTP 415 if ...?
+    elif request.status_code == requests.codes.unsupported_media_type:
+        sys.stderr.write(f"  Could not create schema: {schema['prefix']}\n")
+        sys.stderr.write(f"  HTTP error code: {request.status_code}\n")
+
+        return False
+    # Unknown error
     else:
+        sys.stderr.write(f"  Could not create schema: {schema['prefix']}\n")
+        sys.stderr.write(f"  HTTP error code: {request.status_code}\n")
+
         return False
 
 
@@ -134,14 +149,37 @@ def create_field(schema_prefix, field):
             cookies=cookies,
         )
     except requests.ConnectionError:
-        sys.stderr.write(f"   Could not connect to REST API: {args.request_url}.\n")
+        sys.stderr.write(f"   Could not connect to REST API: {args.request_url}\n")
 
         exit(1)
 
     # Check the status
     if request.status_code == requests.codes.ok:
         return True
+    # DSpace responds with HTTP 500 if the field exists
+    elif request.status_code == requests.codes.internal_server_error:
+        print(f"  Field already exists: {field['name']}")
+
+        return False
+    # DSpace responds with HTTP 415 if ...?
+    elif request.status_code == requests.codes.unsupported_media_type:
+        sys.stderr.write(f"  Could not create field: {field['name']}.\n")
+        sys.stderr.write(f"  HTTP error code: {request.status_code}\n")
+        sys.stderr.write("\n")
+
+        return False
+    # DSpace responds with HTTP 404 if the schema does not exist
+    elif request.status_code == requests.codes.not_found:
+        sys.stderr.write(
+            f"  Could not create field: {field['name']} (parent schema does not exist).\n"
+        )
+
+        return False
+    # Unknown error
     else:
+        sys.stderr.write(f"  Could not create field: {field['name']}\n")
+        sys.stderr.write(f"  HTTP error code: {request.status_code}\n")
+
         return False
 
 
@@ -181,8 +219,6 @@ def parse_fields(schema_df):
 
             if create_field(dspace_field_prefix, field):
                 print(f"   Created field: {dspace_field_name}")
-            else:
-                print(f"   Field probably already exists: {dspace_field_name}")
 
 
 parser = argparse.ArgumentParser(
@@ -235,13 +271,9 @@ fsc_schema = {
 
 if create_schema(iseal_schema):
     print("  Created ISEAL Core schema")
-else:
-    print("  ISEAL Core schema probably already exists")
 
 if create_schema(fsc_schema):
     print("  Created FSC schema")
-else:
-    print("  FSC schema probably already exists")
 
 print("\nCreating fields...")
 
