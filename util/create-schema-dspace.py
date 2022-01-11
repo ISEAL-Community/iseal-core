@@ -98,7 +98,9 @@ def create_schema(schema):
     print(f" Attempting to create schema: {schema['prefix']}")
 
     try:
-        request = requests.post(request_url, headers, json=schema, cookies=cookies)
+        request = requests.post(
+            request_url, headers=headers, json=schema, cookies=cookies
+        )
     except requests.ConnectionError:
         sys.stderr.write(f"  Could not connect to REST API: {args.request_url}\n")
 
