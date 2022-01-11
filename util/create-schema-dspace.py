@@ -47,7 +47,7 @@ def login(user, password):
     try:
         request = requests.post(rest_login_endpoint, headers=headers, data=data)
     except requests.ConnectionError:
-        sys.stderr.write(f" Could not connect to REST API: {args.request_url}.\n")
+        sys.stderr.write(f" Could not connect to REST API: {args.request_url}\n")
 
         exit(1)
 
@@ -70,13 +70,13 @@ def check_session(sessionid):
     try:
         request = requests.get(request_url, headers=headers, cookies=cookies)
     except requests.ConnectionError:
-        sys.stderr.write(f" Could not connect to REST API: {args.request_url}.\n")
+        sys.stderr.write(f" Could not connect to REST API: {args.request_url}\n")
 
         exit(1)
 
     if request.status_code == requests.codes.ok:
         if not request.json()["authenticated"]:
-            sys.stderr.write(f" Session expired: {sessionid}.\n")
+            sys.stderr.write(f" Session expired: {sessionid}\n")
 
             exit(1)
     else:
@@ -100,7 +100,7 @@ def create_schema(schema):
     try:
         request = requests.post(request_url, headers, json=schema, cookies=cookies)
     except requests.ConnectionError:
-        sys.stderr.write(f"  Could not connect to REST API: {args.request_url}.\n")
+        sys.stderr.write(f"  Could not connect to REST API: {args.request_url}\n")
 
         exit(1)
 
