@@ -114,7 +114,8 @@ def create_schema(schema):
         print(f"  Schema already exists: {schema['prefix']}")
 
         return False
-    # DSpace responds with HTTP 415 if ...?
+    # DSpace responds with HTTP 415 if we POST bad data like a malformed JSON
+    # or a request without headers, etc.
     elif request.status_code == requests.codes.unsupported_media_type:
         sys.stderr.write(f"  Could not create schema: {schema['prefix']}\n")
         sys.stderr.write(f"  HTTP error code: {request.status_code}\n")
@@ -161,7 +162,8 @@ def create_field(schema_prefix, field):
         print(f"  Field already exists: {field['name']}")
 
         return False
-    # DSpace responds with HTTP 415 if ...?
+    # DSpace responds with HTTP 415 if we POST bad data like a malformed JSON
+    # or a request without headers, etc.
     elif request.status_code == requests.codes.unsupported_media_type:
         sys.stderr.write(f"  Could not create field: {field['name']}.\n")
         sys.stderr.write(f"  HTTP error code: {request.status_code}\n")
