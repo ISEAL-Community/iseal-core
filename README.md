@@ -1,41 +1,22 @@
-# ISEAL Core Metadata Set
-The ISEAL Core Metadata Set (ISEAL Core) is a set of structured terms and vocabularies that can be used as metadata to describe, share, and reuse different digital resources across the [ISEAL Community](https://www.isealalliance.org/) and broader set of stakeholders. The resources described using the ISEAL Core are those that sustainability systems typically collect, curate, manage, use, publish and archive. They may be datasets, published research, certificates, videos, images, maps, or other organizational documentation.
+<h1 align="center">ISEAL Core Metadata Set</h1>
 
 <p align="center">
   <img width="600" alt="Screenshot of ISEAL Core Metadata Set documentation" src="screenshot.png">
 </p>
 
-You can see a user-friendly version of the schema [here](https://iseal-community.github.io/iseal-core/).
+## About the Project
+The ISEAL Core Metadata Set (ISEAL Core) is a set of structured terms and vocabularies that can be used as metadata to describe, share, and reuse different digital resources across the [ISEAL Community](https://www.isealalliance.org/) and broader set of stakeholders. The resources described using the ISEAL Core are those that sustainability systems typically collect, curate, manage, use, publish and archive. They may be datasets, published research, certificates, videos, images, maps, or other organizational documentation.
 
-## Requirements
+View the user-friendly schema reference here: https://iseal-community.github.io/iseal-core
 
-- Python 3.7+ (for parsing the schema)
-- Node.js 12+ (for generating the HTML documentation site)
+## Built With
 
-## Python Setup
-Create a Python 3 (3.7+) virtual environment and install the requirements:
+- [Python](https://python.org/) — used for CSV schema parsing and RDF generation
+- [Bootstrap](https://getbootstrap.com/) — used for HTML documentation site style and layout
+- [Node.js](https://nodejs.org/) — the Node.js package manager (NPM) installs web dependencies and tooling
+- [Hugo](https://gohugo.io/) — used to generate the HTML documentation site
 
-```console
-$ python3 -m venv virtualenv
-$ source virtualenv/bin/activate
-$ pip install -r requirements.txt
-```
-
-Then run the utility scripts to parse the schemas:
-
-```console
-$ ./util/generate-hugo-content.py -i ./data/iseal-core.csv --clean -d
-$ ./util/generate-hugo-content.py -i data/fsc.csv -d
-```
-
-## Node.js Setup
-To generate the HTML documentation site:
-
-```console
-$ cd site
-$ npm install
-$ npm run build
-```
+Consult [`README-dev.md`](README-dev.md) for technical information about making changes to the schema, documentaion site, etc.
 
 ## TODO
 
