@@ -12,11 +12,11 @@ From the CSV we use a series of Python scripts to create the RDF ([TTL](https://
 
 ## General Requirements
 
-- Python 3.7+
+- Python 3.8+
 - Node.js 12+ and NPM
 
 ## Python Setup
-Create a Python 3 (3.7+) virtual environment and install the requirements:
+Create a Python virtual environment and install the requirements:
 
 ```console
 $ python3 -m venv virtualenv
