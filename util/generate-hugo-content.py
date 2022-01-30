@@ -8,8 +8,7 @@ import argparse
 import os
 import re
 import sys
-from shutil import rmtree
-from shutil import copyfile
+from shutil import copyfile, rmtree
 
 import pandas as pd
 

@@ -1,13 +1,13 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-from rdflib import Graph
-from rdflib.namespace import OWL, DC, DCTERMS, RDF, RDFS, SKOS, XSD
-from rdflib import URIRef, BNode, Literal
 import json
 import os
-import pandas as pd
 import re
+
+import pandas as pd
+from rdflib import BNode, Graph, Literal, URIRef
+from rdflib.namespace import DC, DCTERMS, OWL, RDF, RDFS, SKOS, XSD
 
 
 def make_core():
