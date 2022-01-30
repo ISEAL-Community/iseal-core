@@ -8,14 +8,14 @@ The ISEAL Core Metadata Set is maintained primarily in CSV format. This decision
 - The ISEAL Core Metadata Set, which lives in `data/iseal-core.csv`
 - The FSC<sup>®</sup> extension, which lives in `data/fsc.csv`
 
-From the CSV we use a series of Python scripts to create the RDF ([TTL](https://en.wikipedia.org/wiki/Turtle_(syntax))) representations of the schema as well as the HTML documentation site. All of this is automated using GitHub Actions (see `.github/workflows`) whenever there is a new commit in the repository. Everything should Just Work<sup>™</sup> so you should only need to follow the documentation here if you want to work on the workflow locally or make larger changes. In that case, continue reading...
+From the CSV we use a series of Python scripts to create the RDF ([TTL](https://en.wikipedia.org/wiki/Turtle_(syntax))) representations of the schema as well as the HTML documentation site. All of this is automated using GitHub Actions (see `.github/workflows`) whenever there is a new commit in the repository. You should only need to follow the documentation here if you want to work on the workflow locally or make larger changes. In that case, continue reading...
 
-## General Requirements
+## Technical Requirements
 
-- Python 3.8+
-- Node.js 12+ and NPM
+- Python 3.8+ — to parse the CSV schema and generate the RDF and documentation site
+- Node.js 12+ and NPM — to generate the documentation site
 
-## Python Setup
+### Python Setup
 Create a Python virtual environment and install the requirements:
 
 ```console
@@ -31,7 +31,7 @@ $ ./util/generate-hugo-content.py -i ./data/iseal-core.csv --clean -d
 $ ./util/generate-hugo-content.py -i data/fsc.csv -d
 ```
 
-## Node.js Setup
+### Node.js Setup
 To generate the HTML documentation site:
 
 ```console
