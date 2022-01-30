@@ -12,8 +12,8 @@ From the CSV we use a series of Python scripts to create the RDF ([TTL](https://
 
 ## Technical Requirements
 
-- Python 3.8+ — to parse the CSV schema and generate the RDF and documentation site
-- Node.js 12+ and NPM — to generate the documentation site
+- Python 3.8+ — to parse the CSV schemas, generate the RDF files, and populate the documentation site content
+- Node.js 12+ and NPM — to generate the documentation site HTML
 
 ### Python Setup
 Create a Python virtual environment and install the requirements:
@@ -24,18 +24,57 @@ $ source virtualenv/bin/activate
 $ pip install -r requirements.txt
 ```
 
-Then run the utility scripts to parse the schemas:
+Once you have the Python environment set up you will be able to use the utility scripts:
+
+- `./util/generate-hugo-content.py` — to parse the CSV schemas and controlled vocabularies, then populate the documentation site content
+- `./util/create-rdf.py` — to parse the CSV schemas and create the RDF (TTL) files
+
+If you have made modifications to the CSV schemas—adding elements, changing descriptions, etc—and you want to test them locally before pushing to GitHub, then you will need to re-run the utility scripts:
 
 ```console
 $ python ./util/generate-hugo-content.py -i ./data/iseal-core.csv --clean -d
-$ python ./util/generate-hugo-content.py -i data/fsc.csv -d
+$ python ./util/generate-hugo-content.py -i ./data/fsc.csv -d
+$ python ./util/create-rdf.py
 ```
 
+Assuming these scripts ran without crashing, you can check your `git status` to see if anything was updated and then proceed to regenerating the documentation site HTML.
+
 ### Node.js Setup
-To generate the HTML documentation site:
+Install the web tooling and dependencies required to build the site:
 
 ```console
 $ cd site
 $ npm install
+```
+
+The Python scripts above only populated the *content* for the documentation site. To regenerate the actual HTML for the documentation site you must run the `npm build` script:
+
+```console
 $ npm run build
 ```
+
+Alternatively, you can view the site locally using the `npm run server` command:
+
+```console
+$ npm run server
+```
+
+The site will be built in memory and available at: http://localhost:1313/iseal-core/
+
+## Workflows
+These are some common, basic workflows:
+
+- Add new metadata element(s) → re-run Python scripts and regenerate documentation site
+- Update metadata descriptions → re-run Python scripts and regenerate documentation site
+- Update controlled vocabularies → re-run Python scripts and regenerate documentation site
+
+These are advanced workflows:
+
+- Change documentation site layout
+  - Requires editing templates in `site/layouts` and regenerating documentation site
+- Change documentation site style
+  - Requires editing styles in `site/source/scss` and regenerating documentation site
+- Add a new schema extension
+  - Requires editing Python utility scripts
+  - Requires editing styles in `site/source/scss` and regenerating documentation site
+  - Requires editing templates in `site/layouts` and regenerating documentation site
