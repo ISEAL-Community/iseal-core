@@ -25,6 +25,7 @@ Consult [`README-dev.md`](README-dev.md) for technical information about making 
 - Schema
   - Remove combined "latLong" fields (they can be inferred from the separate fields)
   - Remove controlled vocabularies from the schema CSVs
+  - Update `util/create-rdf.py`
 - Site
   - Change "Suggested element" to "DSpace mapping"?
 
