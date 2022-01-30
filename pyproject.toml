@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "iseal-schema"
+name = "iseal-core"
 version = "0.1.0"
 description = "Workflow to process ISEAL schema Excel into RDF and user-facing specification."
 authors = ["Alan Orth <aorth@mjanja.ch>", "Marie-Angelique Laporte <m.a.laporte@cgiar.org>"]
