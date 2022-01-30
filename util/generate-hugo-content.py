@@ -90,7 +90,7 @@ def parseSchema(schema_df):
         cardinality = row["element options"].capitalize()
         prop_type = row["element type"].capitalize()
 
-        if row["element controlled values or terms"]:
+        if os.path.isfile(f"data/controlled-vocabularies/{element_name_safe}.txt"):
             controlled_vocab = True
 
             controlled_vocabulary_src = (
