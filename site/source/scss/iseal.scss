@@ -44,3 +44,15 @@ h1, h2, h3 {
     color: $primary;
     font-weight: 700;
 }
+
+// Add a bit of space below the logo
+#iseal-logo {
+    margin-bottom: 3px;
+}
+
+// Vertically align the heading with the ISEAL logo in the navigation bar. The
+// default Bootstrap padding is 16px on the navbar, so we need that plus a few
+// more to achieve visual alignment with the bottom of the logo.
+#iseal-heading {
+    padding-top: 21px;
+}

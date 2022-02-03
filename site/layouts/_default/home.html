@@ -9,6 +9,8 @@
       <div class="col-lg-2 d-none d-lg-block">
         <div class="sticky-top">
           <nav id="navbar-navigation" class="navbar navbar-light bg-light flex-column align-items-start p-3">
+            {{ $isealLogo := resources.Get "images/iseal-logo.png" | resources.Fingerprint }}
+            <img id="iseal-logo" src="{{ $isealLogo.Permalink }}" width="150px">
             <a class="navbar-brand" href="#">Navigation</a>
             <nav class="nav nav-pills flex-column">
               <a class="nav-link" href="#clusters-and-modules">Clusters and Modules</a>
@@ -27,7 +29,7 @@
       </div>
       <!-- main content is 10 columns on large devices, 12 on all others -->
       <main class="col-lg-10">
-        <h1>ISEAL Core Metadata Set Specification</h1>
+        <h1 id="iseal-heading">ISEAL Core Metadata Set Specification</h1>
         <p class="lead">This page provides a reference specification for the ISEAL Core Metadata set (ISEAL Core).</p>
         <p>ISEAL Core is a set of structured terms and vocabularies that can be used as metadata to describe, share, and reuse different digital resources across the ISEAL Community and broader set of stakeholders. The resources described using the ISEAL Core are those that sustainability systems typically collect, curate, manage, use, publish and archive. They may be datasets, published research, certificates, videos, images, maps, or other organizational documentation.</p>
         <h2 id="clusters-and-modules">Clusters and Modules</h2>
