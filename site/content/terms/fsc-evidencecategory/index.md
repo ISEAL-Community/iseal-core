@@ -5,7 +5,7 @@ slug: 'fsc-evidencecategory'
 comment: 'select from control list'
 required: False
 vocabulary: 'vocabulary.txt'
-module: 'Impact'
+module: 'Evaluation'
 cluster: 'Fsc'
 policy: 'Controlled value. Single select from control list.'
 layout: 'fsc'
