@@ -5,7 +5,7 @@ slug: 'is-evaluation-datasource'
 comment: 'Select from control list'
 required: False
 vocabulary: 'vocabulary.txt'
-module: 'Impact'
+module: 'Evaluation'
 cluster: 'Impact'
 policy: 'Controlled value. Single select from control list.'
 layout: 'home'
