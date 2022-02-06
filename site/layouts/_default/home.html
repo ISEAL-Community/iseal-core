@@ -89,7 +89,6 @@
         {{/* not possible to re-use Hugo's paginate object unless you use   */}}
         {{/* the same exact arguments each time.                            */}}
 
-        <!-- TODO: note that not all terms have field names so this list is not exclusive! -->
         {{ range where (where site.RegularPages "Type" "terms") "Params.cluster" "==" "Global" }}
         {{-  if .Params.field -}}
           <a class="btn btn-sm btn-outline-primary m-1" href="#{{ .Params.slug }}">{{ .Params.field }}</a>
