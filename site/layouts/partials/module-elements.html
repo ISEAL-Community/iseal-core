@@ -14,7 +14,7 @@
       {{/* Use range over a nested where. The way to read this is */}}
       {{/* from the inside out: terms, cluster, module.           */}}
       {{ range where (where (where site.RegularPages "Type" "terms") "Params.cluster" "==" $cluster) "Params.module" "==" $module }}
-        <a href="#{{ .Params.slug }}">{{ .Params.field }}</a>
+        <a class="btn btn-sm btn-outline-primary m-1" href="#{{ .Params.slug }}">{{ .Params.field }}</a>
       {{ end }}
       </td>
     </tr>
