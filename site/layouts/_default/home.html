@@ -90,32 +90,40 @@
 
         <h3 id="cluster-global">Global Cluster</h3>
 
-        {{ .Scratch.Set "cluster" "Global" }}
+        {{ $cluster := "Global" }}
+        {{ .Scratch.Set "cluster" $cluster }}
         {{ $modules := slice "Coverage" "Form" "Provenance" "Scope" "Status" }}
         {{ range $modules }}
           {{ $module := . }}
           {{ $.Scratch.Set "module" $module }}
-          {{ partialCached "module-elements.html" $context $module }}
+
+          {{/* Call the partial template to render the module's elements. */}}
+          {{/* Note that we need to use the $cluster and the $module as   */}}
+          {{/* keys to the partial's cache so the cache is unique (so we  */}}
+          {{/* don't get FSC elements in the ISEAL layout).               */}}
+          {{ partialCached "module-elements.html" $context $cluster $module }}
         {{ end }}
 
         <h3 id="cluster-certification">Certification Cluster</h3>
 
-        {{ .Scratch.Set "cluster" "Certification" }}
+        {{ $cluster := "Certification" }}
+        {{ .Scratch.Set "cluster" $cluster }}
         {{ $modules := slice "Certificate" "Certificate Holder, Owner or Certified organization" "Certified Resource or Site" "Certifying Body" }}
         {{ range $modules }}
           {{ $module := . }}
           {{ $.Scratch.Set "module" $module }}
-          {{ partialCached "module-elements.html" $context $module }}
+          {{ partialCached "module-elements.html" $context $cluster $module }}
         {{ end }}
 
         <h3 id="cluster-impact">Impact Cluster</h3>
 
-        {{ .Scratch.Set "cluster" "Impact" }}
+        {{ $cluster := "Impact" }}
+        {{ .Scratch.Set "cluster" $cluster }}
         {{ $modules := slice "Evaluation" }}
         {{ range $modules }}
           {{ $module := . }}
           {{ $.Scratch.Set "module" $module }}
-          {{ partialCached "module-elements.html" $context $module }}
+          {{ partialCached "module-elements.html" $context $cluster $module }}
         {{ end }}
 
         <h2 id="download">Download</h2>

@@ -33,12 +33,13 @@
         {{/* it in the range below.                                         */}}
         {{ $context := . }}
 
-        {{ .Scratch.Set "cluster" "Fsc" }}
+        {{ $cluster := "Fsc" }}
+        {{ .Scratch.Set "cluster" $cluster }}
         {{ $modules := slice "Assurance" "Certificate" "Coverage" "Evaluation" "Form" "Scope" "Status" }}
         {{ range $modules }}
           {{ $module := . }}
           {{ $.Scratch.Set "module" $module }}
-          {{ partialCached "module-elements.html" $context $module }}
+          {{ partialCached "module-elements.html" $context $cluster $module }}
         {{ end }}
 
         <h2 id="download">Download</h2>
