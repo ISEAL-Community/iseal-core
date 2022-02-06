@@ -3,7 +3,8 @@
           <thead>
             <tr class="table-secondary">
               <th colspan="2">
-                <span class="">{{ .Params.title | markdownify }}</span>
+                {{ $linkIcon := resources.Get "icons/link-45deg.svg" | resources.Fingerprint }}
+                <span class=""><a href="#{{ .Params.slug }}"><img src="{{ $linkIcon.Permalink }}"></a>&nbsp;{{ .Params.title | markdownify }}</span>
                 {{- with .Params.required -}}
                 <div class="badge-required">
                   <span class="badge align-middle">Required</span>
