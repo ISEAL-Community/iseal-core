@@ -83,54 +83,41 @@
           <li><strong>Encoding</strong>: metadata should be encoded in UTF-8 to ensure correct representation of international characters.</li>
           <li><strong>Applicability</strong>: metadata should describe what the item is, <em>not what it isn't</em>. If a metadata element is not applicable you should not use it. Do not enter "N/A"!</li>
         </ul>
+
+        {{/* Assign the current page context to a variable so we don't lose */}}
+        {{/* it in the range below.                                         */}}
+        {{ $context := . }}
+
         <h3 id="cluster-global">Global Cluster</h3>
-        <p>
-        {{/* Note: we need to use two ranges for each cluster because it is */}}
-        {{/* not possible to re-use Hugo's paginate object unless you use   */}}
-        {{/* the same exact arguments each time.                            */}}
 
-        {{ range where (where site.RegularPages "Type" "terms") "Params.cluster" "==" "Global" }}
-        {{-  if .Params.field -}}
-          <a class="btn btn-sm btn-outline-primary m-1" href="#{{ .Params.slug }}">{{ .Params.field }}</a>
-        {{-  end -}}
-        {{ end }}
-        </p>
-
-        {{ range where (where site.RegularPages "Type" "terms") "Params.cluster" "==" "Global" }}
-        <div class="col">
-          {{ .Render "term" }}
-        </div>
+        {{ .Scratch.Set "cluster" "Global" }}
+        {{ $modules := slice "Coverage" "Form" "Provenance" "Scope" "Status" }}
+        {{ range $modules }}
+          {{ $module := . }}
+          {{ $.Scratch.Set "module" $module }}
+          {{ partialCached "module-elements.html" $context $module }}
         {{ end }}
 
         <h3 id="cluster-certification">Certification Cluster</h3>
-        <p>
-        {{ range where (where site.RegularPages "Type" "terms") "Params.cluster" "==" "Certification" }}
-        {{-  if .Params.field -}}
-          <a class="btn btn-sm btn-outline-primary m-1" href="#{{ .Params.slug }}">{{ .Params.field }}</a>
-        {{-  end -}}
-        {{ end }}
-        </p>
 
-        {{ range where (where site.RegularPages "Type" "terms") "Params.cluster" "==" "Certification" }}
-        <div class="col">
-          {{ .Render "term" }}
-        </div>
+        {{ .Scratch.Set "cluster" "Certification" }}
+        {{ $modules := slice "Certificate" "Certificate Holder, Owner or Certified organization" "Certified Resource or Site" "Certifying Body" }}
+        {{ range $modules }}
+          {{ $module := . }}
+          {{ $.Scratch.Set "module" $module }}
+          {{ partialCached "module-elements.html" $context $module }}
         {{ end }}
 
         <h3 id="cluster-impact">Impact Cluster</h3>
-        <p>
-        {{ range where (where site.RegularPages "Type" "terms") "Params.cluster" "==" "Impact" }}
-        {{-  if .Params.field -}}
-          <a class="btn btn-sm btn-outline-primary m-1" href="#{{ .Params.slug }}">{{ .Params.field }}</a>
-        {{-  end -}}
-        {{ end }}
-        </p>
 
-        {{ range where (where site.RegularPages "Type" "terms") "Params.cluster" "==" "Impact" }}
-        <div class="col">
-          {{ .Render "term" }}
-        </div>
+        {{ .Scratch.Set "cluster" "Impact" }}
+        {{ $modules := slice "Evaluation" }}
+        {{ range $modules }}
+          {{ $module := . }}
+          {{ $.Scratch.Set "module" $module }}
+          {{ partialCached "module-elements.html" $context $module }}
         {{ end }}
+
         <h2 id="download">Download</h2>
         <p>The ISEAL Core schema is available for download in two formats:</p>
         <div class="row mb-2 justify-content-center">
