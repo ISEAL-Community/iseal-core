@@ -1,0 +1,31 @@
+{{/* Retrieve the cluster and module from global scratch. */}}
+{{ $cluster := $.Scratch.Get "cluster" }}
+{{ $module := $.Scratch.Get "module" }}
+
+{{/* Note: we need to use two ranges for each module because it is */}}
+{{/* not possible to re-use Hugo's paginate object unless you use  */}}
+{{/* the same exact arguments each time.                           */}}
+<h4 id="module-{{ $module }}">{{ $module }} Module</h4>
+<table class="table table-sm table-bordered">
+  <tbody>
+    <tr>
+      <td class="col-2">Elements in the <code>{{- $module -}}</code> module:</td>
+      <td>
+      {{/* Use range over a nested where. The way to read this is */}}
+      {{/* from the inside out: terms, cluster, module.           */}}
+      {{ range where (where (where site.RegularPages "Type" "terms") "Params.cluster" "==" $cluster) "Params.module" "==" $module }}
+        <a class="btn btn-sm btn-outline-primary m-1" href="#{{ .Params.slug }}">{{ .Params.field }}</a>
+      {{ end }}
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+{{ range where (where (where site.RegularPages "Type" "terms") "Params.cluster" "==" $cluster) "Params.module" "==" $module }}
+<div class="col">
+  {{ .Render "term" }}
+</div>
+{{ end }}
+
+
+{{- /* vim: set ts=2 sw=2 et: */}}
