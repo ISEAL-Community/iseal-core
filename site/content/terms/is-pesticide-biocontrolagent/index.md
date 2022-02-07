@@ -2,7 +2,7 @@
 title: 'Pest biocontrol agent'
 field: 'is.pesticide.biocontrolAgent'
 slug: 'is-pesticide-biocontrolagent'
-description: 'The alternative biocontrol agent to control a pest'
+description: 'Alternative biocontrol agent to control a pest'
 required: False
 module: 'Pesticides'
 cluster: 'Fsc'

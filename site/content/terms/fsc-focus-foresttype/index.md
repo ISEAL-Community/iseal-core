@@ -2,7 +2,7 @@
 title: 'FSC forest type'
 field: 'fsc.focus.forestType'
 slug: 'fsc-focus-foresttype'
-description: 'Indicate the type(s) included in the coverage of the resource'
+description: 'Type(s) of forest included in the coverage of the resource'
 comment: 'select from control list'
 required: False
 vocabulary: 'vocabulary.txt'

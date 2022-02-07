@@ -2,7 +2,7 @@
 title: 'FSC forest management principle'
 field: 'fsc.focus.fmPrinciple'
 slug: 'fsc-focus-fmprinciple'
-description: 'Indicate the FM principle(s) the resource supports or contributes to'
+description: 'Forest Management principle(s) the resource supports or contributes to'
 comment: 'select from control list'
 required: False
 vocabulary: 'vocabulary.txt'

@@ -2,7 +2,7 @@
 title: 'FSC tenure ownership'
 field: 'fsc.focus.tenureOwnership'
 slug: 'fsc-focus-tenureownership'
-description: 'Indicate the tenure ownership included in the coverage of the resource'
+description: 'Tenure ownership included in the coverage of the resource'
 comment: 'select from control list'
 required: False
 vocabulary: 'vocabulary.txt'

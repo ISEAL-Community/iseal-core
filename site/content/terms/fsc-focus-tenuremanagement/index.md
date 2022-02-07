@@ -2,7 +2,7 @@
 title: 'FSC tenure management'
 field: 'fsc.focus.tenureManagement'
 slug: 'fsc-focus-tenuremanagement'
-description: 'Indicate the tenure management included in the coverage of the resource'
+description: 'Tenure management included in the coverage of the resource'
 comment: 'select from control list'
 required: False
 vocabulary: 'vocabulary.txt'

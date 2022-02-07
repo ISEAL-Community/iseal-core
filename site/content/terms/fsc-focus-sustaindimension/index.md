@@ -2,7 +2,7 @@
 title: 'FSC sustainability dimension'
 field: 'fsc.focus.sustainDimension'
 slug: 'fsc-focus-sustaindimension'
-description: 'Indicate the sustainability dimension the resource mainly supports or contributes to'
+description: 'Sustainability dimension(s) the resource mainly supports or contributes to'
 comment: 'select from control list'
 required: False
 vocabulary: 'vocabulary.txt'

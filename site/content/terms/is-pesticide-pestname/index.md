@@ -2,7 +2,7 @@
 title: 'Pest common name'
 field: 'is.pesticide.pestName'
 slug: 'is-pesticide-pestname'
-description: 'The common name of a pest'
+description: 'Common name of a pest'
 required: False
 module: 'Pesticides'
 cluster: 'Fsc'

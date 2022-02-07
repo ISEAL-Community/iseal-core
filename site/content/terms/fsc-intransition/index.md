@@ -2,7 +2,7 @@
 title: 'Transition status'
 field: 'fsc.inTransition'
 slug: 'fsc-intransition'
-description: 'Indicate whether the standard is in transition'
+description: 'Whether the standard is in transition'
 comment: 'Yes or No'
 required: False
 vocabulary: 'vocabulary.txt'

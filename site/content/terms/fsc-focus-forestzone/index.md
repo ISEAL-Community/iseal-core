@@ -2,7 +2,7 @@
 title: 'FSC forest biome / zone'
 field: 'fsc.focus.forestZone'
 slug: 'fsc-focus-forestzone'
-description: 'Indicate the zone(s) included in the coverage of the resource'
+description: 'Forest zone(s) included in the coverage of the resource'
 comment: 'select from control list'
 required: False
 vocabulary: 'vocabulary.txt'

@@ -2,7 +2,7 @@
 title: 'FSC forest and tree species'
 field: 'fsc.focus.forestSpecies'
 slug: 'fsc-focus-forestspecies'
-description: 'Indicate the species included in the coverage of the resource'
+description: 'Species included in the coverage of the resource'
 comment: 'select from control list'
 required: False
 vocabulary: 'vocabulary.txt'

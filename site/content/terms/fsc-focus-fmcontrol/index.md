@@ -2,7 +2,7 @@
 title: 'FSC forest management type of control'
 field: 'fsc.focus.fmControl'
 slug: 'fsc-focus-fmcontrol'
-description: 'Indicate the FM control type(s) included in the coverage of the resource'
+description: 'Forest Management control type(s) included in the coverage of the resource'
 comment: 'select from control list'
 required: False
 vocabulary: 'vocabulary.txt'

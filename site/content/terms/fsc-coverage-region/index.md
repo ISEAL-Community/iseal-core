@@ -2,7 +2,7 @@
 title: 'FSC coverage region'
 field: 'fsc.coverage.region'
 slug: 'fsc-coverage-region'
-description: 'FSC regions if different to the ISEAL list'
+description: 'FSC region the resource covers (different to the ISEAL list)'
 comment: 'select from control list'
 required: False
 vocabulary: 'vocabulary.txt'

@@ -2,7 +2,7 @@
 title: 'Pesticide alternatives challenge'
 field: 'is.pesticide.challenge'
 slug: 'is-pesticide-challenge'
-description: 'The challenge a pesticide aims to control'
+description: 'Challenge a pesticide aims to control'
 required: False
 module: 'Pesticides'
 cluster: 'Fsc'
