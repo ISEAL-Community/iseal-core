@@ -15,5 +15,5 @@ Meta-synthesis
 Mixed methods
 Modeling
 Satellite imagery
-Statstical analysis
+Statistical analysis
 Transects
