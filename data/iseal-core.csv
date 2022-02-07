@@ -156,4 +156,4 @@ is.evaluation.scope,Evaluation study scope,,,,,IMPACT,Evaluation,REPEAT VALUES,I
 is.evidenceSubType,Evidence resource subtype,,,Select from control list,,IMPACT,Evaluation,SINGLE SELECT FROM CONTROL LIST,Evidensia,CONTROLLED VALUE,
 is.evidenceResourceType,Evidence resource type,,,Select from control list,,IMPACT,Evaluation,SINGLE SELECT FROM CONTROL LIST,Evidensia,CONTROLLED VALUE,
 is.evidenceSummary,Evidence summary,,A narrative summary of the evidence presented in the resource.,,,IMPACT,Evaluation,SINGLE VALUE ONLY,Evidensia,FREE VALUE,
-is.evidenceType,Evidence type,,,Select from control list,,IMPACT,Evaluation,SINGLE SELECT FROM CONTROL LIST,Evidensia,CONTROLLED VALUE,
+is.evidenceType,Evidence type or category,,,Select from control list,,IMPACT,Evaluation,SINGLE SELECT FROM CONTROL LIST,Evidensia,CONTROLLED VALUE,
