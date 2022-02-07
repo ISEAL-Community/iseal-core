@@ -1,5 +1,5 @@
 ---
-title: 'Evidence type'
+title: 'Evidence type or category'
 field: 'is.evidenceType'
 slug: 'is-evidencetype'
 comment: 'Select from control list'
