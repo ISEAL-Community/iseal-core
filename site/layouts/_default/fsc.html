@@ -42,12 +42,12 @@
               <tr>
                 <td><a href="#module-Evaluation">Evaluation</a></td>
                 <td><a href="#module-Form">Form</a></td>
-                <td><a href="#module-Scope">Scope</a></td>
+                <td><a href="#module-Pesticides">Pesticides</a></td>
               </tr>
               <tr>
+                <td><a href="#module-Provenance">Provenance</a></td>
+                <td><a href="#module-Scope">Scope</a></td>
                 <td><a href="#module-Status">Status</a></td>
-                <td></td>
-                <td></td>
               </tr>
             </tbody>
           </table>
@@ -61,7 +61,7 @@
 
         {{ $cluster := "Fsc" }}
         {{ .Scratch.Set "cluster" $cluster }}
-        {{ $modules := slice "Assurance" "Certificate" "Coverage" "Evaluation" "Form" "Scope" "Status" }}
+        {{ $modules := slice "Assurance" "Certificate" "Coverage" "Evaluation" "Form" "Pesticides" "Provenance" "Scope" "Status" }}
         {{ range $modules }}
           {{ $module := . }}
           {{ $.Scratch.Set "module" $module }}
