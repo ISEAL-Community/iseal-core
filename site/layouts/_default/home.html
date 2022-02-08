@@ -46,22 +46,22 @@
             <tbody>
               <tr>
                 <td><a href="#module-Coverage">Coverage</a></td>
-                <td><a href="#module-Certificate">Certificate</a></td>
+                <td><a href="#module-Assurance">Assurance</a></td>
                 <td><a href="#module-Evaluation">Evaluation</a></td>
               </tr>
               <tr>
                 <td><a href="#module-Form">Form</a></td>
-                <td><a href="#module-Certificate Holder, Owner or Certified organization">Certificate Holder, Owner or Certified organization</a></td>
+                <td><a href="#module-Certificate">Certificate</a></td>
                 <td></td>
               </tr>
               <tr>
                 <td><a href="#module-Provenance">Provenance</a></td>
-                <td><a href="#module-Certified Resource or Site">Certified Resource or Site</a></td>
+                <td><a href="#module-Certificate Holder, Owner or Certified organization">Certificate Holder, Owner or Certified organization</a></td>
                 <td></td>
               </tr>
               <tr>
                 <td><a href="#module-Scope">Scope</a></td>
-                <td><a href="#module-Certifying Body">Certifying Body</a></td>
+                <td><a href="#module-Certified Resource or Site">Certified Resource or Site</a></td>
                 <td></td>
               </tr>
               <tr>
@@ -108,7 +108,7 @@
 
         {{ $cluster := "Certification" }}
         {{ .Scratch.Set "cluster" $cluster }}
-        {{ $modules := slice "Certificate" "Certificate Holder, Owner or Certified organization" "Certified Resource or Site" "Certifying Body" }}
+        {{ $modules := slice "Assurance" "Certificate" "Certificate Holder, Owner or Certified organization" "Certified Resource or Site" }}
         {{ range $modules }}
           {{ $module := . }}
           {{ $.Scratch.Set "module" $module }}
