@@ -6,7 +6,7 @@ description: 'Scheme names the body is certified for'
 comment: 'Select from control list'
 required: False
 vocabulary: 'vocabulary.txt'
-module: 'Certifying Body'
+module: 'Assurance'
 cluster: 'Certification'
 policy: 'Controlled value. Multi select from control list.'
 layout: 'home'

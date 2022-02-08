@@ -4,7 +4,7 @@ field: 'is.certifyingBody.url'
 slug: 'is-certifyingbody-url'
 description: 'URL of the organization'
 required: False
-module: 'Certifying Body'
+module: 'Assurance'
 cluster: 'Certification'
 policy: 'Url. Single value only.'
 layout: 'home'
