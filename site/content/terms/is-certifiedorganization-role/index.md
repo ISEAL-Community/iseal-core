@@ -1,8 +1,8 @@
 ---
-title: 'Certificate holder, owner or certified organization role'
+title: 'Certificate holder role'
 field: 'is.certifiedOrganization.role'
 slug: 'is-certifiedorganization-role'
-description: 'The role(s) an organzation plays in a supply chain'
+description: 'Role(s) organization plays in a supply chain'
 comment: 'ITC database'
 required: False
 vocabulary: 'vocabulary.txt'

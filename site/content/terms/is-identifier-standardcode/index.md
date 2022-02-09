@@ -2,7 +2,7 @@
 title: 'Standard ID or code'
 field: 'is.identifier.standardCode'
 slug: 'is-identifier-standardcode'
-description: 'An official code describing a standard'
+description: 'Official code describing or assigned to a standard'
 comment: 'For example "FSC-DIR-40-004".'
 required: False
 module: 'Scope'

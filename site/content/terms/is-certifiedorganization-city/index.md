@@ -1,5 +1,5 @@
 ---
-title: 'Certificate holder, owner or certified organization city'
+title: 'Certificate holder address city'
 field: 'is.certifiedOrganization.city'
 slug: 'is-certifiedorganization-city'
 description: 'Complete name of a city or town in an address'

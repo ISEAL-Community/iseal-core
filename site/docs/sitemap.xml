@@ -34,17 +34,11 @@
   </url><url>
     <loc>https://iseal-community.github.io/iseal-core/is-certifiedorganization-email/</loc>
   </url><url>
-    <loc>https://iseal-community.github.io/iseal-core/is-certifiedorganization-gln/</loc>
-  </url><url>
-    <loc>https://iseal-community.github.io/iseal-core/is-certifiedorganizationid/</loc>
-  </url><url>
     <loc>https://iseal-community.github.io/iseal-core/is-certifiedorganization-addresslatlong/</loc>
   </url><url>
     <loc>https://iseal-community.github.io/iseal-core/is-certifiedorganization-addresslat/</loc>
   </url><url>
     <loc>https://iseal-community.github.io/iseal-core/is-certifiedorganization-addresslong/</loc>
-  </url><url>
-    <loc>https://iseal-community.github.io/iseal-core/is-certifiedorganization-name/</loc>
   </url><url>
     <loc>https://iseal-community.github.io/iseal-core/is-certifiedorganization-phonecountrycode/</loc>
   </url><url>
@@ -52,11 +46,17 @@
   </url><url>
     <loc>https://iseal-community.github.io/iseal-core/is-certifiedorganization-postcode/</loc>
   </url><url>
-    <loc>https://iseal-community.github.io/iseal-core/is-certifiedorganization-role/</loc>
-  </url><url>
     <loc>https://iseal-community.github.io/iseal-core/is-certifiedorganization-streetname/</loc>
   </url><url>
     <loc>https://iseal-community.github.io/iseal-core/is-certifiedorganization-url/</loc>
+  </url><url>
+    <loc>https://iseal-community.github.io/iseal-core/is-certifiedorganization-gln/</loc>
+  </url><url>
+    <loc>https://iseal-community.github.io/iseal-core/is-certifiedorganizationid/</loc>
+  </url><url>
+    <loc>https://iseal-community.github.io/iseal-core/is-certifiedorganization-name/</loc>
+  </url><url>
+    <loc>https://iseal-community.github.io/iseal-core/is-certifiedorganization-role/</loc>
   </url><url>
     <loc>https://iseal-community.github.io/iseal-core/is-certificate-licensecode/</loc>
   </url><url>
@@ -108,8 +108,6 @@
   </url><url>
     <loc>https://iseal-community.github.io/iseal-core/is-certifyingbody-accreditedtechscopetype/</loc>
   </url><url>
-    <loc>https://iseal-community.github.io/iseal-core/is-certifyingbody-asicode/</loc>
-  </url><url>
     <loc>https://iseal-community.github.io/iseal-core/is-certifyingbody-city/</loc>
   </url><url>
     <loc>https://iseal-community.github.io/iseal-core/is-certifyingbody-country/</loc>
@@ -122,23 +120,25 @@
   </url><url>
     <loc>https://iseal-community.github.io/iseal-core/is-certifyingbody-addresslong/</loc>
   </url><url>
-    <loc>https://iseal-community.github.io/iseal-core/is-certifyingbody-name/</loc>
-  </url><url>
     <loc>https://iseal-community.github.io/iseal-core/is-certifyingbody-phonecountrycode/</loc>
   </url><url>
     <loc>https://iseal-community.github.io/iseal-core/is-certifyingbody-phonenumber/</loc>
   </url><url>
     <loc>https://iseal-community.github.io/iseal-core/is-certifyingbody-postcode/</loc>
   </url><url>
+    <loc>https://iseal-community.github.io/iseal-core/is-certifyingbody-streetname/</loc>
+  </url><url>
+    <loc>https://iseal-community.github.io/iseal-core/is-certifyingbody-url/</loc>
+  </url><url>
+    <loc>https://iseal-community.github.io/iseal-core/is-certifyingbody-asicode/</loc>
+  </url><url>
+    <loc>https://iseal-community.github.io/iseal-core/is-certifyingbody-name/</loc>
+  </url><url>
     <loc>https://iseal-community.github.io/iseal-core/is-certifyingbody-schemeaccredited/</loc>
   </url><url>
     <loc>https://iseal-community.github.io/iseal-core/is-certifyingbody-standardaccredited/</loc>
   </url><url>
     <loc>https://iseal-community.github.io/iseal-core/is-certifyingbody-standardcertified/</loc>
-  </url><url>
-    <loc>https://iseal-community.github.io/iseal-core/is-certifyingbody-streetname/</loc>
-  </url><url>
-    <loc>https://iseal-community.github.io/iseal-core/is-certifyingbody-url/</loc>
   </url><url>
     <loc>https://iseal-community.github.io/iseal-core/dcterms-bibliographiccitation/</loc>
   </url><url>
@@ -377,6 +377,8 @@
     <loc>https://iseal-community.github.io/iseal-core/is-coverage-place/</loc>
   </url><url>
     <loc>https://iseal-community.github.io/iseal-core/is-focus-products/</loc>
+  </url><url>
+    <loc>https://iseal-community.github.io/iseal-core/is-focus-gtin/</loc>
   </url><url>
     <loc>https://iseal-community.github.io/iseal-core/is-item-publicationplace/</loc>
   </url><url>

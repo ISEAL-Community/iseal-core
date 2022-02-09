@@ -1,5 +1,5 @@
 ---
-title: 'Certificate holder, owner or certified organization ID'
+title: 'Certificate holder ID'
 field: 'is.certifiedOrganizationID'
 slug: 'is-certifiedorganizationid'
 description: 'A number or other consistent code assigned to a certificate holder by a certifying body or scheme'

@@ -1,5 +1,5 @@
 ---
-title: 'Certifying body postcode'
+title: 'Certifying body address postcode'
 field: 'is.certifyingBody.postcode'
 slug: 'is-certifyingbody-postcode'
 description: 'Full postcode of an address'

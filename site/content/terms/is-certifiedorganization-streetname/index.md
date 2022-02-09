@@ -1,5 +1,5 @@
 ---
-title: 'Certificate holder, owner or certified organization street name'
+title: 'Certificate holder address street name'
 field: 'is.certifiedOrganization.streetName'
 slug: 'is-certifiedorganization-streetname'
 description: 'Full street name and number of an address'

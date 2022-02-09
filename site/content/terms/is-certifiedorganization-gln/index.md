@@ -1,5 +1,5 @@
 ---
-title: 'Certificate holder, owner or certified organization GLN'
+title: 'Certificate holder GLN'
 field: 'is.certifiedOrganization.gln'
 slug: 'is-certifiedorganization-gln'
 description: 'Global Location Number of companies to identify their locations'

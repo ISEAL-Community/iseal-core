@@ -1,5 +1,5 @@
 ---
-title: 'Certifying body city'
+title: 'Certifying body address city'
 field: 'is.certifyingBody.city'
 slug: 'is-certifyingbody-city'
 description: 'Complete name of a city or town in an address'

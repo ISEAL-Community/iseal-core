@@ -2,7 +2,7 @@
 title: 'Type'
 field: 'dcterms.type'
 slug: 'dcterms-type'
-description: 'The nature, type or genre of the resource'
+description: 'Nature, type or genre of the resource'
 comment: 'Select from control list'
 required: True
 vocabulary: 'vocabulary.txt'

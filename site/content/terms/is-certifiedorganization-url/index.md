@@ -1,5 +1,5 @@
 ---
-title: 'Certificate holder, owner or certified organization website url'
+title: 'Certificate holder address website url'
 field: 'is.certifiedOrganization.url'
 slug: 'is-certifiedorganization-url'
 description: 'URL of the organization'

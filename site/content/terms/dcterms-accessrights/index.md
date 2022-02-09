@@ -2,7 +2,7 @@
 title: 'Access rights'
 field: 'dcterms.accessRights'
 slug: 'dcterms-accessrights'
-description: 'Information about rights held in and over the resource.'
+description: 'Information about rights held in and over the resource'
 comment: 'Indicate whether the resource is confidential (and limited access), restricted (and limited access) or public (limited access or open access)'
 required: False
 vocabulary: 'vocabulary.txt'

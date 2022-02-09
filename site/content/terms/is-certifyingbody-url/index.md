@@ -1,5 +1,5 @@
 ---
-title: 'Certifying body website url'
+title: 'Certifying body address website url'
 field: 'is.certifyingBody.url'
 slug: 'is-certifyingbody-url'
 description: 'URL of the organization'

@@ -1,5 +1,5 @@
 ---
-title: 'Certifying body email address'
+title: 'Certifying body address email address'
 field: 'is.certifyingBody.email'
 slug: 'is-certifyingbody-email'
 description: 'Email address of an organization'

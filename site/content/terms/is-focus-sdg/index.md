@@ -2,7 +2,7 @@
 title: 'SDG focus'
 field: 'is.focus.sdg'
 slug: 'is-focus-sdg'
-description: 'Association to sustainable development goal(s)'
+description: 'Sustainable development goal(s) associated to the resource'
 comment: 'Select from control list'
 required: False
 vocabulary: 'vocabulary.txt'

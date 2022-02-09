@@ -1,5 +1,5 @@
 ---
-title: 'Certifying body phone country code'
+title: 'Certifying body address phone country code'
 field: 'is.certifyingBody.phoneCountryCode'
 slug: 'is-certifyingbody-phonecountrycode'
 description: 'International subscriber dialing (ISD) codes'

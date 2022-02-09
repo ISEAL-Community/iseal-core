@@ -1,5 +1,5 @@
 ---
-title: 'Certificate holder, owner or certified organization postcode'
+title: 'Certificate holder address postcode'
 field: 'is.certifiedOrganization.postCode'
 slug: 'is-certifiedorganization-postcode'
 description: 'Full postcode of an address'

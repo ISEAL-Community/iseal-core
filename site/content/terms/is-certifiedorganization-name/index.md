@@ -1,5 +1,5 @@
 ---
-title: 'Certificate holder, owner or certified organization name'
+title: 'Certificate holder name'
 field: 'is.certifiedOrganization.name'
 slug: 'is-certifiedorganization-name'
 description: 'Entity or individual certified to produce or market a product under the terms of the certificate'

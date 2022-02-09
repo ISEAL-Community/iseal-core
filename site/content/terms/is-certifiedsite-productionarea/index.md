@@ -2,7 +2,7 @@
 title: 'Certified site production area'
 field: 'is.certifiedSite.productionArea'
 slug: 'is-certifiedsite-productionarea'
-description: 'Area in hectares'
+comment: 'Area in hectares'
 required: False
 module: 'Certified Resource or Site'
 cluster: 'Certification'

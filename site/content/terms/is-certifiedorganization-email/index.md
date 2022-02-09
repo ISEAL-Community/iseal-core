@@ -1,5 +1,5 @@
 ---
-title: 'Certificate holder, owner or certified organization email address'
+title: 'Certificate holder address email address'
 field: 'is.certifiedOrganization.email'
 slug: 'is-certifiedorganization-email'
 description: 'Email address of an organization'

@@ -2,7 +2,7 @@
 title: 'ISEAL code clause number'
 field: 'is.identifier.clause'
 slug: 'is-identifier-clause'
-description: 'Associated specific clause(s) from an ISEAL code of practice'
+description: 'ISEAL code of practice specific clause(s) associated to the resource'
 comment: 'Select from control list'
 required: False
 vocabulary: 'vocabulary.txt'
