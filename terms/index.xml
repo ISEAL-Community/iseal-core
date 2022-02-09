@@ -115,7 +115,7 @@
     </item>
     
     <item>
-      <title>Certificate holder, owner or certified organization city</title>
+      <title>Certificate holder address city</title>
       <link>https://iseal-community.github.io/iseal-core/is-certifiedorganization-city/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -124,7 +124,7 @@
     </item>
     
     <item>
-      <title>Certificate holder, owner or certified organization country</title>
+      <title>Certificate holder address country</title>
       <link>https://iseal-community.github.io/iseal-core/is-certifiedorganization-country/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -133,7 +133,7 @@
     </item>
     
     <item>
-      <title>Certificate holder, owner or certified organization email address</title>
+      <title>Certificate holder address email address</title>
       <link>https://iseal-community.github.io/iseal-core/is-certifiedorganization-email/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -142,25 +142,7 @@
     </item>
     
     <item>
-      <title>Certificate holder, owner or certified organization GLN</title>
-      <link>https://iseal-community.github.io/iseal-core/is-certifiedorganization-gln/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://iseal-community.github.io/iseal-core/is-certifiedorganization-gln/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Certificate holder, owner or certified organization ID</title>
-      <link>https://iseal-community.github.io/iseal-core/is-certifiedorganizationid/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://iseal-community.github.io/iseal-core/is-certifiedorganizationid/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Certificate holder, owner or certified organization latitude and longitude location coordinates</title>
+      <title>Certificate holder address latitude and longitude location coordinates</title>
       <link>https://iseal-community.github.io/iseal-core/is-certifiedorganization-addresslatlong/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -169,7 +151,7 @@
     </item>
     
     <item>
-      <title>Certificate holder, owner or certified organization latitude location coordinate</title>
+      <title>Certificate holder address latitude location coordinate</title>
       <link>https://iseal-community.github.io/iseal-core/is-certifiedorganization-addresslat/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -178,7 +160,7 @@
     </item>
     
     <item>
-      <title>Certificate holder, owner or certified organization longitude location coordinate</title>
+      <title>Certificate holder address longitude location coordinate</title>
       <link>https://iseal-community.github.io/iseal-core/is-certifiedorganization-addresslong/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -187,16 +169,7 @@
     </item>
     
     <item>
-      <title>Certificate holder, owner or certified organization name</title>
-      <link>https://iseal-community.github.io/iseal-core/is-certifiedorganization-name/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://iseal-community.github.io/iseal-core/is-certifiedorganization-name/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Certificate holder, owner or certified organization phone country code</title>
+      <title>Certificate holder address phone country code</title>
       <link>https://iseal-community.github.io/iseal-core/is-certifiedorganization-phonecountrycode/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -205,7 +178,7 @@
     </item>
     
     <item>
-      <title>Certificate holder, owner or certified organization phone number</title>
+      <title>Certificate holder address phone number</title>
       <link>https://iseal-community.github.io/iseal-core/is-certifiedorganization-phonenumber/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -214,7 +187,7 @@
     </item>
     
     <item>
-      <title>Certificate holder, owner or certified organization postcode</title>
+      <title>Certificate holder address postcode</title>
       <link>https://iseal-community.github.io/iseal-core/is-certifiedorganization-postcode/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -223,16 +196,7 @@
     </item>
     
     <item>
-      <title>Certificate holder, owner or certified organization role</title>
-      <link>https://iseal-community.github.io/iseal-core/is-certifiedorganization-role/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://iseal-community.github.io/iseal-core/is-certifiedorganization-role/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Certificate holder, owner or certified organization street name</title>
+      <title>Certificate holder address street name</title>
       <link>https://iseal-community.github.io/iseal-core/is-certifiedorganization-streetname/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -241,11 +205,47 @@
     </item>
     
     <item>
-      <title>Certificate holder, owner or certified organization website url</title>
+      <title>Certificate holder address website url</title>
       <link>https://iseal-community.github.io/iseal-core/is-certifiedorganization-url/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://iseal-community.github.io/iseal-core/is-certifiedorganization-url/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Certificate holder GLN</title>
+      <link>https://iseal-community.github.io/iseal-core/is-certifiedorganization-gln/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://iseal-community.github.io/iseal-core/is-certifiedorganization-gln/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Certificate holder ID</title>
+      <link>https://iseal-community.github.io/iseal-core/is-certifiedorganizationid/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://iseal-community.github.io/iseal-core/is-certifiedorganizationid/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Certificate holder name</title>
+      <link>https://iseal-community.github.io/iseal-core/is-certifiedorganization-name/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://iseal-community.github.io/iseal-core/is-certifiedorganization-name/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Certificate holder role</title>
+      <link>https://iseal-community.github.io/iseal-core/is-certifiedorganization-role/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://iseal-community.github.io/iseal-core/is-certifiedorganization-role/</guid>
       <description></description>
     </item>
     
@@ -475,6 +475,105 @@
     </item>
     
     <item>
+      <title>Certifying body address city</title>
+      <link>https://iseal-community.github.io/iseal-core/is-certifyingbody-city/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://iseal-community.github.io/iseal-core/is-certifyingbody-city/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Certifying body address country</title>
+      <link>https://iseal-community.github.io/iseal-core/is-certifyingbody-country/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://iseal-community.github.io/iseal-core/is-certifyingbody-country/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Certifying body address email address</title>
+      <link>https://iseal-community.github.io/iseal-core/is-certifyingbody-email/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://iseal-community.github.io/iseal-core/is-certifyingbody-email/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Certifying body address latitude and longitude location coordinates</title>
+      <link>https://iseal-community.github.io/iseal-core/is-certifyingbody-addresslatlong/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://iseal-community.github.io/iseal-core/is-certifyingbody-addresslatlong/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Certifying body address latitude location coordinate</title>
+      <link>https://iseal-community.github.io/iseal-core/is-certifyingbody-addresslat/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://iseal-community.github.io/iseal-core/is-certifyingbody-addresslat/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Certifying body address longitude location coordinate</title>
+      <link>https://iseal-community.github.io/iseal-core/is-certifyingbody-addresslong/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://iseal-community.github.io/iseal-core/is-certifyingbody-addresslong/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Certifying body address phone country code</title>
+      <link>https://iseal-community.github.io/iseal-core/is-certifyingbody-phonecountrycode/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://iseal-community.github.io/iseal-core/is-certifyingbody-phonecountrycode/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Certifying body address phone number</title>
+      <link>https://iseal-community.github.io/iseal-core/is-certifyingbody-phonenumber/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://iseal-community.github.io/iseal-core/is-certifyingbody-phonenumber/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Certifying body address postcode</title>
+      <link>https://iseal-community.github.io/iseal-core/is-certifyingbody-postcode/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://iseal-community.github.io/iseal-core/is-certifyingbody-postcode/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Certifying body address street name</title>
+      <link>https://iseal-community.github.io/iseal-core/is-certifyingbody-streetname/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://iseal-community.github.io/iseal-core/is-certifyingbody-streetname/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Certifying body address website url</title>
+      <link>https://iseal-community.github.io/iseal-core/is-certifyingbody-url/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://iseal-community.github.io/iseal-core/is-certifyingbody-url/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Certifying body ASI accreditation code</title>
       <link>https://iseal-community.github.io/iseal-core/is-certifyingbody-asicode/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -484,92 +583,11 @@
     </item>
     
     <item>
-      <title>Certifying body city</title>
-      <link>https://iseal-community.github.io/iseal-core/is-certifyingbody-city/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://iseal-community.github.io/iseal-core/is-certifyingbody-city/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Certifying body country</title>
-      <link>https://iseal-community.github.io/iseal-core/is-certifyingbody-country/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://iseal-community.github.io/iseal-core/is-certifyingbody-country/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Certifying body email address</title>
-      <link>https://iseal-community.github.io/iseal-core/is-certifyingbody-email/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://iseal-community.github.io/iseal-core/is-certifyingbody-email/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Certifying body latitude and longitude location coordinates</title>
-      <link>https://iseal-community.github.io/iseal-core/is-certifyingbody-addresslatlong/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://iseal-community.github.io/iseal-core/is-certifyingbody-addresslatlong/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Certifying body latitude location coordinate</title>
-      <link>https://iseal-community.github.io/iseal-core/is-certifyingbody-addresslat/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://iseal-community.github.io/iseal-core/is-certifyingbody-addresslat/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Certifying body longitude location coordinate</title>
-      <link>https://iseal-community.github.io/iseal-core/is-certifyingbody-addresslong/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://iseal-community.github.io/iseal-core/is-certifyingbody-addresslong/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Certifying body name</title>
       <link>https://iseal-community.github.io/iseal-core/is-certifyingbody-name/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://iseal-community.github.io/iseal-core/is-certifyingbody-name/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Certifying body phone country code</title>
-      <link>https://iseal-community.github.io/iseal-core/is-certifyingbody-phonecountrycode/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://iseal-community.github.io/iseal-core/is-certifyingbody-phonecountrycode/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Certifying body phone number</title>
-      <link>https://iseal-community.github.io/iseal-core/is-certifyingbody-phonenumber/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://iseal-community.github.io/iseal-core/is-certifyingbody-phonenumber/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Certifying body postcode</title>
-      <link>https://iseal-community.github.io/iseal-core/is-certifyingbody-postcode/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://iseal-community.github.io/iseal-core/is-certifyingbody-postcode/</guid>
       <description></description>
     </item>
     
@@ -597,24 +615,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://iseal-community.github.io/iseal-core/is-certifyingbody-standardcertified/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Certifying body street name</title>
-      <link>https://iseal-community.github.io/iseal-core/is-certifyingbody-streetname/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://iseal-community.github.io/iseal-core/is-certifyingbody-streetname/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Certifying body website url</title>
-      <link>https://iseal-community.github.io/iseal-core/is-certifyingbody-url/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://iseal-community.github.io/iseal-core/is-certifyingbody-url/</guid>
       <description></description>
     </item>
     
@@ -1668,6 +1668,15 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://iseal-community.github.io/iseal-core/is-focus-products/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Product GTIN</title>
+      <link>https://iseal-community.github.io/iseal-core/is-focus-gtin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://iseal-community.github.io/iseal-core/is-focus-gtin/</guid>
       <description></description>
     </item>
     
