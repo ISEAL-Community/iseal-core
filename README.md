@@ -21,11 +21,8 @@ Consult [`README-dev.md`](README-dev.md) for technical information about making 
 ## TODO
 
 - Repository
-  - Add more information and instructions to README.md
   - Update GitHub Actions once `util/create-rdf.py` is fixed
 - Schema
-  - Remove combined "latLong" fields (they can be inferred from the separate fields)
-  - Remove controlled vocabularies from the schema CSVs
   - Update `util/create-rdf.py`
 - Site
   - Change "Suggested element" to "DSpace mapping"?
