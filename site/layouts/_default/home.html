@@ -52,7 +52,7 @@
               <tr>
                 <td><a href="#module-Form">Form</a></td>
                 <td><a href="#module-Certificate">Certificate</a></td>
-                <td></td>
+                <td><a href="#module-Performance">Performance</a></td>
               </tr>
               <tr>
                 <td><a href="#module-Provenance">Provenance</a></td>
@@ -119,7 +119,7 @@
 
         {{ $cluster := "Impact" }}
         {{ .Scratch.Set "cluster" $cluster }}
-        {{ $modules := slice "Evaluation" }}
+        {{ $modules := slice "Evaluation" "Performance" }}
         {{ range $modules }}
           {{ $module := . }}
           {{ $.Scratch.Set "module" $module }}
