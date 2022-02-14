@@ -21,6 +21,19 @@ div.badge-required {
     }
 }
 
+// Style the buttons for required metadata elements. Note the syntax for the
+// hover and active states uses the SASS parent selector "&" so we can nest
+// the rules.
+.btn-required {
+    color: var(--bs-red);
+    border-color: var(--bs-red);
+
+    &:hover, &:active {
+        color: #fff;
+        background-color: var(--bs-red);
+    }
+}
+
 /* Override Bootstrap's top border on tbody */
 .table>:not(:first-child) {
     border-top: 2px solid $primary;
