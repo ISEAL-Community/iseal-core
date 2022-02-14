@@ -80,7 +80,6 @@ is.dateRevised,Date revised,,"Date the resource was, is, or will be revised","Da
 dcterms.dateSubmitted,Date submitted,,Date when the resource is submitted to a repository or database,"Date in YYYY-MM-DD format. At the very least you must enter the year, but month and day is better if possible.",,GLOBAL,Status,SINGLE VALUE ONLY,dublin core,DATE,https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/dateSubmitted/
 is.identifier.doi,DOI,,Digital object identifier - usually for articles and books/chapters,,https://www.doi.org/,GLOBAL,Form,REPEAT VALUES,ISEAL,URL,
 is.extent.edition,Edition,,,,,GLOBAL,Status,SINGLE VALUE ONLY,ISEAL,FREE VALUE,
-is.evaluation.dummy,Evaluation test,,Testing metadata element from the schema,Select from control list,,IMPACT,Evaluation,SINGLE SELECT FROM CONTROL LIST,ISEAL,CONTROLLED VALUE,
 is.evaluation.authorDirectionality,Evaluation author directionality,,,Select from control list,,IMPACT,Evaluation,SINGLE SELECT FROM CONTROL LIST,ISEAL,CONTROLLED VALUE,
 is.evaluation.comparison,Evaluation comparison,,,Select from control list,,IMPACT,Evaluation,SINGLE SELECT FROM CONTROL LIST,ISEAL,CONTROLLED VALUE,
 is.evaluation.counterfacts,Evaluation counterfactuals,,,"yes, no, not applicable",,IMPACT,Evaluation,SINGLE Select from control list,ISEAL,CONTROLLED VALUE,
