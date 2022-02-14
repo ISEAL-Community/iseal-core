@@ -85,7 +85,6 @@ is.evaluation.comparison,Evaluation comparison,,,Select from control list,,IMPAC
 is.evaluation.counterfacts,Evaluation counterfactuals,,,"yes, no, not applicable",,IMPACT,Evaluation,SINGLE Select from control list,ISEAL,CONTROLLED VALUE,
 is.evaluation.dataSource,Evaluation data source,,,Select from control list,,IMPACT,Evaluation,SINGLE SELECT FROM CONTROL LIST,ISEAL,CONTROLLED VALUE,
 is.evaluation.collection,Evaluation data/evidence collection method,,,Select from control list,,IMPACT,Evaluation,SINGLE SELECT FROM CONTROL LIST,ISEAL,CONTROLLED VALUE,
-is.performance.test,Testing performance module,,blah blah blah,Select from control list,,IMPACT,Performance,SINGLE SELECT FROM CONTROL LIST,ISEAL,CONTROLLED VALUE,
 is.evaluation.findings,Evaluation findings,,Summary of the key finding of an evaluative study,,,IMPACT,Evaluation,REPEAT VALUES,ISEAL,FREE VALUE,
 is.evaluation.noDifferenceDirectionality,Evaluation no difference directionality,,,Select from control list,,IMPACT,Evaluation,SINGLE SELECT FROM CONTROL LIST,ISEAL,CONTROLLED VALUE,
 is.evaluation.notes,Evaluation notes,,"Notes from a study, not elsewhere covered",,,IMPACT,Evaluation,REPEAT VALUES,ISEAL,FREE VALUE,
