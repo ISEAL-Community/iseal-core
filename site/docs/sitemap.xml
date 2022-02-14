@@ -34,8 +34,6 @@
   </url><url>
     <loc>https://iseal-community.github.io/iseal-core/is-certifiedorganization-email/</loc>
   </url><url>
-    <loc>https://iseal-community.github.io/iseal-core/is-certifiedorganization-addresslatlong/</loc>
-  </url><url>
     <loc>https://iseal-community.github.io/iseal-core/is-certifiedorganization-addresslat/</loc>
   </url><url>
     <loc>https://iseal-community.github.io/iseal-core/is-certifiedorganization-addresslong/</loc>
@@ -78,8 +76,6 @@
   </url><url>
     <loc>https://iseal-community.github.io/iseal-core/is-certificate-siteid/</loc>
   </url><url>
-    <loc>https://iseal-community.github.io/iseal-core/is-certifiedsite-latlong/</loc>
-  </url><url>
     <loc>https://iseal-community.github.io/iseal-core/is-certifiedsite-coorddetail/</loc>
   </url><url>
     <loc>https://iseal-community.github.io/iseal-core/is-certifiedsite-lat/</loc>
@@ -113,8 +109,6 @@
     <loc>https://iseal-community.github.io/iseal-core/is-certifyingbody-country/</loc>
   </url><url>
     <loc>https://iseal-community.github.io/iseal-core/is-certifyingbody-email/</loc>
-  </url><url>
-    <loc>https://iseal-community.github.io/iseal-core/is-certifyingbody-addresslatlong/</loc>
   </url><url>
     <loc>https://iseal-community.github.io/iseal-core/is-certifyingbody-addresslat/</loc>
   </url><url>
