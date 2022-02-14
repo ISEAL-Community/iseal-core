@@ -1,5 +1,4 @@
-﻿,,,,,,,,,,,
-dspace field name,element name,mandatory?,element description,element guidance,element link for more information,idss element cluster,idss schema module,element options,element source,element type,element link for dublin core attributes
+﻿dspace field name,element name,mandatory?,element description,element guidance,element link for more information,idss element cluster,idss schema module,element options,element source,element type,element link for dublin core attributes
 dcterms.abstract,Abstract,,Narrative summary of the resource,,,GLOBAL,Form,SINGLE VALUE ONLY,dublin core,FREE VALUE,https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/abstract/
 dcterms.accessRights,Access rights,,Information about rights held in and over the resource,"Indicate whether the resource is confidential (and limited access), restricted (and limited access) or public (limited access or open access)",,GLOBAL,Form,SINGLE VALUE ONLY,dublin core,CONTROLLED VALUE,https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/accessRights/
 dcterms.audience,Audience,,A class of entity for whom the resource is intended or useful,Select from control list,,GLOBAL,Form,REPEAT VALUES,dublin core,CONTROLLED VALUE,https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/audience/
