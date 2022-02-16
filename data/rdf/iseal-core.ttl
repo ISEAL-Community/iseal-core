@@ -1,7 +1,7 @@
 @prefix ns1: <http://www.w3.org/2002/07/owl#> .
 @prefix ns2: <http://www.w3.org/2004/02/skos/core#> .
-@prefix ns3: <http://purl.org/dc/dcam/> .
-@prefix ns4: <http://purl.org/dc/terms/> .
+@prefix ns3: <http://purl.org/dc/terms/> .
+@prefix ns4: <http://purl.org/dc/dcam/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -8590,9 +8590,9 @@
     ns2:prefLabel "IMPACT" .
 
 <https://iseal-community.github.io/iseal-core#dc-contributor-author> a ns1:DatatypeProperty ;
-    ns4:alternative "dc.contributor.author" ;
+    ns3:alternative "dc.contributor.author" ;
     rdfs:comment "https://orcid.org; https://ror.org/" ;
-    rdfs:subPropertyOf ns4:https ;
+    rdfs:subPropertyOf ns3:https ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Provenance> ;
     ns1:range xsd:string ;
     ns2:definition "Persons or organizations intellectually responsible for the content of the resource" ;
@@ -8600,7 +8600,7 @@
     ns2:scopeNote "Consistent style recommended. Use resources like ORCID or ROR. Note: using legacy “dc” namespace due to limitations with the DSpace institutional repository software." .
 
 <https://iseal-community.github.io/iseal-core#dc-date-accessioned> a ns1:DatatypeProperty ;
-    ns4:alternative "dc.date.accessioned" ;
+    ns3:alternative "dc.date.accessioned" ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Status> ;
     ns1:range xsd:date ;
     ns2:definition "Date a system takes possession of item" ;
@@ -8608,7 +8608,7 @@
     ns2:scopeNote "Date in YYYY-MM-DD format. At the very least you must enter the year, but month and day is better if possible. Note: using legacy “dc” namespace due to limitations with the DSpace institutional repository software." .
 
 <https://iseal-community.github.io/iseal-core#dc-date-available> a ns1:DatatypeProperty ;
-    ns4:alternative "dc.date.available" ;
+    ns3:alternative "dc.date.available" ;
     rdfs:subPropertyOf <http://purl.org/dc/terms///www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/available/> ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Status> ;
     ns1:range xsd:date ;
@@ -8617,7 +8617,7 @@
     ns2:scopeNote "Date in YYYY-MM-DD format. At the very least you must enter the year, but month and day is better if possible. Note: using legacy “dc” namespace due to limitations with the DSpace institutional repository software." .
 
 <https://iseal-community.github.io/iseal-core#dc-identifier-uri> a ns1:DatatypeProperty ;
-    ns4:alternative "dc.identifier.uri" ;
+    ns3:alternative "dc.identifier.uri" ;
     rdfs:subPropertyOf <http://purl.org/dc/terms///www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/identifier/> ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Form> ;
     ns1:range xsd:string ;
@@ -8626,7 +8626,7 @@
     ns2:scopeNote "Note: using legacy “dc” namespace due to limitations with the DSpace institutional repository software." .
 
 <https://iseal-community.github.io/iseal-core#dc-title> a ns1:DatatypeProperty ;
-    ns4:alternative "dc.title" ;
+    ns3:alternative "dc.title" ;
     rdfs:subPropertyOf <http://purl.org/dc/terms///www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/title/> ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Provenance> ;
     ns1:range xsd:string ;
@@ -8635,7 +8635,7 @@
     ns2:scopeNote "Note: using legacy “dc” namespace due to limitations with the DSpace institutional repository software." .
 
 <https://iseal-community.github.io/iseal-core#dcterms-abstract> a ns1:DatatypeProperty ;
-    ns4:alternative "dcterms.abstract" ;
+    ns3:alternative "dcterms.abstract" ;
     rdfs:subPropertyOf <http://purl.org/dc/terms///www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/abstract/> ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Form> ;
     ns1:range xsd:string ;
@@ -8643,8 +8643,8 @@
     ns2:prefLabel "Abstract" .
 
 <https://iseal-community.github.io/iseal-core#dcterms-accessrights> a ns1:ObjectProperty ;
-    ns3:rangeIncludes "data/controlled-vocabularies/dcterms-accessrights.txt" ;
-    ns4:alternative "dcterms.accessRights" ;
+    ns4:rangeIncludes "https://raw.githubusercontent.com/iseal-community/iseal-core/main/data/controlled-vocabularies/dcterms-accessrights.txt" ;
+    ns3:alternative "dcterms.accessRights" ;
     rdfs:subPropertyOf <http://purl.org/dc/terms///www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/accessRights/> ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Form> ;
     ns1:range <https://iseal-community.github.io/iseal-core#VOCAB_Access_rights> ;
@@ -8653,7 +8653,7 @@
     ns2:scopeNote "Indicate whether the resource is confidential (and limited access), restricted (and limited access) or public (limited access or open access)" .
 
 <https://iseal-community.github.io/iseal-core#dcterms-alternative> a ns1:DatatypeProperty ;
-    ns4:alternative "dcterms.alternative" ;
+    ns3:alternative "dcterms.alternative" ;
     rdfs:subPropertyOf <http://purl.org/dc/terms///www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/alternative/> ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Provenance> ;
     ns1:range xsd:string ;
@@ -8662,8 +8662,8 @@
     ns2:scopeNote "eg, the title another language; Only if explicitly mentioned on the resource" .
 
 <https://iseal-community.github.io/iseal-core#dcterms-audience> a ns1:ObjectProperty ;
-    ns3:rangeIncludes "data/controlled-vocabularies/dcterms-audience.txt" ;
-    ns4:alternative "dcterms.audience" ;
+    ns4:rangeIncludes "https://raw.githubusercontent.com/iseal-community/iseal-core/main/data/controlled-vocabularies/dcterms-audience.txt" ;
+    ns3:alternative "dcterms.audience" ;
     rdfs:subPropertyOf <http://purl.org/dc/terms///www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/audience/> ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Form> ;
     ns1:range <https://iseal-community.github.io/iseal-core#VOCAB_Audience> ;
@@ -8672,7 +8672,7 @@
     ns2:scopeNote "Select from control list" .
 
 <https://iseal-community.github.io/iseal-core#dcterms-bibliographiccitation> a ns1:DatatypeProperty ;
-    ns4:alternative "dcterms.bibliographicCitation" ;
+    ns3:alternative "dcterms.bibliographicCitation" ;
     rdfs:subPropertyOf <http://purl.org/dc/terms///www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/bibliographicCitation/> ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Form> ;
     ns1:range xsd:string ;
@@ -8681,7 +8681,7 @@
     ns2:scopeNote "consistent style recommended" .
 
 <https://iseal-community.github.io/iseal-core#dcterms-created> a ns1:DatatypeProperty ;
-    ns4:alternative "dcterms.created" ;
+    ns3:alternative "dcterms.created" ;
     rdfs:subPropertyOf <http://purl.org/dc/terms///www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/created/> ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Status> ;
     ns1:range xsd:date ;
@@ -8690,7 +8690,7 @@
     ns2:scopeNote "Date in YYYY-MM-DD format. At the very least you must enter the year, but month and day is better if possible." .
 
 <https://iseal-community.github.io/iseal-core#dcterms-datesubmitted> a ns1:DatatypeProperty ;
-    ns4:alternative "dcterms.dateSubmitted" ;
+    ns3:alternative "dcterms.dateSubmitted" ;
     rdfs:subPropertyOf <http://purl.org/dc/terms///www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/dateSubmitted/> ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Status> ;
     ns1:range xsd:date ;
@@ -8699,7 +8699,7 @@
     ns2:scopeNote "Date in YYYY-MM-DD format. At the very least you must enter the year, but month and day is better if possible." .
 
 <https://iseal-community.github.io/iseal-core#dcterms-description> a ns1:DatatypeProperty ;
-    ns4:alternative "dcterms.description" ;
+    ns3:alternative "dcterms.description" ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Form> ;
     ns1:range xsd:string ;
     ns2:definition "An account of the resource" ;
@@ -8707,7 +8707,7 @@
     ns2:scopeNote "Any additional information about the resource not covered in any other element" .
 
 <https://iseal-community.github.io/iseal-core#dcterms-extent> a ns1:DatatypeProperty ;
-    ns4:alternative "dcterms.extent" ;
+    ns3:alternative "dcterms.extent" ;
     rdfs:subPropertyOf <http://purl.org/dc/terms///www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/extent/> ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Form> ;
     ns1:range xsd:string ;
@@ -8715,8 +8715,8 @@
     ns2:prefLabel "Extent" .
 
 <https://iseal-community.github.io/iseal-core#dcterms-format> a ns1:ObjectProperty ;
-    ns3:rangeIncludes "data/controlled-vocabularies/dcterms-format.txt" ;
-    ns4:alternative "dcterms.format" ;
+    ns4:rangeIncludes "https://raw.githubusercontent.com/iseal-community/iseal-core/main/data/controlled-vocabularies/dcterms-format.txt" ;
+    ns3:alternative "dcterms.format" ;
     rdfs:comment "https://en.wikipedia.org/wiki/List_of_file_formats" ;
     rdfs:subPropertyOf <http://purl.org/dc/terms///www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/format/> ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Form> ;
@@ -8726,7 +8726,7 @@
     ns2:scopeNote "Select from control list" .
 
 <https://iseal-community.github.io/iseal-core#dcterms-ispartof> a ns1:DatatypeProperty ;
-    ns4:alternative "dcterms.isPartOf" ;
+    ns3:alternative "dcterms.isPartOf" ;
     rdfs:subPropertyOf <http://purl.org/dc/terms///www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/isPartOf/> ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Provenance> ;
     ns1:range xsd:string ;
@@ -8735,7 +8735,7 @@
     ns2:scopeNote "Only if explicitly mentioned on the resource" .
 
 <https://iseal-community.github.io/iseal-core#dcterms-isreplacedby> a ns1:DatatypeProperty ;
-    ns4:alternative "dcterms.isReplacedBy" ;
+    ns3:alternative "dcterms.isReplacedBy" ;
     rdfs:subPropertyOf <http://purl.org/dc/terms///www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/isReplacedBy/> ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Status> ;
     ns1:range xsd:string ;
@@ -8744,7 +8744,7 @@
     ns2:scopeNote "Normally a link to a later or improved resource" .
 
 <https://iseal-community.github.io/iseal-core#dcterms-issued> a ns1:DatatypeProperty ;
-    ns4:alternative "dcterms.issued" ;
+    ns3:alternative "dcterms.issued" ;
     rdfs:subPropertyOf <http://purl.org/dc/terms///www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/issued/> ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Status> ;
     ns1:range xsd:date ;
@@ -8753,8 +8753,8 @@
     ns2:scopeNote "Date in YYYY-MM-DD format. At the very least you must enter the year, but month and day is better if possible." .
 
 <https://iseal-community.github.io/iseal-core#dcterms-language> a ns1:ObjectProperty ;
-    ns3:rangeIncludes "data/controlled-vocabularies/dcterms-language.txt" ;
-    ns4:alternative "dcterms.language" ;
+    ns4:rangeIncludes "https://raw.githubusercontent.com/iseal-community/iseal-core/main/data/controlled-vocabularies/dcterms-language.txt" ;
+    ns3:alternative "dcterms.language" ;
     rdfs:comment "https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes" ;
     rdfs:subPropertyOf <http://purl.org/dc/terms///www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/language/> ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Form> ;
@@ -8764,8 +8764,8 @@
     ns2:scopeNote "Select from control list" .
 
 <https://iseal-community.github.io/iseal-core#dcterms-license> a ns1:ObjectProperty ;
-    ns3:rangeIncludes "data/controlled-vocabularies/dcterms-license.txt" ;
-    ns4:alternative "dcterms.license" ;
+    ns4:rangeIncludes "https://raw.githubusercontent.com/iseal-community/iseal-core/main/data/controlled-vocabularies/dcterms-license.txt" ;
+    ns3:alternative "dcterms.license" ;
     rdfs:subPropertyOf <http://purl.org/dc/terms///www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/license/> ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Form> ;
     ns1:range <https://iseal-community.github.io/iseal-core#VOCAB_Usage_rights_license> ;
@@ -8774,7 +8774,7 @@
     ns2:scopeNote "Normally the type of license, indicated by a short name/code - Select from control list" .
 
 <https://iseal-community.github.io/iseal-core#dcterms-modified> a ns1:DatatypeProperty ;
-    ns4:alternative "dcterms.modified" ;
+    ns3:alternative "dcterms.modified" ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Status> ;
     ns1:range xsd:date ;
     ns2:definition "Date when the resource was changed" ;
@@ -8782,7 +8782,7 @@
     ns2:scopeNote "Date in YYYY-MM-DD format. At the very least you must enter the year, but month and day is better if possible." .
 
 <https://iseal-community.github.io/iseal-core#dcterms-publisher> a ns1:DatatypeProperty ;
-    ns4:alternative "dcterms.publisher" ;
+    ns3:alternative "dcterms.publisher" ;
     rdfs:comment "https://ror.org/" ;
     rdfs:subPropertyOf <http://purl.org/dc/terms///www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/publisher/> ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Provenance> ;
@@ -8792,7 +8792,7 @@
     ns2:scopeNote "Usually the name of an organization. Use resources like ROR." .
 
 <https://iseal-community.github.io/iseal-core#dcterms-rightsholder> a ns1:DatatypeProperty ;
-    ns4:alternative "dcterms.rightsHolder" ;
+    ns3:alternative "dcterms.rightsHolder" ;
     rdfs:subPropertyOf <http://purl.org/dc/terms///www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/rightsHolder/> ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Form> ;
     ns1:range xsd:string ;
@@ -8801,7 +8801,7 @@
     ns2:scopeNote "License holder of the resource" .
 
 <https://iseal-community.github.io/iseal-core#dcterms-subject> a ns1:DatatypeProperty ;
-    ns4:alternative "dcterms.subject" ;
+    ns3:alternative "dcterms.subject" ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Scope> ;
     ns1:range xsd:string ;
     ns2:definition "Keywords that help to describe the resource content or coverage. The topic or thematic focus of the resource." ;
@@ -8809,8 +8809,8 @@
     ns2:scopeNote "Select from control list" .
 
 <https://iseal-community.github.io/iseal-core#dcterms-type> a ns1:ObjectProperty ;
-    ns3:rangeIncludes "data/controlled-vocabularies/dcterms-type.txt" ;
-    ns4:alternative "dcterms.type" ;
+    ns4:rangeIncludes "https://raw.githubusercontent.com/iseal-community/iseal-core/main/data/controlled-vocabularies/dcterms-type.txt" ;
+    ns3:alternative "dcterms.type" ;
     rdfs:subPropertyOf <http://purl.org/dc/terms///www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/type/> ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Form> ;
     ns1:range <https://iseal-community.github.io/iseal-core#VOCAB_Type> ;
@@ -8819,7 +8819,7 @@
     ns2:scopeNote "Select from control list" .
 
 <https://iseal-community.github.io/iseal-core#dcterms-valid> a ns1:DatatypeProperty ;
-    ns4:alternative "dcterms.valid" ;
+    ns3:alternative "dcterms.valid" ;
     rdfs:subPropertyOf <http://purl.org/dc/terms///www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/valid/> ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Status> ;
     ns1:range xsd:date ;
@@ -8828,7 +8828,7 @@
     ns2:scopeNote "Date in YYYY-MM-DD format. At the very least you must enter the year, but month and day is better if possible." .
 
 <https://iseal-community.github.io/iseal-core#is-author-orcid> a ns1:DatatypeProperty ;
-    ns4:alternative "is.author.orcid" ;
+    ns3:alternative "is.author.orcid" ;
     rdfs:comment "https://orcid.org" ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Provenance> ;
     ns1:range xsd:string ;
@@ -8837,8 +8837,8 @@
     ns2:scopeNote "Assign for each author" .
 
 <https://iseal-community.github.io/iseal-core#is-availability-fulltext> a ns1:ObjectProperty ;
-    ns3:rangeIncludes "data/controlled-vocabularies/is-availability-fulltext.txt" ;
-    ns4:alternative "is.availability.fullText" ;
+    ns4:rangeIncludes "https://raw.githubusercontent.com/iseal-community/iseal-core/main/data/controlled-vocabularies/is-availability-fulltext.txt" ;
+    ns3:alternative "is.availability.fullText" ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Form> ;
     ns1:range <https://iseal-community.github.io/iseal-core#VOCAB_Availability> ;
     ns2:definition "Whether the complete resource is available for use" ;
@@ -8846,14 +8846,14 @@
     ns2:scopeNote "Select from control list" .
 
 <https://iseal-community.github.io/iseal-core#is-certificate-duration> a ns1:DatatypeProperty ;
-    ns4:alternative "is.certificate.duration" ;
+    ns3:alternative "is.certificate.duration" ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Certificate> ;
     ns1:range xsd:string ;
     ns2:definition "The number of months a certificate is valid for" ;
     ns2:prefLabel "Certificate current duration" .
 
 <https://iseal-community.github.io/iseal-core#is-certificate-enddate> a ns1:DatatypeProperty ;
-    ns4:alternative "is.certificate.endDate" ;
+    ns3:alternative "is.certificate.endDate" ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Certificate> ;
     ns1:range xsd:date ;
     ns2:definition "End date for the current certificate" ;
@@ -8861,7 +8861,7 @@
     ns2:scopeNote "Date in YYYY-MM-DD format. At the very least you must enter the year, but month and day is better if possible." .
 
 <https://iseal-community.github.io/iseal-core#is-certificate-firststartdate> a ns1:DatatypeProperty ;
-    ns4:alternative "is.certificate.firstStartDate" ;
+    ns3:alternative "is.certificate.firstStartDate" ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Certificate> ;
     ns1:range xsd:date ;
     ns2:definition "First issue date for the certificate" ;
@@ -8869,22 +8869,22 @@
     ns2:scopeNote "Date in YYYY-MM-DD format. At the very least you must enter the year, but month and day is better if possible." .
 
 <https://iseal-community.github.io/iseal-core#is-certificate-id> a ns1:DatatypeProperty ;
-    ns4:alternative "is.certificate.ID" ;
+    ns3:alternative "is.certificate.ID" ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Certificate> ;
     ns1:range xsd:string ;
     ns2:definition "Certificate ID code" ;
     ns2:prefLabel "Certificate code, number or ID" .
 
 <https://iseal-community.github.io/iseal-core#is-certificate-licensecode> a ns1:DatatypeProperty ;
-    ns4:alternative "is.certificate.licenseCode" ;
+    ns3:alternative "is.certificate.licenseCode" ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Certificate> ;
     ns1:range xsd:string ;
     ns2:definition "License applied to a certificate" ;
     ns2:prefLabel "Certificate license code" .
 
 <https://iseal-community.github.io/iseal-core#is-certificate-licensestatus> a ns1:ObjectProperty ;
-    ns3:rangeIncludes "data/controlled-vocabularies/is-certificate-licensestatus.txt" ;
-    ns4:alternative "is.certificate.licenseStatus" ;
+    ns4:rangeIncludes "https://raw.githubusercontent.com/iseal-community/iseal-core/main/data/controlled-vocabularies/is-certificate-licensestatus.txt" ;
+    ns3:alternative "is.certificate.licenseStatus" ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Certificate> ;
     ns1:range <https://iseal-community.github.io/iseal-core#VOCAB_Certificate_license_status> ;
     ns2:definition "Whether a certificate license is valid or suspended" ;
@@ -8892,8 +8892,8 @@
     ns2:scopeNote "Select from control list" .
 
 <https://iseal-community.github.io/iseal-core#is-certificate-locations> a ns1:ObjectProperty ;
-    ns3:rangeIncludes "data/controlled-vocabularies/is-certificate-locations.txt" ;
-    ns4:alternative "is.certificate.locations" ;
+    ns4:rangeIncludes "https://raw.githubusercontent.com/iseal-community/iseal-core/main/data/controlled-vocabularies/is-certificate-locations.txt" ;
+    ns3:alternative "is.certificate.locations" ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Certificate> ;
     ns1:range <https://iseal-community.github.io/iseal-core#VOCAB_Certificate_coverage_type> ;
     ns2:definition "Whether a certificate covers single or multiple locations" ;
@@ -8901,8 +8901,8 @@
     ns2:scopeNote "Select from control list" .
 
 <https://iseal-community.github.io/iseal-core#is-certificate-ownership> a ns1:ObjectProperty ;
-    ns3:rangeIncludes "data/controlled-vocabularies/is-certificate-ownership.txt" ;
-    ns4:alternative "is.certificate.ownership" ;
+    ns4:rangeIncludes "https://raw.githubusercontent.com/iseal-community/iseal-core/main/data/controlled-vocabularies/is-certificate-ownership.txt" ;
+    ns3:alternative "is.certificate.ownership" ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Certificate> ;
     ns1:range <https://iseal-community.github.io/iseal-core#VOCAB_Certificate_ownership_type> ;
     ns2:definition "Whether a certificate covers individual or group owners" ;
@@ -8910,28 +8910,28 @@
     ns2:scopeNote "Select from control list" .
 
 <https://iseal-community.github.io/iseal-core#is-certificate-scope> a ns1:DatatypeProperty ;
-    ns4:alternative "is.certificate.scope" ;
+    ns3:alternative "is.certificate.scope" ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Certificate> ;
     ns1:range xsd:string ;
     ns2:definition "Terms describing the scope of a certificate" ;
     ns2:prefLabel "Certificate scope" .
 
 <https://iseal-community.github.io/iseal-core#is-certificate-siteid> a ns1:DatatypeProperty ;
-    ns4:alternative "is.certificate.siteID" ;
+    ns3:alternative "is.certificate.siteID" ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Certified_Resource_or_Site> ;
     ns1:range xsd:string ;
     ns2:definition "Certified site ID code" ;
     ns2:prefLabel "Certified site ID" .
 
 <https://iseal-community.github.io/iseal-core#is-certificate-sites> a ns1:DatatypeProperty ;
-    ns4:alternative "is.certificate.sites" ;
+    ns3:alternative "is.certificate.sites" ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Certified_Resource_or_Site> ;
     ns1:range xsd:string ;
     ns2:definition "The number of individual sites covered by a certificate" ;
     ns2:prefLabel "Certified sites number covered by the certificate" .
 
 <https://iseal-community.github.io/iseal-core#is-certificate-startdate> a ns1:DatatypeProperty ;
-    ns4:alternative "is.certificate.startDate" ;
+    ns3:alternative "is.certificate.startDate" ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Certificate> ;
     ns1:range xsd:date ;
     ns2:definition "Start date for the current certificate" ;
@@ -8939,8 +8939,8 @@
     ns2:scopeNote "Date in YYYY-MM-DD format. At the very least you must enter the year, but month and day is better if possible." .
 
 <https://iseal-community.github.io/iseal-core#is-certificate-status> a ns1:ObjectProperty ;
-    ns3:rangeIncludes "data/controlled-vocabularies/is-certificate-status.txt" ;
-    ns4:alternative "is.certificate.status" ;
+    ns4:rangeIncludes "https://raw.githubusercontent.com/iseal-community/iseal-core/main/data/controlled-vocabularies/is-certificate-status.txt" ;
+    ns3:alternative "is.certificate.status" ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Certificate> ;
     ns1:range <https://iseal-community.github.io/iseal-core#VOCAB_Certificate_status> ;
     ns2:definition "The current status of a certificate" ;
@@ -8948,8 +8948,8 @@
     ns2:scopeNote "Select from control list" .
 
 <https://iseal-community.github.io/iseal-core#is-certificate-type> a ns1:ObjectProperty ;
-    ns3:rangeIncludes "data/controlled-vocabularies/is-certificate-type.txt" ;
-    ns4:alternative "is.certificate.type" ;
+    ns4:rangeIncludes "https://raw.githubusercontent.com/iseal-community/iseal-core/main/data/controlled-vocabularies/is-certificate-type.txt" ;
+    ns3:alternative "is.certificate.type" ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Certificate> ;
     ns1:range <https://iseal-community.github.io/iseal-core#VOCAB_Certificate_type> ;
     ns2:definition "Type of certificate" ;
@@ -8957,7 +8957,7 @@
     ns2:scopeNote "Select from control list" .
 
 <https://iseal-community.github.io/iseal-core#is-certifiedorganization-addresslat> a ns1:DatatypeProperty ;
-    ns4:alternative "is.certifiedOrganization.addressLat" ;
+    ns3:alternative "is.certifiedOrganization.addressLat" ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Certificate_Holder,_Owner_or_Certified_organization> ;
     ns1:range xsd:string ;
     ns2:definition "Latitude location coordinates in decimal degrees (DD). Recording 4 digits to the right of the decimal provides an accuracy of 10m" ;
@@ -8965,7 +8965,7 @@
     ns2:scopeNote "Example of a latitude coordinate in Bolivia: -16.9013" .
 
 <https://iseal-community.github.io/iseal-core#is-certifiedorganization-addresslong> a ns1:DatatypeProperty ;
-    ns4:alternative "is.certifiedOrganization.addressLong" ;
+    ns3:alternative "is.certifiedOrganization.addressLong" ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Certificate_Holder,_Owner_or_Certified_organization> ;
     ns1:range xsd:string ;
     ns2:definition "Longitude location coordinates in decimal degrees (DD). Recording 4 digits to the right of the decimal provides an accuracy of 10m" ;
@@ -8973,15 +8973,15 @@
     ns2:scopeNote "Example of a longitude coordinate in Bolivia: -62.0244" .
 
 <https://iseal-community.github.io/iseal-core#is-certifiedorganization-city> a ns1:DatatypeProperty ;
-    ns4:alternative "is.certifiedOrganization.city" ;
+    ns3:alternative "is.certifiedOrganization.city" ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Certificate_Holder,_Owner_or_Certified_organization> ;
     ns1:range xsd:string ;
     ns2:definition "Complete name of a city or town in an address" ;
     ns2:prefLabel "Certificate holder address city" .
 
 <https://iseal-community.github.io/iseal-core#is-certifiedorganization-country> a ns1:ObjectProperty ;
-    ns3:rangeIncludes "data/controlled-vocabularies/is-certifiedorganization-country.txt" ;
-    ns4:alternative "is.certifiedOrganization.country" ;
+    ns4:rangeIncludes "https://raw.githubusercontent.com/iseal-community/iseal-core/main/data/controlled-vocabularies/is-certifiedorganization-country.txt" ;
+    ns3:alternative "is.certifiedOrganization.country" ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Certificate_Holder,_Owner_or_Certified_organization> ;
     ns1:range <https://iseal-community.github.io/iseal-core#VOCAB_Certificate_holder_address_country> ;
     ns2:definition "Full country name. Terms should be in ISO 3166-1 format" ;
@@ -8989,14 +8989,14 @@
     ns2:scopeNote "Select from control list" .
 
 <https://iseal-community.github.io/iseal-core#is-certifiedorganization-email> a ns1:DatatypeProperty ;
-    ns4:alternative "is.certifiedOrganization.email" ;
+    ns3:alternative "is.certifiedOrganization.email" ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Certificate_Holder,_Owner_or_Certified_organization> ;
     ns1:range xsd:string ;
     ns2:definition "Email address of an organization" ;
     ns2:prefLabel "Certificate holder address email address" .
 
 <https://iseal-community.github.io/iseal-core#is-certifiedorganization-gln> a ns1:DatatypeProperty ;
-    ns4:alternative "is.certifiedOrganization.gln" ;
+    ns3:alternative "is.certifiedOrganization.gln" ;
     rdfs:comment "https://www.gs1.org/standards/id-keys/gln" ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Certificate_Holder,_Owner_or_Certified_organization> ;
     ns1:range xsd:string ;
@@ -9004,14 +9004,14 @@
     ns2:prefLabel "Certificate holder GLN" .
 
 <https://iseal-community.github.io/iseal-core#is-certifiedorganization-name> a ns1:DatatypeProperty ;
-    ns4:alternative "is.certifiedOrganization.name" ;
+    ns3:alternative "is.certifiedOrganization.name" ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Certificate_Holder,_Owner_or_Certified_organization> ;
     ns1:range xsd:string ;
     ns2:definition "Entity or individual certified to produce or market a product under the terms of the certificate" ;
     ns2:prefLabel "Certificate holder name" .
 
 <https://iseal-community.github.io/iseal-core#is-certifiedorganization-phonecountrycode> a ns1:DatatypeProperty ;
-    ns4:alternative "is.certifiedOrganization.phoneCountryCode" ;
+    ns3:alternative "is.certifiedOrganization.phoneCountryCode" ;
     rdfs:comment "https://en.wikipedia.org/wiki/List_of_country_calling_codes" ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Certificate_Holder,_Owner_or_Certified_organization> ;
     ns1:range xsd:float ;
@@ -9019,22 +9019,22 @@
     ns2:prefLabel "Certificate holder address phone country code" .
 
 <https://iseal-community.github.io/iseal-core#is-certifiedorganization-phonenumber> a ns1:DatatypeProperty ;
-    ns4:alternative "is.certifiedOrganization.phoneNumber" ;
+    ns3:alternative "is.certifiedOrganization.phoneNumber" ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Certificate_Holder,_Owner_or_Certified_organization> ;
     ns1:range xsd:float ;
     ns2:definition "Official contact phone number of the organization - without country code" ;
     ns2:prefLabel "Certificate holder address phone number" .
 
 <https://iseal-community.github.io/iseal-core#is-certifiedorganization-postcode> a ns1:DatatypeProperty ;
-    ns4:alternative "is.certifiedOrganization.postCode" ;
+    ns3:alternative "is.certifiedOrganization.postCode" ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Certificate_Holder,_Owner_or_Certified_organization> ;
     ns1:range xsd:string ;
     ns2:definition "Full postcode of an address" ;
     ns2:prefLabel "Certificate holder address postcode" .
 
 <https://iseal-community.github.io/iseal-core#is-certifiedorganization-role> a ns1:ObjectProperty ;
-    ns3:rangeIncludes "data/controlled-vocabularies/is-certifiedorganization-role.txt" ;
-    ns4:alternative "is.certifiedOrganization.role" ;
+    ns4:rangeIncludes "https://raw.githubusercontent.com/iseal-community/iseal-core/main/data/controlled-vocabularies/is-certifiedorganization-role.txt" ;
+    ns3:alternative "is.certifiedOrganization.role" ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Certificate_Holder,_Owner_or_Certified_organization> ;
     ns1:range <https://iseal-community.github.io/iseal-core#VOCAB_Certificate_holder_role> ;
     ns2:definition "Role(s) organization plays in a supply chain" ;
@@ -9042,57 +9042,57 @@
     ns2:scopeNote "ITC database" .
 
 <https://iseal-community.github.io/iseal-core#is-certifiedorganization-streetname> a ns1:DatatypeProperty ;
-    ns4:alternative "is.certifiedOrganization.streetName" ;
+    ns3:alternative "is.certifiedOrganization.streetName" ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Certificate_Holder,_Owner_or_Certified_organization> ;
     ns1:range xsd:string ;
     ns2:definition "Full street name and number of an address" ;
     ns2:prefLabel "Certificate holder address street name" .
 
 <https://iseal-community.github.io/iseal-core#is-certifiedorganization-url> a ns1:DatatypeProperty ;
-    ns4:alternative "is.certifiedOrganization.url" ;
+    ns3:alternative "is.certifiedOrganization.url" ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Certificate_Holder,_Owner_or_Certified_organization> ;
     ns1:range xsd:string ;
     ns2:definition "URL of the organization" ;
     ns2:prefLabel "Certificate holder address website url" .
 
 <https://iseal-community.github.io/iseal-core#is-certifiedorganizationid> a ns1:DatatypeProperty ;
-    ns4:alternative "is.certifiedOrganizationID" ;
+    ns3:alternative "is.certifiedOrganizationID" ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Certificate_Holder,_Owner_or_Certified_organization> ;
     ns1:range xsd:string ;
     ns2:definition "A number or other consistent code assigned to a certificate holder by a certifying body or scheme" ;
     ns2:prefLabel "Certificate holder ID" .
 
 <https://iseal-community.github.io/iseal-core#is-certifiedsite-adminarea> a ns1:DatatypeProperty ;
-    ns4:alternative "is.certifiedSite.adminArea" ;
+    ns3:alternative "is.certifiedSite.adminArea" ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Certified_Resource_or_Site> ;
     ns1:range xsd:string ;
     ns2:prefLabel "Certified site admin area" ;
     ns2:scopeNote "Area in hectares" .
 
 <https://iseal-community.github.io/iseal-core#is-certifiedsite-analysisarea> a ns1:DatatypeProperty ;
-    ns4:alternative "is.certifiedSite.analysisArea" ;
+    ns3:alternative "is.certifiedSite.analysisArea" ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Certified_Resource_or_Site> ;
     ns1:range xsd:string ;
     ns2:prefLabel "Certified site analysis area" ;
     ns2:scopeNote "Area in hectares" .
 
 <https://iseal-community.github.io/iseal-core#is-certifiedsite-area> a ns1:DatatypeProperty ;
-    ns4:alternative "is.certifiedSite.area" ;
+    ns3:alternative "is.certifiedSite.area" ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Certified_Resource_or_Site> ;
     ns1:range xsd:string ;
     ns2:definition "Total area certified (in hectares). For a group certificate, this would be the sum of the area of all certified farms in the certificate" ;
     ns2:prefLabel "Certified site area" .
 
 <https://iseal-community.github.io/iseal-core#is-certifiedsite-coorddetail> a ns1:ObjectProperty ;
-    ns3:rangeIncludes "data/controlled-vocabularies/is-certifiedsite-coorddetail.txt" ;
-    ns4:alternative "is.certifiedSite.coordDetail" ;
+    ns4:rangeIncludes "https://raw.githubusercontent.com/iseal-community/iseal-core/main/data/controlled-vocabularies/is-certifiedsite-coorddetail.txt" ;
+    ns3:alternative "is.certifiedSite.coordDetail" ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Certified_Resource_or_Site> ;
     ns1:range <https://iseal-community.github.io/iseal-core#VOCAB_Certified_site_latitude_and_longitude_location_coordinates_detail> ;
     ns2:definition "Specific details on the coordinates and how collected/measured" ;
     ns2:prefLabel "Certified site latitude and longitude location coordinates detail" .
 
 <https://iseal-community.github.io/iseal-core#is-certifiedsite-lat> a ns1:DatatypeProperty ;
-    ns4:alternative "is.certifiedSite.lat" ;
+    ns3:alternative "is.certifiedSite.lat" ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Certified_Resource_or_Site> ;
     ns1:range xsd:string ;
     ns2:definition "Latitude location coordinates in decimal degrees (DD). Recording 4 digits to the right of the decimal provides an accuracy of 10m" ;
@@ -9100,14 +9100,14 @@
     ns2:scopeNote "Example of a latitude coordinate in Bolivia: -16.9013" .
 
 <https://iseal-community.github.io/iseal-core#is-certifiedsite-locationname> a ns1:DatatypeProperty ;
-    ns4:alternative "is.certifiedSite.locationName" ;
+    ns3:alternative "is.certifiedSite.locationName" ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Certified_Resource_or_Site> ;
     ns1:range xsd:string ;
     ns2:definition "The normal name used to describe the location" ;
     ns2:prefLabel "Certified site location name" .
 
 <https://iseal-community.github.io/iseal-core#is-certifiedsite-long> a ns1:DatatypeProperty ;
-    ns4:alternative "is.certifiedSite.long" ;
+    ns3:alternative "is.certifiedSite.long" ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Certified_Resource_or_Site> ;
     ns1:range xsd:string ;
     ns2:definition "Longitude location coordinates in decimal degrees (DD). Recording 4 digits to the right of the decimal provides an accuracy of 10m" ;
@@ -9115,28 +9115,28 @@
     ns2:scopeNote "Example of a longitude coordinate in Bolivia: -62.0244" .
 
 <https://iseal-community.github.io/iseal-core#is-certifiedsite-naturalsetaside> a ns1:DatatypeProperty ;
-    ns4:alternative "is.certifiedSite.naturalSetAside" ;
+    ns3:alternative "is.certifiedSite.naturalSetAside" ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Certified_Resource_or_Site> ;
     ns1:range xsd:string ;
     ns2:prefLabel "Certified site natural ecosystem set-aside" ;
     ns2:scopeNote "Area in hectares" .
 
 <https://iseal-community.github.io/iseal-core#is-certifiedsite-productionarea> a ns1:DatatypeProperty ;
-    ns4:alternative "is.certifiedSite.productionArea" ;
+    ns3:alternative "is.certifiedSite.productionArea" ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Certified_Resource_or_Site> ;
     ns1:range xsd:string ;
     ns2:prefLabel "Certified site production area" ;
     ns2:scopeNote "Area in hectares" .
 
 <https://iseal-community.github.io/iseal-core#is-certifiedsite-restorationsetaside> a ns1:DatatypeProperty ;
-    ns4:alternative "is.certifiedSite.restorationSetAside" ;
+    ns3:alternative "is.certifiedSite.restorationSetAside" ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Certified_Resource_or_Site> ;
     ns1:range xsd:string ;
     ns2:prefLabel "Certified site restoration set-aside" ;
     ns2:scopeNote "Area in hectares" .
 
 <https://iseal-community.github.io/iseal-core#is-certifyingbody-accreditationenddate> a ns1:DatatypeProperty ;
-    ns4:alternative "is.certifyingBody.accreditationEndDate" ;
+    ns3:alternative "is.certifyingBody.accreditationEndDate" ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Assurance> ;
     ns1:range xsd:date ;
     ns2:definition "Date when a body's accreditation begins" ;
@@ -9144,7 +9144,7 @@
     ns2:scopeNote "Date in YYYY-MM-DD format. At the very least you must enter the year, but month and day is better if possible." .
 
 <https://iseal-community.github.io/iseal-core#is-certifyingbody-accreditationstartdate> a ns1:DatatypeProperty ;
-    ns4:alternative "is.certifyingBody.accreditationStartDate" ;
+    ns3:alternative "is.certifyingBody.accreditationStartDate" ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Assurance> ;
     ns1:range xsd:date ;
     ns2:definition "Date when a body's accreditation ends" ;
@@ -9152,16 +9152,16 @@
     ns2:scopeNote "Date in YYYY-MM-DD format. At the very least you must enter the year, but month and day is better if possible." .
 
 <https://iseal-community.github.io/iseal-core#is-certifyingbody-accreditationstatus> a ns1:ObjectProperty ;
-    ns3:rangeIncludes "data/controlled-vocabularies/is-certifyingbody-accreditationstatus.txt" ;
-    ns4:alternative "is.certifyingBody.accreditationStatus" ;
+    ns4:rangeIncludes "https://raw.githubusercontent.com/iseal-community/iseal-core/main/data/controlled-vocabularies/is-certifyingbody-accreditationstatus.txt" ;
+    ns3:alternative "is.certifyingBody.accreditationStatus" ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Assurance> ;
     ns1:range <https://iseal-community.github.io/iseal-core#VOCAB_Certifying_body_accreditation_status> ;
     ns2:prefLabel "Certifying body accreditation status" ;
     ns2:scopeNote "Select from control list" .
 
 <https://iseal-community.github.io/iseal-core#is-certifyingbody-accreditedgeoscope> a ns1:ObjectProperty ;
-    ns3:rangeIncludes "data/controlled-vocabularies/is-certifyingbody-accreditedgeoscope.txt" ;
-    ns4:alternative "is.certifyingBody.accreditedGeoScope" ;
+    ns4:rangeIncludes "https://raw.githubusercontent.com/iseal-community/iseal-core/main/data/controlled-vocabularies/is-certifyingbody-accreditedgeoscope.txt" ;
+    ns3:alternative "is.certifyingBody.accreditedGeoScope" ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Assurance> ;
     ns1:range <https://iseal-community.github.io/iseal-core#VOCAB_Certifying_body_accredited_geographic_scope> ;
     ns2:definition "Countries the body is certified to work in. Terms should be in ISO 3166-1 format" ;
@@ -9169,23 +9169,23 @@
     ns2:scopeNote "Select from control list" .
 
 <https://iseal-community.github.io/iseal-core#is-certifyingbody-accreditedtechscope> a ns1:ObjectProperty ;
-    ns3:rangeIncludes "data/controlled-vocabularies/is-certifyingbody-accreditedtechscope.txt" ;
-    ns4:alternative "is.certifyingBody.accreditedTechScope" ;
+    ns4:rangeIncludes "https://raw.githubusercontent.com/iseal-community/iseal-core/main/data/controlled-vocabularies/is-certifyingbody-accreditedtechscope.txt" ;
+    ns3:alternative "is.certifyingBody.accreditedTechScope" ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Assurance> ;
     ns1:range <https://iseal-community.github.io/iseal-core#VOCAB_Certifying_body_accredited_technical_scope> ;
     ns2:prefLabel "Certifying body accredited technical scope" ;
     ns2:scopeNote "Select from control list" .
 
 <https://iseal-community.github.io/iseal-core#is-certifyingbody-accreditedtechscopetype> a ns1:ObjectProperty ;
-    ns3:rangeIncludes "data/controlled-vocabularies/is-certifyingbody-accreditedtechscopetype.txt" ;
-    ns4:alternative "is.certifyingBody.accreditedTechScopeType" ;
+    ns4:rangeIncludes "https://raw.githubusercontent.com/iseal-community/iseal-core/main/data/controlled-vocabularies/is-certifyingbody-accreditedtechscopetype.txt" ;
+    ns3:alternative "is.certifyingBody.accreditedTechScopeType" ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Assurance> ;
     ns1:range <https://iseal-community.github.io/iseal-core#VOCAB_Certifying_body_accredited_technical_scope_type> ;
     ns2:prefLabel "Certifying body accredited technical scope type" ;
     ns2:scopeNote "Select from control list" .
 
 <https://iseal-community.github.io/iseal-core#is-certifyingbody-addresslat> a ns1:DatatypeProperty ;
-    ns4:alternative "is.certifyingBody.addressLat" ;
+    ns3:alternative "is.certifyingBody.addressLat" ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Assurance> ;
     ns1:range xsd:string ;
     ns2:definition "Latitude location coordinates in decimal degrees (DD). Recording 4 digits to the right of the decimal provides an accuracy of 10m" ;
@@ -9193,7 +9193,7 @@
     ns2:scopeNote "Example of a latitude coordinate in Bolivia: -16.9013" .
 
 <https://iseal-community.github.io/iseal-core#is-certifyingbody-addresslong> a ns1:DatatypeProperty ;
-    ns4:alternative "is.certifyingBody.addressLong" ;
+    ns3:alternative "is.certifyingBody.addressLong" ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Assurance> ;
     ns1:range xsd:string ;
     ns2:definition "Longitude location coordinates in decimal degrees (DD). Recording 4 digits to the right of the decimal provides an accuracy of 10m" ;
@@ -9201,8 +9201,8 @@
     ns2:scopeNote "Example of a longitude coordinate in Bolivia: -62.0244" .
 
 <https://iseal-community.github.io/iseal-core#is-certifyingbody-asicode> a ns1:ObjectProperty ;
-    ns3:rangeIncludes "data/controlled-vocabularies/is-certifyingbody-asicode.txt" ;
-    ns4:alternative "is.certifyingBody.asiCode" ;
+    ns4:rangeIncludes "https://raw.githubusercontent.com/iseal-community/iseal-core/main/data/controlled-vocabularies/is-certifyingbody-asicode.txt" ;
+    ns3:alternative "is.certifyingBody.asiCode" ;
     rdfs:comment "https://www.asi-assurance.org/s/find-a-cab" ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Assurance> ;
     ns1:range <https://iseal-community.github.io/iseal-core#VOCAB_Certifying_body_ASI_accreditation_code> ;
@@ -9210,15 +9210,15 @@
     ns2:scopeNote "Select from control list" .
 
 <https://iseal-community.github.io/iseal-core#is-certifyingbody-city> a ns1:DatatypeProperty ;
-    ns4:alternative "is.certifyingBody.city" ;
+    ns3:alternative "is.certifyingBody.city" ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Assurance> ;
     ns1:range xsd:string ;
     ns2:definition "Complete name of a city or town in an address" ;
     ns2:prefLabel "Certifying body address city" .
 
 <https://iseal-community.github.io/iseal-core#is-certifyingbody-country> a ns1:ObjectProperty ;
-    ns3:rangeIncludes "data/controlled-vocabularies/is-certifyingbody-country.txt" ;
-    ns4:alternative "is.certifyingBody.country" ;
+    ns4:rangeIncludes "https://raw.githubusercontent.com/iseal-community/iseal-core/main/data/controlled-vocabularies/is-certifyingbody-country.txt" ;
+    ns3:alternative "is.certifyingBody.country" ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Assurance> ;
     ns1:range <https://iseal-community.github.io/iseal-core#VOCAB_Certifying_body_address_country> ;
     ns2:definition "Full country name. Terms should be in ISO 3166-1 format" ;
@@ -9226,22 +9226,22 @@
     ns2:scopeNote "Select from control list" .
 
 <https://iseal-community.github.io/iseal-core#is-certifyingbody-email> a ns1:DatatypeProperty ;
-    ns4:alternative "is.certifyingBody.email" ;
+    ns3:alternative "is.certifyingBody.email" ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Assurance> ;
     ns1:range xsd:string ;
     ns2:definition "Email address of an organization" ;
     ns2:prefLabel "Certifying body address email address" .
 
 <https://iseal-community.github.io/iseal-core#is-certifyingbody-name> a ns1:ObjectProperty ;
-    ns3:rangeIncludes "data/controlled-vocabularies/is-certifyingbody-name.txt" ;
-    ns4:alternative "is.certifyingBody.name" ;
+    ns4:rangeIncludes "https://raw.githubusercontent.com/iseal-community/iseal-core/main/data/controlled-vocabularies/is-certifyingbody-name.txt" ;
+    ns3:alternative "is.certifyingBody.name" ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Assurance> ;
     ns1:range <https://iseal-community.github.io/iseal-core#VOCAB_Certifying_body_name> ;
     ns2:definition "Entity assuring/assessing the status and performance of a certificate holder/owner" ;
     ns2:prefLabel "Certifying body name" .
 
 <https://iseal-community.github.io/iseal-core#is-certifyingbody-phonecountrycode> a ns1:DatatypeProperty ;
-    ns4:alternative "is.certifyingBody.phoneCountryCode" ;
+    ns3:alternative "is.certifyingBody.phoneCountryCode" ;
     rdfs:comment "https://en.wikipedia.org/wiki/List_of_country_calling_codes" ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Assurance> ;
     ns1:range xsd:float ;
@@ -9249,22 +9249,22 @@
     ns2:prefLabel "Certifying body address phone country code" .
 
 <https://iseal-community.github.io/iseal-core#is-certifyingbody-phonenumber> a ns1:DatatypeProperty ;
-    ns4:alternative "is.certifyingBody.phoneNumber" ;
+    ns3:alternative "is.certifyingBody.phoneNumber" ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Assurance> ;
     ns1:range xsd:float ;
     ns2:definition "Official contact phone number of the organization - without country code" ;
     ns2:prefLabel "Certifying body address phone number" .
 
 <https://iseal-community.github.io/iseal-core#is-certifyingbody-postcode> a ns1:DatatypeProperty ;
-    ns4:alternative "is.certifyingBody.postcode" ;
+    ns3:alternative "is.certifyingBody.postcode" ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Assurance> ;
     ns1:range xsd:string ;
     ns2:definition "Full postcode of an address" ;
     ns2:prefLabel "Certifying body address postcode" .
 
 <https://iseal-community.github.io/iseal-core#is-certifyingbody-schemeaccredited> a ns1:ObjectProperty ;
-    ns3:rangeIncludes "data/controlled-vocabularies/is-certifyingbody-schemeaccredited.txt" ;
-    ns4:alternative "is.certifyingBody.schemeAccredited" ;
+    ns4:rangeIncludes "https://raw.githubusercontent.com/iseal-community/iseal-core/main/data/controlled-vocabularies/is-certifyingbody-schemeaccredited.txt" ;
+    ns3:alternative "is.certifyingBody.schemeAccredited" ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Assurance> ;
     ns1:range <https://iseal-community.github.io/iseal-core#VOCAB_Certifying_body_program_or_scheme_accredited_for> ;
     ns2:definition "Scheme names the body is certified for" ;
@@ -9272,35 +9272,35 @@
     ns2:scopeNote "Select from control list" .
 
 <https://iseal-community.github.io/iseal-core#is-certifyingbody-standardaccredited> a ns1:DatatypeProperty ;
-    ns4:alternative "is.certifyingBody.standardAccredited" ;
+    ns3:alternative "is.certifyingBody.standardAccredited" ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Assurance> ;
     ns1:range xsd:string ;
     ns2:definition "Standard a body is accredited for - the official ID of the standard" ;
     ns2:prefLabel "Certifying body standards accredited for" .
 
 <https://iseal-community.github.io/iseal-core#is-certifyingbody-standardcertified> a ns1:DatatypeProperty ;
-    ns4:alternative "is.certifyingBody.standardCertified" ;
+    ns3:alternative "is.certifyingBody.standardCertified" ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Assurance> ;
     ns1:range xsd:string ;
     ns2:definition "Standard a body can certify for - the official ID of the standard" ;
     ns2:prefLabel "Certifying body standards certified for" .
 
 <https://iseal-community.github.io/iseal-core#is-certifyingbody-streetname> a ns1:DatatypeProperty ;
-    ns4:alternative "is.certifyingBody.streetName" ;
+    ns3:alternative "is.certifyingBody.streetName" ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Assurance> ;
     ns1:range xsd:string ;
     ns2:definition "Full street name and number of an address" ;
     ns2:prefLabel "Certifying body address street name" .
 
 <https://iseal-community.github.io/iseal-core#is-certifyingbody-url> a ns1:DatatypeProperty ;
-    ns4:alternative "is.certifyingBody.url" ;
+    ns3:alternative "is.certifyingBody.url" ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Assurance> ;
     ns1:range xsd:string ;
     ns2:definition "URL of the organization" ;
     ns2:prefLabel "Certifying body address website url" .
 
 <https://iseal-community.github.io/iseal-core#is-contact-email> a ns1:DatatypeProperty ;
-    ns4:alternative "is.contact.email" ;
+    ns3:alternative "is.contact.email" ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Provenance> ;
     ns1:range xsd:string ;
     ns2:definition "Email address of an organization or person that can be contacted about the resource" ;
@@ -9308,7 +9308,7 @@
     ns2:scopeNote "Avoid addresses that are short-lived; check permission first" .
 
 <https://iseal-community.github.io/iseal-core#is-contact-name> a ns1:DatatypeProperty ;
-    ns4:alternative "is.contact.name" ;
+    ns3:alternative "is.contact.name" ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Provenance> ;
     ns1:range xsd:string ;
     ns2:definition "Name of an organization or person that can be contacted about the resource" ;
@@ -9316,7 +9316,7 @@
     ns2:scopeNote "Avoid links that are short-lived; check permission first" .
 
 <https://iseal-community.github.io/iseal-core#is-contributor-funder> a ns1:DatatypeProperty ;
-    ns4:alternative "is.contributor.funder" ;
+    ns3:alternative "is.contributor.funder" ;
     rdfs:comment "https://ror.org/" ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Provenance> ;
     ns1:range xsd:string ;
@@ -9325,8 +9325,8 @@
     ns2:scopeNote "Usually the full name of an organization. Use resources like ROR." .
 
 <https://iseal-community.github.io/iseal-core#is-contributor-fundertype> a ns1:ObjectProperty ;
-    ns3:rangeIncludes "data/controlled-vocabularies/is-contributor-fundertype.txt" ;
-    ns4:alternative "is.contributor.funderType" ;
+    ns4:rangeIncludes "https://raw.githubusercontent.com/iseal-community/iseal-core/main/data/controlled-vocabularies/is-contributor-fundertype.txt" ;
+    ns3:alternative "is.contributor.funderType" ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Provenance> ;
     ns1:range <https://iseal-community.github.io/iseal-core#VOCAB_Funding_source_type> ;
     ns2:definition "Funder or investor types" ;
@@ -9334,8 +9334,8 @@
     ns2:scopeNote "Select from control list" .
 
 <https://iseal-community.github.io/iseal-core#is-contributor-member> a ns1:ObjectProperty ;
-    ns3:rangeIncludes "data/controlled-vocabularies/is-contributor-member.txt" ;
-    ns4:alternative "is.contributor.member" ;
+    ns4:rangeIncludes "https://raw.githubusercontent.com/iseal-community/iseal-core/main/data/controlled-vocabularies/is-contributor-member.txt" ;
+    ns3:alternative "is.contributor.member" ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Provenance> ;
     ns1:range <https://iseal-community.github.io/iseal-core#VOCAB_ISEAL_member_contributor> ;
     ns2:definition "ISEAL member organization or scheme associatd to the resource " ;
@@ -9343,8 +9343,8 @@
     ns2:scopeNote "Select from control list" .
 
 <https://iseal-community.github.io/iseal-core#is-coverage-country> a ns1:ObjectProperty ;
-    ns3:rangeIncludes "data/controlled-vocabularies/is-coverage-country.txt" ;
-    ns4:alternative "is.coverage.country" ;
+    ns4:rangeIncludes "https://raw.githubusercontent.com/iseal-community/iseal-core/main/data/controlled-vocabularies/is-coverage-country.txt" ;
+    ns3:alternative "is.coverage.country" ;
     rdfs:comment "https://www.iso.org/obp/ui/#search/code/" ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Coverage> ;
     ns1:range <https://iseal-community.github.io/iseal-core#VOCAB_Country_name> ;
@@ -9353,8 +9353,8 @@
     ns2:scopeNote "Select from control list" .
 
 <https://iseal-community.github.io/iseal-core#is-coverage-countryalpha2> a ns1:ObjectProperty ;
-    ns3:rangeIncludes "data/controlled-vocabularies/is-coverage-countryalpha2.txt" ;
-    ns4:alternative "is.coverage.countryAlpha2" ;
+    ns4:rangeIncludes "https://raw.githubusercontent.com/iseal-community/iseal-core/main/data/controlled-vocabularies/is-coverage-countryalpha2.txt" ;
+    ns3:alternative "is.coverage.countryAlpha2" ;
     rdfs:comment "https://www.iso.org/obp/ui/#search/code/" ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Coverage> ;
     ns1:range <https://iseal-community.github.io/iseal-core#VOCAB_Country_ISO_code> ;
@@ -9363,8 +9363,8 @@
     ns2:scopeNote "Select from control list" .
 
 <https://iseal-community.github.io/iseal-core#is-coverage-geographiclevel> a ns1:ObjectProperty ;
-    ns3:rangeIncludes "data/controlled-vocabularies/is-coverage-geographiclevel.txt" ;
-    ns4:alternative "is.coverage.geographicLevel" ;
+    ns4:rangeIncludes "https://raw.githubusercontent.com/iseal-community/iseal-core/main/data/controlled-vocabularies/is-coverage-geographiclevel.txt" ;
+    ns3:alternative "is.coverage.geographicLevel" ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Coverage> ;
     ns1:range <https://iseal-community.github.io/iseal-core#VOCAB_Geographic_level> ;
     ns2:definition "Level of geographic focus or coverage" ;
@@ -9372,7 +9372,7 @@
     ns2:scopeNote "Select from control list" .
 
 <https://iseal-community.github.io/iseal-core#is-coverage-latitude> a ns1:DatatypeProperty ;
-    ns4:alternative "is.coverage.latitude" ;
+    ns3:alternative "is.coverage.latitude" ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Coverage> ;
     ns1:range xsd:string ;
     ns2:definition "Use for polygons, shapes, study sites etc. Latitude location coordinates should be recorded in decimal degrees (DD). Recording 4 digits to the right of the decimal provides an accuracy of 10m" ;
@@ -9380,7 +9380,7 @@
     ns2:scopeNote "Example of a latitude in Bolivia: -16.9013" .
 
 <https://iseal-community.github.io/iseal-core#is-coverage-longitude> a ns1:DatatypeProperty ;
-    ns4:alternative "is.coverage.longitude" ;
+    ns3:alternative "is.coverage.longitude" ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Coverage> ;
     ns1:range xsd:string ;
     ns2:definition "Use for polygons, shapes, study sites etc. Longitude location coordinates should be recorded in decimal degrees (DD). Recording 4 digits to the right of the decimal provides an accuracy of 10m" ;
@@ -9388,15 +9388,15 @@
     ns2:scopeNote "Example of a longitude in Bolivia: -62.0244" .
 
 <https://iseal-community.github.io/iseal-core#is-coverage-place> a ns1:DatatypeProperty ;
-    ns4:alternative "is.coverage.place" ;
+    ns3:alternative "is.coverage.place" ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Coverage> ;
     ns1:range xsd:string ;
     ns2:definition "Name(s) of specific places, sites, towns, cities, districts, etc. that the resource is about" ;
     ns2:prefLabel "Place name" .
 
 <https://iseal-community.github.io/iseal-core#is-coverage-region> a ns1:ObjectProperty ;
-    ns3:rangeIncludes "data/controlled-vocabularies/is-coverage-region.txt" ;
-    ns4:alternative "is.coverage.region" ;
+    ns4:rangeIncludes "https://raw.githubusercontent.com/iseal-community/iseal-core/main/data/controlled-vocabularies/is-coverage-region.txt" ;
+    ns3:alternative "is.coverage.region" ;
     rdfs:comment "https://unstats.un.org/unsd/methodology/m49/" ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Coverage> ;
     ns1:range <https://iseal-community.github.io/iseal-core#VOCAB_Region_name> ;
@@ -9405,7 +9405,7 @@
     ns2:scopeNote "Select from control list" .
 
 <https://iseal-community.github.io/iseal-core#is-dateofversion> a ns1:DatatypeProperty ;
-    ns4:alternative "is.dateOfVersion" ;
+    ns3:alternative "is.dateOfVersion" ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Status> ;
     ns1:range xsd:date ;
     ns2:definition "Date as indicated on the resource" ;
@@ -9413,7 +9413,7 @@
     ns2:scopeNote "Date in YYYY-MM-DD format. At the very least you must enter the year, but month and day is better if possible." .
 
 <https://iseal-community.github.io/iseal-core#is-dateofversion1> a ns1:DatatypeProperty ;
-    ns4:alternative "is.dateOfVersion1" ;
+    ns3:alternative "is.dateOfVersion1" ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Status> ;
     ns1:range xsd:date ;
     ns2:definition "Date when version 1 of a standard was first issued" ;
@@ -9421,7 +9421,7 @@
     ns2:scopeNote "Date in YYYY-MM-DD format. At the very least you must enter the year, but month and day is better if possible." .
 
 <https://iseal-community.github.io/iseal-core#is-datereviewed> a ns1:DatatypeProperty ;
-    ns4:alternative "is.dateReviewed" ;
+    ns3:alternative "is.dateReviewed" ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Status> ;
     ns1:range xsd:date ;
     ns2:definition "Date the resource was, is, or will be reviewed" ;
@@ -9429,7 +9429,7 @@
     ns2:scopeNote "Date in YYYY-MM-DD format. At the very least you must enter the year, but month and day is better if possible." .
 
 <https://iseal-community.github.io/iseal-core#is-daterevised> a ns1:DatatypeProperty ;
-    ns4:alternative "is.dateRevised" ;
+    ns3:alternative "is.dateRevised" ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Status> ;
     ns1:range xsd:date ;
     ns2:definition "Date the resource was, is, or will be revised" ;
@@ -9437,8 +9437,8 @@
     ns2:scopeNote "Date in YYYY-MM-DD format. At the very least you must enter the year, but month and day is better if possible." .
 
 <https://iseal-community.github.io/iseal-core#is-delta-sustainindicator> a ns1:ObjectProperty ;
-    ns3:rangeIncludes "data/controlled-vocabularies/is-delta-sustainindicator.txt" ;
-    ns4:alternative "is.delta.sustainIndicator" ;
+    ns4:rangeIncludes "https://raw.githubusercontent.com/iseal-community/iseal-core/main/data/controlled-vocabularies/is-delta-sustainindicator.txt" ;
+    ns3:alternative "is.delta.sustainIndicator" ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Scope> ;
     ns1:range <https://iseal-community.github.io/iseal-core#VOCAB_ISEAL_Delta_project_sustainability_indicator> ;
     ns2:definition "Farm-level, outcome/impact indicators across the social, economic and environmental dimensions of sustainability" ;
@@ -9446,162 +9446,162 @@
     ns2:scopeNote "Select from control list" .
 
 <https://iseal-community.github.io/iseal-core#is-evaluation-authordirectionality> a ns1:ObjectProperty ;
-    ns3:rangeIncludes "data/controlled-vocabularies/is-evaluation-authordirectionality.txt" ;
-    ns4:alternative "is.evaluation.authorDirectionality" ;
+    ns4:rangeIncludes "https://raw.githubusercontent.com/iseal-community/iseal-core/main/data/controlled-vocabularies/is-evaluation-authordirectionality.txt" ;
+    ns3:alternative "is.evaluation.authorDirectionality" ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Evaluation> ;
     ns1:range <https://iseal-community.github.io/iseal-core#VOCAB_Evaluation_author_directionality> ;
     ns2:prefLabel "Evaluation author directionality" ;
     ns2:scopeNote "Select from control list" .
 
 <https://iseal-community.github.io/iseal-core#is-evaluation-collection> a ns1:ObjectProperty ;
-    ns3:rangeIncludes "data/controlled-vocabularies/is-evaluation-collection.txt" ;
-    ns4:alternative "is.evaluation.collection" ;
+    ns4:rangeIncludes "https://raw.githubusercontent.com/iseal-community/iseal-core/main/data/controlled-vocabularies/is-evaluation-collection.txt" ;
+    ns3:alternative "is.evaluation.collection" ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Evaluation> ;
     ns1:range <https://iseal-community.github.io/iseal-core#VOCAB_Evaluation_data/evidence_collection_method> ;
     ns2:prefLabel "Evaluation data/evidence collection method" ;
     ns2:scopeNote "Select from control list" .
 
 <https://iseal-community.github.io/iseal-core#is-evaluation-comparison> a ns1:ObjectProperty ;
-    ns3:rangeIncludes "data/controlled-vocabularies/is-evaluation-comparison.txt" ;
-    ns4:alternative "is.evaluation.comparison" ;
+    ns4:rangeIncludes "https://raw.githubusercontent.com/iseal-community/iseal-core/main/data/controlled-vocabularies/is-evaluation-comparison.txt" ;
+    ns3:alternative "is.evaluation.comparison" ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Evaluation> ;
     ns1:range <https://iseal-community.github.io/iseal-core#VOCAB_Evaluation_comparison> ;
     ns2:prefLabel "Evaluation comparison" ;
     ns2:scopeNote "Select from control list" .
 
 <https://iseal-community.github.io/iseal-core#is-evaluation-counterfacts> a ns1:ObjectProperty ;
-    ns3:rangeIncludes "data/controlled-vocabularies/is-evaluation-counterfacts.txt" ;
-    ns4:alternative "is.evaluation.counterfacts" ;
+    ns4:rangeIncludes "https://raw.githubusercontent.com/iseal-community/iseal-core/main/data/controlled-vocabularies/is-evaluation-counterfacts.txt" ;
+    ns3:alternative "is.evaluation.counterfacts" ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Evaluation> ;
     ns1:range <https://iseal-community.github.io/iseal-core#VOCAB_Evaluation_counterfactuals> ;
     ns2:prefLabel "Evaluation counterfactuals" ;
     ns2:scopeNote "yes, no, not applicable" .
 
 <https://iseal-community.github.io/iseal-core#is-evaluation-datasource> a ns1:ObjectProperty ;
-    ns3:rangeIncludes "data/controlled-vocabularies/is-evaluation-datasource.txt" ;
-    ns4:alternative "is.evaluation.dataSource" ;
+    ns4:rangeIncludes "https://raw.githubusercontent.com/iseal-community/iseal-core/main/data/controlled-vocabularies/is-evaluation-datasource.txt" ;
+    ns3:alternative "is.evaluation.dataSource" ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Evaluation> ;
     ns1:range <https://iseal-community.github.io/iseal-core#VOCAB_Evaluation_data_source> ;
     ns2:prefLabel "Evaluation data source" ;
     ns2:scopeNote "Select from control list" .
 
 <https://iseal-community.github.io/iseal-core#is-evaluation-findings> a ns1:DatatypeProperty ;
-    ns4:alternative "is.evaluation.findings" ;
+    ns3:alternative "is.evaluation.findings" ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Evaluation> ;
     ns1:range xsd:string ;
     ns2:definition "Summary of the key finding of an evaluative study" ;
     ns2:prefLabel "Evaluation findings" .
 
 <https://iseal-community.github.io/iseal-core#is-evaluation-nodifferencedirectionality> a ns1:ObjectProperty ;
-    ns3:rangeIncludes "data/controlled-vocabularies/is-evaluation-nodifferencedirectionality.txt" ;
-    ns4:alternative "is.evaluation.noDifferenceDirectionality" ;
+    ns4:rangeIncludes "https://raw.githubusercontent.com/iseal-community/iseal-core/main/data/controlled-vocabularies/is-evaluation-nodifferencedirectionality.txt" ;
+    ns3:alternative "is.evaluation.noDifferenceDirectionality" ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Evaluation> ;
     ns1:range <https://iseal-community.github.io/iseal-core#VOCAB_Evaluation_no_difference_directionality> ;
     ns2:prefLabel "Evaluation no difference directionality" ;
     ns2:scopeNote "Select from control list" .
 
 <https://iseal-community.github.io/iseal-core#is-evaluation-notes> a ns1:DatatypeProperty ;
-    ns4:alternative "is.evaluation.notes" ;
+    ns3:alternative "is.evaluation.notes" ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Evaluation> ;
     ns1:range xsd:string ;
     ns2:definition "Notes from a study, not elsewhere covered" ;
     ns2:prefLabel "Evaluation notes" .
 
 <https://iseal-community.github.io/iseal-core#is-evaluation-outcome> a ns1:ObjectProperty ;
-    ns3:rangeIncludes "data/controlled-vocabularies/is-evaluation-outcome.txt" ;
-    ns4:alternative "is.evaluation.outcome" ;
+    ns4:rangeIncludes "https://raw.githubusercontent.com/iseal-community/iseal-core/main/data/controlled-vocabularies/is-evaluation-outcome.txt" ;
+    ns3:alternative "is.evaluation.outcome" ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Evaluation> ;
     ns1:range <https://iseal-community.github.io/iseal-core#VOCAB_Evaluation_outcome_identified?> ;
     ns2:prefLabel "Evaluation outcome identified?" ;
     ns2:scopeNote "yes, no, not applicable" .
 
 <https://iseal-community.github.io/iseal-core#is-evaluation-quotes> a ns1:DatatypeProperty ;
-    ns4:alternative "is.evaluation.quotes" ;
+    ns3:alternative "is.evaluation.quotes" ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Evaluation> ;
     ns1:range xsd:string ;
     ns2:definition "Quotes from an evaluative study" ;
     ns2:prefLabel "Evaluation quotes on impact" .
 
 <https://iseal-community.github.io/iseal-core#is-evaluation-recommendations> a ns1:DatatypeProperty ;
-    ns4:alternative "is.evaluation.recommendations" ;
+    ns3:alternative "is.evaluation.recommendations" ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Evaluation> ;
     ns1:range xsd:string ;
     ns2:definition "Recommendations from an evaluative study" ;
     ns2:prefLabel "Evaluation recommendations" .
 
 <https://iseal-community.github.io/iseal-core#is-evaluation-scope> a ns1:DatatypeProperty ;
-    ns4:alternative "is.evaluation.scope" ;
+    ns3:alternative "is.evaluation.scope" ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Evaluation> ;
     ns1:range xsd:string ;
     ns2:prefLabel "Evaluation study scope" .
 
 <https://iseal-community.github.io/iseal-core#is-evaluation-significance> a ns1:ObjectProperty ;
-    ns3:rangeIncludes "data/controlled-vocabularies/is-evaluation-significance.txt" ;
-    ns4:alternative "is.evaluation.significance" ;
+    ns4:rangeIncludes "https://raw.githubusercontent.com/iseal-community/iseal-core/main/data/controlled-vocabularies/is-evaluation-significance.txt" ;
+    ns3:alternative "is.evaluation.significance" ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Evaluation> ;
     ns1:range <https://iseal-community.github.io/iseal-core#VOCAB_Evaluation_statistical_significance> ;
     ns2:prefLabel "Evaluation statistical significance" ;
     ns2:scopeNote "Select from control list" .
 
 <https://iseal-community.github.io/iseal-core#is-evaluation-test> a ns1:DatatypeProperty ;
-    ns4:alternative "is.evaluation.test" ;
+    ns3:alternative "is.evaluation.test" ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Evaluation> ;
     ns1:range xsd:string ;
     ns2:prefLabel "Evaluation statistical test" .
 
 <https://iseal-community.github.io/iseal-core#is-evidenceresourcetype> a ns1:ObjectProperty ;
-    ns3:rangeIncludes "data/controlled-vocabularies/is-evidenceresourcetype.txt" ;
-    ns4:alternative "is.evidenceResourceType" ;
+    ns4:rangeIncludes "https://raw.githubusercontent.com/iseal-community/iseal-core/main/data/controlled-vocabularies/is-evidenceresourcetype.txt" ;
+    ns3:alternative "is.evidenceResourceType" ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Evaluation> ;
     ns1:range <https://iseal-community.github.io/iseal-core#VOCAB_Evidence_resource_type> ;
     ns2:prefLabel "Evidence resource type" ;
     ns2:scopeNote "Select from control list" .
 
 <https://iseal-community.github.io/iseal-core#is-evidencesubtype> a ns1:ObjectProperty ;
-    ns3:rangeIncludes "data/controlled-vocabularies/is-evidencesubtype.txt" ;
-    ns4:alternative "is.evidenceSubType" ;
+    ns4:rangeIncludes "https://raw.githubusercontent.com/iseal-community/iseal-core/main/data/controlled-vocabularies/is-evidencesubtype.txt" ;
+    ns3:alternative "is.evidenceSubType" ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Evaluation> ;
     ns1:range <https://iseal-community.github.io/iseal-core#VOCAB_Evidence_resource_subtype> ;
     ns2:prefLabel "Evidence resource subtype" ;
     ns2:scopeNote "Select from control list" .
 
 <https://iseal-community.github.io/iseal-core#is-evidencesummary> a ns1:DatatypeProperty ;
-    ns4:alternative "is.evidenceSummary" ;
+    ns3:alternative "is.evidenceSummary" ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Evaluation> ;
     ns1:range xsd:string ;
     ns2:definition "Narrative summary of the evidence presented in the resource" ;
     ns2:prefLabel "Evidence summary" .
 
 <https://iseal-community.github.io/iseal-core#is-evidencetype> a ns1:ObjectProperty ;
-    ns3:rangeIncludes "data/controlled-vocabularies/is-evidencetype.txt" ;
-    ns4:alternative "is.evidenceType" ;
+    ns4:rangeIncludes "https://raw.githubusercontent.com/iseal-community/iseal-core/main/data/controlled-vocabularies/is-evidencetype.txt" ;
+    ns3:alternative "is.evidenceType" ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Evaluation> ;
     ns1:range <https://iseal-community.github.io/iseal-core#VOCAB_Evidence_type_or_category> ;
     ns2:prefLabel "Evidence type or category" ;
     ns2:scopeNote "Select from control list" .
 
 <https://iseal-community.github.io/iseal-core#is-extent-edition> a ns1:DatatypeProperty ;
-    ns4:alternative "is.extent.edition" ;
+    ns3:alternative "is.extent.edition" ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Status> ;
     ns1:range xsd:string ;
     ns2:prefLabel "Edition" .
 
 <https://iseal-community.github.io/iseal-core#is-extent-number> a ns1:DatatypeProperty ;
-    ns4:alternative "is.extent.number" ;
+    ns3:alternative "is.extent.number" ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Form> ;
     ns1:range xsd:string ;
     ns2:definition "Journal article issue number, series number, or any other identifying number" ;
     ns2:prefLabel "Number" .
 
 <https://iseal-community.github.io/iseal-core#is-extent-pages> a ns1:DatatypeProperty ;
-    ns4:alternative "is.extent.pages" ;
+    ns3:alternative "is.extent.pages" ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Form> ;
     ns1:range xsd:string ;
     ns2:definition "Start/end pagination of a journal article or chapter" ;
     ns2:prefLabel "Pagination" .
 
 <https://iseal-community.github.io/iseal-core#is-extent-version> a ns1:DatatypeProperty ;
-    ns4:alternative "is.extent.version" ;
+    ns3:alternative "is.extent.version" ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Status> ;
     ns1:range xsd:string ;
     ns2:definition "Version number of a resource" ;
@@ -9609,14 +9609,14 @@
     ns2:scopeNote "Only if explicitly mentioned on the resource" .
 
 <https://iseal-community.github.io/iseal-core#is-extent-volume> a ns1:DatatypeProperty ;
-    ns4:alternative "is.extent.volume" ;
+    ns3:alternative "is.extent.volume" ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Form> ;
     ns1:range xsd:string ;
     ns2:definition "Journal article volume number" ;
     ns2:prefLabel "Volume number" .
 
 <https://iseal-community.github.io/iseal-core#is-focus-gtin> a ns1:DatatypeProperty ;
-    ns4:alternative "is.focus.gtin" ;
+    ns3:alternative "is.focus.gtin" ;
     rdfs:comment "https://www.gtin.info" ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Scope> ;
     ns1:range xsd:string ;
@@ -9625,8 +9625,8 @@
     ns2:scopeNote "Mainly used with barcodes assigned to products" .
 
 <https://iseal-community.github.io/iseal-core#is-focus-products> a ns1:ObjectProperty ;
-    ns3:rangeIncludes "data/controlled-vocabularies/is-focus-products.txt" ;
-    ns4:alternative "is.focus.products" ;
+    ns4:rangeIncludes "https://raw.githubusercontent.com/iseal-community/iseal-core/main/data/controlled-vocabularies/is-focus-products.txt" ;
+    ns3:alternative "is.focus.products" ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Scope> ;
     ns1:range <https://iseal-community.github.io/iseal-core#VOCAB_Product_focus> ;
     ns2:definition "Certified commodites or products" ;
@@ -9634,8 +9634,8 @@
     ns2:scopeNote "Select from control list" .
 
 <https://iseal-community.github.io/iseal-core#is-focus-sdg> a ns1:ObjectProperty ;
-    ns3:rangeIncludes "data/controlled-vocabularies/is-focus-sdg.txt" ;
-    ns4:alternative "is.focus.sdg" ;
+    ns4:rangeIncludes "https://raw.githubusercontent.com/iseal-community/iseal-core/main/data/controlled-vocabularies/is-focus-sdg.txt" ;
+    ns3:alternative "is.focus.sdg" ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Scope> ;
     ns1:range <https://iseal-community.github.io/iseal-core#VOCAB_SDG_focus> ;
     ns2:definition "Sustainable development goal(s) associated to the resource" ;
@@ -9643,8 +9643,8 @@
     ns2:scopeNote "Select from control list" .
 
 <https://iseal-community.github.io/iseal-core#is-focus-sectors> a ns1:ObjectProperty ;
-    ns3:rangeIncludes "data/controlled-vocabularies/is-focus-sectors.txt" ;
-    ns4:alternative "is.focus.sectors" ;
+    ns4:rangeIncludes "https://raw.githubusercontent.com/iseal-community/iseal-core/main/data/controlled-vocabularies/is-focus-sectors.txt" ;
+    ns3:alternative "is.focus.sectors" ;
     rdfs:comment "https://www.oecd.org/dac/financing-sustainable-development/development-finance-standards/dacandcrscodelists.htm" ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Scope> ;
     ns1:range <https://iseal-community.github.io/iseal-core#VOCAB_Sector_focus> ;
@@ -9653,16 +9653,16 @@
     ns2:scopeNote "Select from control list" .
 
 <https://iseal-community.github.io/iseal-core#is-focus-strategypillar> a ns1:ObjectProperty ;
-    ns3:rangeIncludes "data/controlled-vocabularies/is-focus-strategypillar.txt" ;
-    ns4:alternative "is.focus.strategyPillar" ;
+    ns4:rangeIncludes "https://raw.githubusercontent.com/iseal-community/iseal-core/main/data/controlled-vocabularies/is-focus-strategypillar.txt" ;
+    ns3:alternative "is.focus.strategyPillar" ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Scope> ;
     ns1:range <https://iseal-community.github.io/iseal-core#VOCAB_ISEAL_strategic_pillar> ;
     ns2:prefLabel "ISEAL strategic pillar" ;
     ns2:scopeNote "Select from control list" .
 
 <https://iseal-community.github.io/iseal-core#is-focus-sustaindimension> a ns1:ObjectProperty ;
-    ns3:rangeIncludes "data/controlled-vocabularies/is-focus-sustaindimension.txt" ;
-    ns4:alternative "is.focus.sustainDimension" ;
+    ns4:rangeIncludes "https://raw.githubusercontent.com/iseal-community/iseal-core/main/data/controlled-vocabularies/is-focus-sustaindimension.txt" ;
+    ns3:alternative "is.focus.sustainDimension" ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Scope> ;
     ns1:range <https://iseal-community.github.io/iseal-core#VOCAB_Sustainability_dimension> ;
     ns2:definition "Primary sustainability focus of the the resource" ;
@@ -9670,8 +9670,8 @@
     ns2:scopeNote "Select from control list" .
 
 <https://iseal-community.github.io/iseal-core#is-focus-sustainissue> a ns1:ObjectProperty ;
-    ns3:rangeIncludes "data/controlled-vocabularies/is-focus-sustainissue.txt" ;
-    ns4:alternative "is.focus.sustainIssue" ;
+    ns4:rangeIncludes "https://raw.githubusercontent.com/iseal-community/iseal-core/main/data/controlled-vocabularies/is-focus-sustainissue.txt" ;
+    ns3:alternative "is.focus.sustainIssue" ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Scope> ;
     ns1:range <https://iseal-community.github.io/iseal-core#VOCAB_Sustainability_issue> ;
     ns2:definition "Specific sustainability issue(s) covered in the resource" ;
@@ -9679,16 +9679,16 @@
     ns2:scopeNote "Select from control list" .
 
 <https://iseal-community.github.io/iseal-core#is-focus-sustainlens> a ns1:ObjectProperty ;
-    ns3:rangeIncludes "data/controlled-vocabularies/is-focus-sustainlens.txt" ;
-    ns4:alternative "is.focus.sustainLens" ;
+    ns4:rangeIncludes "https://raw.githubusercontent.com/iseal-community/iseal-core/main/data/controlled-vocabularies/is-focus-sustainlens.txt" ;
+    ns3:alternative "is.focus.sustainLens" ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Scope> ;
     ns1:range <https://iseal-community.github.io/iseal-core#VOCAB_Sustainability_cross-cutting_lens> ;
     ns2:prefLabel "Sustainability cross-cutting lens" ;
     ns2:scopeNote "Select from control list" .
 
 <https://iseal-community.github.io/iseal-core#is-focus-sustainoutcome> a ns1:ObjectProperty ;
-    ns3:rangeIncludes "data/controlled-vocabularies/is-focus-sustainoutcome.txt" ;
-    ns4:alternative "is.focus.sustainOutcome" ;
+    ns4:rangeIncludes "https://raw.githubusercontent.com/iseal-community/iseal-core/main/data/controlled-vocabularies/is-focus-sustainoutcome.txt" ;
+    ns3:alternative "is.focus.sustainOutcome" ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Scope> ;
     ns1:range <https://iseal-community.github.io/iseal-core#VOCAB_Sustainability_outcome> ;
     ns2:definition "Specific sustainability outcome(s) covered in the resource" ;
@@ -9696,16 +9696,16 @@
     ns2:scopeNote "Select from control list" .
 
 <https://iseal-community.github.io/iseal-core#is-focus-systemelement> a ns1:ObjectProperty ;
-    ns3:rangeIncludes "data/controlled-vocabularies/is-focus-systemelement.txt" ;
-    ns4:alternative "is.focus.systemElement" ;
+    ns4:rangeIncludes "https://raw.githubusercontent.com/iseal-community/iseal-core/main/data/controlled-vocabularies/is-focus-systemelement.txt" ;
+    ns3:alternative "is.focus.systemElement" ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Scope> ;
     ns1:range <https://iseal-community.github.io/iseal-core#VOCAB_ISEAL_system_element> ;
     ns2:prefLabel "ISEAL system element" ;
     ns2:scopeNote "Select from control list" .
 
 <https://iseal-community.github.io/iseal-core#is-identifier-clause> a ns1:ObjectProperty ;
-    ns3:rangeIncludes "data/controlled-vocabularies/is-identifier-clause.txt" ;
-    ns4:alternative "is.identifier.clause" ;
+    ns4:rangeIncludes "https://raw.githubusercontent.com/iseal-community/iseal-core/main/data/controlled-vocabularies/is-identifier-clause.txt" ;
+    ns3:alternative "is.identifier.clause" ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Scope> ;
     ns1:range <https://iseal-community.github.io/iseal-core#VOCAB_ISEAL_code_clause_number> ;
     ns2:definition "ISEAL code of practice specific clause(s) associated to the resource" ;
@@ -9713,8 +9713,8 @@
     ns2:scopeNote "Select from control list" .
 
 <https://iseal-community.github.io/iseal-core#is-identifier-code> a ns1:ObjectProperty ;
-    ns3:rangeIncludes "data/controlled-vocabularies/is-identifier-code.txt" ;
-    ns4:alternative "is.identifier.code" ;
+    ns4:rangeIncludes "https://raw.githubusercontent.com/iseal-community/iseal-core/main/data/controlled-vocabularies/is-identifier-code.txt" ;
+    ns3:alternative "is.identifier.code" ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Scope> ;
     ns1:range <https://iseal-community.github.io/iseal-core#VOCAB_ISEAL_code_name> ;
     ns2:definition "ISEAL code(s) of practice associated to the resource" ;
@@ -9722,7 +9722,7 @@
     ns2:scopeNote "Select from control list" .
 
 <https://iseal-community.github.io/iseal-core#is-identifier-doi> a ns1:DatatypeProperty ;
-    ns4:alternative "is.identifier.doi" ;
+    ns3:alternative "is.identifier.doi" ;
     rdfs:comment "https://www.doi.org/" ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Form> ;
     ns1:range xsd:string ;
@@ -9730,7 +9730,7 @@
     ns2:prefLabel "DOI" .
 
 <https://iseal-community.github.io/iseal-core#is-identifier-id> a ns1:DatatypeProperty ;
-    ns4:alternative "is.identifier.ID" ;
+    ns3:alternative "is.identifier.ID" ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Form> ;
     ns1:range xsd:string ;
     ns2:definition "Any ID associated with the item or resource" ;
@@ -9738,15 +9738,15 @@
     ns2:scopeNote "Use other elements for ISBN or DOI" .
 
 <https://iseal-community.github.io/iseal-core#is-identifier-isbn> a ns1:DatatypeProperty ;
-    ns4:alternative "is.identifier.isbn" ;
+    ns3:alternative "is.identifier.isbn" ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Form> ;
     ns1:range xsd:string ;
     ns2:definition "International standard book number" ;
     ns2:prefLabel "ISBN" .
 
 <https://iseal-community.github.io/iseal-core#is-identifier-schemename> a ns1:ObjectProperty ;
-    ns3:rangeIncludes "data/controlled-vocabularies/is-identifier-schemename.txt" ;
-    ns4:alternative "is.identifier.schemeName" ;
+    ns4:rangeIncludes "https://raw.githubusercontent.com/iseal-community/iseal-core/main/data/controlled-vocabularies/is-identifier-schemename.txt" ;
+    ns3:alternative "is.identifier.schemeName" ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Scope> ;
     ns1:range <https://iseal-community.github.io/iseal-core#VOCAB_Sustainability_scheme_name> ;
     ns2:definition "Name of certification scheme or body associated with the resource" ;
@@ -9754,8 +9754,8 @@
     ns2:scopeNote "Select from control list" .
 
 <https://iseal-community.github.io/iseal-core#is-identifier-schemetype> a ns1:ObjectProperty ;
-    ns3:rangeIncludes "data/controlled-vocabularies/is-identifier-schemetype.txt" ;
-    ns4:alternative "is.identifier.schemeType" ;
+    ns4:rangeIncludes "https://raw.githubusercontent.com/iseal-community/iseal-core/main/data/controlled-vocabularies/is-identifier-schemetype.txt" ;
+    ns3:alternative "is.identifier.schemeType" ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Scope> ;
     ns1:range <https://iseal-community.github.io/iseal-core#VOCAB_Sustainability_scheme_type> ;
     ns2:definition "The approach that best characterizes the sustainability scheme covered by the resource" ;
@@ -9763,7 +9763,7 @@
     ns2:scopeNote "Select from control list" .
 
 <https://iseal-community.github.io/iseal-core#is-identifier-standardcode> a ns1:DatatypeProperty ;
-    ns4:alternative "is.identifier.standardCode" ;
+    ns3:alternative "is.identifier.standardCode" ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Scope> ;
     ns1:range xsd:string ;
     ns2:definition "Official code describing or assigned to a standard" ;
@@ -9771,8 +9771,8 @@
     ns2:scopeNote "For example \"FSC-DIR-40-004\"." .
 
 <https://iseal-community.github.io/iseal-core#is-identifier-standardstatus> a ns1:ObjectProperty ;
-    ns3:rangeIncludes "data/controlled-vocabularies/is-identifier-standardstatus.txt" ;
-    ns4:alternative "is.identifier.standardStatus" ;
+    ns4:rangeIncludes "https://raw.githubusercontent.com/iseal-community/iseal-core/main/data/controlled-vocabularies/is-identifier-standardstatus.txt" ;
+    ns3:alternative "is.identifier.standardStatus" ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Status> ;
     ns1:range <https://iseal-community.github.io/iseal-core#VOCAB_Standard_status> ;
     ns2:definition "Status of development of a standard" ;
@@ -9780,7 +9780,7 @@
     ns2:scopeNote "Select from control list" .
 
 <https://iseal-community.github.io/iseal-core#is-item-publicationplace> a ns1:DatatypeProperty ;
-    ns4:alternative "is.item.publicationPlace" ;
+    ns3:alternative "is.item.publicationPlace" ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Provenance> ;
     ns1:range xsd:string ;
     ns2:definition "City and country name" ;
@@ -9788,8 +9788,8 @@
     ns2:scopeNote "Usually entered as: City, country" .
 
 <https://iseal-community.github.io/iseal-core#is-item-reviewstatus> a ns1:ObjectProperty ;
-    ns3:rangeIncludes "data/controlled-vocabularies/is-item-reviewstatus.txt" ;
-    ns4:alternative "is.item.reviewStatus" ;
+    ns4:rangeIncludes "https://raw.githubusercontent.com/iseal-community/iseal-core/main/data/controlled-vocabularies/is-item-reviewstatus.txt" ;
+    ns3:alternative "is.item.reviewStatus" ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Status> ;
     ns1:range <https://iseal-community.github.io/iseal-core#VOCAB_Peer_review_status> ;
     ns2:definition "Whether the resource has been peer reviewed" ;
@@ -9797,8 +9797,8 @@
     ns2:scopeNote "Select from control list" .
 
 <https://iseal-community.github.io/iseal-core#is-item-status> a ns1:ObjectProperty ;
-    ns3:rangeIncludes "data/controlled-vocabularies/is-item-status.txt" ;
-    ns4:alternative "is.item.status" ;
+    ns4:rangeIncludes "https://raw.githubusercontent.com/iseal-community/iseal-core/main/data/controlled-vocabularies/is-item-status.txt" ;
+    ns3:alternative "is.item.status" ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Status> ;
     ns1:range <https://iseal-community.github.io/iseal-core#VOCAB_Status> ;
     ns2:definition "Stage the resource has reached" ;
@@ -9806,15 +9806,15 @@
     ns2:scopeNote "Select from control list" .
 
 <https://iseal-community.github.io/iseal-core#is-journalname> a ns1:DatatypeProperty ;
-    ns4:alternative "is.journalName" ;
+    ns3:alternative "is.journalName" ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Provenance> ;
     ns1:range xsd:string ;
     ns2:definition "Journal full name in its original language" ;
     ns2:prefLabel "Journal name" .
 
 <https://iseal-community.github.io/iseal-core#is-language> a ns1:ObjectProperty ;
-    ns3:rangeIncludes "data/controlled-vocabularies/is-language.txt" ;
-    ns4:alternative "is.language" ;
+    ns4:rangeIncludes "https://raw.githubusercontent.com/iseal-community/iseal-core/main/data/controlled-vocabularies/is-language.txt" ;
+    ns3:alternative "is.language" ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Form> ;
     ns1:range <https://iseal-community.github.io/iseal-core#VOCAB_Language_name> ;
     ns2:definition "Popular name for the language of the resource" ;
@@ -9822,14 +9822,14 @@
     ns2:scopeNote "Select from control list" .
 
 <https://iseal-community.github.io/iseal-core#is-link-image> a ns1:DatatypeProperty ;
-    ns4:alternative "is.link.image" ;
+    ns3:alternative "is.link.image" ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Form> ;
     ns1:range xsd:string ;
     ns2:definition "Internet link to an associated image" ;
     ns2:prefLabel "Link to an image, photo or other multimedia" .
 
 <https://iseal-community.github.io/iseal-core#is-link-url> a ns1:DatatypeProperty ;
-    ns4:alternative "is.link.url" ;
+    ns3:alternative "is.link.url" ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Form> ;
     ns1:range xsd:string ;
     ns2:definition "Internet link to any other associated item" ;
@@ -9837,14 +9837,14 @@
     ns2:scopeNote "Try to always link to any standard and permament identifier (eg, not a PDF)" .
 
 <https://iseal-community.github.io/iseal-core#is-organization-bluenumber> a ns1:DatatypeProperty ;
-    ns4:alternative "is.organization.bluenumber" ;
+    ns3:alternative "is.organization.bluenumber" ;
     rdfs:comment "https://bluenumber.org/" ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Provenance> ;
     ns1:range xsd:string ;
     ns2:prefLabel "Organization Bluenumber ID" .
 
 <https://iseal-community.github.io/iseal-core#is-organization-ror> a ns1:DatatypeProperty ;
-    ns4:alternative "is.organization.ror" ;
+    ns3:alternative "is.organization.ror" ;
     rdfs:comment "https://ror.org/" ;
     ns1:domain <https://iseal-community.github.io/iseal-core#Provenance> ;
     ns1:range xsd:string ;
@@ -9923,9 +9923,12 @@
 
 <https://iseal-community.github.io/iseal-core#Coverage> a ns1:Class ;
     rdfs:subClassOf [ a ns1:Restriction ;
+            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-coverage-place> ;
+            ns1:someValuesFrom xsd:string ],
+        [ a ns1:Restriction ;
             ns1:maxQualifiedCardinality 1 ;
-            ns1:onClass <https://iseal-community.github.io/iseal-core#VOCAB_Geographic_level> ;
-            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-coverage-geographiclevel> ],
+            ns1:onDataRange xsd:string ;
+            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-coverage-latitude> ],
         [ a ns1:Restriction ;
             ns1:minQualifiedCardinality 1 ;
             ns1:onProperty <https://iseal-community.github.io/iseal-core#is-coverage-region> ;
@@ -9936,19 +9939,16 @@
             ns1:someValuesFrom <https://iseal-community.github.io/iseal-core#VOCAB_Country_ISO_code> ],
         [ a ns1:Restriction ;
             ns1:maxQualifiedCardinality 1 ;
-            ns1:onDataRange xsd:string ;
-            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-coverage-latitude> ],
-        [ a ns1:Restriction ;
-            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-coverage-place> ;
-            ns1:someValuesFrom xsd:string ],
-        [ a ns1:Restriction ;
-            ns1:minQualifiedCardinality 1 ;
-            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-coverage-country> ;
-            ns1:someValuesFrom <https://iseal-community.github.io/iseal-core#VOCAB_Country_name> ],
+            ns1:onClass <https://iseal-community.github.io/iseal-core#VOCAB_Geographic_level> ;
+            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-coverage-geographiclevel> ],
         [ a ns1:Restriction ;
             ns1:maxQualifiedCardinality 1 ;
             ns1:onDataRange xsd:string ;
             ns1:onProperty <https://iseal-community.github.io/iseal-core#is-coverage-longitude> ],
+        [ a ns1:Restriction ;
+            ns1:minQualifiedCardinality 1 ;
+            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-coverage-country> ;
+            ns1:someValuesFrom <https://iseal-community.github.io/iseal-core#VOCAB_Country_name> ],
         <https://iseal-community.github.io/iseal-core#GLOBAL> ;
     ns2:prefLabel "Coverage" .
 
@@ -9982,40 +9982,36 @@
 <https://iseal-community.github.io/iseal-core#Certificate> a ns1:Class ;
     rdfs:subClassOf [ a ns1:Restriction ;
             ns1:maxQualifiedCardinality 1 ;
-            ns1:onClass <https://iseal-community.github.io/iseal-core#VOCAB_Certificate_status> ;
-            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-certificate-status> ],
-        [ a ns1:Restriction ;
-            ns1:maxQualifiedCardinality 1 ;
             ns1:onClass <https://iseal-community.github.io/iseal-core#VOCAB_Certificate_ownership_type> ;
             ns1:onProperty <https://iseal-community.github.io/iseal-core#is-certificate-ownership> ],
-        [ a ns1:Restriction ;
-            ns1:maxQualifiedCardinality 1 ;
-            ns1:onDataRange xsd:string ;
-            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-certificate-licensecode> ],
-        [ a ns1:Restriction ;
-            ns1:maxQualifiedCardinality 1 ;
-            ns1:onDataRange xsd:string ;
-            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-certificate-id> ],
         [ a ns1:Restriction ;
             ns1:maxQualifiedCardinality 1 ;
             ns1:onDataRange xsd:string ;
             ns1:onProperty <https://iseal-community.github.io/iseal-core#is-certificate-scope> ],
         [ a ns1:Restriction ;
             ns1:maxQualifiedCardinality 1 ;
-            ns1:onDataRange xsd:date ;
-            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-certificate-firststartdate> ],
+            ns1:onDataRange xsd:string ;
+            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-certificate-duration> ],
         [ a ns1:Restriction ;
             ns1:maxQualifiedCardinality 1 ;
             ns1:onDataRange xsd:date ;
-            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-certificate-startdate> ],
+            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-certificate-firststartdate> ],
         [ a ns1:Restriction ;
             ns1:maxQualifiedCardinality 1 ;
             ns1:onClass <https://iseal-community.github.io/iseal-core#VOCAB_Certificate_license_status> ;
             ns1:onProperty <https://iseal-community.github.io/iseal-core#is-certificate-licensestatus> ],
         [ a ns1:Restriction ;
             ns1:maxQualifiedCardinality 1 ;
+            ns1:onDataRange xsd:date ;
+            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-certificate-enddate> ],
+        [ a ns1:Restriction ;
+            ns1:maxQualifiedCardinality 1 ;
             ns1:onDataRange xsd:string ;
-            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-certificate-duration> ],
+            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-certificate-licensecode> ],
+        [ a ns1:Restriction ;
+            ns1:maxQualifiedCardinality 1 ;
+            ns1:onClass <https://iseal-community.github.io/iseal-core#VOCAB_Certificate_status> ;
+            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-certificate-status> ],
         [ a ns1:Restriction ;
             ns1:maxQualifiedCardinality 1 ;
             ns1:onClass <https://iseal-community.github.io/iseal-core#VOCAB_Certificate_coverage_type> ;
@@ -10027,25 +10023,17 @@
         [ a ns1:Restriction ;
             ns1:maxQualifiedCardinality 1 ;
             ns1:onDataRange xsd:date ;
-            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-certificate-enddate> ],
+            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-certificate-startdate> ],
+        [ a ns1:Restriction ;
+            ns1:maxQualifiedCardinality 1 ;
+            ns1:onDataRange xsd:string ;
+            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-certificate-id> ],
         <https://iseal-community.github.io/iseal-core#CERTIFICATION>,
         <https://iseal-community.github.io/iseal-core#VOCAB_Type> ;
     ns2:prefLabel "Certificate" .
 
 <https://iseal-community.github.io/iseal-core#Certified_Resource_or_Site> a ns1:Class ;
     rdfs:subClassOf [ a ns1:Restriction ;
-            ns1:maxQualifiedCardinality 1 ;
-            ns1:onDataRange xsd:string ;
-            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-certifiedsite-long> ],
-        [ a ns1:Restriction ;
-            ns1:maxQualifiedCardinality 1 ;
-            ns1:onDataRange xsd:string ;
-            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-certifiedsite-restorationsetaside> ],
-        [ a ns1:Restriction ;
-            ns1:maxQualifiedCardinality 1 ;
-            ns1:onDataRange xsd:string ;
-            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-certifiedsite-locationname> ],
-        [ a ns1:Restriction ;
             ns1:maxQualifiedCardinality 1 ;
             ns1:onDataRange xsd:string ;
             ns1:onProperty <https://iseal-community.github.io/iseal-core#is-certificate-sites> ],
@@ -10056,19 +10044,15 @@
         [ a ns1:Restriction ;
             ns1:maxQualifiedCardinality 1 ;
             ns1:onDataRange xsd:string ;
-            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-certifiedsite-area> ],
+            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-certifiedsite-lat> ],
         [ a ns1:Restriction ;
             ns1:maxQualifiedCardinality 1 ;
             ns1:onDataRange xsd:string ;
-            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-certifiedsite-analysisarea> ],
+            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-certifiedsite-adminarea> ],
         [ a ns1:Restriction ;
             ns1:maxQualifiedCardinality 1 ;
             ns1:onDataRange xsd:string ;
             ns1:onProperty <https://iseal-community.github.io/iseal-core#is-certifiedsite-naturalsetaside> ],
-        [ a ns1:Restriction ;
-            ns1:maxQualifiedCardinality 1 ;
-            ns1:onClass <https://iseal-community.github.io/iseal-core#VOCAB_Certified_site_latitude_and_longitude_location_coordinates_detail> ;
-            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-certifiedsite-coorddetail> ],
         [ a ns1:Restriction ;
             ns1:maxQualifiedCardinality 1 ;
             ns1:onDataRange xsd:string ;
@@ -10076,11 +10060,27 @@
         [ a ns1:Restriction ;
             ns1:maxQualifiedCardinality 1 ;
             ns1:onDataRange xsd:string ;
-            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-certifiedsite-lat> ],
+            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-certifiedsite-restorationsetaside> ],
         [ a ns1:Restriction ;
             ns1:maxQualifiedCardinality 1 ;
             ns1:onDataRange xsd:string ;
-            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-certifiedsite-adminarea> ],
+            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-certifiedsite-long> ],
+        [ a ns1:Restriction ;
+            ns1:maxQualifiedCardinality 1 ;
+            ns1:onDataRange xsd:string ;
+            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-certifiedsite-analysisarea> ],
+        [ a ns1:Restriction ;
+            ns1:maxQualifiedCardinality 1 ;
+            ns1:onDataRange xsd:string ;
+            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-certifiedsite-area> ],
+        [ a ns1:Restriction ;
+            ns1:maxQualifiedCardinality 1 ;
+            ns1:onClass <https://iseal-community.github.io/iseal-core#VOCAB_Certified_site_latitude_and_longitude_location_coordinates_detail> ;
+            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-certifiedsite-coorddetail> ],
+        [ a ns1:Restriction ;
+            ns1:maxQualifiedCardinality 1 ;
+            ns1:onDataRange xsd:string ;
+            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-certifiedsite-locationname> ],
         <https://iseal-community.github.io/iseal-core#CERTIFICATION> ;
     ns2:prefLabel "Certified Resource or Site" .
 
@@ -10097,7 +10097,7 @@
     rdfs:subClassOf [ a ns1:Restriction ;
             ns1:maxQualifiedCardinality 1 ;
             ns1:onDataRange xsd:string ;
-            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-certifiedorganization-addresslat> ],
+            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-certifiedorganization-name> ],
         [ a ns1:Restriction ;
             ns1:maxQualifiedCardinality 1 ;
             ns1:onDataRange xsd:string ;
@@ -10105,19 +10105,7 @@
         [ a ns1:Restriction ;
             ns1:maxQualifiedCardinality 1 ;
             ns1:onDataRange xsd:string ;
-            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-certifiedorganization-name> ],
-        [ a ns1:Restriction ;
-            ns1:maxQualifiedCardinality 1 ;
-            ns1:onDataRange xsd:float ;
-            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-certifiedorganization-phonecountrycode> ],
-        [ a ns1:Restriction ;
-            ns1:maxQualifiedCardinality 1 ;
-            ns1:onDataRange xsd:string ;
-            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-certifiedorganization-url> ],
-        [ a ns1:Restriction ;
-            ns1:maxQualifiedCardinality 1 ;
-            ns1:onDataRange xsd:string ;
-            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-certifiedorganization-email> ],
+            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-certifiedorganization-gln> ],
         [ a ns1:Restriction ;
             ns1:maxQualifiedCardinality 1 ;
             ns1:onDataRange xsd:string ;
@@ -10125,7 +10113,35 @@
         [ a ns1:Restriction ;
             ns1:maxQualifiedCardinality 1 ;
             ns1:onDataRange xsd:string ;
+            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-certifiedorganization-city> ],
+        [ a ns1:Restriction ;
+            ns1:maxQualifiedCardinality 1 ;
+            ns1:onDataRange xsd:string ;
+            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-certifiedorganization-email> ],
+        [ a ns1:Restriction ;
+            ns1:maxQualifiedCardinality 1 ;
+            ns1:onDataRange xsd:string ;
             ns1:onProperty <https://iseal-community.github.io/iseal-core#is-certifiedorganizationid> ],
+        [ a ns1:Restriction ;
+            ns1:maxQualifiedCardinality 1 ;
+            ns1:onClass <https://iseal-community.github.io/iseal-core#VOCAB_Certificate_holder_role> ;
+            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-certifiedorganization-role> ],
+        [ a ns1:Restriction ;
+            ns1:maxQualifiedCardinality 1 ;
+            ns1:onDataRange xsd:string ;
+            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-certifiedorganization-addresslong> ],
+        [ a ns1:Restriction ;
+            ns1:maxQualifiedCardinality 1 ;
+            ns1:onDataRange xsd:string ;
+            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-certifiedorganization-addresslat> ],
+        [ a ns1:Restriction ;
+            ns1:maxQualifiedCardinality 1 ;
+            ns1:onDataRange xsd:string ;
+            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-certifiedorganization-url> ],
+        [ a ns1:Restriction ;
+            ns1:maxQualifiedCardinality 1 ;
+            ns1:onDataRange xsd:float ;
+            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-certifiedorganization-phonecountrycode> ],
         [ a ns1:Restriction ;
             ns1:maxQualifiedCardinality 1 ;
             ns1:onClass <https://iseal-community.github.io/iseal-core#VOCAB_Certificate_holder_address_country> ;
@@ -10134,22 +10150,6 @@
             ns1:maxQualifiedCardinality 1 ;
             ns1:onDataRange xsd:float ;
             ns1:onProperty <https://iseal-community.github.io/iseal-core#is-certifiedorganization-phonenumber> ],
-        [ a ns1:Restriction ;
-            ns1:maxQualifiedCardinality 1 ;
-            ns1:onClass <https://iseal-community.github.io/iseal-core#VOCAB_Certificate_holder_role> ;
-            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-certifiedorganization-role> ],
-        [ a ns1:Restriction ;
-            ns1:maxQualifiedCardinality 1 ;
-            ns1:onDataRange xsd:string ;
-            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-certifiedorganization-gln> ],
-        [ a ns1:Restriction ;
-            ns1:maxQualifiedCardinality 1 ;
-            ns1:onDataRange xsd:string ;
-            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-certifiedorganization-city> ],
-        [ a ns1:Restriction ;
-            ns1:maxQualifiedCardinality 1 ;
-            ns1:onDataRange xsd:string ;
-            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-certifiedorganization-addresslong> ],
         <https://iseal-community.github.io/iseal-core#CERTIFICATION> ;
     ns2:prefLabel "Certificate Holder, Owner or Certified organization" .
 
@@ -10158,29 +10158,48 @@
 
 <https://iseal-community.github.io/iseal-core#Provenance> a ns1:Class ;
     rdfs:subClassOf [ a ns1:Restriction ;
+            ns1:maxQualifiedCardinality 1 ;
+            ns1:onDataRange xsd:string ;
+            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-contact-email> ],
+        [ a ns1:Restriction ;
+            ns1:maxQualifiedCardinality 1 ;
+            ns1:onDataRange xsd:string ;
+            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-item-publicationplace> ],
+        [ a ns1:Restriction ;
+            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-author-orcid> ;
+            ns1:someValuesFrom xsd:string ],
+        [ a ns1:Restriction ;
+            ns1:minQualifiedCardinality 1 ;
+            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-contributor-member> ;
+            ns1:someValuesFrom <https://iseal-community.github.io/iseal-core#VOCAB_ISEAL_member_contributor> ],
+        [ a ns1:Restriction ;
+            ns1:maxQualifiedCardinality 1 ;
+            ns1:onDataRange xsd:string ;
+            ns1:onProperty <https://iseal-community.github.io/iseal-core#dcterms-ispartof> ],
+        [ a ns1:Restriction ;
+            ns1:maxQualifiedCardinality 1 ;
+            ns1:onDataRange xsd:string ;
+            ns1:onProperty <https://iseal-community.github.io/iseal-core#dcterms-alternative> ],
+        [ a ns1:Restriction ;
             ns1:onProperty <https://iseal-community.github.io/iseal-core#dc-contributor-author> ;
             ns1:someValuesFrom xsd:string ],
         [ a ns1:Restriction ;
             ns1:onProperty <https://iseal-community.github.io/iseal-core#is-organization-ror> ;
             ns1:someValuesFrom xsd:string ],
         [ a ns1:Restriction ;
-            ns1:maxQualifiedCardinality 1 ;
-            ns1:onDataRange xsd:string ;
-            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-journalname> ],
+            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-contributor-funder> ;
+            ns1:someValuesFrom xsd:string ],
         [ a ns1:Restriction ;
             ns1:maxQualifiedCardinality 1 ;
             ns1:onDataRange xsd:string ;
             ns1:onProperty <https://iseal-community.github.io/iseal-core#dc-title> ],
         [ a ns1:Restriction ;
-            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-contributor-funder> ;
-            ns1:someValuesFrom xsd:string ],
-        [ a ns1:Restriction ;
-            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-author-orcid> ;
-            ns1:someValuesFrom xsd:string ],
-        [ a ns1:Restriction ;
             ns1:maxQualifiedCardinality 1 ;
             ns1:onDataRange xsd:string ;
-            ns1:onProperty <https://iseal-community.github.io/iseal-core#dcterms-alternative> ],
+            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-journalname> ],
+        [ a ns1:Restriction ;
+            ns1:onProperty <https://iseal-community.github.io/iseal-core#dcterms-publisher> ;
+            ns1:someValuesFrom xsd:string ],
         [ a ns1:Restriction ;
             ns1:minQualifiedCardinality 1 ;
             ns1:onProperty <https://iseal-community.github.io/iseal-core#is-contributor-fundertype> ;
@@ -10190,27 +10209,8 @@
             ns1:onDataRange xsd:string ;
             ns1:onProperty <https://iseal-community.github.io/iseal-core#is-contact-name> ],
         [ a ns1:Restriction ;
-            ns1:maxQualifiedCardinality 1 ;
-            ns1:onDataRange xsd:string ;
-            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-item-publicationplace> ],
-        [ a ns1:Restriction ;
-            ns1:maxQualifiedCardinality 1 ;
-            ns1:onDataRange xsd:string ;
-            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-contact-email> ],
-        [ a ns1:Restriction ;
             ns1:onProperty <https://iseal-community.github.io/iseal-core#is-organization-bluenumber> ;
             ns1:someValuesFrom xsd:string ],
-        [ a ns1:Restriction ;
-            ns1:onProperty <https://iseal-community.github.io/iseal-core#dcterms-publisher> ;
-            ns1:someValuesFrom xsd:string ],
-        [ a ns1:Restriction ;
-            ns1:maxQualifiedCardinality 1 ;
-            ns1:onDataRange xsd:string ;
-            ns1:onProperty <https://iseal-community.github.io/iseal-core#dcterms-ispartof> ],
-        [ a ns1:Restriction ;
-            ns1:minQualifiedCardinality 1 ;
-            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-contributor-member> ;
-            ns1:someValuesFrom <https://iseal-community.github.io/iseal-core#VOCAB_ISEAL_member_contributor> ],
         <https://iseal-community.github.io/iseal-core#GLOBAL> ;
     ns2:prefLabel "Provenance" .
 
@@ -10220,57 +10220,41 @@
 <https://iseal-community.github.io/iseal-core#Scope> a ns1:Class ;
     rdfs:subClassOf [ a ns1:Restriction ;
             ns1:minQualifiedCardinality 1 ;
-            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-delta-sustainindicator> ;
-            ns1:someValuesFrom <https://iseal-community.github.io/iseal-core#VOCAB_ISEAL_Delta_project_sustainability_indicator> ],
+            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-focus-sdg> ;
+            ns1:someValuesFrom <https://iseal-community.github.io/iseal-core#VOCAB_SDG_focus> ],
+        [ a ns1:Restriction ;
+            ns1:onProperty <https://iseal-community.github.io/iseal-core#dcterms-subject> ;
+            ns1:someValuesFrom xsd:string ],
+        [ a ns1:Restriction ;
+            ns1:minQualifiedCardinality 1 ;
+            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-focus-sustainoutcome> ;
+            ns1:someValuesFrom <https://iseal-community.github.io/iseal-core#VOCAB_Sustainability_outcome> ],
+        [ a ns1:Restriction ;
+            ns1:minQualifiedCardinality 1 ;
+            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-focus-systemelement> ;
+            ns1:someValuesFrom <https://iseal-community.github.io/iseal-core#VOCAB_ISEAL_system_element> ],
+        [ a ns1:Restriction ;
+            ns1:minQualifiedCardinality 1 ;
+            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-focus-products> ;
+            ns1:someValuesFrom <https://iseal-community.github.io/iseal-core#VOCAB_Product_focus> ],
         [ a ns1:Restriction ;
             ns1:minQualifiedCardinality 1 ;
             ns1:onProperty <https://iseal-community.github.io/iseal-core#is-identifier-clause> ;
             ns1:someValuesFrom <https://iseal-community.github.io/iseal-core#VOCAB_ISEAL_code_clause_number> ],
         [ a ns1:Restriction ;
             ns1:minQualifiedCardinality 1 ;
-            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-focus-sustaindimension> ;
-            ns1:someValuesFrom <https://iseal-community.github.io/iseal-core#VOCAB_Sustainability_dimension> ],
-        [ a ns1:Restriction ;
-            ns1:minQualifiedCardinality 1 ;
-            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-focus-strategypillar> ;
-            ns1:someValuesFrom <https://iseal-community.github.io/iseal-core#VOCAB_ISEAL_strategic_pillar> ],
-        [ a ns1:Restriction ;
-            ns1:minQualifiedCardinality 1 ;
-            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-identifier-schemename> ;
-            ns1:someValuesFrom <https://iseal-community.github.io/iseal-core#VOCAB_Sustainability_scheme_name> ],
+            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-identifier-schemetype> ;
+            ns1:someValuesFrom <https://iseal-community.github.io/iseal-core#VOCAB_Sustainability_scheme_type> ],
         [ a ns1:Restriction ;
             ns1:minQualifiedCardinality 1 ;
             ns1:onProperty <https://iseal-community.github.io/iseal-core#is-focus-sectors> ;
             ns1:someValuesFrom <https://iseal-community.github.io/iseal-core#VOCAB_Sector_focus> ],
         [ a ns1:Restriction ;
-            ns1:minQualifiedCardinality 1 ;
-            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-focus-sustainissue> ;
-            ns1:someValuesFrom <https://iseal-community.github.io/iseal-core#VOCAB_Sustainability_issue> ],
-        [ a ns1:Restriction ;
-            ns1:minQualifiedCardinality 1 ;
-            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-identifier-schemetype> ;
-            ns1:someValuesFrom <https://iseal-community.github.io/iseal-core#VOCAB_Sustainability_scheme_type> ],
-        [ a ns1:Restriction ;
-            ns1:minQualifiedCardinality 1 ;
-            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-focus-sustainoutcome> ;
-            ns1:someValuesFrom <https://iseal-community.github.io/iseal-core#VOCAB_Sustainability_outcome> ],
-        [ a ns1:Restriction ;
-            ns1:onProperty <https://iseal-community.github.io/iseal-core#dcterms-subject> ;
+            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-identifier-standardcode> ;
             ns1:someValuesFrom xsd:string ],
         [ a ns1:Restriction ;
             ns1:onProperty <https://iseal-community.github.io/iseal-core#is-focus-gtin> ;
             ns1:someValuesFrom xsd:string ],
-        [ a ns1:Restriction ;
-            ns1:minQualifiedCardinality 1 ;
-            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-focus-products> ;
-            ns1:someValuesFrom <https://iseal-community.github.io/iseal-core#VOCAB_Product_focus> ],
-        [ a ns1:Restriction ;
-            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-identifier-standardcode> ;
-            ns1:someValuesFrom xsd:string ],
-        [ a ns1:Restriction ;
-            ns1:minQualifiedCardinality 1 ;
-            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-focus-systemelement> ;
-            ns1:someValuesFrom <https://iseal-community.github.io/iseal-core#VOCAB_ISEAL_system_element> ],
         [ a ns1:Restriction ;
             ns1:minQualifiedCardinality 1 ;
             ns1:onProperty <https://iseal-community.github.io/iseal-core#is-focus-sustainlens> ;
@@ -10281,27 +10265,55 @@
             ns1:someValuesFrom <https://iseal-community.github.io/iseal-core#VOCAB_ISEAL_code_name> ],
         [ a ns1:Restriction ;
             ns1:minQualifiedCardinality 1 ;
-            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-focus-sdg> ;
-            ns1:someValuesFrom <https://iseal-community.github.io/iseal-core#VOCAB_SDG_focus> ],
+            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-identifier-schemename> ;
+            ns1:someValuesFrom <https://iseal-community.github.io/iseal-core#VOCAB_Sustainability_scheme_name> ],
+        [ a ns1:Restriction ;
+            ns1:minQualifiedCardinality 1 ;
+            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-focus-sustaindimension> ;
+            ns1:someValuesFrom <https://iseal-community.github.io/iseal-core#VOCAB_Sustainability_dimension> ],
+        [ a ns1:Restriction ;
+            ns1:minQualifiedCardinality 1 ;
+            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-focus-strategypillar> ;
+            ns1:someValuesFrom <https://iseal-community.github.io/iseal-core#VOCAB_ISEAL_strategic_pillar> ],
+        [ a ns1:Restriction ;
+            ns1:minQualifiedCardinality 1 ;
+            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-delta-sustainindicator> ;
+            ns1:someValuesFrom <https://iseal-community.github.io/iseal-core#VOCAB_ISEAL_Delta_project_sustainability_indicator> ],
+        [ a ns1:Restriction ;
+            ns1:minQualifiedCardinality 1 ;
+            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-focus-sustainissue> ;
+            ns1:someValuesFrom <https://iseal-community.github.io/iseal-core#VOCAB_Sustainability_issue> ],
         <https://iseal-community.github.io/iseal-core#GLOBAL> ;
     ns2:prefLabel "Scope" .
 
 <https://iseal-community.github.io/iseal-core#Status> a ns1:Class ;
     rdfs:subClassOf [ a ns1:Restriction ;
             ns1:maxQualifiedCardinality 1 ;
+            ns1:onClass <https://iseal-community.github.io/iseal-core#VOCAB_Peer_review_status> ;
+            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-item-reviewstatus> ],
+        [ a ns1:Restriction ;
+            ns1:maxQualifiedCardinality 1 ;
+            ns1:onDataRange xsd:date ;
+            ns1:onProperty <https://iseal-community.github.io/iseal-core#dc-date-available> ],
+        [ a ns1:Restriction ;
+            ns1:maxQualifiedCardinality 1 ;
             ns1:onDataRange xsd:string ;
             ns1:onProperty <https://iseal-community.github.io/iseal-core#is-extent-edition> ],
         [ a ns1:Restriction ;
-            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-datereviewed> ;
+            ns1:maxQualifiedCardinality 1 ;
+            ns1:onDataRange xsd:date ;
+            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-dateofversion> ],
+        [ a ns1:Restriction ;
+            ns1:maxQualifiedCardinality 1 ;
+            ns1:onDataRange xsd:date ;
+            ns1:onProperty <https://iseal-community.github.io/iseal-core#dcterms-datesubmitted> ],
+        [ a ns1:Restriction ;
+            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-daterevised> ;
             ns1:someValuesFrom xsd:date ],
         [ a ns1:Restriction ;
             ns1:maxQualifiedCardinality 1 ;
             ns1:onDataRange xsd:date ;
-            ns1:onProperty <https://iseal-community.github.io/iseal-core#dcterms-valid> ],
-        [ a ns1:Restriction ;
-            ns1:maxQualifiedCardinality 1 ;
-            ns1:onClass <https://iseal-community.github.io/iseal-core#VOCAB_Peer_review_status> ;
-            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-item-reviewstatus> ],
+            ns1:onProperty <https://iseal-community.github.io/iseal-core#dc-date-accessioned> ],
         [ a ns1:Restriction ;
             ns1:maxQualifiedCardinality 1 ;
             ns1:onDataRange xsd:date ;
@@ -10313,15 +10325,14 @@
         [ a ns1:Restriction ;
             ns1:maxQualifiedCardinality 1 ;
             ns1:onDataRange xsd:date ;
-            ns1:onProperty <https://iseal-community.github.io/iseal-core#dcterms-modified> ],
+            ns1:onProperty <https://iseal-community.github.io/iseal-core#dcterms-valid> ],
         [ a ns1:Restriction ;
             ns1:maxQualifiedCardinality 1 ;
             ns1:onClass <https://iseal-community.github.io/iseal-core#VOCAB_Status> ;
             ns1:onProperty <https://iseal-community.github.io/iseal-core#is-item-status> ],
         [ a ns1:Restriction ;
-            ns1:maxQualifiedCardinality 1 ;
-            ns1:onDataRange xsd:date ;
-            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-dateofversion1> ],
+            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-datereviewed> ;
+            ns1:someValuesFrom xsd:date ],
         [ a ns1:Restriction ;
             ns1:maxQualifiedCardinality 1 ;
             ns1:onDataRange xsd:string ;
@@ -10331,57 +10342,50 @@
             ns1:onClass <https://iseal-community.github.io/iseal-core#VOCAB_Standard_status> ;
             ns1:onProperty <https://iseal-community.github.io/iseal-core#is-identifier-standardstatus> ],
         [ a ns1:Restriction ;
-            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-daterevised> ;
-            ns1:someValuesFrom xsd:date ],
-        [ a ns1:Restriction ;
-            ns1:maxQualifiedCardinality 1 ;
-            ns1:onDataRange xsd:date ;
-            ns1:onProperty <https://iseal-community.github.io/iseal-core#dc-date-available> ],
-        [ a ns1:Restriction ;
-            ns1:maxQualifiedCardinality 1 ;
-            ns1:onDataRange xsd:date ;
-            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-dateofversion> ],
-        [ a ns1:Restriction ;
-            ns1:maxQualifiedCardinality 1 ;
-            ns1:onDataRange xsd:date ;
-            ns1:onProperty <https://iseal-community.github.io/iseal-core#dcterms-datesubmitted> ],
-        [ a ns1:Restriction ;
-            ns1:maxQualifiedCardinality 1 ;
-            ns1:onDataRange xsd:date ;
-            ns1:onProperty <https://iseal-community.github.io/iseal-core#dc-date-accessioned> ],
-        [ a ns1:Restriction ;
             ns1:maxQualifiedCardinality 1 ;
             ns1:onDataRange xsd:string ;
             ns1:onProperty <https://iseal-community.github.io/iseal-core#dcterms-isreplacedby> ],
+        [ a ns1:Restriction ;
+            ns1:maxQualifiedCardinality 1 ;
+            ns1:onDataRange xsd:date ;
+            ns1:onProperty <https://iseal-community.github.io/iseal-core#dcterms-modified> ],
+        [ a ns1:Restriction ;
+            ns1:maxQualifiedCardinality 1 ;
+            ns1:onDataRange xsd:date ;
+            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-dateofversion1> ],
         <https://iseal-community.github.io/iseal-core#GLOBAL> ;
     ns2:prefLabel "Status" .
 
 <https://iseal-community.github.io/iseal-core#Evaluation> a ns1:Class ;
     rdfs:subClassOf [ a ns1:Restriction ;
             ns1:maxQualifiedCardinality 1 ;
-            ns1:onClass <https://iseal-community.github.io/iseal-core#VOCAB_Evaluation_data_source> ;
-            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-evaluation-datasource> ],
-        [ a ns1:Restriction ;
-            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-evaluation-quotes> ;
-            ns1:someValuesFrom xsd:string ],
-        [ a ns1:Restriction ;
-            ns1:maxQualifiedCardinality 1 ;
             ns1:onClass <https://iseal-community.github.io/iseal-core#VOCAB_Evaluation_no_difference_directionality> ;
             ns1:onProperty <https://iseal-community.github.io/iseal-core#is-evaluation-nodifferencedirectionality> ],
-        [ a ns1:Restriction ;
-            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-evaluation-test> ;
-            ns1:someValuesFrom xsd:string ],
-        [ a ns1:Restriction ;
-            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-evaluation-findings> ;
-            ns1:someValuesFrom xsd:string ],
         [ a ns1:Restriction ;
             ns1:maxQualifiedCardinality 1 ;
             ns1:onClass <https://iseal-community.github.io/iseal-core#VOCAB_Evidence_resource_subtype> ;
             ns1:onProperty <https://iseal-community.github.io/iseal-core#is-evidencesubtype> ],
         [ a ns1:Restriction ;
+            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-evaluation-recommendations> ;
+            ns1:someValuesFrom xsd:string ],
+        [ a ns1:Restriction ;
             ns1:maxQualifiedCardinality 1 ;
-            ns1:onClass <https://iseal-community.github.io/iseal-core#VOCAB_Evaluation_comparison> ;
-            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-evaluation-comparison> ],
+            ns1:onClass <https://iseal-community.github.io/iseal-core#VOCAB_Evaluation_outcome_identified?> ;
+            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-evaluation-outcome> ],
+        [ a ns1:Restriction ;
+            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-evaluation-quotes> ;
+            ns1:someValuesFrom xsd:string ],
+        [ a ns1:Restriction ;
+            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-evaluation-scope> ;
+            ns1:someValuesFrom xsd:string ],
+        [ a ns1:Restriction ;
+            ns1:maxQualifiedCardinality 1 ;
+            ns1:onClass <https://iseal-community.github.io/iseal-core#VOCAB_Evidence_type_or_category> ;
+            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-evidencetype> ],
+        [ a ns1:Restriction ;
+            ns1:maxQualifiedCardinality 1 ;
+            ns1:onClass <https://iseal-community.github.io/iseal-core#VOCAB_Evaluation_data/evidence_collection_method> ;
+            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-evaluation-collection> ],
         [ a ns1:Restriction ;
             ns1:maxQualifiedCardinality 1 ;
             ns1:onClass <https://iseal-community.github.io/iseal-core#VOCAB_Evidence_resource_type> ;
@@ -10391,37 +10395,33 @@
             ns1:onDataRange xsd:string ;
             ns1:onProperty <https://iseal-community.github.io/iseal-core#is-evidencesummary> ],
         [ a ns1:Restriction ;
+            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-evaluation-findings> ;
+            ns1:someValuesFrom xsd:string ],
+        [ a ns1:Restriction ;
+            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-evaluation-test> ;
+            ns1:someValuesFrom xsd:string ],
+        [ a ns1:Restriction ;
+            ns1:maxQualifiedCardinality 1 ;
+            ns1:onClass <https://iseal-community.github.io/iseal-core#VOCAB_Evaluation_data_source> ;
+            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-evaluation-datasource> ],
+        [ a ns1:Restriction ;
+            ns1:maxQualifiedCardinality 1 ;
+            ns1:onClass <https://iseal-community.github.io/iseal-core#VOCAB_Evaluation_comparison> ;
+            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-evaluation-comparison> ],
+        [ a ns1:Restriction ;
             ns1:maxQualifiedCardinality 1 ;
             ns1:onClass <https://iseal-community.github.io/iseal-core#VOCAB_Evaluation_statistical_significance> ;
             ns1:onProperty <https://iseal-community.github.io/iseal-core#is-evaluation-significance> ],
         [ a ns1:Restriction ;
             ns1:maxQualifiedCardinality 1 ;
-            ns1:onClass <https://iseal-community.github.io/iseal-core#VOCAB_Evaluation_author_directionality> ;
-            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-evaluation-authordirectionality> ],
-        [ a ns1:Restriction ;
-            ns1:maxQualifiedCardinality 1 ;
-            ns1:onClass <https://iseal-community.github.io/iseal-core#VOCAB_Evidence_type_or_category> ;
-            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-evidencetype> ],
-        [ a ns1:Restriction ;
-            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-evaluation-notes> ;
-            ns1:someValuesFrom xsd:string ],
-        [ a ns1:Restriction ;
-            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-evaluation-scope> ;
-            ns1:someValuesFrom xsd:string ],
-        [ a ns1:Restriction ;
-            ns1:maxQualifiedCardinality 1 ;
-            ns1:onClass <https://iseal-community.github.io/iseal-core#VOCAB_Evaluation_outcome_identified?> ;
-            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-evaluation-outcome> ],
-        [ a ns1:Restriction ;
-            ns1:maxQualifiedCardinality 1 ;
-            ns1:onClass <https://iseal-community.github.io/iseal-core#VOCAB_Evaluation_data/evidence_collection_method> ;
-            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-evaluation-collection> ],
-        [ a ns1:Restriction ;
-            ns1:maxQualifiedCardinality 1 ;
             ns1:onClass <https://iseal-community.github.io/iseal-core#VOCAB_Evaluation_counterfactuals> ;
             ns1:onProperty <https://iseal-community.github.io/iseal-core#is-evaluation-counterfacts> ],
         [ a ns1:Restriction ;
-            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-evaluation-recommendations> ;
+            ns1:maxQualifiedCardinality 1 ;
+            ns1:onClass <https://iseal-community.github.io/iseal-core#VOCAB_Evaluation_author_directionality> ;
+            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-evaluation-authordirectionality> ],
+        [ a ns1:Restriction ;
+            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-evaluation-notes> ;
             ns1:someValuesFrom xsd:string ],
         <https://iseal-community.github.io/iseal-core#IMPACT> ;
     ns2:prefLabel "Evaluation" .
@@ -10437,21 +10437,6 @@
 
 <https://iseal-community.github.io/iseal-core#Assurance> a ns1:Class ;
     rdfs:subClassOf [ a ns1:Restriction ;
-            ns1:minQualifiedCardinality 1 ;
-            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-certifyingbody-schemeaccredited> ;
-            ns1:someValuesFrom <https://iseal-community.github.io/iseal-core#VOCAB_Certifying_body_program_or_scheme_accredited_for> ],
-        [ a ns1:Restriction ;
-            ns1:maxQualifiedCardinality 1 ;
-            ns1:onClass <https://iseal-community.github.io/iseal-core#VOCAB_Certifying_body_name> ;
-            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-certifyingbody-name> ],
-        [ a ns1:Restriction ;
-            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-certifyingbody-standardaccredited> ;
-            ns1:someValuesFrom xsd:string ],
-        [ a ns1:Restriction ;
-            ns1:minQualifiedCardinality 1 ;
-            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-certifyingbody-accreditedtechscope> ;
-            ns1:someValuesFrom <https://iseal-community.github.io/iseal-core#VOCAB_Certifying_body_accredited_technical_scope> ],
-        [ a ns1:Restriction ;
             ns1:maxQualifiedCardinality 1 ;
             ns1:onDataRange xsd:string ;
             ns1:onProperty <https://iseal-community.github.io/iseal-core#is-certifyingbody-streetname> ],
@@ -10460,17 +10445,61 @@
             ns1:onDataRange xsd:float ;
             ns1:onProperty <https://iseal-community.github.io/iseal-core#is-certifyingbody-phonecountrycode> ],
         [ a ns1:Restriction ;
-            ns1:minQualifiedCardinality 1 ;
-            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-certifyingbody-accreditedtechscopetype> ;
-            ns1:someValuesFrom <https://iseal-community.github.io/iseal-core#VOCAB_Certifying_body_accredited_technical_scope_type> ],
-        [ a ns1:Restriction ;
             ns1:maxQualifiedCardinality 1 ;
             ns1:onDataRange xsd:string ;
             ns1:onProperty <https://iseal-community.github.io/iseal-core#is-certifyingbody-city> ],
         [ a ns1:Restriction ;
             ns1:maxQualifiedCardinality 1 ;
+            ns1:onDataRange xsd:date ;
+            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-certifyingbody-accreditationenddate> ],
+        [ a ns1:Restriction ;
+            ns1:maxQualifiedCardinality 1 ;
             ns1:onDataRange xsd:float ;
             ns1:onProperty <https://iseal-community.github.io/iseal-core#is-certifyingbody-phonenumber> ],
+        [ a ns1:Restriction ;
+            ns1:maxQualifiedCardinality 1 ;
+            ns1:onDataRange xsd:string ;
+            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-certifyingbody-addresslong> ],
+        [ a ns1:Restriction ;
+            ns1:maxQualifiedCardinality 1 ;
+            ns1:onDataRange xsd:string ;
+            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-certifyingbody-email> ],
+        [ a ns1:Restriction ;
+            ns1:maxQualifiedCardinality 1 ;
+            ns1:onDataRange xsd:string ;
+            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-certifyingbody-addresslat> ],
+        [ a ns1:Restriction ;
+            ns1:maxQualifiedCardinality 1 ;
+            ns1:onClass <https://iseal-community.github.io/iseal-core#VOCAB_Certifying_body_address_country> ;
+            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-certifyingbody-country> ],
+        [ a ns1:Restriction ;
+            ns1:maxQualifiedCardinality 1 ;
+            ns1:onClass <https://iseal-community.github.io/iseal-core#VOCAB_Certifying_body_accreditation_status> ;
+            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-certifyingbody-accreditationstatus> ],
+        [ a ns1:Restriction ;
+            ns1:maxQualifiedCardinality 1 ;
+            ns1:onClass <https://iseal-community.github.io/iseal-core#VOCAB_Certifying_body_name> ;
+            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-certifyingbody-name> ],
+        [ a ns1:Restriction ;
+            ns1:maxQualifiedCardinality 1 ;
+            ns1:onDataRange xsd:string ;
+            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-certifyingbody-url> ],
+        [ a ns1:Restriction ;
+            ns1:maxQualifiedCardinality 1 ;
+            ns1:onDataRange xsd:string ;
+            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-certifyingbody-postcode> ],
+        [ a ns1:Restriction ;
+            ns1:minQualifiedCardinality 1 ;
+            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-certifyingbody-accreditedtechscope> ;
+            ns1:someValuesFrom <https://iseal-community.github.io/iseal-core#VOCAB_Certifying_body_accredited_technical_scope> ],
+        [ a ns1:Restriction ;
+            ns1:minQualifiedCardinality 1 ;
+            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-certifyingbody-schemeaccredited> ;
+            ns1:someValuesFrom <https://iseal-community.github.io/iseal-core#VOCAB_Certifying_body_program_or_scheme_accredited_for> ],
+        [ a ns1:Restriction ;
+            ns1:minQualifiedCardinality 1 ;
+            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-certifyingbody-accreditedtechscopetype> ;
+            ns1:someValuesFrom <https://iseal-community.github.io/iseal-core#VOCAB_Certifying_body_accredited_technical_scope_type> ],
         [ a ns1:Restriction ;
             ns1:maxQualifiedCardinality 1 ;
             ns1:onClass <https://iseal-community.github.io/iseal-core#VOCAB_Certifying_body_ASI_accreditation_code> ;
@@ -10480,44 +10509,15 @@
             ns1:onProperty <https://iseal-community.github.io/iseal-core#is-certifyingbody-accreditedgeoscope> ;
             ns1:someValuesFrom <https://iseal-community.github.io/iseal-core#VOCAB_Certifying_body_accredited_geographic_scope> ],
         [ a ns1:Restriction ;
-            ns1:maxQualifiedCardinality 1 ;
-            ns1:onClass <https://iseal-community.github.io/iseal-core#VOCAB_Certifying_body_address_country> ;
-            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-certifyingbody-country> ],
+            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-certifyingbody-standardcertified> ;
+            ns1:someValuesFrom xsd:string ],
         [ a ns1:Restriction ;
-            ns1:maxQualifiedCardinality 1 ;
-            ns1:onDataRange xsd:string ;
-            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-certifyingbody-addresslong> ],
-        [ a ns1:Restriction ;
-            ns1:maxQualifiedCardinality 1 ;
-            ns1:onDataRange xsd:date ;
-            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-certifyingbody-accreditationenddate> ],
-        [ a ns1:Restriction ;
-            ns1:maxQualifiedCardinality 1 ;
-            ns1:onClass <https://iseal-community.github.io/iseal-core#VOCAB_Certifying_body_accreditation_status> ;
-            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-certifyingbody-accreditationstatus> ],
+            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-certifyingbody-standardaccredited> ;
+            ns1:someValuesFrom xsd:string ],
         [ a ns1:Restriction ;
             ns1:maxQualifiedCardinality 1 ;
             ns1:onDataRange xsd:date ;
             ns1:onProperty <https://iseal-community.github.io/iseal-core#is-certifyingbody-accreditationstartdate> ],
-        [ a ns1:Restriction ;
-            ns1:maxQualifiedCardinality 1 ;
-            ns1:onDataRange xsd:string ;
-            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-certifyingbody-email> ],
-        [ a ns1:Restriction ;
-            ns1:maxQualifiedCardinality 1 ;
-            ns1:onDataRange xsd:string ;
-            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-certifyingbody-url> ],
-        [ a ns1:Restriction ;
-            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-certifyingbody-standardcertified> ;
-            ns1:someValuesFrom xsd:string ],
-        [ a ns1:Restriction ;
-            ns1:maxQualifiedCardinality 1 ;
-            ns1:onDataRange xsd:string ;
-            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-certifyingbody-postcode> ],
-        [ a ns1:Restriction ;
-            ns1:maxQualifiedCardinality 1 ;
-            ns1:onDataRange xsd:string ;
-            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-certifyingbody-addresslat> ],
         <https://iseal-community.github.io/iseal-core#CERTIFICATION>,
         <https://iseal-community.github.io/iseal-core#VOCAB_ISEAL_code_name> ;
     ns2:prefLabel "Assurance" .
@@ -10531,8 +10531,8 @@
 <https://iseal-community.github.io/iseal-core#Form> a ns1:Class ;
     rdfs:subClassOf [ a ns1:Restriction ;
             ns1:maxQualifiedCardinality 1 ;
-            ns1:onClass <https://iseal-community.github.io/iseal-core#VOCAB_Language_name> ;
-            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-language> ],
+            ns1:onDataRange xsd:string ;
+            ns1:onProperty <https://iseal-community.github.io/iseal-core#dcterms-description> ],
         [ a ns1:Restriction ;
             ns1:maxQualifiedCardinality 1 ;
             ns1:onClass <https://iseal-community.github.io/iseal-core#VOCAB_Language_ISO_code> ;
@@ -10540,23 +10540,11 @@
         [ a ns1:Restriction ;
             ns1:maxQualifiedCardinality 1 ;
             ns1:onDataRange xsd:string ;
-            ns1:onProperty <https://iseal-community.github.io/iseal-core#dcterms-bibliographiccitation> ],
-        [ a ns1:Restriction ;
-            ns1:maxQualifiedCardinality 1 ;
-            ns1:onClass <https://iseal-community.github.io/iseal-core#VOCAB_Type> ;
-            ns1:onProperty <https://iseal-community.github.io/iseal-core#dcterms-type> ],
+            ns1:onProperty <https://iseal-community.github.io/iseal-core#dcterms-abstract> ],
         [ a ns1:Restriction ;
             ns1:maxQualifiedCardinality 1 ;
             ns1:onDataRange xsd:string ;
-            ns1:onProperty <https://iseal-community.github.io/iseal-core#dcterms-description> ],
-        [ a ns1:Restriction ;
-            ns1:maxQualifiedCardinality 1 ;
-            ns1:onDataRange xsd:string ;
-            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-extent-volume> ],
-        [ a ns1:Restriction ;
-            ns1:maxQualifiedCardinality 1 ;
-            ns1:onDataRange xsd:string ;
-            ns1:onProperty <https://iseal-community.github.io/iseal-core#dc-identifier-uri> ],
+            ns1:onProperty <https://iseal-community.github.io/iseal-core#dcterms-extent> ],
         [ a ns1:Restriction ;
             ns1:maxQualifiedCardinality 1 ;
             ns1:onClass <https://iseal-community.github.io/iseal-core#VOCAB_Audience> ;
@@ -10564,30 +10552,11 @@
         [ a ns1:Restriction ;
             ns1:maxQualifiedCardinality 1 ;
             ns1:onDataRange xsd:string ;
-            ns1:onProperty <https://iseal-community.github.io/iseal-core#dcterms-extent> ],
+            ns1:onProperty <https://iseal-community.github.io/iseal-core#dcterms-bibliographiccitation> ],
         [ a ns1:Restriction ;
             ns1:maxQualifiedCardinality 1 ;
             ns1:onDataRange xsd:string ;
-            ns1:onProperty <https://iseal-community.github.io/iseal-core#dcterms-rightsholder> ],
-        [ a ns1:Restriction ;
-            ns1:maxQualifiedCardinality 1 ;
-            ns1:onDataRange xsd:string ;
-            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-identifier-id> ],
-        [ a ns1:Restriction ;
-            ns1:maxQualifiedCardinality 1 ;
-            ns1:onClass <https://iseal-community.github.io/iseal-core#VOCAB_Format> ;
-            ns1:onProperty <https://iseal-community.github.io/iseal-core#dcterms-format> ],
-        [ a ns1:Restriction ;
-            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-link-image> ;
-            ns1:someValuesFrom xsd:string ],
-        [ a ns1:Restriction ;
-            ns1:maxQualifiedCardinality 1 ;
-            ns1:onClass <https://iseal-community.github.io/iseal-core#VOCAB_Usage_rights_license> ;
-            ns1:onProperty <https://iseal-community.github.io/iseal-core#dcterms-license> ],
-        [ a ns1:Restriction ;
-            ns1:maxQualifiedCardinality 1 ;
-            ns1:onDataRange xsd:string ;
-            ns1:onProperty <https://iseal-community.github.io/iseal-core#dcterms-abstract> ],
+            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-extent-volume> ],
         [ a ns1:Restriction ;
             ns1:maxQualifiedCardinality 1 ;
             ns1:onDataRange xsd:string ;
@@ -10595,25 +10564,56 @@
         [ a ns1:Restriction ;
             ns1:maxQualifiedCardinality 1 ;
             ns1:onDataRange xsd:string ;
-            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-extent-pages> ],
+            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-extent-number> ],
+        [ a ns1:Restriction ;
+            ns1:maxQualifiedCardinality 1 ;
+            ns1:onDataRange xsd:string ;
+            ns1:onProperty <https://iseal-community.github.io/iseal-core#dc-identifier-uri> ],
         [ a ns1:Restriction ;
             ns1:maxQualifiedCardinality 1 ;
             ns1:onClass <https://iseal-community.github.io/iseal-core#VOCAB_Access_rights> ;
             ns1:onProperty <https://iseal-community.github.io/iseal-core#dcterms-accessrights> ],
         [ a ns1:Restriction ;
-            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-identifier-doi> ;
+            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-link-url> ;
             ns1:someValuesFrom xsd:string ],
+        [ a ns1:Restriction ;
+            ns1:maxQualifiedCardinality 1 ;
+            ns1:onClass <https://iseal-community.github.io/iseal-core#VOCAB_Type> ;
+            ns1:onProperty <https://iseal-community.github.io/iseal-core#dcterms-type> ],
+        [ a ns1:Restriction ;
+            ns1:maxQualifiedCardinality 1 ;
+            ns1:onClass <https://iseal-community.github.io/iseal-core#VOCAB_Language_name> ;
+            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-language> ],
+        [ a ns1:Restriction ;
+            ns1:maxQualifiedCardinality 1 ;
+            ns1:onDataRange xsd:string ;
+            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-identifier-id> ],
+        [ a ns1:Restriction ;
+            ns1:maxQualifiedCardinality 1 ;
+            ns1:onClass <https://iseal-community.github.io/iseal-core#VOCAB_Usage_rights_license> ;
+            ns1:onProperty <https://iseal-community.github.io/iseal-core#dcterms-license> ],
+        [ a ns1:Restriction ;
+            ns1:maxQualifiedCardinality 1 ;
+            ns1:onDataRange xsd:string ;
+            ns1:onProperty <https://iseal-community.github.io/iseal-core#dcterms-rightsholder> ],
+        [ a ns1:Restriction ;
+            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-link-image> ;
+            ns1:someValuesFrom xsd:string ],
+        [ a ns1:Restriction ;
+            ns1:maxQualifiedCardinality 1 ;
+            ns1:onClass <https://iseal-community.github.io/iseal-core#VOCAB_Format> ;
+            ns1:onProperty <https://iseal-community.github.io/iseal-core#dcterms-format> ],
         [ a ns1:Restriction ;
             ns1:maxQualifiedCardinality 1 ;
             ns1:onClass <https://iseal-community.github.io/iseal-core#VOCAB_Availability> ;
             ns1:onProperty <https://iseal-community.github.io/iseal-core#is-availability-fulltext> ],
         [ a ns1:Restriction ;
+            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-identifier-doi> ;
+            ns1:someValuesFrom xsd:string ],
+        [ a ns1:Restriction ;
             ns1:maxQualifiedCardinality 1 ;
             ns1:onDataRange xsd:string ;
-            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-extent-number> ],
-        [ a ns1:Restriction ;
-            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-link-url> ;
-            ns1:someValuesFrom xsd:string ],
+            ns1:onProperty <https://iseal-community.github.io/iseal-core#is-extent-pages> ],
         <https://iseal-community.github.io/iseal-core#GLOBAL> ;
     ns2:prefLabel "Form" .
 

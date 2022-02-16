@@ -122,7 +122,7 @@ def make_rdf(file, ns):
                         elementURI,
                         URIRef("http://purl.org/dc/dcam/rangeIncludes"),
                         Literal(
-                            "data/controlled-vocabularies/"
+                            "https://raw.githubusercontent.com/iseal-community/iseal-core/main/data/controlled-vocabularies/"
                             + dspace.replace(".", "-").lower()
                             + ".txt"
                         ),

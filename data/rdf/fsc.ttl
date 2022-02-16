@@ -2435,7 +2435,7 @@
     ns2:prefLabel "Provenance" .
 
 <https://iseal-community.github.io/iseal-core/fsc#fsc-audit-documentationcat> a ns1:ObjectProperty ;
-    ns4:rangeIncludes "data/controlled-vocabularies/fsc-audit-documentationcat.txt" ;
+    ns4:rangeIncludes "https://raw.githubusercontent.com/iseal-community/iseal-core/main/data/controlled-vocabularies/fsc-audit-documentationcat.txt" ;
     ns3:alternative "fsc.audit.documentationCat" ;
     ns1:domain <https://iseal-community.github.io/iseal-core/fsc#Assurance> ;
     ns1:range <https://iseal-community.github.io/iseal-core/fsc#VOCAB_FSC_audit_documentation_categories> ;
@@ -2443,7 +2443,7 @@
     ns2:scopeNote "select from control list" .
 
 <https://iseal-community.github.io/iseal-core/fsc#fsc-audit-samplingsystem> a ns1:ObjectProperty ;
-    ns4:rangeIncludes "data/controlled-vocabularies/fsc-audit-samplingsystem.txt" ;
+    ns4:rangeIncludes "https://raw.githubusercontent.com/iseal-community/iseal-core/main/data/controlled-vocabularies/fsc-audit-samplingsystem.txt" ;
     ns3:alternative "fsc.audit.samplingSystem" ;
     ns1:domain <https://iseal-community.github.io/iseal-core/fsc#Assurance> ;
     ns1:range <https://iseal-community.github.io/iseal-core/fsc#VOCAB_FSC_audit_sampling_system> ;
@@ -2451,7 +2451,7 @@
     ns2:scopeNote "select from control list" .
 
 <https://iseal-community.github.io/iseal-core/fsc#fsc-audit-site> a ns1:ObjectProperty ;
-    ns4:rangeIncludes "data/controlled-vocabularies/fsc-audit-site.txt" ;
+    ns4:rangeIncludes "https://raw.githubusercontent.com/iseal-community/iseal-core/main/data/controlled-vocabularies/fsc-audit-site.txt" ;
     ns3:alternative "fsc.audit.site" ;
     ns1:domain <https://iseal-community.github.io/iseal-core/fsc#Assurance> ;
     ns1:range <https://iseal-community.github.io/iseal-core/fsc#VOCAB_FSC_audit_site_types> ;
@@ -2459,7 +2459,7 @@
     ns2:scopeNote "select from control list" .
 
 <https://iseal-community.github.io/iseal-core/fsc#fsc-audit-stakeholderengagement> a ns1:ObjectProperty ;
-    ns4:rangeIncludes "data/controlled-vocabularies/fsc-audit-stakeholderengagement.txt" ;
+    ns4:rangeIncludes "https://raw.githubusercontent.com/iseal-community/iseal-core/main/data/controlled-vocabularies/fsc-audit-stakeholderengagement.txt" ;
     ns3:alternative "fsc.audit.stakeholderEngagement" ;
     ns1:domain <https://iseal-community.github.io/iseal-core/fsc#Assurance> ;
     ns1:range <https://iseal-community.github.io/iseal-core/fsc#VOCAB_FSC_audit_stakeholder_engagement_types> ;
@@ -2467,7 +2467,7 @@
     ns2:scopeNote "select from control list" .
 
 <https://iseal-community.github.io/iseal-core/fsc#fsc-audit-stakeholdertype> a ns1:ObjectProperty ;
-    ns4:rangeIncludes "data/controlled-vocabularies/fsc-audit-stakeholdertype.txt" ;
+    ns4:rangeIncludes "https://raw.githubusercontent.com/iseal-community/iseal-core/main/data/controlled-vocabularies/fsc-audit-stakeholdertype.txt" ;
     ns3:alternative "fsc.audit.stakeholderType" ;
     ns1:domain <https://iseal-community.github.io/iseal-core/fsc#Assurance> ;
     ns1:range <https://iseal-community.github.io/iseal-core/fsc#VOCAB_FSC_audit_stakeholder_types> ;
@@ -2475,7 +2475,7 @@
     ns2:scopeNote "select from control list" .
 
 <https://iseal-community.github.io/iseal-core/fsc#fsc-audit-type> a ns1:ObjectProperty ;
-    ns4:rangeIncludes "data/controlled-vocabularies/fsc-audit-type.txt" ;
+    ns4:rangeIncludes "https://raw.githubusercontent.com/iseal-community/iseal-core/main/data/controlled-vocabularies/fsc-audit-type.txt" ;
     ns3:alternative "fsc.audit.type" ;
     ns1:domain <https://iseal-community.github.io/iseal-core/fsc#Assurance> ;
     ns1:range <https://iseal-community.github.io/iseal-core/fsc#VOCAB_FSC_audit_type> ;
@@ -2483,7 +2483,7 @@
     ns2:scopeNote "select from control list" .
 
 <https://iseal-community.github.io/iseal-core/fsc#fsc-certificate-category> a ns1:ObjectProperty ;
-    ns4:rangeIncludes "data/controlled-vocabularies/fsc-certificate-category.txt" ;
+    ns4:rangeIncludes "https://raw.githubusercontent.com/iseal-community/iseal-core/main/data/controlled-vocabularies/fsc-certificate-category.txt" ;
     ns3:alternative "fsc.certificate.category" ;
     ns1:domain <https://iseal-community.github.io/iseal-core/fsc#Certificate> ;
     ns1:range <https://iseal-community.github.io/iseal-core/fsc#VOCAB_FSC_certificate_category> ;
@@ -2492,7 +2492,7 @@
     ns2:scopeNote "select from control list" .
 
 <https://iseal-community.github.io/iseal-core/fsc#fsc-certificate-type> a ns1:ObjectProperty ;
-    ns4:rangeIncludes "data/controlled-vocabularies/fsc-certificate-type.txt" ;
+    ns4:rangeIncludes "https://raw.githubusercontent.com/iseal-community/iseal-core/main/data/controlled-vocabularies/fsc-certificate-type.txt" ;
     ns3:alternative "fsc.certificate.type" ;
     ns1:domain <https://iseal-community.github.io/iseal-core/fsc#Certificate> ;
     ns1:range <https://iseal-community.github.io/iseal-core/fsc#VOCAB_FSC_certificate_type> ;
@@ -2501,7 +2501,7 @@
     ns2:scopeNote "select from control list" .
 
 <https://iseal-community.github.io/iseal-core/fsc#fsc-contributor-member> a ns1:ObjectProperty ;
-    ns4:rangeIncludes "data/controlled-vocabularies/fsc-contributor-member.txt" ;
+    ns4:rangeIncludes "https://raw.githubusercontent.com/iseal-community/iseal-core/main/data/controlled-vocabularies/fsc-contributor-member.txt" ;
     ns3:alternative "fsc.contributor.member" ;
     ns1:domain <https://iseal-community.github.io/iseal-core/fsc#Provenance> ;
     ns1:range <https://iseal-community.github.io/iseal-core/fsc#VOCAB_FSC_entity_contributor> ;
@@ -2510,7 +2510,7 @@
     ns2:scopeNote "select from control list" .
 
 <https://iseal-community.github.io/iseal-core/fsc#fsc-coverage-region> a ns1:ObjectProperty ;
-    ns4:rangeIncludes "data/controlled-vocabularies/fsc-coverage-region.txt" ;
+    ns4:rangeIncludes "https://raw.githubusercontent.com/iseal-community/iseal-core/main/data/controlled-vocabularies/fsc-coverage-region.txt" ;
     ns3:alternative "fsc.coverage.region" ;
     ns1:domain <https://iseal-community.github.io/iseal-core/fsc#Coverage> ;
     ns1:range <https://iseal-community.github.io/iseal-core/fsc#VOCAB_FSC_coverage_region> ;
@@ -2519,7 +2519,7 @@
     ns2:scopeNote "select from control list" .
 
 <https://iseal-community.github.io/iseal-core/fsc#fsc-doccode> a ns1:ObjectProperty ;
-    ns4:rangeIncludes "data/controlled-vocabularies/fsc-doccode.txt" ;
+    ns4:rangeIncludes "https://raw.githubusercontent.com/iseal-community/iseal-core/main/data/controlled-vocabularies/fsc-doccode.txt" ;
     ns3:alternative "fsc.docCode" ;
     ns1:domain <https://iseal-community.github.io/iseal-core/fsc#Form> ;
     ns1:range <https://iseal-community.github.io/iseal-core/fsc#VOCAB_FSC_resource_type> ;
@@ -2527,7 +2527,7 @@
     ns2:scopeNote "select from control list" .
 
 <https://iseal-community.github.io/iseal-core/fsc#fsc-evidencecategory> a ns1:ObjectProperty ;
-    ns4:rangeIncludes "data/controlled-vocabularies/fsc-evidencecategory.txt" ;
+    ns4:rangeIncludes "https://raw.githubusercontent.com/iseal-community/iseal-core/main/data/controlled-vocabularies/fsc-evidencecategory.txt" ;
     ns3:alternative "fsc.evidenceCategory" ;
     ns1:domain <https://iseal-community.github.io/iseal-core/fsc#Evaluation> ;
     ns1:range <https://iseal-community.github.io/iseal-core/fsc#VOCAB_FSC_evidence_category> ;
@@ -2535,7 +2535,7 @@
     ns2:scopeNote "select from control list" .
 
 <https://iseal-community.github.io/iseal-core/fsc#fsc-focus-fmcontrol> a ns1:ObjectProperty ;
-    ns4:rangeIncludes "data/controlled-vocabularies/fsc-focus-fmcontrol.txt" ;
+    ns4:rangeIncludes "https://raw.githubusercontent.com/iseal-community/iseal-core/main/data/controlled-vocabularies/fsc-focus-fmcontrol.txt" ;
     ns3:alternative "fsc.focus.fmControl" ;
     ns1:domain <https://iseal-community.github.io/iseal-core/fsc#Scope> ;
     ns1:range <https://iseal-community.github.io/iseal-core/fsc#VOCAB_FSC_forest_management_type_of_control> ;
@@ -2544,7 +2544,7 @@
     ns2:scopeNote "select from control list" .
 
 <https://iseal-community.github.io/iseal-core/fsc#fsc-focus-fmprinciple> a ns1:ObjectProperty ;
-    ns4:rangeIncludes "data/controlled-vocabularies/fsc-focus-fmprinciple.txt" ;
+    ns4:rangeIncludes "https://raw.githubusercontent.com/iseal-community/iseal-core/main/data/controlled-vocabularies/fsc-focus-fmprinciple.txt" ;
     ns3:alternative "fsc.focus.fmPrinciple" ;
     ns1:domain <https://iseal-community.github.io/iseal-core/fsc#Scope> ;
     ns1:range <https://iseal-community.github.io/iseal-core/fsc#VOCAB_FSC_forest_management_principle> ;
@@ -2553,7 +2553,7 @@
     ns2:scopeNote "select from control list" .
 
 <https://iseal-community.github.io/iseal-core/fsc#fsc-focus-forestmonitoring> a ns1:ObjectProperty ;
-    ns4:rangeIncludes "data/controlled-vocabularies/fsc-focus-forestmonitoring.txt" ;
+    ns4:rangeIncludes "https://raw.githubusercontent.com/iseal-community/iseal-core/main/data/controlled-vocabularies/fsc-focus-forestmonitoring.txt" ;
     ns3:alternative "fsc.focus.forestMonitoring" ;
     ns1:domain <https://iseal-community.github.io/iseal-core/fsc#Scope> ;
     ns1:range <https://iseal-community.github.io/iseal-core/fsc#VOCAB_FSC_forest_monitoring_methods> ;
@@ -2561,7 +2561,7 @@
     ns2:scopeNote "select from control list" .
 
 <https://iseal-community.github.io/iseal-core/fsc#fsc-focus-forestproduct> a ns1:ObjectProperty ;
-    ns4:rangeIncludes "data/controlled-vocabularies/fsc-focus-forestproduct.txt" ;
+    ns4:rangeIncludes "https://raw.githubusercontent.com/iseal-community/iseal-core/main/data/controlled-vocabularies/fsc-focus-forestproduct.txt" ;
     ns3:alternative "fsc.focus.forestProduct" ;
     ns1:domain <https://iseal-community.github.io/iseal-core/fsc#Scope> ;
     ns1:range <https://iseal-community.github.io/iseal-core/fsc#VOCAB_FSC_forest_products> ;
@@ -2570,7 +2570,7 @@
     ns2:scopeNote "select from control list" .
 
 <https://iseal-community.github.io/iseal-core/fsc#fsc-focus-forestproductidsys> a ns1:ObjectProperty ;
-    ns4:rangeIncludes "data/controlled-vocabularies/fsc-focus-forestproductidsys.txt" ;
+    ns4:rangeIncludes "https://raw.githubusercontent.com/iseal-community/iseal-core/main/data/controlled-vocabularies/fsc-focus-forestproductidsys.txt" ;
     ns3:alternative "fsc.focus.forestProductIdSys" ;
     ns1:domain <https://iseal-community.github.io/iseal-core/fsc#Scope> ;
     ns1:range <https://iseal-community.github.io/iseal-core/fsc#VOCAB_FSC_forest_products_identification_system> ;
@@ -2578,7 +2578,7 @@
     ns2:scopeNote "select from control list" .
 
 <https://iseal-community.github.io/iseal-core/fsc#fsc-focus-forestrysafeguard> a ns1:ObjectProperty ;
-    ns4:rangeIncludes "data/controlled-vocabularies/fsc-focus-forestrysafeguard.txt" ;
+    ns4:rangeIncludes "https://raw.githubusercontent.com/iseal-community/iseal-core/main/data/controlled-vocabularies/fsc-focus-forestrysafeguard.txt" ;
     ns3:alternative "fsc.focus.forestrySafeguard" ;
     ns1:domain <https://iseal-community.github.io/iseal-core/fsc#Scope> ;
     ns1:range <https://iseal-community.github.io/iseal-core/fsc#VOCAB_FSC_forestry_environmental_safeguards> ;
@@ -2586,7 +2586,7 @@
     ns2:scopeNote "select from control list" .
 
 <https://iseal-community.github.io/iseal-core/fsc#fsc-focus-forestspecies> a ns1:ObjectProperty ;
-    ns4:rangeIncludes "data/controlled-vocabularies/fsc-focus-forestspecies.txt" ;
+    ns4:rangeIncludes "https://raw.githubusercontent.com/iseal-community/iseal-core/main/data/controlled-vocabularies/fsc-focus-forestspecies.txt" ;
     ns3:alternative "fsc.focus.forestSpecies" ;
     ns1:domain <https://iseal-community.github.io/iseal-core/fsc#Scope> ;
     ns1:range <https://iseal-community.github.io/iseal-core/fsc#VOCAB_FSC_forest_and_tree_species> ;
@@ -2595,7 +2595,7 @@
     ns2:scopeNote "select from control list" .
 
 <https://iseal-community.github.io/iseal-core/fsc#fsc-focus-foresttype> a ns1:ObjectProperty ;
-    ns4:rangeIncludes "data/controlled-vocabularies/fsc-focus-foresttype.txt" ;
+    ns4:rangeIncludes "https://raw.githubusercontent.com/iseal-community/iseal-core/main/data/controlled-vocabularies/fsc-focus-foresttype.txt" ;
     ns3:alternative "fsc.focus.forestType" ;
     ns1:domain <https://iseal-community.github.io/iseal-core/fsc#Scope> ;
     ns1:range <https://iseal-community.github.io/iseal-core/fsc#VOCAB_FSC_forest_type> ;
@@ -2604,7 +2604,7 @@
     ns2:scopeNote "select from control list" .
 
 <https://iseal-community.github.io/iseal-core/fsc#fsc-focus-forestzone> a ns1:ObjectProperty ;
-    ns4:rangeIncludes "data/controlled-vocabularies/fsc-focus-forestzone.txt" ;
+    ns4:rangeIncludes "https://raw.githubusercontent.com/iseal-community/iseal-core/main/data/controlled-vocabularies/fsc-focus-forestzone.txt" ;
     ns3:alternative "fsc.focus.forestZone" ;
     ns1:domain <https://iseal-community.github.io/iseal-core/fsc#Scope> ;
     ns1:range <https://iseal-community.github.io/iseal-core/fsc#VOCAB_FSC_forest_biome_/_zone> ;
@@ -2613,7 +2613,7 @@
     ns2:scopeNote "select from control list" .
 
 <https://iseal-community.github.io/iseal-core/fsc#fsc-focus-harvestingtechnique> a ns1:ObjectProperty ;
-    ns4:rangeIncludes "data/controlled-vocabularies/fsc-focus-harvestingtechnique.txt" ;
+    ns4:rangeIncludes "https://raw.githubusercontent.com/iseal-community/iseal-core/main/data/controlled-vocabularies/fsc-focus-harvestingtechnique.txt" ;
     ns3:alternative "fsc.focus.harvestingTechnique" ;
     ns1:domain <https://iseal-community.github.io/iseal-core/fsc#Scope> ;
     ns1:range <https://iseal-community.github.io/iseal-core/fsc#VOCAB_FSC_forest_harvesting_techniques> ;
@@ -2621,7 +2621,7 @@
     ns2:scopeNote "select from control list" .
 
 <https://iseal-community.github.io/iseal-core/fsc#fsc-focus-highconservationval> a ns1:ObjectProperty ;
-    ns4:rangeIncludes "data/controlled-vocabularies/fsc-focus-highconservationval.txt" ;
+    ns4:rangeIncludes "https://raw.githubusercontent.com/iseal-community/iseal-core/main/data/controlled-vocabularies/fsc-focus-highconservationval.txt" ;
     ns3:alternative "fsc.focus.highConservationVal" ;
     ns1:domain <https://iseal-community.github.io/iseal-core/fsc#Scope> ;
     ns1:range <https://iseal-community.github.io/iseal-core/fsc#VOCAB_FSC_high_conservation_values> ;
@@ -2629,7 +2629,7 @@
     ns2:scopeNote "select from control list" .
 
 <https://iseal-community.github.io/iseal-core/fsc#fsc-focus-nonforestryactivity> a ns1:ObjectProperty ;
-    ns4:rangeIncludes "data/controlled-vocabularies/fsc-focus-nonforestryactivity.txt" ;
+    ns4:rangeIncludes "https://raw.githubusercontent.com/iseal-community/iseal-core/main/data/controlled-vocabularies/fsc-focus-nonforestryactivity.txt" ;
     ns3:alternative "fsc.focus.nonForestryActivity" ;
     ns1:domain <https://iseal-community.github.io/iseal-core/fsc#Scope> ;
     ns1:range <https://iseal-community.github.io/iseal-core/fsc#VOCAB_FSC_non-forestry_activities> ;
@@ -2637,7 +2637,7 @@
     ns2:scopeNote "select from control list" .
 
 <https://iseal-community.github.io/iseal-core/fsc#fsc-focus-nonforestryservice> a ns1:ObjectProperty ;
-    ns4:rangeIncludes "data/controlled-vocabularies/fsc-focus-nonforestryservice.txt" ;
+    ns4:rangeIncludes "https://raw.githubusercontent.com/iseal-community/iseal-core/main/data/controlled-vocabularies/fsc-focus-nonforestryservice.txt" ;
     ns3:alternative "fsc.focus.nonForestryService" ;
     ns1:domain <https://iseal-community.github.io/iseal-core/fsc#Scope> ;
     ns1:range <https://iseal-community.github.io/iseal-core/fsc#VOCAB_FSC_non-forestry_services_for_local_communities> ;
@@ -2645,7 +2645,7 @@
     ns2:scopeNote "select from control list" .
 
 <https://iseal-community.github.io/iseal-core/fsc#fsc-focus-outcome> a ns1:ObjectProperty ;
-    ns4:rangeIncludes "data/controlled-vocabularies/fsc-focus-outcome.txt" ;
+    ns4:rangeIncludes "https://raw.githubusercontent.com/iseal-community/iseal-core/main/data/controlled-vocabularies/fsc-focus-outcome.txt" ;
     ns3:alternative "fsc.focus.outcome" ;
     ns1:domain <https://iseal-community.github.io/iseal-core/fsc#Scope> ;
     ns1:range <https://iseal-community.github.io/iseal-core/fsc#VOCAB_FSC_outcomes_and_benefits> ;
@@ -2654,7 +2654,7 @@
     ns2:scopeNote "select from control list" .
 
 <https://iseal-community.github.io/iseal-core/fsc#fsc-focus-scope> a ns1:ObjectProperty ;
-    ns4:rangeIncludes "data/controlled-vocabularies/fsc-focus-scope.txt" ;
+    ns4:rangeIncludes "https://raw.githubusercontent.com/iseal-community/iseal-core/main/data/controlled-vocabularies/fsc-focus-scope.txt" ;
     ns3:alternative "fsc.focus.scope" ;
     ns1:domain <https://iseal-community.github.io/iseal-core/fsc#Scope> ;
     ns1:range <https://iseal-community.github.io/iseal-core/fsc#VOCAB_FSC_scope_-_SLIMF_type> ;
@@ -2663,7 +2663,7 @@
     ns2:scopeNote "select from control list" .
 
 <https://iseal-community.github.io/iseal-core/fsc#fsc-focus-sustaindimension> a ns1:ObjectProperty ;
-    ns4:rangeIncludes "data/controlled-vocabularies/fsc-focus-sustaindimension.txt" ;
+    ns4:rangeIncludes "https://raw.githubusercontent.com/iseal-community/iseal-core/main/data/controlled-vocabularies/fsc-focus-sustaindimension.txt" ;
     ns3:alternative "fsc.focus.sustainDimension" ;
     ns1:domain <https://iseal-community.github.io/iseal-core/fsc#Scope> ;
     ns1:range <https://iseal-community.github.io/iseal-core/fsc#VOCAB_FSC_sustainability_dimension> ;
@@ -2672,7 +2672,7 @@
     ns2:scopeNote "select from control list" .
 
 <https://iseal-community.github.io/iseal-core/fsc#fsc-focus-tenuremanagement> a ns1:ObjectProperty ;
-    ns4:rangeIncludes "data/controlled-vocabularies/fsc-focus-tenuremanagement.txt" ;
+    ns4:rangeIncludes "https://raw.githubusercontent.com/iseal-community/iseal-core/main/data/controlled-vocabularies/fsc-focus-tenuremanagement.txt" ;
     ns3:alternative "fsc.focus.tenureManagement" ;
     ns1:domain <https://iseal-community.github.io/iseal-core/fsc#Scope> ;
     ns1:range <https://iseal-community.github.io/iseal-core/fsc#VOCAB_FSC_tenure_management> ;
@@ -2681,7 +2681,7 @@
     ns2:scopeNote "select from control list" .
 
 <https://iseal-community.github.io/iseal-core/fsc#fsc-focus-tenureownership> a ns1:ObjectProperty ;
-    ns4:rangeIncludes "data/controlled-vocabularies/fsc-focus-tenureownership.txt" ;
+    ns4:rangeIncludes "https://raw.githubusercontent.com/iseal-community/iseal-core/main/data/controlled-vocabularies/fsc-focus-tenureownership.txt" ;
     ns3:alternative "fsc.focus.tenureOwnership" ;
     ns1:domain <https://iseal-community.github.io/iseal-core/fsc#Scope> ;
     ns1:range <https://iseal-community.github.io/iseal-core/fsc#VOCAB_FSC_tenure_ownership> ;
@@ -2690,7 +2690,7 @@
     ns2:scopeNote "select from control list" .
 
 <https://iseal-community.github.io/iseal-core/fsc#fsc-intransition> a ns1:ObjectProperty ;
-    ns4:rangeIncludes "data/controlled-vocabularies/fsc-intransition.txt" ;
+    ns4:rangeIncludes "https://raw.githubusercontent.com/iseal-community/iseal-core/main/data/controlled-vocabularies/fsc-intransition.txt" ;
     ns3:alternative "fsc.inTransition" ;
     ns1:domain <https://iseal-community.github.io/iseal-core/fsc#Status> ;
     ns1:range <https://iseal-community.github.io/iseal-core/fsc#VOCAB_Transition_status> ;
@@ -2731,7 +2731,7 @@
     ns2:scopeNote "select from control list" .
 
 <https://iseal-community.github.io/iseal-core/fsc#fsc-standard-type> a ns1:ObjectProperty ;
-    ns4:rangeIncludes "data/controlled-vocabularies/fsc-standard-type.txt" ;
+    ns4:rangeIncludes "https://raw.githubusercontent.com/iseal-community/iseal-core/main/data/controlled-vocabularies/fsc-standard-type.txt" ;
     ns3:alternative "fsc.standard.type" ;
     ns1:domain <https://iseal-community.github.io/iseal-core/fsc#Form> ;
     ns1:range <https://iseal-community.github.io/iseal-core/fsc#VOCAB_FSC_standard_type> ;
@@ -2783,7 +2783,7 @@
     ns2:scopeNote "Date in YYYY-MM-DD format. At the very least you must enter the year, but month and day is better if possible." .
 
 <https://iseal-community.github.io/iseal-core/fsc#fsc-wood-code> a ns1:ObjectProperty ;
-    ns4:rangeIncludes "data/controlled-vocabularies/fsc-wood-code.txt" ;
+    ns4:rangeIncludes "https://raw.githubusercontent.com/iseal-community/iseal-core/main/data/controlled-vocabularies/fsc-wood-code.txt" ;
     ns3:alternative "fsc.wood.code" ;
     ns1:domain <https://iseal-community.github.io/iseal-core/fsc#Scope> ;
     ns1:range <https://iseal-community.github.io/iseal-core/fsc#VOCAB_FSC_controlled_wood_code> ;
@@ -2791,7 +2791,7 @@
     ns2:scopeNote "select from control list" .
 
 <https://iseal-community.github.io/iseal-core/fsc#is-pesticide-activeingredient> a ns1:ObjectProperty ;
-    ns4:rangeIncludes "data/controlled-vocabularies/is-pesticide-activeingredient.txt" ;
+    ns4:rangeIncludes "https://raw.githubusercontent.com/iseal-community/iseal-core/main/data/controlled-vocabularies/is-pesticide-activeingredient.txt" ;
     ns3:alternative "is.pesticide.activeIngredient" ;
     ns1:domain <https://iseal-community.github.io/iseal-core/fsc#Pesticides> ;
     ns1:range <https://iseal-community.github.io/iseal-core/fsc#VOCAB_Pesticide_active_ingredient> ;
@@ -2800,7 +2800,7 @@
     ns2:scopeNote "select from control list" .
 
 <https://iseal-community.github.io/iseal-core/fsc#is-pesticide-alternativemethod> a ns1:ObjectProperty ;
-    ns4:rangeIncludes "data/controlled-vocabularies/is-pesticide-alternativemethod.txt" ;
+    ns4:rangeIncludes "https://raw.githubusercontent.com/iseal-community/iseal-core/main/data/controlled-vocabularies/is-pesticide-alternativemethod.txt" ;
     ns3:alternative "is.pesticide.alternativeMethod" ;
     ns1:domain <https://iseal-community.github.io/iseal-core/fsc#Pesticides> ;
     ns1:range <https://iseal-community.github.io/iseal-core/fsc#VOCAB_Pesticide_alternatives_method> ;
@@ -2816,7 +2816,7 @@
     ns2:prefLabel "Pesticide alternatives strategy" .
 
 <https://iseal-community.github.io/iseal-core/fsc#is-pesticide-alternativetrial> a ns1:ObjectProperty ;
-    ns4:rangeIncludes "data/controlled-vocabularies/is-pesticide-alternativetrial.txt" ;
+    ns4:rangeIncludes "https://raw.githubusercontent.com/iseal-community/iseal-core/main/data/controlled-vocabularies/is-pesticide-alternativetrial.txt" ;
     ns3:alternative "is.pesticide.alternativeTrial" ;
     ns1:domain <https://iseal-community.github.io/iseal-core/fsc#Pesticides> ;
     ns1:range <https://iseal-community.github.io/iseal-core/fsc#VOCAB_Pesticide_alternatives_trial_status> ;
@@ -2825,7 +2825,7 @@
     ns2:scopeNote "select from control list" .
 
 <https://iseal-community.github.io/iseal-core/fsc#is-pesticide-alternativetype> a ns1:ObjectProperty ;
-    ns4:rangeIncludes "data/controlled-vocabularies/is-pesticide-alternativetype.txt" ;
+    ns4:rangeIncludes "https://raw.githubusercontent.com/iseal-community/iseal-core/main/data/controlled-vocabularies/is-pesticide-alternativetype.txt" ;
     ns3:alternative "is.pesticide.alternativeType" ;
     ns1:domain <https://iseal-community.github.io/iseal-core/fsc#Pesticides> ;
     ns1:range <https://iseal-community.github.io/iseal-core/fsc#VOCAB_Pesticide_alternatives_type> ;
@@ -2862,7 +2862,7 @@
     ns2:prefLabel "Pest species name" .
 
 <https://iseal-community.github.io/iseal-core/fsc#is-pesticide-pesttype> a ns1:ObjectProperty ;
-    ns4:rangeIncludes "data/controlled-vocabularies/is-pesticide-pesttype.txt" ;
+    ns4:rangeIncludes "https://raw.githubusercontent.com/iseal-community/iseal-core/main/data/controlled-vocabularies/is-pesticide-pesttype.txt" ;
     ns3:alternative "is.pesticide.pestType" ;
     ns1:domain <https://iseal-community.github.io/iseal-core/fsc#Pesticides> ;
     ns1:range <https://iseal-community.github.io/iseal-core/fsc#VOCAB_Pest_type> ;
@@ -2897,12 +2897,12 @@
 <https://iseal-community.github.io/iseal-core/fsc#Status> a ns1:Class ;
     rdfs:subClassOf [ a ns1:Restriction ;
             ns1:maxQualifiedCardinality 1 ;
-            ns1:onDataRange xsd:date ;
-            ns1:onProperty <https://iseal-community.github.io/iseal-core/fsc#fsc-transitionenddate> ],
-        [ a ns1:Restriction ;
-            ns1:maxQualifiedCardinality 1 ;
             ns1:onClass <https://iseal-community.github.io/iseal-core/fsc#VOCAB_Transition_status> ;
             ns1:onProperty <https://iseal-community.github.io/iseal-core/fsc#fsc-intransition> ],
+        [ a ns1:Restriction ;
+            ns1:maxQualifiedCardinality 1 ;
+            ns1:onDataRange xsd:date ;
+            ns1:onProperty <https://iseal-community.github.io/iseal-core/fsc#fsc-transitionenddate> ],
         <https://iseal-community.github.io/iseal-core/fsc#FSC> ;
     ns2:prefLabel "Status" .
 
@@ -2929,17 +2929,17 @@
 
 <https://iseal-community.github.io/iseal-core/fsc#Assurance> a ns1:Class ;
     rdfs:subClassOf [ a ns1:Restriction ;
+            ns1:maxQualifiedCardinality 1 ;
+            ns1:onClass <https://iseal-community.github.io/iseal-core/fsc#VOCAB_FSC_audit_type> ;
+            ns1:onProperty <https://iseal-community.github.io/iseal-core/fsc#fsc-audit-type> ],
+        [ a ns1:Restriction ;
             ns1:minQualifiedCardinality 1 ;
             ns1:onProperty <https://iseal-community.github.io/iseal-core/fsc#fsc-audit-documentationcat> ;
             ns1:someValuesFrom <https://iseal-community.github.io/iseal-core/fsc#VOCAB_FSC_audit_documentation_categories> ],
         [ a ns1:Restriction ;
             ns1:minQualifiedCardinality 1 ;
-            ns1:onProperty <https://iseal-community.github.io/iseal-core/fsc#fsc-audit-site> ;
-            ns1:someValuesFrom <https://iseal-community.github.io/iseal-core/fsc#VOCAB_FSC_audit_site_types> ],
-        [ a ns1:Restriction ;
-            ns1:maxQualifiedCardinality 1 ;
-            ns1:onClass <https://iseal-community.github.io/iseal-core/fsc#VOCAB_FSC_audit_type> ;
-            ns1:onProperty <https://iseal-community.github.io/iseal-core/fsc#fsc-audit-type> ],
+            ns1:onProperty <https://iseal-community.github.io/iseal-core/fsc#fsc-audit-samplingsystem> ;
+            ns1:someValuesFrom <https://iseal-community.github.io/iseal-core/fsc#VOCAB_FSC_audit_sampling_system> ],
         [ a ns1:Restriction ;
             ns1:minQualifiedCardinality 1 ;
             ns1:onProperty <https://iseal-community.github.io/iseal-core/fsc#fsc-audit-stakeholderengagement> ;
@@ -2950,8 +2950,8 @@
             ns1:someValuesFrom <https://iseal-community.github.io/iseal-core/fsc#VOCAB_FSC_audit_stakeholder_types> ],
         [ a ns1:Restriction ;
             ns1:minQualifiedCardinality 1 ;
-            ns1:onProperty <https://iseal-community.github.io/iseal-core/fsc#fsc-audit-samplingsystem> ;
-            ns1:someValuesFrom <https://iseal-community.github.io/iseal-core/fsc#VOCAB_FSC_audit_sampling_system> ],
+            ns1:onProperty <https://iseal-community.github.io/iseal-core/fsc#fsc-audit-site> ;
+            ns1:someValuesFrom <https://iseal-community.github.io/iseal-core/fsc#VOCAB_FSC_audit_site_types> ],
         <https://iseal-community.github.io/iseal-core/fsc#FSC> ;
     ns2:prefLabel "Assurance" .
 
@@ -3033,36 +3033,36 @@
             ns1:onProperty <https://iseal-community.github.io/iseal-core/fsc#is-pesticide-alternativetrial> ;
             ns1:someValuesFrom <https://iseal-community.github.io/iseal-core/fsc#VOCAB_Pesticide_alternatives_trial_status> ],
         [ a ns1:Restriction ;
-            ns1:onProperty <https://iseal-community.github.io/iseal-core/fsc#is-pesticide-challenge> ;
-            ns1:someValuesFrom xsd:string ],
+            ns1:minQualifiedCardinality 1 ;
+            ns1:onProperty <https://iseal-community.github.io/iseal-core/fsc#is-pesticide-pesttype> ;
+            ns1:someValuesFrom <https://iseal-community.github.io/iseal-core/fsc#VOCAB_Pest_type> ],
         [ a ns1:Restriction ;
-            ns1:onProperty <https://iseal-community.github.io/iseal-core/fsc#is-pesticide-biocontrolagent> ;
-            ns1:someValuesFrom xsd:string ],
-        [ a ns1:Restriction ;
-            ns1:onProperty <https://iseal-community.github.io/iseal-core/fsc#is-pesticide-pestspecies> ;
-            ns1:someValuesFrom xsd:string ],
-        [ a ns1:Restriction ;
-            ns1:onProperty <https://iseal-community.github.io/iseal-core/fsc#is-pesticide-alternativestrategy> ;
+            ns1:onProperty <https://iseal-community.github.io/iseal-core/fsc#is-pesticide-pestname> ;
             ns1:someValuesFrom xsd:string ],
         [ a ns1:Restriction ;
             ns1:maxQualifiedCardinality 1 ;
             ns1:onClass <https://iseal-community.github.io/iseal-core/fsc#VOCAB_Pesticide_alternatives_type> ;
             ns1:onProperty <https://iseal-community.github.io/iseal-core/fsc#is-pesticide-alternativetype> ],
         [ a ns1:Restriction ;
-            ns1:onProperty <https://iseal-community.github.io/iseal-core/fsc#is-pesticide-pestname> ;
+            ns1:onProperty <https://iseal-community.github.io/iseal-core/fsc#is-pesticide-challenge> ;
             ns1:someValuesFrom xsd:string ],
         [ a ns1:Restriction ;
             ns1:minQualifiedCardinality 1 ;
-            ns1:onProperty <https://iseal-community.github.io/iseal-core/fsc#is-pesticide-pesttype> ;
-            ns1:someValuesFrom <https://iseal-community.github.io/iseal-core/fsc#VOCAB_Pest_type> ],
+            ns1:onProperty <https://iseal-community.github.io/iseal-core/fsc#is-pesticide-alternativemethod> ;
+            ns1:someValuesFrom <https://iseal-community.github.io/iseal-core/fsc#VOCAB_Pesticide_alternatives_method> ],
+        [ a ns1:Restriction ;
+            ns1:onProperty <https://iseal-community.github.io/iseal-core/fsc#is-pesticide-biocontrolagent> ;
+            ns1:someValuesFrom xsd:string ],
+        [ a ns1:Restriction ;
+            ns1:onProperty <https://iseal-community.github.io/iseal-core/fsc#is-pesticide-alternativestrategy> ;
+            ns1:someValuesFrom xsd:string ],
         [ a ns1:Restriction ;
             ns1:minQualifiedCardinality 1 ;
             ns1:onProperty <https://iseal-community.github.io/iseal-core/fsc#is-pesticide-activeingredient> ;
             ns1:someValuesFrom <https://iseal-community.github.io/iseal-core/fsc#VOCAB_Pesticide_active_ingredient> ],
         [ a ns1:Restriction ;
-            ns1:minQualifiedCardinality 1 ;
-            ns1:onProperty <https://iseal-community.github.io/iseal-core/fsc#is-pesticide-alternativemethod> ;
-            ns1:someValuesFrom <https://iseal-community.github.io/iseal-core/fsc#VOCAB_Pesticide_alternatives_method> ],
+            ns1:onProperty <https://iseal-community.github.io/iseal-core/fsc#is-pesticide-pestspecies> ;
+            ns1:someValuesFrom xsd:string ],
         <https://iseal-community.github.io/iseal-core/fsc#FSC> ;
     ns2:prefLabel "Pesticides" .
 
@@ -3086,56 +3086,7 @@
 
 <https://iseal-community.github.io/iseal-core/fsc#Scope> a ns1:Class ;
     rdfs:subClassOf [ a ns1:Restriction ;
-            ns1:minQualifiedCardinality 1 ;
-            ns1:onProperty <https://iseal-community.github.io/iseal-core/fsc#fsc-focus-fmprinciple> ;
-            ns1:someValuesFrom <https://iseal-community.github.io/iseal-core/fsc#VOCAB_FSC_forest_management_principle> ],
-        [ a ns1:Restriction ;
-            ns1:onProperty <https://iseal-community.github.io/iseal-core/fsc#fsc-issue-environmental> ;
-            ns1:someValuesFrom xsd:string ],
-        [ a ns1:Restriction ;
-            ns1:minQualifiedCardinality 1 ;
-            ns1:onProperty <https://iseal-community.github.io/iseal-core/fsc#fsc-focus-tenuremanagement> ;
-            ns1:someValuesFrom <https://iseal-community.github.io/iseal-core/fsc#VOCAB_FSC_tenure_management> ],
-        [ a ns1:Restriction ;
-            ns1:minQualifiedCardinality 1 ;
-            ns1:onProperty <https://iseal-community.github.io/iseal-core/fsc#fsc-focus-foresttype> ;
-            ns1:someValuesFrom <https://iseal-community.github.io/iseal-core/fsc#VOCAB_FSC_forest_type> ],
-        [ a ns1:Restriction ;
-            ns1:minQualifiedCardinality 1 ;
-            ns1:onProperty <https://iseal-community.github.io/iseal-core/fsc#fsc-focus-outcome> ;
-            ns1:someValuesFrom <https://iseal-community.github.io/iseal-core/fsc#VOCAB_FSC_outcomes_and_benefits> ],
-        [ a ns1:Restriction ;
-            ns1:minQualifiedCardinality 1 ;
-            ns1:onProperty <https://iseal-community.github.io/iseal-core/fsc#fsc-focus-forestmonitoring> ;
-            ns1:someValuesFrom <https://iseal-community.github.io/iseal-core/fsc#VOCAB_FSC_forest_monitoring_methods> ],
-        [ a ns1:Restriction ;
-            ns1:minQualifiedCardinality 1 ;
-            ns1:onProperty <https://iseal-community.github.io/iseal-core/fsc#fsc-focus-forestspecies> ;
-            ns1:someValuesFrom <https://iseal-community.github.io/iseal-core/fsc#VOCAB_FSC_forest_and_tree_species> ],
-        [ a ns1:Restriction ;
-            ns1:minQualifiedCardinality 1 ;
-            ns1:onProperty <https://iseal-community.github.io/iseal-core/fsc#fsc-focus-fmcontrol> ;
-            ns1:someValuesFrom <https://iseal-community.github.io/iseal-core/fsc#VOCAB_FSC_forest_management_type_of_control> ],
-        [ a ns1:Restriction ;
             ns1:onProperty <https://iseal-community.github.io/iseal-core/fsc#fsc-subject> ;
-            ns1:someValuesFrom xsd:string ],
-        [ a ns1:Restriction ;
-            ns1:minQualifiedCardinality 1 ;
-            ns1:onProperty <https://iseal-community.github.io/iseal-core/fsc#fsc-focus-nonforestryactivity> ;
-            ns1:someValuesFrom <https://iseal-community.github.io/iseal-core/fsc#VOCAB_FSC_non-forestry_activities> ],
-        [ a ns1:Restriction ;
-            ns1:minQualifiedCardinality 1 ;
-            ns1:onProperty <https://iseal-community.github.io/iseal-core/fsc#fsc-wood-code> ;
-            ns1:someValuesFrom <https://iseal-community.github.io/iseal-core/fsc#VOCAB_FSC_controlled_wood_code> ],
-        [ a ns1:Restriction ;
-            ns1:minQualifiedCardinality 1 ;
-            ns1:onProperty <https://iseal-community.github.io/iseal-core/fsc#fsc-focus-tenureownership> ;
-            ns1:someValuesFrom <https://iseal-community.github.io/iseal-core/fsc#VOCAB_FSC_tenure_ownership> ],
-        [ a ns1:Restriction ;
-            ns1:onProperty <https://iseal-community.github.io/iseal-core/fsc#fsc-issue-political> ;
-            ns1:someValuesFrom xsd:string ],
-        [ a ns1:Restriction ;
-            ns1:onProperty <https://iseal-community.github.io/iseal-core/fsc#fsc-topic-economic> ;
             ns1:someValuesFrom xsd:string ],
         [ a ns1:Restriction ;
             ns1:minQualifiedCardinality 1 ;
@@ -3146,22 +3097,90 @@
             ns1:onProperty <https://iseal-community.github.io/iseal-core/fsc#fsc-focus-forestzone> ;
             ns1:someValuesFrom <https://iseal-community.github.io/iseal-core/fsc#VOCAB_FSC_forest_biome_/_zone> ],
         [ a ns1:Restriction ;
-            ns1:onProperty <https://iseal-community.github.io/iseal-core/fsc#fsc-topic-social> ;
+            ns1:onProperty <https://iseal-community.github.io/iseal-core/fsc#fsc-issue-environmental> ;
             ns1:someValuesFrom xsd:string ],
+        [ a ns1:Restriction ;
+            ns1:minQualifiedCardinality 1 ;
+            ns1:onProperty <https://iseal-community.github.io/iseal-core/fsc#fsc-focus-fmprinciple> ;
+            ns1:someValuesFrom <https://iseal-community.github.io/iseal-core/fsc#VOCAB_FSC_forest_management_principle> ],
+        [ a ns1:Restriction ;
+            ns1:onProperty <https://iseal-community.github.io/iseal-core/fsc#fsc-topic-economic> ;
+            ns1:someValuesFrom xsd:string ],
+        [ a ns1:Restriction ;
+            ns1:minQualifiedCardinality 1 ;
+            ns1:onProperty <https://iseal-community.github.io/iseal-core/fsc#fsc-focus-tenureownership> ;
+            ns1:someValuesFrom <https://iseal-community.github.io/iseal-core/fsc#VOCAB_FSC_tenure_ownership> ],
+        [ a ns1:Restriction ;
+            ns1:minQualifiedCardinality 1 ;
+            ns1:onProperty <https://iseal-community.github.io/iseal-core/fsc#fsc-wood-code> ;
+            ns1:someValuesFrom <https://iseal-community.github.io/iseal-core/fsc#VOCAB_FSC_controlled_wood_code> ],
+        [ a ns1:Restriction ;
+            ns1:minQualifiedCardinality 1 ;
+            ns1:onProperty <https://iseal-community.github.io/iseal-core/fsc#fsc-focus-forestspecies> ;
+            ns1:someValuesFrom <https://iseal-community.github.io/iseal-core/fsc#VOCAB_FSC_forest_and_tree_species> ],
+        [ a ns1:Restriction ;
+            ns1:minQualifiedCardinality 1 ;
+            ns1:onProperty <https://iseal-community.github.io/iseal-core/fsc#fsc-focus-foresttype> ;
+            ns1:someValuesFrom <https://iseal-community.github.io/iseal-core/fsc#VOCAB_FSC_forest_type> ],
         [ a ns1:Restriction ;
             ns1:onProperty <https://iseal-community.github.io/iseal-core/fsc#fsc-topic-political> ;
             ns1:someValuesFrom xsd:string ],
         [ a ns1:Restriction ;
-            ns1:onProperty <https://iseal-community.github.io/iseal-core/fsc#fsc-topic-environmental> ;
+            ns1:minQualifiedCardinality 1 ;
+            ns1:onProperty <https://iseal-community.github.io/iseal-core/fsc#fsc-focus-tenuremanagement> ;
+            ns1:someValuesFrom <https://iseal-community.github.io/iseal-core/fsc#VOCAB_FSC_tenure_management> ],
+        [ a ns1:Restriction ;
+            ns1:minQualifiedCardinality 1 ;
+            ns1:onProperty <https://iseal-community.github.io/iseal-core/fsc#fsc-focus-sustaindimension> ;
+            ns1:someValuesFrom <https://iseal-community.github.io/iseal-core/fsc#VOCAB_FSC_sustainability_dimension> ],
+        [ a ns1:Restriction ;
+            ns1:onProperty <https://iseal-community.github.io/iseal-core/fsc#fsc-issue-social> ;
             ns1:someValuesFrom xsd:string ],
+        [ a ns1:Restriction ;
+            ns1:onProperty <https://iseal-community.github.io/iseal-core/fsc#fsc-topic-social> ;
+            ns1:someValuesFrom xsd:string ],
+        [ a ns1:Restriction ;
+            ns1:minQualifiedCardinality 1 ;
+            ns1:onProperty <https://iseal-community.github.io/iseal-core/fsc#fsc-focus-outcome> ;
+            ns1:someValuesFrom <https://iseal-community.github.io/iseal-core/fsc#VOCAB_FSC_outcomes_and_benefits> ],
+        [ a ns1:Restriction ;
+            ns1:minQualifiedCardinality 1 ;
+            ns1:onProperty <https://iseal-community.github.io/iseal-core/fsc#fsc-focus-fmcontrol> ;
+            ns1:someValuesFrom <https://iseal-community.github.io/iseal-core/fsc#VOCAB_FSC_forest_management_type_of_control> ],
+        [ a ns1:Restriction ;
+            ns1:onProperty <https://iseal-community.github.io/iseal-core/fsc#fsc-issue-political> ;
+            ns1:someValuesFrom xsd:string ],
+        [ a ns1:Restriction ;
+            ns1:minQualifiedCardinality 1 ;
+            ns1:onProperty <https://iseal-community.github.io/iseal-core/fsc#fsc-focus-forestrysafeguard> ;
+            ns1:someValuesFrom <https://iseal-community.github.io/iseal-core/fsc#VOCAB_FSC_forestry_environmental_safeguards> ],
         [ a ns1:Restriction ;
             ns1:minQualifiedCardinality 1 ;
             ns1:onProperty <https://iseal-community.github.io/iseal-core/fsc#fsc-focus-nonforestryservice> ;
             ns1:someValuesFrom <https://iseal-community.github.io/iseal-core/fsc#VOCAB_FSC_non-forestry_services_for_local_communities> ],
         [ a ns1:Restriction ;
             ns1:minQualifiedCardinality 1 ;
+            ns1:onProperty <https://iseal-community.github.io/iseal-core/fsc#fsc-focus-forestproductidsys> ;
+            ns1:someValuesFrom <https://iseal-community.github.io/iseal-core/fsc#VOCAB_FSC_forest_products_identification_system> ],
+        [ a ns1:Restriction ;
+            ns1:minQualifiedCardinality 1 ;
+            ns1:onProperty <https://iseal-community.github.io/iseal-core/fsc#fsc-focus-harvestingtechnique> ;
+            ns1:someValuesFrom <https://iseal-community.github.io/iseal-core/fsc#VOCAB_FSC_forest_harvesting_techniques> ],
+        [ a ns1:Restriction ;
+            ns1:minQualifiedCardinality 1 ;
+            ns1:onProperty <https://iseal-community.github.io/iseal-core/fsc#fsc-focus-nonforestryactivity> ;
+            ns1:someValuesFrom <https://iseal-community.github.io/iseal-core/fsc#VOCAB_FSC_non-forestry_activities> ],
+        [ a ns1:Restriction ;
+            ns1:onProperty <https://iseal-community.github.io/iseal-core/fsc#fsc-topic-environmental> ;
+            ns1:someValuesFrom xsd:string ],
+        [ a ns1:Restriction ;
+            ns1:minQualifiedCardinality 1 ;
             ns1:onProperty <https://iseal-community.github.io/iseal-core/fsc#fsc-focus-forestproduct> ;
             ns1:someValuesFrom <https://iseal-community.github.io/iseal-core/fsc#VOCAB_FSC_forest_products> ],
+        [ a ns1:Restriction ;
+            ns1:minQualifiedCardinality 1 ;
+            ns1:onProperty <https://iseal-community.github.io/iseal-core/fsc#fsc-focus-forestmonitoring> ;
+            ns1:someValuesFrom <https://iseal-community.github.io/iseal-core/fsc#VOCAB_FSC_forest_monitoring_methods> ],
         [ a ns1:Restriction ;
             ns1:maxQualifiedCardinality 1 ;
             ns1:onClass <https://iseal-community.github.io/iseal-core/fsc#VOCAB_FSC_scope_-_SLIMF_type> ;
@@ -3169,25 +3188,6 @@
         [ a ns1:Restriction ;
             ns1:onProperty <https://iseal-community.github.io/iseal-core/fsc#fsc-issue-economic> ;
             ns1:someValuesFrom xsd:string ],
-        [ a ns1:Restriction ;
-            ns1:minQualifiedCardinality 1 ;
-            ns1:onProperty <https://iseal-community.github.io/iseal-core/fsc#fsc-focus-sustaindimension> ;
-            ns1:someValuesFrom <https://iseal-community.github.io/iseal-core/fsc#VOCAB_FSC_sustainability_dimension> ],
-        [ a ns1:Restriction ;
-            ns1:minQualifiedCardinality 1 ;
-            ns1:onProperty <https://iseal-community.github.io/iseal-core/fsc#fsc-focus-harvestingtechnique> ;
-            ns1:someValuesFrom <https://iseal-community.github.io/iseal-core/fsc#VOCAB_FSC_forest_harvesting_techniques> ],
-        [ a ns1:Restriction ;
-            ns1:minQualifiedCardinality 1 ;
-            ns1:onProperty <https://iseal-community.github.io/iseal-core/fsc#fsc-focus-forestrysafeguard> ;
-            ns1:someValuesFrom <https://iseal-community.github.io/iseal-core/fsc#VOCAB_FSC_forestry_environmental_safeguards> ],
-        [ a ns1:Restriction ;
-            ns1:onProperty <https://iseal-community.github.io/iseal-core/fsc#fsc-issue-social> ;
-            ns1:someValuesFrom xsd:string ],
-        [ a ns1:Restriction ;
-            ns1:minQualifiedCardinality 1 ;
-            ns1:onProperty <https://iseal-community.github.io/iseal-core/fsc#fsc-focus-forestproductidsys> ;
-            ns1:someValuesFrom <https://iseal-community.github.io/iseal-core/fsc#VOCAB_FSC_forest_products_identification_system> ],
         <https://iseal-community.github.io/iseal-core/fsc#FSC> ;
     ns2:prefLabel "Scope" .
 
