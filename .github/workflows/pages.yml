@@ -20,13 +20,23 @@ jobs:
         uses: abatilo/actions-poetry@v2.1.4
       - name: Install Python dependencies
         run: poetry install
+      - name: Generate RDF files
+        run: |
+          poetry run ./util/create-rdf.py -i ./data/iseal-core.csv -ns https://iseal-community.github.io/iseal-core#
+          poetry run ./util/create-rdf.py -i ./data/fsc.csv -ns https://iseal-community.github.io/iseal-core/fsc#
+      - name: Commit RDF changes
+        uses: stefanzweifel/git-auto-commit-action@v4
+        # Only run if we are on the main branch. We don't want to create extra
+        # commits on feature branches or pull requests.
+        if: ${{ github.ref_name == 'main' }}
+        with:
+          commit_message: Automated commit with RDF updates
+          # Only commit if there are changes to the RDF files.
+          file_pattern: data/rdf/*.ttl
       - name: Generate Hugo content
         run: |
           poetry run ./util/generate-hugo-content.py -i ./data/iseal-core.csv --clean -d
           poetry run ./util/generate-hugo-content.py -i ./data/fsc.csv -d
-      - name: Generate RDF
-          poetry run ./util/create-rdf.py -i ./data/iseal-core.csv -ns https://iseal-community.github.io/iseal-core#
-          poetry run ./util/create-rdf.py -i ./data/fsc.csv -ns https://iseal-community.github.io/iseal-core/fsc#
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
       - name: Build Hugo site
