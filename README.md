@@ -18,15 +18,6 @@ View the user-friendly schema reference here: https://iseal-community.github.io/
 
 Consult [`README-dev.md`](README-dev.md) for technical information about making changes to the schema, documentaion site, etc.
 
-## TODO
-
-- Repository
-  - Update GitHub Actions once `util/create-rdf.py` is fixed
-- Schema
-  - Update `util/create-rdf.py`
-- Site
-  - Change "Suggested element" to "DSpace mapping"?
-
 ## License
 
 This project's source code is licensed under the [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0-standalone.html). This project's text and graphics are licensed under the [Creative Commons Attribution Share Alike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/legalcode) license.
