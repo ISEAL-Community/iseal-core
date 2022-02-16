@@ -25,8 +25,8 @@ jobs:
           poetry run ./util/generate-hugo-content.py -i ./data/iseal-core.csv --clean -d
           poetry run ./util/generate-hugo-content.py -i ./data/fsc.csv -d
       - name: Generate RDF
-          poetry run util/create-rdf.py -i data/iseal-core.csv -ns https://iseal-community.github.io/iseal-core#
-          poetry run util/create-rdf.py -i data/fsc.csv -ns https://iseal-community.github.io/iseal-core/fsc#
+          poetry run ./util/create-rdf.py -i ./data/iseal-core.csv -ns https://iseal-community.github.io/iseal-core#
+          poetry run ./util/create-rdf.py -i ./data/fsc.csv -ns https://iseal-community.github.io/iseal-core/fsc#
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
       - name: Build Hugo site
