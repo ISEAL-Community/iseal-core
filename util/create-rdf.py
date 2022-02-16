@@ -63,7 +63,7 @@ def make_rdf(file, ns):
         if prop_type == "CONTROLLED VALUE":  ## object property
             g.add((elementURI, SKOS.prefLabel, Literal(element_name)))
             g.add((elementURI, RDF.type, OWL.ObjectProperty))
-            g.add((elementURI, OWL.domain, conceptUri))
+            g.add((elementURI, RDFS.domain, conceptUri))
             ## add suproperty link
             if dc:
                 dct = dc.split(":")[1]
@@ -114,7 +114,7 @@ def make_rdf(file, ns):
                         g.add((termURI, RDF.type, OWL.Class))  ## SKOS.Concept
                         g.add((termURI, SKOS.prefLabel, Literal(term)))
                         g.add((termURI, RDFS.subClassOf, cvURI))  ## SKOS.member???
-                g.add((elementURI, OWL.range, cvURI))
+                g.add((elementURI, RDFS.range, cvURI))
 
                 ## add the controlled vocab information on properties directly
                 g.add(
@@ -150,7 +150,7 @@ def make_rdf(file, ns):
         else:  ## datatype properties
             g.add((elementURI, SKOS.prefLabel, Literal(element_name)))
             g.add((elementURI, RDF.type, OWL.DatatypeProperty))
-            g.add((elementURI, OWL.domain, conceptUri))
+            g.add((elementURI, RDFS.domain, conceptUri))
             if dc:
                 dct = dc.split(":")[1]
                 if "||" in dct:
@@ -181,13 +181,13 @@ def make_rdf(file, ns):
             )
             range = None
             if prop_type == "DATE":
-                g.add((elementURI, OWL.range, XSD.date))
+                g.add((elementURI, RDFS.range, XSD.date))
                 range = XSD.date
             elif prop_type == "NUMERIC VALUE":
-                g.add((elementURI, OWL.range, XSD.float))
+                g.add((elementURI, RDFS.range, XSD.float))
                 range = XSD.float
             else:
-                g.add((elementURI, OWL.range, XSD.string))
+                g.add((elementURI, RDFS.range, XSD.string))
                 range = XSD.string
             ##cardinality
             if cardinality == "REPEAT VALUES":
