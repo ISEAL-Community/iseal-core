@@ -1,33 +1,65 @@
-Access to credit and finance
+Access to credit
 Access to health care
-Child education
-Child labour
-Child rights
-Climate adaptation
-Climate change
-Deforestation and degradation
-Fish stocks and bycatch
-Food security and nutrition
-Forests and ecosystems
+Afforestation
+Antibiotic use
+Assets
+Bycatch
+Carbon sequestration
+Child labor
+Climate change adaptation/resilience
+Collective bargaining
+Community development and infrastructure
+Conflict resolution
+Consumer preferences
+Conversion and protection of non-forest natural ecosystems 
+Cost of inputs
+Deforestation and forest protection
+Ecosystem quality
+Education
+Ethical labelling
+Fertilizers
+Fish stock health
+Food security
+Forced or bonded labor
+Forest fires
 Free prior and informed consent
-Freshwater and oceans
-Gender and women
+Freedom of association
 GHG emissions
-Health and safety
-Health and wellbeing
-Indigenous peoples and community rights
+Governance mechanisms
+Grievance redressal
+Habitat for plants and wildlife
+Habitat fragmentation or connectivity
+Household Income (net)
+Income diversification
+Invasive species
+Knowledge
+Land rights
 Land tenure
-Livelihoods
-Living income
-Pesticides, fertilizers, and antibiotics
-Plant and wildlife conservation
-Premiums
-Productivity, efficiency, and yield
-Revenue, income, profitability
-Smallholders
-Soil erosion and health
+Market access 
+Nutrition
+Occupational health and safety
+Payment for ecosystem services
+Pesticides and herbicides
+Price premiums
+Product income (gross and net)
+Progress out of Poverty index
+Quality of product
+Rare, threatened and endangered species
+Riparian areas
+Sales of product
+Shade cover (in agroforestry crops)
+Soil erosion
+Soil health
+Species composition
+Sustainability Claims
+Sustainable sourcing
+Traceability
 Training
-Wages / living wage
-Water quality and quantity
-Water, sanitation, and waste disposal
-Workers' rights
+Wages
+WASH
+Waste disposal
+Water quality
+Water use efficiency
+Willingness-to-pay
+Working hours
+Yield
