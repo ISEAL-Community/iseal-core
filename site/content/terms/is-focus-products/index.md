@@ -3,7 +3,7 @@ title: 'Product focus'
 field: 'is.focus.products'
 slug: 'is-focus-products'
 description: 'Certified commodites or products'
-comment: 'Select from control list'
+comment: 'Select from control list. Data element used by Evidensia'
 required: False
 vocabulary: 'vocabulary.txt'
 module: 'Scope'

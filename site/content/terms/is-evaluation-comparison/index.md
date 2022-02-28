@@ -2,7 +2,7 @@
 title: 'Evaluation comparison'
 field: 'is.evaluation.comparison'
 slug: 'is-evaluation-comparison'
-comment: 'Select from control list'
+comment: 'Select from control list. Data element used by Evidensia'
 required: False
 vocabulary: 'vocabulary.txt'
 module: 'Evaluation'

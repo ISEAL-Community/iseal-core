@@ -2,7 +2,7 @@
 title: 'Evidence resource type'
 field: 'is.evidenceResourceType'
 slug: 'is-evidenceresourcetype'
-comment: 'Select from control list'
+comment: 'Select from control list. Data element used by Evidensia'
 required: False
 vocabulary: 'vocabulary.txt'
 module: 'Evaluation'

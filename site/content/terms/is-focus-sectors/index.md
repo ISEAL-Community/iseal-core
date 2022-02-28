@@ -3,7 +3,7 @@ title: 'Sector focus'
 field: 'is.focus.sectors'
 slug: 'is-focus-sectors'
 description: 'Sectors that the resource covers'
-comment: 'Select from control list'
+comment: 'Select from control list. Data element used by Evidensia'
 required: False
 vocabulary: 'vocabulary.txt'
 module: 'Scope'

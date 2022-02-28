@@ -2,7 +2,7 @@
 title: 'Evaluation author directionality'
 field: 'is.evaluation.authorDirectionality'
 slug: 'is-evaluation-authordirectionality'
-comment: 'Select from control list'
+comment: 'Select from control list. Data element used by Evidensia'
 required: False
 vocabulary: 'vocabulary.txt'
 module: 'Evaluation'
