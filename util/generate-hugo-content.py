@@ -113,7 +113,7 @@ def parseSchema(schema_df):
             required = False
 
         # Combine element type and options into a "policy" of sorts and convert
-        # them to sentence case because they are ALL CAPS in the Excel. We don't
+        # them to sentence case because they are lowercase in the CSV. We don't
         # need to do any checks because these fields should always exist.
         policy = f'{row["element type"].capitalize()}. {row["element options"].capitalize()}.'
 

@@ -60,7 +60,7 @@ def make_rdf(file, ns):
 
         ## create properties
         elementURI = URIRef(NS + dspace.replace(".", "-").lower())
-        if prop_type == "CONTROLLED VALUE":  ## object property
+        if prop_type == "controlled value":  ## object property
             g.add((elementURI, SKOS.prefLabel, Literal(element_name)))
             g.add((elementURI, RDF.type, OWL.ObjectProperty))
             g.add((elementURI, RDFS.domain, conceptUri))
@@ -132,7 +132,7 @@ def make_rdf(file, ns):
                 continue
 
             ## cardinality
-            if cardinality == "MULTI SELECT FROM CONTROL LIST":
+            if cardinality == "multi select from control list":
                 br = BNode()
                 g.add((br, RDF.type, OWL.Restriction))
                 g.add((br, OWL.onProperty, elementURI))
@@ -180,17 +180,17 @@ def make_rdf(file, ns):
                 )
             )
             range = None
-            if prop_type == "DATE":
+            if prop_type == "date":
                 g.add((elementURI, RDFS.range, XSD.date))
                 range = XSD.date
-            elif prop_type == "NUMERIC VALUE":
+            elif prop_type == "numeric value":
                 g.add((elementURI, RDFS.range, XSD.float))
                 range = XSD.float
             else:
                 g.add((elementURI, RDFS.range, XSD.string))
                 range = XSD.string
             ##cardinality
-            if cardinality == "REPEAT VALUES":
+            if cardinality == "repeat values":
                 br = BNode()
                 g.add((br, RDF.type, OWL.Restriction))
                 g.add((br, OWL.onProperty, elementURI))
