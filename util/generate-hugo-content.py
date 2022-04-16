@@ -107,7 +107,7 @@ def parseSchema(schema_df):
         else:
             controlled_vocab = False
 
-        if "mandatory?" in df.columns and row["mandatory?"] == "MANDATORY":
+        if "mandatory?" in df.columns and row["mandatory?"] == "mandatory":
             required = True
         else:
             required = False
