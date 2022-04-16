@@ -34,7 +34,8 @@ If you have made modifications to the CSV schemas—adding elements, changing de
 ```console
 $ python ./util/generate-hugo-content.py -i ./data/iseal-core.csv --clean -d
 $ python ./util/generate-hugo-content.py -i ./data/fsc.csv -d
-$ python ./util/create-rdf.py
+$ python ./util/create-rdf.py -i ./data/iseal-core.csv -ns https://iseal-community.github.io/iseal-core#
+$ python ./util/create-rdf.py -i ./data/fsc.csv -ns https://iseal-community.github.io/iseal-core/fsc#
 ```
 
 Assuming these scripts ran without crashing, you can check your `git status` to see if anything was updated and then proceed to regenerating the documentation site HTML.
