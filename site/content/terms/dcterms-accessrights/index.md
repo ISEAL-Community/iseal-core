@@ -1,5 +1,5 @@
 ---
-title: 'Access rights'
+title: 'Access right'
 field: 'dcterms.accessRights'
 slug: 'dcterms-accessrights'
 description: 'Information about rights held in and over the resource'
