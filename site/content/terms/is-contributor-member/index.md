@@ -1,8 +1,8 @@
 ---
-title: 'ISEAL member contributor'
+title: 'ISEAL Member contributor'
 field: 'is.contributor.member'
 slug: 'is-contributor-member'
-description: 'ISEAL member organization or scheme associatd to the resource '
+description: 'ISEAL Member organization or scheme associated to the resource '
 comment: 'Select from control list'
 required: True
 vocabulary: 'vocabulary.txt'
