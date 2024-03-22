@@ -106,8 +106,8 @@ is.coverage.geographicLevel,Geographic level,,Level of geographic focus or cover
 is.identifier.ID,ID,,Any ID associated with the item or resource,Use other elements for ISBN or DOI. Data element used by Evidensia,,GLOBAL,Form,single value only,ISEAL,free value,
 dcterms.isReplacedBy,Is replaced by another item or resource,,"A related resource that supplants, displaces, or supersedes the described resource",Normally a link to a later or improved resource,,GLOBAL,Status,single value only,dublin core,url,https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/isReplacedBy/
 is.identifier.isbn,ISBN,,International standard book number,,,GLOBAL,Form,single value only,ISEAL,free value,
-is.identifier.clause,ISEAL code clause number,,ISEAL code of practice specific clause(s) associated to the resource,Select from control list,,GLOBAL,Scope,multi select from control list,ISEAL,controlled value,
-is.identifier.code,ISEAL code name,,ISEAL code(s) of practice associated to the resource,Select from control list,,GLOBAL,Scope,multi select from control list,ISEAL,controlled value,
+is.identifier.clause,ISEAL Code clause number,,ISEAL Code of Practice specific clause(s) associated to the resource,Select from control list,,GLOBAL,Scope,multi select from control list,ISEAL,controlled value,
+is.identifier.code,ISEAL Code name,,ISEAL Code of Practice associated to the resource,Select from control list,,GLOBAL,Scope,multi select from control list,ISEAL,controlled value,
 is.delta.sustainIndicator,ISEAL Delta project sustainability indicator,,"Farm-level, outcome/impact indicators across the social, economic and environmental dimensions of sustainability",Select from control list,,GLOBAL,Scope,multi select from control list,ISEAL,controlled value,
 is.contributor.member,ISEAL Member contributor,mandatory,ISEAL Member organization or scheme associated to the resource ,Select from control list,,GLOBAL,Provenance,multi select from control list,ISEAL,controlled value,
 is.focus.strategyPillar,ISEAL strategic pillar,,,Select from control list,,GLOBAL,Scope,multi select from control list,ISEAL,controlled value,
