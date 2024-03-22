@@ -1,8 +1,8 @@
 ---
-title: 'ISEAL code name'
+title: 'ISEAL Code name'
 field: 'is.identifier.code'
 slug: 'is-identifier-code'
-description: 'ISEAL code(s) of practice associated to the resource'
+description: 'ISEAL Code of Practice associated to the resource'
 comment: 'Select from control list'
 required: False
 vocabulary: 'vocabulary.txt'
