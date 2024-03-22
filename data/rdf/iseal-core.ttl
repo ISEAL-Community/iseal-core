@@ -10074,28 +10074,28 @@
 
 <https://iseal-community.github.io/iseal-core#Coverage> a owl:Class ;
     rdfs:subClassOf [ a owl:Restriction ;
-            owl:onProperty <https://iseal-community.github.io/iseal-core#is-coverage-place> ;
-            owl:someValuesFrom xsd:string ],
-        [ a owl:Restriction ;
             owl:maxQualifiedCardinality 1 ;
             owl:onClass <https://iseal-community.github.io/iseal-core#VOCAB_Geographic_level> ;
             owl:onProperty <https://iseal-community.github.io/iseal-core#is-coverage-geographiclevel> ],
-        [ a owl:Restriction ;
-            owl:minQualifiedCardinality 1 ;
-            owl:onProperty <https://iseal-community.github.io/iseal-core#is-coverage-country> ;
-            owl:someValuesFrom <https://iseal-community.github.io/iseal-core#VOCAB_Country_name> ],
         [ a owl:Restriction ;
             owl:maxQualifiedCardinality 1 ;
             owl:onDataRange xsd:string ;
             owl:onProperty <https://iseal-community.github.io/iseal-core#is-coverage-longitude> ],
         [ a owl:Restriction ;
-            owl:minQualifiedCardinality 1 ;
-            owl:onProperty <https://iseal-community.github.io/iseal-core#is-coverage-countryalpha2> ;
-            owl:someValuesFrom <https://iseal-community.github.io/iseal-core#VOCAB_Country_ISO_code> ],
+            owl:onProperty <https://iseal-community.github.io/iseal-core#is-coverage-place> ;
+            owl:someValuesFrom xsd:string ],
         [ a owl:Restriction ;
             owl:maxQualifiedCardinality 1 ;
             owl:onDataRange xsd:string ;
             owl:onProperty <https://iseal-community.github.io/iseal-core#is-coverage-latitude> ],
+        [ a owl:Restriction ;
+            owl:minQualifiedCardinality 1 ;
+            owl:onProperty <https://iseal-community.github.io/iseal-core#is-coverage-countryalpha2> ;
+            owl:someValuesFrom <https://iseal-community.github.io/iseal-core#VOCAB_Country_ISO_code> ],
+        [ a owl:Restriction ;
+            owl:minQualifiedCardinality 1 ;
+            owl:onProperty <https://iseal-community.github.io/iseal-core#is-coverage-country> ;
+            owl:someValuesFrom <https://iseal-community.github.io/iseal-core#VOCAB_Country_name> ],
         [ a owl:Restriction ;
             owl:minQualifiedCardinality 1 ;
             owl:onProperty <https://iseal-community.github.io/iseal-core#is-coverage-region> ;
@@ -10133,6 +10133,18 @@
 <https://iseal-community.github.io/iseal-core#Certificate> a owl:Class ;
     rdfs:subClassOf [ a owl:Restriction ;
             owl:maxQualifiedCardinality 1 ;
+            owl:onDataRange xsd:date ;
+            owl:onProperty <https://iseal-community.github.io/iseal-core#is-certificate-firststartdate> ],
+        [ a owl:Restriction ;
+            owl:maxQualifiedCardinality 1 ;
+            owl:onClass <https://iseal-community.github.io/iseal-core#VOCAB_Certificate_coverage_type> ;
+            owl:onProperty <https://iseal-community.github.io/iseal-core#is-certificate-locations> ],
+        [ a owl:Restriction ;
+            owl:maxQualifiedCardinality 1 ;
+            owl:onClass <https://iseal-community.github.io/iseal-core#VOCAB_Certificate_license_status> ;
+            owl:onProperty <https://iseal-community.github.io/iseal-core#is-certificate-licensestatus> ],
+        [ a owl:Restriction ;
+            owl:maxQualifiedCardinality 1 ;
             owl:onDataRange xsd:string ;
             owl:onProperty <https://iseal-community.github.io/iseal-core#is-certificate-duration> ],
         [ a owl:Restriction ;
@@ -10141,24 +10153,8 @@
             owl:onProperty <https://iseal-community.github.io/iseal-core#is-certificate-id> ],
         [ a owl:Restriction ;
             owl:maxQualifiedCardinality 1 ;
-            owl:onClass <https://iseal-community.github.io/iseal-core#VOCAB_Certificate_license_status> ;
-            owl:onProperty <https://iseal-community.github.io/iseal-core#is-certificate-licensestatus> ],
-        [ a owl:Restriction ;
-            owl:maxQualifiedCardinality 1 ;
-            owl:onDataRange xsd:date ;
-            owl:onProperty <https://iseal-community.github.io/iseal-core#is-certificate-enddate> ],
-        [ a owl:Restriction ;
-            owl:maxQualifiedCardinality 1 ;
-            owl:onClass <https://iseal-community.github.io/iseal-core#VOCAB_Certificate_coverage_type> ;
-            owl:onProperty <https://iseal-community.github.io/iseal-core#is-certificate-locations> ],
-        [ a owl:Restriction ;
-            owl:maxQualifiedCardinality 1 ;
             owl:onDataRange xsd:date ;
             owl:onProperty <https://iseal-community.github.io/iseal-core#is-certificate-startdate> ],
-        [ a owl:Restriction ;
-            owl:maxQualifiedCardinality 1 ;
-            owl:onClass <https://iseal-community.github.io/iseal-core#VOCAB_Certificate_type> ;
-            owl:onProperty <https://iseal-community.github.io/iseal-core#is-certificate-type> ],
         [ a owl:Restriction ;
             owl:maxQualifiedCardinality 1 ;
             owl:onClass <https://iseal-community.github.io/iseal-core#VOCAB_Certificate_status> ;
@@ -10166,7 +10162,11 @@
         [ a owl:Restriction ;
             owl:maxQualifiedCardinality 1 ;
             owl:onDataRange xsd:date ;
-            owl:onProperty <https://iseal-community.github.io/iseal-core#is-certificate-firststartdate> ],
+            owl:onProperty <https://iseal-community.github.io/iseal-core#is-certificate-enddate> ],
+        [ a owl:Restriction ;
+            owl:maxQualifiedCardinality 1 ;
+            owl:onClass <https://iseal-community.github.io/iseal-core#VOCAB_Certificate_ownership_type> ;
+            owl:onProperty <https://iseal-community.github.io/iseal-core#is-certificate-ownership> ],
         [ a owl:Restriction ;
             owl:maxQualifiedCardinality 1 ;
             owl:onDataRange xsd:string ;
@@ -10177,8 +10177,8 @@
             owl:onProperty <https://iseal-community.github.io/iseal-core#is-certificate-scope> ],
         [ a owl:Restriction ;
             owl:maxQualifiedCardinality 1 ;
-            owl:onClass <https://iseal-community.github.io/iseal-core#VOCAB_Certificate_ownership_type> ;
-            owl:onProperty <https://iseal-community.github.io/iseal-core#is-certificate-ownership> ],
+            owl:onClass <https://iseal-community.github.io/iseal-core#VOCAB_Certificate_type> ;
+            owl:onProperty <https://iseal-community.github.io/iseal-core#is-certificate-type> ],
         <https://iseal-community.github.io/iseal-core#CERTIFICATION>,
         <https://iseal-community.github.io/iseal-core#VOCAB_Type> ;
     skos:prefLabel "Certificate" .
@@ -10186,32 +10186,8 @@
 <https://iseal-community.github.io/iseal-core#Certified_Resource_or_Site> a owl:Class ;
     rdfs:subClassOf [ a owl:Restriction ;
             owl:maxQualifiedCardinality 1 ;
-            owl:onDataRange xsd:string ;
-            owl:onProperty <https://iseal-community.github.io/iseal-core#is-certifiedsite-naturalsetaside> ],
-        [ a owl:Restriction ;
-            owl:maxQualifiedCardinality 1 ;
-            owl:onDataRange xsd:string ;
-            owl:onProperty <https://iseal-community.github.io/iseal-core#is-certifiedsite-long> ],
-        [ a owl:Restriction ;
-            owl:maxQualifiedCardinality 1 ;
-            owl:onDataRange xsd:string ;
-            owl:onProperty <https://iseal-community.github.io/iseal-core#is-certificate-sites> ],
-        [ a owl:Restriction ;
-            owl:maxQualifiedCardinality 1 ;
             owl:onClass <https://iseal-community.github.io/iseal-core#VOCAB_Certified_site_latitude_and_longitude_location_coordinates_detail> ;
             owl:onProperty <https://iseal-community.github.io/iseal-core#is-certifiedsite-coorddetail> ],
-        [ a owl:Restriction ;
-            owl:maxQualifiedCardinality 1 ;
-            owl:onDataRange xsd:string ;
-            owl:onProperty <https://iseal-community.github.io/iseal-core#is-certifiedsite-locationname> ],
-        [ a owl:Restriction ;
-            owl:maxQualifiedCardinality 1 ;
-            owl:onDataRange xsd:string ;
-            owl:onProperty <https://iseal-community.github.io/iseal-core#is-certifiedsite-lat> ],
-        [ a owl:Restriction ;
-            owl:maxQualifiedCardinality 1 ;
-            owl:onDataRange xsd:string ;
-            owl:onProperty <https://iseal-community.github.io/iseal-core#is-certifiedsite-area> ],
         [ a owl:Restriction ;
             owl:maxQualifiedCardinality 1 ;
             owl:onDataRange xsd:string ;
@@ -10219,11 +10195,7 @@
         [ a owl:Restriction ;
             owl:maxQualifiedCardinality 1 ;
             owl:onDataRange xsd:string ;
-            owl:onProperty <https://iseal-community.github.io/iseal-core#is-certifiedsite-productionarea> ],
-        [ a owl:Restriction ;
-            owl:maxQualifiedCardinality 1 ;
-            owl:onDataRange xsd:string ;
-            owl:onProperty <https://iseal-community.github.io/iseal-core#is-certifiedsite-analysisarea> ],
+            owl:onProperty <https://iseal-community.github.io/iseal-core#is-certifiedsite-locationname> ],
         [ a owl:Restriction ;
             owl:maxQualifiedCardinality 1 ;
             owl:onDataRange xsd:string ;
@@ -10232,6 +10204,34 @@
             owl:maxQualifiedCardinality 1 ;
             owl:onDataRange xsd:string ;
             owl:onProperty <https://iseal-community.github.io/iseal-core#is-certifiedsite-restorationsetaside> ],
+        [ a owl:Restriction ;
+            owl:maxQualifiedCardinality 1 ;
+            owl:onDataRange xsd:string ;
+            owl:onProperty <https://iseal-community.github.io/iseal-core#is-certifiedsite-productionarea> ],
+        [ a owl:Restriction ;
+            owl:maxQualifiedCardinality 1 ;
+            owl:onDataRange xsd:string ;
+            owl:onProperty <https://iseal-community.github.io/iseal-core#is-certifiedsite-long> ],
+        [ a owl:Restriction ;
+            owl:maxQualifiedCardinality 1 ;
+            owl:onDataRange xsd:string ;
+            owl:onProperty <https://iseal-community.github.io/iseal-core#is-certifiedsite-analysisarea> ],
+        [ a owl:Restriction ;
+            owl:maxQualifiedCardinality 1 ;
+            owl:onDataRange xsd:string ;
+            owl:onProperty <https://iseal-community.github.io/iseal-core#is-certifiedsite-area> ],
+        [ a owl:Restriction ;
+            owl:maxQualifiedCardinality 1 ;
+            owl:onDataRange xsd:string ;
+            owl:onProperty <https://iseal-community.github.io/iseal-core#is-certifiedsite-naturalsetaside> ],
+        [ a owl:Restriction ;
+            owl:maxQualifiedCardinality 1 ;
+            owl:onDataRange xsd:string ;
+            owl:onProperty <https://iseal-community.github.io/iseal-core#is-certifiedsite-lat> ],
+        [ a owl:Restriction ;
+            owl:maxQualifiedCardinality 1 ;
+            owl:onDataRange xsd:string ;
+            owl:onProperty <https://iseal-community.github.io/iseal-core#is-certificate-sites> ],
         <https://iseal-community.github.io/iseal-core#CERTIFICATION> ;
     skos:prefLabel "Certified Resource or Site" .
 
@@ -10248,23 +10248,15 @@
     rdfs:subClassOf [ a owl:Restriction ;
             owl:maxQualifiedCardinality 1 ;
             owl:onDataRange xsd:string ;
-            owl:onProperty <https://iseal-community.github.io/iseal-core#is-certifiedorganization-name> ],
+            owl:onProperty <https://iseal-community.github.io/iseal-core#is-certifiedorganization-postcode> ],
         [ a owl:Restriction ;
             owl:maxQualifiedCardinality 1 ;
-            owl:onClass <https://iseal-community.github.io/iseal-core#VOCAB_Certificate_holder_address_country> ;
-            owl:onProperty <https://iseal-community.github.io/iseal-core#is-certifiedorganization-country> ],
+            owl:onDataRange xsd:float ;
+            owl:onProperty <https://iseal-community.github.io/iseal-core#is-certifiedorganization-phonenumber> ],
         [ a owl:Restriction ;
             owl:maxQualifiedCardinality 1 ;
-            owl:onDataRange xsd:string ;
-            owl:onProperty <https://iseal-community.github.io/iseal-core#is-certifiedorganization-addresslat> ],
-        [ a owl:Restriction ;
-            owl:maxQualifiedCardinality 1 ;
-            owl:onDataRange xsd:string ;
-            owl:onProperty <https://iseal-community.github.io/iseal-core#is-certifiedorganization-gln> ],
-        [ a owl:Restriction ;
-            owl:maxQualifiedCardinality 1 ;
-            owl:onDataRange xsd:string ;
-            owl:onProperty <https://iseal-community.github.io/iseal-core#is-certifiedorganization-addresslong> ],
+            owl:onDataRange xsd:float ;
+            owl:onProperty <https://iseal-community.github.io/iseal-core#is-certifiedorganization-phonecountrycode> ],
         [ a owl:Restriction ;
             owl:maxQualifiedCardinality 1 ;
             owl:onDataRange xsd:string ;
@@ -10272,11 +10264,23 @@
         [ a owl:Restriction ;
             owl:maxQualifiedCardinality 1 ;
             owl:onDataRange xsd:string ;
+            owl:onProperty <https://iseal-community.github.io/iseal-core#is-certifiedorganizationid> ],
+        [ a owl:Restriction ;
+            owl:maxQualifiedCardinality 1 ;
+            owl:onDataRange xsd:string ;
+            owl:onProperty <https://iseal-community.github.io/iseal-core#is-certifiedorganization-addresslat> ],
+        [ a owl:Restriction ;
+            owl:maxQualifiedCardinality 1 ;
+            owl:onDataRange xsd:string ;
             owl:onProperty <https://iseal-community.github.io/iseal-core#is-certifiedorganization-streetname> ],
         [ a owl:Restriction ;
             owl:maxQualifiedCardinality 1 ;
-            owl:onDataRange xsd:float ;
-            owl:onProperty <https://iseal-community.github.io/iseal-core#is-certifiedorganization-phonenumber> ],
+            owl:onDataRange xsd:string ;
+            owl:onProperty <https://iseal-community.github.io/iseal-core#is-certifiedorganization-url> ],
+        [ a owl:Restriction ;
+            owl:minQualifiedCardinality 1 ;
+            owl:onProperty <https://iseal-community.github.io/iseal-core#is-certifiedorganization-role> ;
+            owl:someValuesFrom <https://iseal-community.github.io/iseal-core#VOCAB_Certificate_holder_role> ],
         [ a owl:Restriction ;
             owl:maxQualifiedCardinality 1 ;
             owl:onDataRange xsd:string ;
@@ -10284,23 +10288,19 @@
         [ a owl:Restriction ;
             owl:maxQualifiedCardinality 1 ;
             owl:onDataRange xsd:string ;
-            owl:onProperty <https://iseal-community.github.io/iseal-core#is-certifiedorganizationid> ],
+            owl:onProperty <https://iseal-community.github.io/iseal-core#is-certifiedorganization-name> ],
         [ a owl:Restriction ;
             owl:maxQualifiedCardinality 1 ;
             owl:onDataRange xsd:string ;
-            owl:onProperty <https://iseal-community.github.io/iseal-core#is-certifiedorganization-postcode> ],
+            owl:onProperty <https://iseal-community.github.io/iseal-core#is-certifiedorganization-gln> ],
+        [ a owl:Restriction ;
+            owl:maxQualifiedCardinality 1 ;
+            owl:onClass <https://iseal-community.github.io/iseal-core#VOCAB_Certificate_holder_address_country> ;
+            owl:onProperty <https://iseal-community.github.io/iseal-core#is-certifiedorganization-country> ],
         [ a owl:Restriction ;
             owl:maxQualifiedCardinality 1 ;
             owl:onDataRange xsd:string ;
-            owl:onProperty <https://iseal-community.github.io/iseal-core#is-certifiedorganization-url> ],
-        [ a owl:Restriction ;
-            owl:maxQualifiedCardinality 1 ;
-            owl:onDataRange xsd:float ;
-            owl:onProperty <https://iseal-community.github.io/iseal-core#is-certifiedorganization-phonecountrycode> ],
-        [ a owl:Restriction ;
-            owl:minQualifiedCardinality 1 ;
-            owl:onProperty <https://iseal-community.github.io/iseal-core#is-certifiedorganization-role> ;
-            owl:someValuesFrom <https://iseal-community.github.io/iseal-core#VOCAB_Certificate_holder_role> ],
+            owl:onProperty <https://iseal-community.github.io/iseal-core#is-certifiedorganization-addresslong> ],
         <https://iseal-community.github.io/iseal-core#CERTIFICATION> ;
     skos:prefLabel "Certificate Holder, Owner or Certified organization" .
 
@@ -10309,58 +10309,58 @@
 
 <https://iseal-community.github.io/iseal-core#Provenance> a owl:Class ;
     rdfs:subClassOf [ a owl:Restriction ;
-            owl:maxQualifiedCardinality 1 ;
-            owl:onDataRange xsd:string ;
-            owl:onProperty <https://iseal-community.github.io/iseal-core#dc-title> ],
-        [ a owl:Restriction ;
-            owl:onProperty <https://iseal-community.github.io/iseal-core#dcterms-publisher> ;
-            owl:someValuesFrom xsd:string ],
-        [ a owl:Restriction ;
-            owl:maxQualifiedCardinality 1 ;
-            owl:onDataRange xsd:string ;
-            owl:onProperty <https://iseal-community.github.io/iseal-core#is-item-publicationplace> ],
-        [ a owl:Restriction ;
-            owl:onProperty <https://iseal-community.github.io/iseal-core#is-author-orcid> ;
-            owl:someValuesFrom xsd:string ],
-        [ a owl:Restriction ;
-            owl:maxQualifiedCardinality 1 ;
-            owl:onDataRange xsd:string ;
-            owl:onProperty <https://iseal-community.github.io/iseal-core#is-journalname> ],
-        [ a owl:Restriction ;
-            owl:maxQualifiedCardinality 1 ;
-            owl:onDataRange xsd:string ;
-            owl:onProperty <https://iseal-community.github.io/iseal-core#dcterms-alternative> ],
-        [ a owl:Restriction ;
-            owl:onProperty <https://iseal-community.github.io/iseal-core#is-contributor-funder> ;
-            owl:someValuesFrom xsd:string ],
-        [ a owl:Restriction ;
             owl:minQualifiedCardinality 1 ;
             owl:onProperty <https://iseal-community.github.io/iseal-core#is-contributor-member> ;
             owl:someValuesFrom <https://iseal-community.github.io/iseal-core#VOCAB_ISEAL_member_contributor> ],
         [ a owl:Restriction ;
             owl:maxQualifiedCardinality 1 ;
             owl:onDataRange xsd:string ;
-            owl:onProperty <https://iseal-community.github.io/iseal-core#dcterms-ispartof> ],
-        [ a owl:Restriction ;
-            owl:minQualifiedCardinality 1 ;
-            owl:onProperty <https://iseal-community.github.io/iseal-core#is-contributor-fundertype> ;
-            owl:someValuesFrom <https://iseal-community.github.io/iseal-core#VOCAB_Funding_source_type> ],
-        [ a owl:Restriction ;
-            owl:maxQualifiedCardinality 1 ;
-            owl:onDataRange xsd:string ;
-            owl:onProperty <https://iseal-community.github.io/iseal-core#is-contact-email> ],
+            owl:onProperty <https://iseal-community.github.io/iseal-core#is-item-publicationplace> ],
         [ a owl:Restriction ;
             owl:maxQualifiedCardinality 1 ;
             owl:onDataRange xsd:string ;
             owl:onProperty <https://iseal-community.github.io/iseal-core#is-contact-name> ],
         [ a owl:Restriction ;
-            owl:onProperty <https://iseal-community.github.io/iseal-core#is-organization-bluenumber> ;
+            owl:onProperty <https://iseal-community.github.io/iseal-core#is-organization-ror> ;
             owl:someValuesFrom xsd:string ],
         [ a owl:Restriction ;
             owl:onProperty <https://iseal-community.github.io/iseal-core#dc-contributor-author> ;
             owl:someValuesFrom xsd:string ],
         [ a owl:Restriction ;
-            owl:onProperty <https://iseal-community.github.io/iseal-core#is-organization-ror> ;
+            owl:onProperty <https://iseal-community.github.io/iseal-core#is-author-orcid> ;
+            owl:someValuesFrom xsd:string ],
+        [ a owl:Restriction ;
+            owl:maxQualifiedCardinality 1 ;
+            owl:onDataRange xsd:string ;
+            owl:onProperty <https://iseal-community.github.io/iseal-core#is-contact-email> ],
+        [ a owl:Restriction ;
+            owl:minQualifiedCardinality 1 ;
+            owl:onProperty <https://iseal-community.github.io/iseal-core#is-contributor-fundertype> ;
+            owl:someValuesFrom <https://iseal-community.github.io/iseal-core#VOCAB_Funding_source_type> ],
+        [ a owl:Restriction ;
+            owl:onProperty <https://iseal-community.github.io/iseal-core#is-contributor-funder> ;
+            owl:someValuesFrom xsd:string ],
+        [ a owl:Restriction ;
+            owl:maxQualifiedCardinality 1 ;
+            owl:onDataRange xsd:string ;
+            owl:onProperty <https://iseal-community.github.io/iseal-core#is-journalname> ],
+        [ a owl:Restriction ;
+            owl:onProperty <https://iseal-community.github.io/iseal-core#dcterms-publisher> ;
+            owl:someValuesFrom xsd:string ],
+        [ a owl:Restriction ;
+            owl:maxQualifiedCardinality 1 ;
+            owl:onDataRange xsd:string ;
+            owl:onProperty <https://iseal-community.github.io/iseal-core#dcterms-alternative> ],
+        [ a owl:Restriction ;
+            owl:maxQualifiedCardinality 1 ;
+            owl:onDataRange xsd:string ;
+            owl:onProperty <https://iseal-community.github.io/iseal-core#dc-title> ],
+        [ a owl:Restriction ;
+            owl:maxQualifiedCardinality 1 ;
+            owl:onDataRange xsd:string ;
+            owl:onProperty <https://iseal-community.github.io/iseal-core#dcterms-ispartof> ],
+        [ a owl:Restriction ;
+            owl:onProperty <https://iseal-community.github.io/iseal-core#is-organization-bluenumber> ;
             owl:someValuesFrom xsd:string ],
         <https://iseal-community.github.io/iseal-core#GLOBAL> ;
     skos:prefLabel "Provenance" .
@@ -10371,8 +10371,15 @@
 <https://iseal-community.github.io/iseal-core#Scope> a owl:Class ;
     rdfs:subClassOf [ a owl:Restriction ;
             owl:minQualifiedCardinality 1 ;
-            owl:onProperty <https://iseal-community.github.io/iseal-core#is-focus-systemelement> ;
-            owl:someValuesFrom <https://iseal-community.github.io/iseal-core#VOCAB_ISEAL_system_element> ],
+            owl:onProperty <https://iseal-community.github.io/iseal-core#is-focus-sustainlens> ;
+            owl:someValuesFrom <https://iseal-community.github.io/iseal-core#VOCAB_Sustainability_cross-cutting_lens> ],
+        [ a owl:Restriction ;
+            owl:minQualifiedCardinality 1 ;
+            owl:onProperty <https://iseal-community.github.io/iseal-core#is-focus-sectors> ;
+            owl:someValuesFrom <https://iseal-community.github.io/iseal-core#VOCAB_Sector_focus> ],
+        [ a owl:Restriction ;
+            owl:onProperty <https://iseal-community.github.io/iseal-core#dcterms-subject> ;
+            owl:someValuesFrom xsd:string ],
         [ a owl:Restriction ;
             owl:minQualifiedCardinality 1 ;
             owl:onProperty <https://iseal-community.github.io/iseal-core#is-identifier-schemetype> ;
@@ -10381,6 +10388,20 @@
             owl:minQualifiedCardinality 1 ;
             owl:onProperty <https://iseal-community.github.io/iseal-core#is-focus-sustainissue> ;
             owl:someValuesFrom <https://iseal-community.github.io/iseal-core#VOCAB_Sustainability_issue> ],
+        [ a owl:Restriction ;
+            owl:onProperty <https://iseal-community.github.io/iseal-core#is-focus-gtin> ;
+            owl:someValuesFrom xsd:string ],
+        [ a owl:Restriction ;
+            owl:minQualifiedCardinality 1 ;
+            owl:onProperty <https://iseal-community.github.io/iseal-core#is-identifier-code> ;
+            owl:someValuesFrom <https://iseal-community.github.io/iseal-core#VOCAB_ISEAL_code_name> ],
+        [ a owl:Restriction ;
+            owl:minQualifiedCardinality 1 ;
+            owl:onProperty <https://iseal-community.github.io/iseal-core#is-identifier-clause> ;
+            owl:someValuesFrom <https://iseal-community.github.io/iseal-core#VOCAB_ISEAL_code_clause_number> ],
+        [ a owl:Restriction ;
+            owl:onProperty <https://iseal-community.github.io/iseal-core#is-identifier-standardcode> ;
+            owl:someValuesFrom xsd:string ],
         [ a owl:Restriction ;
             owl:minQualifiedCardinality 1 ;
             owl:onProperty <https://iseal-community.github.io/iseal-core#is-identifier-schemename> ;
@@ -10391,111 +10412,74 @@
             owl:someValuesFrom <https://iseal-community.github.io/iseal-core#VOCAB_SDG_focus> ],
         [ a owl:Restriction ;
             owl:minQualifiedCardinality 1 ;
-            owl:onProperty <https://iseal-community.github.io/iseal-core#is-focus-sustainlens> ;
-            owl:someValuesFrom <https://iseal-community.github.io/iseal-core#VOCAB_Sustainability_cross-cutting_lens> ],
-        [ a owl:Restriction ;
-            owl:minQualifiedCardinality 1 ;
-            owl:onProperty <https://iseal-community.github.io/iseal-core#is-delta-sustainindicator> ;
-            owl:someValuesFrom <https://iseal-community.github.io/iseal-core#VOCAB_ISEAL_Delta_project_sustainability_indicator> ],
-        [ a owl:Restriction ;
-            owl:onProperty <https://iseal-community.github.io/iseal-core#is-identifier-standardcode> ;
-            owl:someValuesFrom xsd:string ],
+            owl:onProperty <https://iseal-community.github.io/iseal-core#is-focus-strategypillar> ;
+            owl:someValuesFrom <https://iseal-community.github.io/iseal-core#VOCAB_ISEAL_strategic_pillar> ],
         [ a owl:Restriction ;
             owl:minQualifiedCardinality 1 ;
             owl:onProperty <https://iseal-community.github.io/iseal-core#is-focus-sustainoutcome> ;
             owl:someValuesFrom <https://iseal-community.github.io/iseal-core#VOCAB_Sustainability_outcome> ],
         [ a owl:Restriction ;
-            owl:onProperty <https://iseal-community.github.io/iseal-core#dcterms-subject> ;
-            owl:someValuesFrom xsd:string ],
-        [ a owl:Restriction ;
             owl:minQualifiedCardinality 1 ;
-            owl:onProperty <https://iseal-community.github.io/iseal-core#is-identifier-clause> ;
-            owl:someValuesFrom <https://iseal-community.github.io/iseal-core#VOCAB_ISEAL_code_clause_number> ],
-        [ a owl:Restriction ;
-            owl:minQualifiedCardinality 1 ;
-            owl:onProperty <https://iseal-community.github.io/iseal-core#is-focus-sectors> ;
-            owl:someValuesFrom <https://iseal-community.github.io/iseal-core#VOCAB_Sector_focus> ],
+            owl:onProperty <https://iseal-community.github.io/iseal-core#is-focus-sustaindimension> ;
+            owl:someValuesFrom <https://iseal-community.github.io/iseal-core#VOCAB_Sustainability_dimension> ],
         [ a owl:Restriction ;
             owl:minQualifiedCardinality 1 ;
             owl:onProperty <https://iseal-community.github.io/iseal-core#is-focus-products> ;
             owl:someValuesFrom <https://iseal-community.github.io/iseal-core#VOCAB_Product_focus> ],
         [ a owl:Restriction ;
             owl:minQualifiedCardinality 1 ;
-            owl:onProperty <https://iseal-community.github.io/iseal-core#is-identifier-code> ;
-            owl:someValuesFrom <https://iseal-community.github.io/iseal-core#VOCAB_ISEAL_code_name> ],
+            owl:onProperty <https://iseal-community.github.io/iseal-core#is-delta-sustainindicator> ;
+            owl:someValuesFrom <https://iseal-community.github.io/iseal-core#VOCAB_ISEAL_Delta_project_sustainability_indicator> ],
         [ a owl:Restriction ;
             owl:minQualifiedCardinality 1 ;
-            owl:onProperty <https://iseal-community.github.io/iseal-core#is-focus-sustaindimension> ;
-            owl:someValuesFrom <https://iseal-community.github.io/iseal-core#VOCAB_Sustainability_dimension> ],
-        [ a owl:Restriction ;
-            owl:onProperty <https://iseal-community.github.io/iseal-core#is-focus-gtin> ;
-            owl:someValuesFrom xsd:string ],
-        [ a owl:Restriction ;
-            owl:minQualifiedCardinality 1 ;
-            owl:onProperty <https://iseal-community.github.io/iseal-core#is-focus-strategypillar> ;
-            owl:someValuesFrom <https://iseal-community.github.io/iseal-core#VOCAB_ISEAL_strategic_pillar> ],
+            owl:onProperty <https://iseal-community.github.io/iseal-core#is-focus-systemelement> ;
+            owl:someValuesFrom <https://iseal-community.github.io/iseal-core#VOCAB_ISEAL_system_element> ],
         <https://iseal-community.github.io/iseal-core#GLOBAL> ;
     skos:prefLabel "Scope" .
 
 <https://iseal-community.github.io/iseal-core#Status> a owl:Class ;
     rdfs:subClassOf [ a owl:Restriction ;
             owl:maxQualifiedCardinality 1 ;
-            owl:onClass <https://iseal-community.github.io/iseal-core#VOCAB_Peer_review_status> ;
-            owl:onProperty <https://iseal-community.github.io/iseal-core#is-item-reviewstatus> ],
-        [ a owl:Restriction ;
-            owl:maxQualifiedCardinality 1 ;
-            owl:onClass <https://iseal-community.github.io/iseal-core#VOCAB_Standard_status> ;
-            owl:onProperty <https://iseal-community.github.io/iseal-core#is-identifier-standardstatus> ],
-        [ a owl:Restriction ;
-            owl:maxQualifiedCardinality 1 ;
-            owl:onDataRange xsd:string ;
-            owl:onProperty <https://iseal-community.github.io/iseal-core#is-extent-edition> ],
-        [ a owl:Restriction ;
-            owl:maxQualifiedCardinality 1 ;
-            owl:onClass <https://iseal-community.github.io/iseal-core#VOCAB_Status> ;
-            owl:onProperty <https://iseal-community.github.io/iseal-core#is-item-status> ],
-        [ a owl:Restriction ;
-            owl:maxQualifiedCardinality 1 ;
             owl:onDataRange xsd:date ;
-            owl:onProperty <https://iseal-community.github.io/iseal-core#dcterms-datesubmitted> ],
-        [ a owl:Restriction ;
-            owl:maxQualifiedCardinality 1 ;
-            owl:onDataRange xsd:date ;
-            owl:onProperty <https://iseal-community.github.io/iseal-core#dc-date-accessioned> ],
-        [ a owl:Restriction ;
-            owl:maxQualifiedCardinality 1 ;
-            owl:onDataRange xsd:date ;
-            owl:onProperty <https://iseal-community.github.io/iseal-core#is-dateofversion1> ],
-        [ a owl:Restriction ;
-            owl:onProperty <https://iseal-community.github.io/iseal-core#is-daterevised> ;
-            owl:someValuesFrom xsd:date ],
-        [ a owl:Restriction ;
-            owl:maxQualifiedCardinality 1 ;
-            owl:onDataRange xsd:string ;
-            owl:onProperty <https://iseal-community.github.io/iseal-core#is-extent-version> ],
-        [ a owl:Restriction ;
-            owl:maxQualifiedCardinality 1 ;
-            owl:onDataRange xsd:string ;
-            owl:onProperty <https://iseal-community.github.io/iseal-core#dcterms-isreplacedby> ],
-        [ a owl:Restriction ;
-            owl:maxQualifiedCardinality 1 ;
-            owl:onDataRange xsd:date ;
-            owl:onProperty <https://iseal-community.github.io/iseal-core#dcterms-modified> ],
+            owl:onProperty <https://iseal-community.github.io/iseal-core#dcterms-issued> ],
         [ a owl:Restriction ;
             owl:maxQualifiedCardinality 1 ;
             owl:onDataRange xsd:date ;
             owl:onProperty <https://iseal-community.github.io/iseal-core#dcterms-valid> ],
         [ a owl:Restriction ;
             owl:maxQualifiedCardinality 1 ;
+            owl:onClass <https://iseal-community.github.io/iseal-core#VOCAB_Standard_status> ;
+            owl:onProperty <https://iseal-community.github.io/iseal-core#is-identifier-standardstatus> ],
+        [ a owl:Restriction ;
+            owl:maxQualifiedCardinality 1 ;
             owl:onDataRange xsd:date ;
-            owl:onProperty <https://iseal-community.github.io/iseal-core#dcterms-created> ],
+            owl:onProperty <https://iseal-community.github.io/iseal-core#dcterms-datesubmitted> ],
+        [ a owl:Restriction ;
+            owl:onProperty <https://iseal-community.github.io/iseal-core#is-daterevised> ;
+            owl:someValuesFrom xsd:date ],
+        [ a owl:Restriction ;
+            owl:maxQualifiedCardinality 1 ;
+            owl:onDataRange xsd:string ;
+            owl:onProperty <https://iseal-community.github.io/iseal-core#dcterms-isreplacedby> ],
+        [ a owl:Restriction ;
+            owl:maxQualifiedCardinality 1 ;
+            owl:onDataRange xsd:string ;
+            owl:onProperty <https://iseal-community.github.io/iseal-core#is-extent-version> ],
         [ a owl:Restriction ;
             owl:onProperty <https://iseal-community.github.io/iseal-core#is-datereviewed> ;
             owl:someValuesFrom xsd:date ],
         [ a owl:Restriction ;
             owl:maxQualifiedCardinality 1 ;
             owl:onDataRange xsd:date ;
-            owl:onProperty <https://iseal-community.github.io/iseal-core#dcterms-issued> ],
+            owl:onProperty <https://iseal-community.github.io/iseal-core#dcterms-created> ],
+        [ a owl:Restriction ;
+            owl:maxQualifiedCardinality 1 ;
+            owl:onDataRange xsd:date ;
+            owl:onProperty <https://iseal-community.github.io/iseal-core#is-dateofversion1> ],
+        [ a owl:Restriction ;
+            owl:maxQualifiedCardinality 1 ;
+            owl:onClass <https://iseal-community.github.io/iseal-core#VOCAB_Status> ;
+            owl:onProperty <https://iseal-community.github.io/iseal-core#is-item-status> ],
         [ a owl:Restriction ;
             owl:maxQualifiedCardinality 1 ;
             owl:onDataRange xsd:date ;
@@ -10504,6 +10488,22 @@
             owl:maxQualifiedCardinality 1 ;
             owl:onDataRange xsd:date ;
             owl:onProperty <https://iseal-community.github.io/iseal-core#dc-date-available> ],
+        [ a owl:Restriction ;
+            owl:maxQualifiedCardinality 1 ;
+            owl:onDataRange xsd:date ;
+            owl:onProperty <https://iseal-community.github.io/iseal-core#dc-date-accessioned> ],
+        [ a owl:Restriction ;
+            owl:maxQualifiedCardinality 1 ;
+            owl:onDataRange xsd:string ;
+            owl:onProperty <https://iseal-community.github.io/iseal-core#is-extent-edition> ],
+        [ a owl:Restriction ;
+            owl:maxQualifiedCardinality 1 ;
+            owl:onClass <https://iseal-community.github.io/iseal-core#VOCAB_Peer_review_status> ;
+            owl:onProperty <https://iseal-community.github.io/iseal-core#is-item-reviewstatus> ],
+        [ a owl:Restriction ;
+            owl:maxQualifiedCardinality 1 ;
+            owl:onDataRange xsd:date ;
+            owl:onProperty <https://iseal-community.github.io/iseal-core#dcterms-modified> ],
         <https://iseal-community.github.io/iseal-core#GLOBAL> ;
     skos:prefLabel "Status" .
 
@@ -10513,55 +10513,35 @@
             owl:onClass <https://iseal-community.github.io/iseal-core#VOCAB_Evaluation_comparison> ;
             owl:onProperty <https://iseal-community.github.io/iseal-core#is-evaluation-comparison> ],
         [ a owl:Restriction ;
-            owl:maxQualifiedCardinality 1 ;
-            owl:onClass <https://iseal-community.github.io/iseal-core#VOCAB_Evaluation_data/evidence_collection_method> ;
-            owl:onProperty <https://iseal-community.github.io/iseal-core#is-evaluation-collection> ],
+            owl:onProperty <https://iseal-community.github.io/iseal-core#is-evaluation-notes> ;
+            owl:someValuesFrom xsd:string ],
         [ a owl:Restriction ;
             owl:maxQualifiedCardinality 1 ;
             owl:onDataRange xsd:string ;
             owl:onProperty <https://iseal-community.github.io/iseal-core#is-evidencesummary> ],
         [ a owl:Restriction ;
-            owl:maxQualifiedCardinality 1 ;
-            owl:onClass <https://iseal-community.github.io/iseal-core#VOCAB_Evaluation_data_source> ;
-            owl:onProperty <https://iseal-community.github.io/iseal-core#is-evaluation-datasource> ],
-        [ a owl:Restriction ;
-            owl:maxQualifiedCardinality 1 ;
-            owl:onClass <https://iseal-community.github.io/iseal-core#VOCAB_Evaluation_statistical_significance> ;
-            owl:onProperty <https://iseal-community.github.io/iseal-core#is-evaluation-significance> ],
-        [ a owl:Restriction ;
-            owl:onProperty <https://iseal-community.github.io/iseal-core#is-evaluation-notes> ;
+            owl:onProperty <https://iseal-community.github.io/iseal-core#is-evaluation-scope> ;
             owl:someValuesFrom xsd:string ],
         [ a owl:Restriction ;
             owl:maxQualifiedCardinality 1 ;
             owl:onClass <https://iseal-community.github.io/iseal-core#VOCAB_Evaluation_counterfactuals> ;
             owl:onProperty <https://iseal-community.github.io/iseal-core#is-evaluation-counterfacts> ],
         [ a owl:Restriction ;
-            owl:maxQualifiedCardinality 1 ;
-            owl:onClass <https://iseal-community.github.io/iseal-core#VOCAB_Evaluation_outcome_identified?> ;
-            owl:onProperty <https://iseal-community.github.io/iseal-core#is-evaluation-outcome> ],
-        [ a owl:Restriction ;
-            owl:onProperty <https://iseal-community.github.io/iseal-core#is-evaluation-test> ;
-            owl:someValuesFrom xsd:string ],
-        [ a owl:Restriction ;
-            owl:maxQualifiedCardinality 1 ;
-            owl:onClass <https://iseal-community.github.io/iseal-core#VOCAB_Evidence_type_or_category> ;
-            owl:onProperty <https://iseal-community.github.io/iseal-core#is-evidencetype> ],
-        [ a owl:Restriction ;
-            owl:maxQualifiedCardinality 1 ;
-            owl:onClass <https://iseal-community.github.io/iseal-core#VOCAB_Evaluation_no_difference_directionality> ;
-            owl:onProperty <https://iseal-community.github.io/iseal-core#is-evaluation-nodifferencedirectionality> ],
-        [ a owl:Restriction ;
-            owl:maxQualifiedCardinality 1 ;
-            owl:onClass <https://iseal-community.github.io/iseal-core#VOCAB_Evidence_resource_type> ;
-            owl:onProperty <https://iseal-community.github.io/iseal-core#is-evidenceresourcetype> ],
-        [ a owl:Restriction ;
-            owl:onProperty <https://iseal-community.github.io/iseal-core#is-evaluation-recommendations> ;
+            owl:onProperty <https://iseal-community.github.io/iseal-core#is-evaluation-findings> ;
             owl:someValuesFrom xsd:string ],
         [ a owl:Restriction ;
             owl:onProperty <https://iseal-community.github.io/iseal-core#is-evaluation-quotes> ;
             owl:someValuesFrom xsd:string ],
         [ a owl:Restriction ;
-            owl:onProperty <https://iseal-community.github.io/iseal-core#is-evaluation-findings> ;
+            owl:maxQualifiedCardinality 1 ;
+            owl:onClass <https://iseal-community.github.io/iseal-core#VOCAB_Evaluation_data_source> ;
+            owl:onProperty <https://iseal-community.github.io/iseal-core#is-evaluation-datasource> ],
+        [ a owl:Restriction ;
+            owl:maxQualifiedCardinality 1 ;
+            owl:onClass <https://iseal-community.github.io/iseal-core#VOCAB_Evidence_type_or_category> ;
+            owl:onProperty <https://iseal-community.github.io/iseal-core#is-evidencetype> ],
+        [ a owl:Restriction ;
+            owl:onProperty <https://iseal-community.github.io/iseal-core#is-evaluation-recommendations> ;
             owl:someValuesFrom xsd:string ],
         [ a owl:Restriction ;
             owl:maxQualifiedCardinality 1 ;
@@ -10569,11 +10549,31 @@
             owl:onProperty <https://iseal-community.github.io/iseal-core#is-evidencesubtype> ],
         [ a owl:Restriction ;
             owl:maxQualifiedCardinality 1 ;
+            owl:onClass <https://iseal-community.github.io/iseal-core#VOCAB_Evaluation_outcome_identified?> ;
+            owl:onProperty <https://iseal-community.github.io/iseal-core#is-evaluation-outcome> ],
+        [ a owl:Restriction ;
+            owl:maxQualifiedCardinality 1 ;
             owl:onClass <https://iseal-community.github.io/iseal-core#VOCAB_Evaluation_author_directionality> ;
             owl:onProperty <https://iseal-community.github.io/iseal-core#is-evaluation-authordirectionality> ],
         [ a owl:Restriction ;
-            owl:onProperty <https://iseal-community.github.io/iseal-core#is-evaluation-scope> ;
+            owl:maxQualifiedCardinality 1 ;
+            owl:onClass <https://iseal-community.github.io/iseal-core#VOCAB_Evaluation_data/evidence_collection_method> ;
+            owl:onProperty <https://iseal-community.github.io/iseal-core#is-evaluation-collection> ],
+        [ a owl:Restriction ;
+            owl:onProperty <https://iseal-community.github.io/iseal-core#is-evaluation-test> ;
             owl:someValuesFrom xsd:string ],
+        [ a owl:Restriction ;
+            owl:maxQualifiedCardinality 1 ;
+            owl:onClass <https://iseal-community.github.io/iseal-core#VOCAB_Evidence_resource_type> ;
+            owl:onProperty <https://iseal-community.github.io/iseal-core#is-evidenceresourcetype> ],
+        [ a owl:Restriction ;
+            owl:maxQualifiedCardinality 1 ;
+            owl:onClass <https://iseal-community.github.io/iseal-core#VOCAB_Evaluation_statistical_significance> ;
+            owl:onProperty <https://iseal-community.github.io/iseal-core#is-evaluation-significance> ],
+        [ a owl:Restriction ;
+            owl:maxQualifiedCardinality 1 ;
+            owl:onClass <https://iseal-community.github.io/iseal-core#VOCAB_Evaluation_no_difference_directionality> ;
+            owl:onProperty <https://iseal-community.github.io/iseal-core#is-evaluation-nodifferencedirectionality> ],
         <https://iseal-community.github.io/iseal-core#IMPACT> ;
     skos:prefLabel "Evaluation" .
 
@@ -10589,22 +10589,6 @@
 <https://iseal-community.github.io/iseal-core#Assurance> a owl:Class ;
     rdfs:subClassOf [ a owl:Restriction ;
             owl:maxQualifiedCardinality 1 ;
-            owl:onDataRange xsd:string ;
-            owl:onProperty <https://iseal-community.github.io/iseal-core#is-certifyingbody-streetname> ],
-        [ a owl:Restriction ;
-            owl:maxQualifiedCardinality 1 ;
-            owl:onDataRange xsd:string ;
-            owl:onProperty <https://iseal-community.github.io/iseal-core#is-certifyingbody-email> ],
-        [ a owl:Restriction ;
-            owl:maxQualifiedCardinality 1 ;
-            owl:onDataRange xsd:string ;
-            owl:onProperty <https://iseal-community.github.io/iseal-core#is-certifyingbody-postcode> ],
-        [ a owl:Restriction ;
-            owl:minQualifiedCardinality 1 ;
-            owl:onProperty <https://iseal-community.github.io/iseal-core#is-certifyingbody-accreditedtechscopetype> ;
-            owl:someValuesFrom <https://iseal-community.github.io/iseal-core#VOCAB_Certifying_body_accredited_technical_scope_type> ],
-        [ a owl:Restriction ;
-            owl:maxQualifiedCardinality 1 ;
             owl:onClass <https://iseal-community.github.io/iseal-core#VOCAB_Certifying_body_ASI_accreditation_code> ;
             owl:onProperty <https://iseal-community.github.io/iseal-core#is-certifyingbody-asicode> ],
         [ a owl:Restriction ;
@@ -10613,32 +10597,8 @@
             owl:onProperty <https://iseal-community.github.io/iseal-core#is-certifyingbody-city> ],
         [ a owl:Restriction ;
             owl:maxQualifiedCardinality 1 ;
-            owl:onDataRange xsd:date ;
-            owl:onProperty <https://iseal-community.github.io/iseal-core#is-certifyingbody-accreditationenddate> ],
-        [ a owl:Restriction ;
-            owl:maxQualifiedCardinality 1 ;
-            owl:onDataRange xsd:string ;
-            owl:onProperty <https://iseal-community.github.io/iseal-core#is-certifyingbody-addresslong> ],
-        [ a owl:Restriction ;
-            owl:maxQualifiedCardinality 1 ;
             owl:onClass <https://iseal-community.github.io/iseal-core#VOCAB_Certifying_body_name> ;
             owl:onProperty <https://iseal-community.github.io/iseal-core#is-certifyingbody-name> ],
-        [ a owl:Restriction ;
-            owl:maxQualifiedCardinality 1 ;
-            owl:onClass <https://iseal-community.github.io/iseal-core#VOCAB_Certifying_body_accreditation_status> ;
-            owl:onProperty <https://iseal-community.github.io/iseal-core#is-certifyingbody-accreditationstatus> ],
-        [ a owl:Restriction ;
-            owl:maxQualifiedCardinality 1 ;
-            owl:onDataRange xsd:date ;
-            owl:onProperty <https://iseal-community.github.io/iseal-core#is-certifyingbody-accreditationstartdate> ],
-        [ a owl:Restriction ;
-            owl:maxQualifiedCardinality 1 ;
-            owl:onDataRange xsd:string ;
-            owl:onProperty <https://iseal-community.github.io/iseal-core#is-certifyingbody-addresslat> ],
-        [ a owl:Restriction ;
-            owl:maxQualifiedCardinality 1 ;
-            owl:onDataRange xsd:float ;
-            owl:onProperty <https://iseal-community.github.io/iseal-core#is-certifyingbody-phonecountrycode> ],
         [ a owl:Restriction ;
             owl:onProperty <https://iseal-community.github.io/iseal-core#is-certifyingbody-standardaccredited> ;
             owl:someValuesFrom xsd:string ],
@@ -10646,29 +10606,69 @@
             owl:onProperty <https://iseal-community.github.io/iseal-core#is-certifyingbody-standardcertified> ;
             owl:someValuesFrom xsd:string ],
         [ a owl:Restriction ;
-            owl:minQualifiedCardinality 1 ;
-            owl:onProperty <https://iseal-community.github.io/iseal-core#is-certifyingbody-accreditedtechscope> ;
-            owl:someValuesFrom <https://iseal-community.github.io/iseal-core#VOCAB_Certifying_body_accredited_technical_scope> ],
-        [ a owl:Restriction ;
             owl:maxQualifiedCardinality 1 ;
             owl:onDataRange xsd:string ;
-            owl:onProperty <https://iseal-community.github.io/iseal-core#is-certifyingbody-url> ],
+            owl:onProperty <https://iseal-community.github.io/iseal-core#is-certifyingbody-email> ],
         [ a owl:Restriction ;
-            owl:minQualifiedCardinality 1 ;
-            owl:onProperty <https://iseal-community.github.io/iseal-core#is-certifyingbody-schemeaccredited> ;
-            owl:someValuesFrom <https://iseal-community.github.io/iseal-core#VOCAB_Certifying_body_program_or_scheme_accredited_for> ],
+            owl:maxQualifiedCardinality 1 ;
+            owl:onDataRange xsd:float ;
+            owl:onProperty <https://iseal-community.github.io/iseal-core#is-certifyingbody-phonenumber> ],
+        [ a owl:Restriction ;
+            owl:maxQualifiedCardinality 1 ;
+            owl:onClass <https://iseal-community.github.io/iseal-core#VOCAB_Certifying_body_accreditation_status> ;
+            owl:onProperty <https://iseal-community.github.io/iseal-core#is-certifyingbody-accreditationstatus> ],
         [ a owl:Restriction ;
             owl:minQualifiedCardinality 1 ;
             owl:onProperty <https://iseal-community.github.io/iseal-core#is-certifyingbody-accreditedgeoscope> ;
             owl:someValuesFrom <https://iseal-community.github.io/iseal-core#VOCAB_Certifying_body_accredited_geographic_scope> ],
         [ a owl:Restriction ;
             owl:maxQualifiedCardinality 1 ;
+            owl:onDataRange xsd:date ;
+            owl:onProperty <https://iseal-community.github.io/iseal-core#is-certifyingbody-accreditationenddate> ],
+        [ a owl:Restriction ;
+            owl:minQualifiedCardinality 1 ;
+            owl:onProperty <https://iseal-community.github.io/iseal-core#is-certifyingbody-schemeaccredited> ;
+            owl:someValuesFrom <https://iseal-community.github.io/iseal-core#VOCAB_Certifying_body_program_or_scheme_accredited_for> ],
+        [ a owl:Restriction ;
+            owl:maxQualifiedCardinality 1 ;
+            owl:onDataRange xsd:string ;
+            owl:onProperty <https://iseal-community.github.io/iseal-core#is-certifyingbody-addresslat> ],
+        [ a owl:Restriction ;
+            owl:maxQualifiedCardinality 1 ;
             owl:onClass <https://iseal-community.github.io/iseal-core#VOCAB_Certifying_body_address_country> ;
             owl:onProperty <https://iseal-community.github.io/iseal-core#is-certifyingbody-country> ],
         [ a owl:Restriction ;
             owl:maxQualifiedCardinality 1 ;
+            owl:onDataRange xsd:string ;
+            owl:onProperty <https://iseal-community.github.io/iseal-core#is-certifyingbody-addresslong> ],
+        [ a owl:Restriction ;
+            owl:maxQualifiedCardinality 1 ;
+            owl:onDataRange xsd:string ;
+            owl:onProperty <https://iseal-community.github.io/iseal-core#is-certifyingbody-streetname> ],
+        [ a owl:Restriction ;
+            owl:minQualifiedCardinality 1 ;
+            owl:onProperty <https://iseal-community.github.io/iseal-core#is-certifyingbody-accreditedtechscopetype> ;
+            owl:someValuesFrom <https://iseal-community.github.io/iseal-core#VOCAB_Certifying_body_accredited_technical_scope_type> ],
+        [ a owl:Restriction ;
+            owl:minQualifiedCardinality 1 ;
+            owl:onProperty <https://iseal-community.github.io/iseal-core#is-certifyingbody-accreditedtechscope> ;
+            owl:someValuesFrom <https://iseal-community.github.io/iseal-core#VOCAB_Certifying_body_accredited_technical_scope> ],
+        [ a owl:Restriction ;
+            owl:maxQualifiedCardinality 1 ;
             owl:onDataRange xsd:float ;
-            owl:onProperty <https://iseal-community.github.io/iseal-core#is-certifyingbody-phonenumber> ],
+            owl:onProperty <https://iseal-community.github.io/iseal-core#is-certifyingbody-phonecountrycode> ],
+        [ a owl:Restriction ;
+            owl:maxQualifiedCardinality 1 ;
+            owl:onDataRange xsd:string ;
+            owl:onProperty <https://iseal-community.github.io/iseal-core#is-certifyingbody-postcode> ],
+        [ a owl:Restriction ;
+            owl:maxQualifiedCardinality 1 ;
+            owl:onDataRange xsd:date ;
+            owl:onProperty <https://iseal-community.github.io/iseal-core#is-certifyingbody-accreditationstartdate> ],
+        [ a owl:Restriction ;
+            owl:maxQualifiedCardinality 1 ;
+            owl:onDataRange xsd:string ;
+            owl:onProperty <https://iseal-community.github.io/iseal-core#is-certifyingbody-url> ],
         <https://iseal-community.github.io/iseal-core#CERTIFICATION>,
         <https://iseal-community.github.io/iseal-core#VOCAB_ISEAL_code_name> ;
     skos:prefLabel "Assurance" .
@@ -10682,39 +10682,12 @@
 <https://iseal-community.github.io/iseal-core#Form> a owl:Class ;
     rdfs:subClassOf [ a owl:Restriction ;
             owl:maxQualifiedCardinality 1 ;
+            owl:onDataRange xsd:string ;
+            owl:onProperty <https://iseal-community.github.io/iseal-core#dc-identifier-uri> ],
+        [ a owl:Restriction ;
+            owl:maxQualifiedCardinality 1 ;
             owl:onClass <https://iseal-community.github.io/iseal-core#VOCAB_Type> ;
             owl:onProperty <https://iseal-community.github.io/iseal-core#dcterms-type> ],
-        [ a owl:Restriction ;
-            owl:onProperty <https://iseal-community.github.io/iseal-core#is-link-image> ;
-            owl:someValuesFrom xsd:string ],
-        [ a owl:Restriction ;
-            owl:maxQualifiedCardinality 1 ;
-            owl:onDataRange xsd:string ;
-            owl:onProperty <https://iseal-community.github.io/iseal-core#is-identifier-id> ],
-        [ a owl:Restriction ;
-            owl:maxQualifiedCardinality 1 ;
-            owl:onClass <https://iseal-community.github.io/iseal-core#VOCAB_Format> ;
-            owl:onProperty <https://iseal-community.github.io/iseal-core#dcterms-format> ],
-        [ a owl:Restriction ;
-            owl:maxQualifiedCardinality 1 ;
-            owl:onClass <https://iseal-community.github.io/iseal-core#VOCAB_Language_ISO_code> ;
-            owl:onProperty <https://iseal-community.github.io/iseal-core#dcterms-language> ],
-        [ a owl:Restriction ;
-            owl:maxQualifiedCardinality 1 ;
-            owl:onClass <https://iseal-community.github.io/iseal-core#VOCAB_Language_name> ;
-            owl:onProperty <https://iseal-community.github.io/iseal-core#is-language> ],
-        [ a owl:Restriction ;
-            owl:maxQualifiedCardinality 1 ;
-            owl:onDataRange xsd:string ;
-            owl:onProperty <https://iseal-community.github.io/iseal-core#is-extent-pages> ],
-        [ a owl:Restriction ;
-            owl:maxQualifiedCardinality 1 ;
-            owl:onDataRange xsd:string ;
-            owl:onProperty <https://iseal-community.github.io/iseal-core#dcterms-bibliographiccitation> ],
-        [ a owl:Restriction ;
-            owl:maxQualifiedCardinality 1 ;
-            owl:onDataRange xsd:string ;
-            owl:onProperty <https://iseal-community.github.io/iseal-core#dcterms-extent> ],
         [ a owl:Restriction ;
             owl:maxQualifiedCardinality 1 ;
             owl:onClass <https://iseal-community.github.io/iseal-core#VOCAB_Usage_rights_license> ;
@@ -10722,7 +10695,57 @@
         [ a owl:Restriction ;
             owl:maxQualifiedCardinality 1 ;
             owl:onDataRange xsd:string ;
+            owl:onProperty <https://iseal-community.github.io/iseal-core#is-identifier-id> ],
+        [ a owl:Restriction ;
+            owl:onProperty <https://iseal-community.github.io/iseal-core#is-link-image> ;
+            owl:someValuesFrom xsd:string ],
+        [ a owl:Restriction ;
+            owl:maxQualifiedCardinality 1 ;
+            owl:onDataRange xsd:string ;
+            owl:onProperty <https://iseal-community.github.io/iseal-core#dcterms-abstract> ],
+        [ a owl:Restriction ;
+            owl:maxQualifiedCardinality 1 ;
+            owl:onDataRange xsd:string ;
+            owl:onProperty <https://iseal-community.github.io/iseal-core#is-extent-pages> ],
+        [ a owl:Restriction ;
+            owl:maxQualifiedCardinality 1 ;
+            owl:onClass <https://iseal-community.github.io/iseal-core#VOCAB_Audience> ;
+            owl:onProperty <https://iseal-community.github.io/iseal-core#dcterms-audience> ],
+        [ a owl:Restriction ;
+            owl:maxQualifiedCardinality 1 ;
+            owl:onClass <https://iseal-community.github.io/iseal-core#VOCAB_Availability> ;
+            owl:onProperty <https://iseal-community.github.io/iseal-core#is-availability-fulltext> ],
+        [ a owl:Restriction ;
+            owl:onProperty <https://iseal-community.github.io/iseal-core#is-link-url> ;
+            owl:someValuesFrom xsd:string ],
+        [ a owl:Restriction ;
+            owl:maxQualifiedCardinality 1 ;
+            owl:onClass <https://iseal-community.github.io/iseal-core#VOCAB_Format> ;
+            owl:onProperty <https://iseal-community.github.io/iseal-core#dcterms-format> ],
+        [ a owl:Restriction ;
+            owl:maxQualifiedCardinality 1 ;
+            owl:onClass <https://iseal-community.github.io/iseal-core#VOCAB_Access_rights> ;
+            owl:onProperty <https://iseal-community.github.io/iseal-core#dcterms-accessrights> ],
+        [ a owl:Restriction ;
+            owl:maxQualifiedCardinality 1 ;
+            owl:onDataRange xsd:string ;
+            owl:onProperty <https://iseal-community.github.io/iseal-core#dcterms-bibliographiccitation> ],
+        [ a owl:Restriction ;
+            owl:maxQualifiedCardinality 1 ;
+            owl:onDataRange xsd:string ;
+            owl:onProperty <https://iseal-community.github.io/iseal-core#is-extent-number> ],
+        [ a owl:Restriction ;
+            owl:maxQualifiedCardinality 1 ;
+            owl:onClass <https://iseal-community.github.io/iseal-core#VOCAB_Language_name> ;
+            owl:onProperty <https://iseal-community.github.io/iseal-core#is-language> ],
+        [ a owl:Restriction ;
+            owl:maxQualifiedCardinality 1 ;
+            owl:onDataRange xsd:string ;
             owl:onProperty <https://iseal-community.github.io/iseal-core#dcterms-description> ],
+        [ a owl:Restriction ;
+            owl:maxQualifiedCardinality 1 ;
+            owl:onDataRange xsd:string ;
+            owl:onProperty <https://iseal-community.github.io/iseal-core#dcterms-extent> ],
         [ a owl:Restriction ;
             owl:maxQualifiedCardinality 1 ;
             owl:onDataRange xsd:string ;
@@ -10730,41 +10753,18 @@
         [ a owl:Restriction ;
             owl:maxQualifiedCardinality 1 ;
             owl:onDataRange xsd:string ;
-            owl:onProperty <https://iseal-community.github.io/iseal-core#is-extent-volume> ],
-        [ a owl:Restriction ;
-            owl:maxQualifiedCardinality 1 ;
-            owl:onDataRange xsd:string ;
             owl:onProperty <https://iseal-community.github.io/iseal-core#dcterms-rightsholder> ],
-        [ a owl:Restriction ;
-            owl:maxQualifiedCardinality 1 ;
-            owl:onDataRange xsd:string ;
-            owl:onProperty <https://iseal-community.github.io/iseal-core#dc-identifier-uri> ],
         [ a owl:Restriction ;
             owl:onProperty <https://iseal-community.github.io/iseal-core#is-identifier-doi> ;
             owl:someValuesFrom xsd:string ],
         [ a owl:Restriction ;
-            owl:onProperty <https://iseal-community.github.io/iseal-core#is-link-url> ;
-            owl:someValuesFrom xsd:string ],
-        [ a owl:Restriction ;
             owl:maxQualifiedCardinality 1 ;
             owl:onDataRange xsd:string ;
-            owl:onProperty <https://iseal-community.github.io/iseal-core#is-extent-number> ],
+            owl:onProperty <https://iseal-community.github.io/iseal-core#is-extent-volume> ],
         [ a owl:Restriction ;
             owl:maxQualifiedCardinality 1 ;
-            owl:onClass <https://iseal-community.github.io/iseal-core#VOCAB_Availability> ;
-            owl:onProperty <https://iseal-community.github.io/iseal-core#is-availability-fulltext> ],
-        [ a owl:Restriction ;
-            owl:maxQualifiedCardinality 1 ;
-            owl:onClass <https://iseal-community.github.io/iseal-core#VOCAB_Access_rights> ;
-            owl:onProperty <https://iseal-community.github.io/iseal-core#dcterms-accessrights> ],
-        [ a owl:Restriction ;
-            owl:maxQualifiedCardinality 1 ;
-            owl:onClass <https://iseal-community.github.io/iseal-core#VOCAB_Audience> ;
-            owl:onProperty <https://iseal-community.github.io/iseal-core#dcterms-audience> ],
-        [ a owl:Restriction ;
-            owl:maxQualifiedCardinality 1 ;
-            owl:onDataRange xsd:string ;
-            owl:onProperty <https://iseal-community.github.io/iseal-core#dcterms-abstract> ],
+            owl:onClass <https://iseal-community.github.io/iseal-core#VOCAB_Language_ISO_code> ;
+            owl:onProperty <https://iseal-community.github.io/iseal-core#dcterms-language> ],
         <https://iseal-community.github.io/iseal-core#GLOBAL> ;
     skos:prefLabel "Form" .
 
