@@ -109,7 +109,7 @@ is.identifier.isbn,ISBN,,International standard book number,,,GLOBAL,Form,single
 is.identifier.clause,ISEAL code clause number,,ISEAL code of practice specific clause(s) associated to the resource,Select from control list,,GLOBAL,Scope,multi select from control list,ISEAL,controlled value,
 is.identifier.code,ISEAL code name,,ISEAL code(s) of practice associated to the resource,Select from control list,,GLOBAL,Scope,multi select from control list,ISEAL,controlled value,
 is.delta.sustainIndicator,ISEAL Delta project sustainability indicator,,"Farm-level, outcome/impact indicators across the social, economic and environmental dimensions of sustainability",Select from control list,,GLOBAL,Scope,multi select from control list,ISEAL,controlled value,
-is.contributor.member,ISEAL member contributor,mandatory,ISEAL member organization or scheme associatd to the resource ,Select from control list,,GLOBAL,Provenance,multi select from control list,ISEAL,controlled value,
+is.contributor.member,ISEAL Member contributor,mandatory,ISEAL Member organization or scheme associated to the resource ,Select from control list,,GLOBAL,Provenance,multi select from control list,ISEAL,controlled value,
 is.focus.strategyPillar,ISEAL strategic pillar,,,Select from control list,,GLOBAL,Scope,multi select from control list,ISEAL,controlled value,
 is.focus.systemElement,ISEAL system element,,,Select from control list,,GLOBAL,Scope,multi select from control list,ISEAL,controlled value,
 is.journalName,Journal name,,Journal full name in its original language,Data element used by Evidensia,,GLOBAL,Provenance,single value only,ISEAL,free value,
