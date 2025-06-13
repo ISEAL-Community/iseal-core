@@ -2930,6 +2930,10 @@
 <https://iseal-community.github.io/iseal-core/fsc#Assurance> a owl:Class ;
     rdfs:subClassOf [ a owl:Restriction ;
             owl:minQualifiedCardinality 1 ;
+            owl:onProperty <https://iseal-community.github.io/iseal-core/fsc#fsc-audit-documentationcat> ;
+            owl:someValuesFrom <https://iseal-community.github.io/iseal-core/fsc#VOCAB_FSC_audit_documentation_categories> ],
+        [ a owl:Restriction ;
+            owl:minQualifiedCardinality 1 ;
             owl:onProperty <https://iseal-community.github.io/iseal-core/fsc#fsc-audit-samplingsystem> ;
             owl:someValuesFrom <https://iseal-community.github.io/iseal-core/fsc#VOCAB_FSC_audit_sampling_system> ],
         [ a owl:Restriction ;
@@ -2938,20 +2942,16 @@
             owl:someValuesFrom <https://iseal-community.github.io/iseal-core/fsc#VOCAB_FSC_audit_stakeholder_types> ],
         [ a owl:Restriction ;
             owl:minQualifiedCardinality 1 ;
-            owl:onProperty <https://iseal-community.github.io/iseal-core/fsc#fsc-audit-documentationcat> ;
-            owl:someValuesFrom <https://iseal-community.github.io/iseal-core/fsc#VOCAB_FSC_audit_documentation_categories> ],
-        [ a owl:Restriction ;
-            owl:maxQualifiedCardinality 1 ;
-            owl:onClass <https://iseal-community.github.io/iseal-core/fsc#VOCAB_FSC_audit_type> ;
-            owl:onProperty <https://iseal-community.github.io/iseal-core/fsc#fsc-audit-type> ],
-        [ a owl:Restriction ;
-            owl:minQualifiedCardinality 1 ;
             owl:onProperty <https://iseal-community.github.io/iseal-core/fsc#fsc-audit-stakeholderengagement> ;
             owl:someValuesFrom <https://iseal-community.github.io/iseal-core/fsc#VOCAB_FSC_audit_stakeholder_engagement_types> ],
         [ a owl:Restriction ;
             owl:minQualifiedCardinality 1 ;
             owl:onProperty <https://iseal-community.github.io/iseal-core/fsc#fsc-audit-site> ;
             owl:someValuesFrom <https://iseal-community.github.io/iseal-core/fsc#VOCAB_FSC_audit_site_types> ],
+        [ a owl:Restriction ;
+            owl:maxQualifiedCardinality 1 ;
+            owl:onClass <https://iseal-community.github.io/iseal-core/fsc#VOCAB_FSC_audit_type> ;
+            owl:onProperty <https://iseal-community.github.io/iseal-core/fsc#fsc-audit-type> ],
         <https://iseal-community.github.io/iseal-core/fsc#FSC> ;
     skos:prefLabel "Assurance" .
 
@@ -3029,7 +3029,10 @@
 
 <https://iseal-community.github.io/iseal-core/fsc#Pesticides> a owl:Class ;
     rdfs:subClassOf [ a owl:Restriction ;
-            owl:onProperty <https://iseal-community.github.io/iseal-core/fsc#is-pesticide-biocontrolagent> ;
+            owl:onProperty <https://iseal-community.github.io/iseal-core/fsc#is-pesticide-pestspecies> ;
+            owl:someValuesFrom xsd:string ],
+        [ a owl:Restriction ;
+            owl:onProperty <https://iseal-community.github.io/iseal-core/fsc#is-pesticide-alternativestrategy> ;
             owl:someValuesFrom xsd:string ],
         [ a owl:Restriction ;
             owl:minQualifiedCardinality 1 ;
@@ -3040,29 +3043,26 @@
             owl:onClass <https://iseal-community.github.io/iseal-core/fsc#VOCAB_Pesticide_alternatives_type> ;
             owl:onProperty <https://iseal-community.github.io/iseal-core/fsc#is-pesticide-alternativetype> ],
         [ a owl:Restriction ;
-            owl:onProperty <https://iseal-community.github.io/iseal-core/fsc#is-pesticide-pestspecies> ;
-            owl:someValuesFrom xsd:string ],
-        [ a owl:Restriction ;
-            owl:onProperty <https://iseal-community.github.io/iseal-core/fsc#is-pesticide-challenge> ;
-            owl:someValuesFrom xsd:string ],
-        [ a owl:Restriction ;
-            owl:onProperty <https://iseal-community.github.io/iseal-core/fsc#is-pesticide-pestname> ;
-            owl:someValuesFrom xsd:string ],
-        [ a owl:Restriction ;
             owl:minQualifiedCardinality 1 ;
             owl:onProperty <https://iseal-community.github.io/iseal-core/fsc#is-pesticide-pesttype> ;
             owl:someValuesFrom <https://iseal-community.github.io/iseal-core/fsc#VOCAB_Pest_type> ],
         [ a owl:Restriction ;
-            owl:minQualifiedCardinality 1 ;
-            owl:onProperty <https://iseal-community.github.io/iseal-core/fsc#is-pesticide-alternativetrial> ;
-            owl:someValuesFrom <https://iseal-community.github.io/iseal-core/fsc#VOCAB_Pesticide_alternatives_trial_status> ],
+            owl:onProperty <https://iseal-community.github.io/iseal-core/fsc#is-pesticide-pestname> ;
+            owl:someValuesFrom xsd:string ],
         [ a owl:Restriction ;
-            owl:onProperty <https://iseal-community.github.io/iseal-core/fsc#is-pesticide-alternativestrategy> ;
+            owl:onProperty <https://iseal-community.github.io/iseal-core/fsc#is-pesticide-biocontrolagent> ;
             owl:someValuesFrom xsd:string ],
         [ a owl:Restriction ;
             owl:minQualifiedCardinality 1 ;
             owl:onProperty <https://iseal-community.github.io/iseal-core/fsc#is-pesticide-alternativemethod> ;
             owl:someValuesFrom <https://iseal-community.github.io/iseal-core/fsc#VOCAB_Pesticide_alternatives_method> ],
+        [ a owl:Restriction ;
+            owl:minQualifiedCardinality 1 ;
+            owl:onProperty <https://iseal-community.github.io/iseal-core/fsc#is-pesticide-alternativetrial> ;
+            owl:someValuesFrom <https://iseal-community.github.io/iseal-core/fsc#VOCAB_Pesticide_alternatives_trial_status> ],
+        [ a owl:Restriction ;
+            owl:onProperty <https://iseal-community.github.io/iseal-core/fsc#is-pesticide-challenge> ;
+            owl:someValuesFrom xsd:string ],
         <https://iseal-community.github.io/iseal-core/fsc#FSC> ;
     skos:prefLabel "Pesticides" .
 
@@ -3087,40 +3087,24 @@
 <https://iseal-community.github.io/iseal-core/fsc#Scope> a owl:Class ;
     rdfs:subClassOf [ a owl:Restriction ;
             owl:minQualifiedCardinality 1 ;
-            owl:onProperty <https://iseal-community.github.io/iseal-core/fsc#fsc-focus-forestspecies> ;
-            owl:someValuesFrom <https://iseal-community.github.io/iseal-core/fsc#VOCAB_FSC_forest_and_tree_species> ],
+            owl:onProperty <https://iseal-community.github.io/iseal-core/fsc#fsc-wood-code> ;
+            owl:someValuesFrom <https://iseal-community.github.io/iseal-core/fsc#VOCAB_FSC_controlled_wood_code> ],
         [ a owl:Restriction ;
             owl:minQualifiedCardinality 1 ;
-            owl:onProperty <https://iseal-community.github.io/iseal-core/fsc#fsc-focus-foresttype> ;
-            owl:someValuesFrom <https://iseal-community.github.io/iseal-core/fsc#VOCAB_FSC_forest_type> ],
+            owl:onProperty <https://iseal-community.github.io/iseal-core/fsc#fsc-focus-harvestingtechnique> ;
+            owl:someValuesFrom <https://iseal-community.github.io/iseal-core/fsc#VOCAB_FSC_forest_harvesting_techniques> ],
         [ a owl:Restriction ;
-            owl:minQualifiedCardinality 1 ;
-            owl:onProperty <https://iseal-community.github.io/iseal-core/fsc#fsc-focus-forestrysafeguard> ;
-            owl:someValuesFrom <https://iseal-community.github.io/iseal-core/fsc#VOCAB_FSC_forestry_environmental_safeguards> ],
-        [ a owl:Restriction ;
-            owl:onProperty <https://iseal-community.github.io/iseal-core/fsc#fsc-issue-social> ;
-            owl:someValuesFrom xsd:string ],
-        [ a owl:Restriction ;
-            owl:onProperty <https://iseal-community.github.io/iseal-core/fsc#fsc-subject> ;
-            owl:someValuesFrom xsd:string ],
-        [ a owl:Restriction ;
-            owl:onProperty <https://iseal-community.github.io/iseal-core/fsc#fsc-issue-environmental> ;
-            owl:someValuesFrom xsd:string ],
-        [ a owl:Restriction ;
-            owl:minQualifiedCardinality 1 ;
-            owl:onProperty <https://iseal-community.github.io/iseal-core/fsc#fsc-focus-highconservationval> ;
-            owl:someValuesFrom <https://iseal-community.github.io/iseal-core/fsc#VOCAB_FSC_high_conservation_values> ],
-        [ a owl:Restriction ;
-            owl:minQualifiedCardinality 1 ;
-            owl:onProperty <https://iseal-community.github.io/iseal-core/fsc#fsc-focus-forestzone> ;
-            owl:someValuesFrom <https://iseal-community.github.io/iseal-core/fsc#VOCAB_FSC_forest_biome_/_zone> ],
-        [ a owl:Restriction ;
-            owl:onProperty <https://iseal-community.github.io/iseal-core/fsc#fsc-topic-economic> ;
-            owl:someValuesFrom xsd:string ],
+            owl:maxQualifiedCardinality 1 ;
+            owl:onClass <https://iseal-community.github.io/iseal-core/fsc#VOCAB_FSC_scope_-_SLIMF_type> ;
+            owl:onProperty <https://iseal-community.github.io/iseal-core/fsc#fsc-focus-scope> ],
         [ a owl:Restriction ;
             owl:minQualifiedCardinality 1 ;
             owl:onProperty <https://iseal-community.github.io/iseal-core/fsc#fsc-focus-nonforestryservice> ;
             owl:someValuesFrom <https://iseal-community.github.io/iseal-core/fsc#VOCAB_FSC_non-forestry_services_for_local_communities> ],
+        [ a owl:Restriction ;
+            owl:minQualifiedCardinality 1 ;
+            owl:onProperty <https://iseal-community.github.io/iseal-core/fsc#fsc-focus-tenureownership> ;
+            owl:someValuesFrom <https://iseal-community.github.io/iseal-core/fsc#VOCAB_FSC_tenure_ownership> ],
         [ a owl:Restriction ;
             owl:onProperty <https://iseal-community.github.io/iseal-core/fsc#fsc-topic-environmental> ;
             owl:someValuesFrom xsd:string ],
@@ -3130,64 +3114,80 @@
             owl:someValuesFrom <https://iseal-community.github.io/iseal-core/fsc#VOCAB_FSC_tenure_management> ],
         [ a owl:Restriction ;
             owl:minQualifiedCardinality 1 ;
-            owl:onProperty <https://iseal-community.github.io/iseal-core/fsc#fsc-focus-sustaindimension> ;
-            owl:someValuesFrom <https://iseal-community.github.io/iseal-core/fsc#VOCAB_FSC_sustainability_dimension> ],
-        [ a owl:Restriction ;
-            owl:minQualifiedCardinality 1 ;
-            owl:onProperty <https://iseal-community.github.io/iseal-core/fsc#fsc-focus-harvestingtechnique> ;
-            owl:someValuesFrom <https://iseal-community.github.io/iseal-core/fsc#VOCAB_FSC_forest_harvesting_techniques> ],
-        [ a owl:Restriction ;
-            owl:minQualifiedCardinality 1 ;
-            owl:onProperty <https://iseal-community.github.io/iseal-core/fsc#fsc-focus-forestproductidsys> ;
-            owl:someValuesFrom <https://iseal-community.github.io/iseal-core/fsc#VOCAB_FSC_forest_products_identification_system> ],
-        [ a owl:Restriction ;
-            owl:minQualifiedCardinality 1 ;
-            owl:onProperty <https://iseal-community.github.io/iseal-core/fsc#fsc-focus-forestmonitoring> ;
-            owl:someValuesFrom <https://iseal-community.github.io/iseal-core/fsc#VOCAB_FSC_forest_monitoring_methods> ],
-        [ a owl:Restriction ;
-            owl:minQualifiedCardinality 1 ;
             owl:onProperty <https://iseal-community.github.io/iseal-core/fsc#fsc-focus-outcome> ;
             owl:someValuesFrom <https://iseal-community.github.io/iseal-core/fsc#VOCAB_FSC_outcomes_and_benefits> ],
         [ a owl:Restriction ;
-            owl:maxQualifiedCardinality 1 ;
-            owl:onClass <https://iseal-community.github.io/iseal-core/fsc#VOCAB_FSC_scope_-_SLIMF_type> ;
-            owl:onProperty <https://iseal-community.github.io/iseal-core/fsc#fsc-focus-scope> ],
-        [ a owl:Restriction ;
-            owl:onProperty <https://iseal-community.github.io/iseal-core/fsc#fsc-topic-political> ;
+            owl:onProperty <https://iseal-community.github.io/iseal-core/fsc#fsc-issue-social> ;
             owl:someValuesFrom xsd:string ],
         [ a owl:Restriction ;
             owl:minQualifiedCardinality 1 ;
-            owl:onProperty <https://iseal-community.github.io/iseal-core/fsc#fsc-focus-forestproduct> ;
-            owl:someValuesFrom <https://iseal-community.github.io/iseal-core/fsc#VOCAB_FSC_forest_products> ],
-        [ a owl:Restriction ;
-            owl:minQualifiedCardinality 1 ;
-            owl:onProperty <https://iseal-community.github.io/iseal-core/fsc#fsc-focus-fmcontrol> ;
-            owl:someValuesFrom <https://iseal-community.github.io/iseal-core/fsc#VOCAB_FSC_forest_management_type_of_control> ],
-        [ a owl:Restriction ;
-            owl:onProperty <https://iseal-community.github.io/iseal-core/fsc#fsc-issue-political> ;
-            owl:someValuesFrom xsd:string ],
-        [ a owl:Restriction ;
-            owl:onProperty <https://iseal-community.github.io/iseal-core/fsc#fsc-issue-economic> ;
-            owl:someValuesFrom xsd:string ],
+            owl:onProperty <https://iseal-community.github.io/iseal-core/fsc#fsc-focus-forestrysafeguard> ;
+            owl:someValuesFrom <https://iseal-community.github.io/iseal-core/fsc#VOCAB_FSC_forestry_environmental_safeguards> ],
         [ a owl:Restriction ;
             owl:minQualifiedCardinality 1 ;
             owl:onProperty <https://iseal-community.github.io/iseal-core/fsc#fsc-focus-nonforestryactivity> ;
             owl:someValuesFrom <https://iseal-community.github.io/iseal-core/fsc#VOCAB_FSC_non-forestry_activities> ],
         [ a owl:Restriction ;
             owl:minQualifiedCardinality 1 ;
-            owl:onProperty <https://iseal-community.github.io/iseal-core/fsc#fsc-focus-fmprinciple> ;
-            owl:someValuesFrom <https://iseal-community.github.io/iseal-core/fsc#VOCAB_FSC_forest_management_principle> ],
+            owl:onProperty <https://iseal-community.github.io/iseal-core/fsc#fsc-focus-highconservationval> ;
+            owl:someValuesFrom <https://iseal-community.github.io/iseal-core/fsc#VOCAB_FSC_high_conservation_values> ],
+        [ a owl:Restriction ;
+            owl:minQualifiedCardinality 1 ;
+            owl:onProperty <https://iseal-community.github.io/iseal-core/fsc#fsc-focus-foresttype> ;
+            owl:someValuesFrom <https://iseal-community.github.io/iseal-core/fsc#VOCAB_FSC_forest_type> ],
         [ a owl:Restriction ;
             owl:onProperty <https://iseal-community.github.io/iseal-core/fsc#fsc-topic-social> ;
             owl:someValuesFrom xsd:string ],
         [ a owl:Restriction ;
             owl:minQualifiedCardinality 1 ;
-            owl:onProperty <https://iseal-community.github.io/iseal-core/fsc#fsc-wood-code> ;
-            owl:someValuesFrom <https://iseal-community.github.io/iseal-core/fsc#VOCAB_FSC_controlled_wood_code> ],
+            owl:onProperty <https://iseal-community.github.io/iseal-core/fsc#fsc-focus-forestspecies> ;
+            owl:someValuesFrom <https://iseal-community.github.io/iseal-core/fsc#VOCAB_FSC_forest_and_tree_species> ],
+        [ a owl:Restriction ;
+            owl:onProperty <https://iseal-community.github.io/iseal-core/fsc#fsc-topic-political> ;
+            owl:someValuesFrom xsd:string ],
         [ a owl:Restriction ;
             owl:minQualifiedCardinality 1 ;
-            owl:onProperty <https://iseal-community.github.io/iseal-core/fsc#fsc-focus-tenureownership> ;
-            owl:someValuesFrom <https://iseal-community.github.io/iseal-core/fsc#VOCAB_FSC_tenure_ownership> ],
+            owl:onProperty <https://iseal-community.github.io/iseal-core/fsc#fsc-focus-fmcontrol> ;
+            owl:someValuesFrom <https://iseal-community.github.io/iseal-core/fsc#VOCAB_FSC_forest_management_type_of_control> ],
+        [ a owl:Restriction ;
+            owl:minQualifiedCardinality 1 ;
+            owl:onProperty <https://iseal-community.github.io/iseal-core/fsc#fsc-focus-forestproductidsys> ;
+            owl:someValuesFrom <https://iseal-community.github.io/iseal-core/fsc#VOCAB_FSC_forest_products_identification_system> ],
+        [ a owl:Restriction ;
+            owl:minQualifiedCardinality 1 ;
+            owl:onProperty <https://iseal-community.github.io/iseal-core/fsc#fsc-focus-forestproduct> ;
+            owl:someValuesFrom <https://iseal-community.github.io/iseal-core/fsc#VOCAB_FSC_forest_products> ],
+        [ a owl:Restriction ;
+            owl:onProperty <https://iseal-community.github.io/iseal-core/fsc#fsc-issue-environmental> ;
+            owl:someValuesFrom xsd:string ],
+        [ a owl:Restriction ;
+            owl:minQualifiedCardinality 1 ;
+            owl:onProperty <https://iseal-community.github.io/iseal-core/fsc#fsc-focus-forestzone> ;
+            owl:someValuesFrom <https://iseal-community.github.io/iseal-core/fsc#VOCAB_FSC_forest_biome_/_zone> ],
+        [ a owl:Restriction ;
+            owl:onProperty <https://iseal-community.github.io/iseal-core/fsc#fsc-topic-economic> ;
+            owl:someValuesFrom xsd:string ],
+        [ a owl:Restriction ;
+            owl:onProperty <https://iseal-community.github.io/iseal-core/fsc#fsc-subject> ;
+            owl:someValuesFrom xsd:string ],
+        [ a owl:Restriction ;
+            owl:onProperty <https://iseal-community.github.io/iseal-core/fsc#fsc-issue-economic> ;
+            owl:someValuesFrom xsd:string ],
+        [ a owl:Restriction ;
+            owl:minQualifiedCardinality 1 ;
+            owl:onProperty <https://iseal-community.github.io/iseal-core/fsc#fsc-focus-fmprinciple> ;
+            owl:someValuesFrom <https://iseal-community.github.io/iseal-core/fsc#VOCAB_FSC_forest_management_principle> ],
+        [ a owl:Restriction ;
+            owl:minQualifiedCardinality 1 ;
+            owl:onProperty <https://iseal-community.github.io/iseal-core/fsc#fsc-focus-forestmonitoring> ;
+            owl:someValuesFrom <https://iseal-community.github.io/iseal-core/fsc#VOCAB_FSC_forest_monitoring_methods> ],
+        [ a owl:Restriction ;
+            owl:onProperty <https://iseal-community.github.io/iseal-core/fsc#fsc-issue-political> ;
+            owl:someValuesFrom xsd:string ],
+        [ a owl:Restriction ;
+            owl:minQualifiedCardinality 1 ;
+            owl:onProperty <https://iseal-community.github.io/iseal-core/fsc#fsc-focus-sustaindimension> ;
+            owl:someValuesFrom <https://iseal-community.github.io/iseal-core/fsc#VOCAB_FSC_sustainability_dimension> ],
         <https://iseal-community.github.io/iseal-core/fsc#FSC> ;
     skos:prefLabel "Scope" .
 
